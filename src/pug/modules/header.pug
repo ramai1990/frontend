@@ -1,0 +1,23 @@
+header.header
+	.container.header__container
+		.logo
+			a(href="#")
+				img(src=require('/img/logo.svg').default, alt="")
+		nav.nav
+			ul.nav__list
+				li.nav__item
+					a(href="#").nav__link О нас
+				li.nav__item
+					a(href="#").nav__link.nav__link--drop Услуги
+						include ../../img/arrow-down.svg
+				li.nav__item
+					a(href="#").nav__link Вакансии
+				li.nav__item
+					a(href="#").nav__link Новости
+				li.nav__item
+					a(href="#").nav__link.nav__link--drop Соглашения
+						include ../../img/arrow-down.svg
+		.header__btns.header-btns
+			.header-btns--border
+				button(type="submit").header-btns__signin.btn-reset войти
+			button(type="submit").header-btns__signup.btn-reset зарегистрироваться

@@ -169,7 +169,7 @@ module.exports = {
         }],
       },
       {
-        test: /\.(?:|woff2)$/,
+        test: /\.(woff(2)?|eot|ttf|otf|)$/,
         use: [{
           loader: 'file-loader',
           options: {

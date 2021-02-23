@@ -10,8 +10,10 @@ html {
 
 body {
   overflow-anchor: none;
-  font-family: "notosans", sans-serif;
-  background-color: var(--color-white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: $white;
   scroll-behavior: smooth;
 }
 
@@ -23,8 +25,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
-li{
+ul,
+li {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .site-container {
   overflow: hidden;
@@ -54,7 +59,7 @@ li{
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200px;
+  max-width: 1190px;
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -68,6 +73,10 @@ h5,
 h6 {
   margin: 0;
 }
-p{
+p {
   margin: 0;
+}
+
+.ulkit-page {
+  background-color: #e5e5e5;
 }

@@ -1,26 +1,7 @@
 extends ../layout/main
 
 block variables
-	- var title = 'Webpack Pug';
-	- var descr = 'descr for Webpack Pug';
-	- var pageClass = 'index-page';
+	- var title = 'Ul kit';
+	- var pageClass = 'ulkit-page';
 
 block content
-	section
-		.container
-			img(src=require("/img/2.jpg").default alt="")
-			include ../../img/1.svg
-			+item('title', 'descr')
-			+item('title', 'descr')
-			+item('title', 'descr')
-			ul
-				li
-					a(href="#") one
-				li
-					a(href="#") one
-				li
-					a(href="#") one
-				li
-					a(href="#") one
-
-

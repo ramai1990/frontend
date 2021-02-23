@@ -1,4 +1,3 @@
-include ../utils/mixins
 block variables
 
 doctype html
@@ -10,7 +9,6 @@ html(lang="en")
 		title #{title}
 	body(class=pageClass)
 		.site-container
-			include ../includes/modules/header
-			.content-wrapper
-				block content
-			include ../includes/modules/footer
+			include ../modules/header
+			block content
+			//- include ../modules/footer
