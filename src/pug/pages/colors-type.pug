@@ -1,0 +1,31 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Colors & Type';
+	- var pageClass = 'colors-type';
+
+block content
+	img(src=require("/img/logo__ulkit.svg").default, alt="").colors-type__logo
+	.colors-type__section
+		.container.colors-type__container
+			.colors-type__inner
+				.colors-type__item.item-colors
+					p.item-colors__text.item-colors__shade100 Dark Shade 100%
+						span #1F2041
+					p.item-colors__text.item-colors__shade75 Dark Shade 75%
+						span #1F2041
+					p.item-colors__text.item-colors__shade50 Dark Shade 50%
+						span #1F2041
+					p.item-colors__text.item-colors__shade25 Dark Shade 25%
+						span #1F2041
+					p.item-colors__text.item-colors__shade5 Dark Shade 5%
+						span #1F2041
+					p.item-colors__text.item-colors__purple Purple
+						span #BC9CFF
+					p.item-colors__text.item-colors__green Green
+						span #6FCF97
+				.colors-type__item.item-type
+					h1 This one is the sub-section or widget title
+					h2 Next one is the item title inside widgets
+					h3 This is a label or CTA text
+					p This is the body text which is used for most of the design, like paragraphs, lists, etc.
