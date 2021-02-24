@@ -393,11 +393,16 @@ h6 {
 p {
   margin: 0; }
 
-.ulkit-page {
-  background-color: #e5e5e5; }
-
 .logo {
   margin-right: auto; }
+  .logo__ulkit {
+    position: absolute;
+    top: 30px;
+    left: 30px; }
+
+.ulkit-page {
+  padding: 140px 0;
+  background-color: #e5e5e5; }
 
 .header {
   height: 70px;
@@ -453,6 +458,16 @@ p {
       .header-btns__signup:hover {
         background: linear-gradient(-50deg, #bc9cff 50%, #8ba4f9 100%);
         color: #1a1a1a; }
+  .header__user {
+    color: rgba(31, 32, 65, 0.5);
+    transition: text-shadow 0.15s ease-in; }
+    .header__user:hover {
+      text-shadow: 0px 0px 1px black; }
+    .header__user-link {
+      display: inline-block;
+      border-left: 1px solid rgba(31, 32, 65, 0.1);
+      padding: 7px 0 7px 20px;
+      margin-left: 20px; }
 
 .nav__list {
   display: flex; }
@@ -476,6 +491,120 @@ p {
     margin-right: 6px; }
   .nav__link--drop path {
     transition: fill-opacity 0.2s ease-in; }
+
+.footer {
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  padding-top: 105px; }
+  .footer__logo {
+    margin-top: -5px;
+    margin-bottom: 19px; }
+
+.footer-inner {
+  display: flex;
+  margin-bottom: 102px; }
+  .footer-inner__items:first-child, .footer-inner__items:last-child {
+    max-width: 260px; }
+  .footer-inner__items:first-child {
+    margin-right: auto; }
+  .footer-inner__items:last-child {
+    margin-left: auto; }
+  .footer-inner__items:nth-child(2) {
+    margin-left: -11px; }
+  .footer-inner__items:nth-child(3) {
+    margin-left: 57px; }
+  .footer-inner__items:nth-child(4) {
+    margin-left: 93px; }
+  .footer-inner__item {
+    color: rgba(31, 32, 65, 0.5);
+    transition: color 0.15s ease-in, text-shadow 0.15s ease-in; }
+    .footer-inner__item + .footer-inner__item {
+      margin-top: 22px; }
+    .footer-inner__item:hover {
+      text-shadow: 0px 0px 1px black;
+      color: #1f2041; }
+  .footer-inner__item--title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1f2041;
+    text-transform: uppercase;
+    margin-bottom: 23px; }
+  .footer-inner__link {
+    display: inline-block; }
+  .footer-inner__text {
+    color: rgba(31, 32, 65, 0.75);
+    line-height: 24px;
+    margin-top: -5px; }
+  .footer-inner__email {
+    margin-top: 24px;
+    position: relative; }
+    .footer-inner__email input {
+      width: 100%;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      border-radius: 4px;
+      padding: 13px 15px; }
+      .footer-inner__email input::-moz-placeholder {
+        color: rgba(31, 32, 65, 0.25); }
+      .footer-inner__email input:-ms-input-placeholder {
+        color: rgba(31, 32, 65, 0.25); }
+      .footer-inner__email input::placeholder {
+        color: rgba(31, 32, 65, 0.25); }
+  .footer-inner__btn {
+    width: 20px;
+    height: 20px;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-image: url(.././img/arrow-forward.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 13px; }
+
+.footer-copy {
+  height: 70px;
+  border-top: 1px solid #e5e5e5; }
+  .footer-copy__container {
+    display: flex;
+    align-items: center;
+    height: 70px; }
+  .footer-copy__text {
+    color: rgba(31, 32, 65, 0.75); }
+
+.copy-socials {
+  display: flex;
+  align-items: center;
+  margin-left: auto; }
+  .copy-socials__item + .copy-socials__item {
+    margin-left: 22px; }
+  .copy-socials__link {
+    display: block; }
+    .copy-socials__link:hover path {
+      fill: #8400ff; }
+
+.footer-mobile {
+  margin-top: 40px;
+  text-align: center; }
+  .footer-mobile__container {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    padding: 120px 0; }
+  .footer-mobile__logo {
+    margin-bottom: 18px; }
+  .footer-mobile__text {
+    color: rgba(31, 32, 65, 0.75);
+    margin-bottom: 26px; }
+
+.mobile-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .mobile-socials__item + .mobile-socials__item {
+    margin-left: 22px; }
+  .mobile-socials__link:hover path {
+    fill: #8400ff; }
 
 
 /*# sourceMappingURL=main.css.map*/

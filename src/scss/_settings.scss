@@ -77,6 +77,15 @@ p {
   margin: 0;
 }
 
+.logo {
+  margin-right: auto;
+  &__ulkit{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+}
 .ulkit-page {
+  padding: 140px 0;
   background-color: #e5e5e5;
 }

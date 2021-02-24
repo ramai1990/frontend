@@ -4,4 +4,3 @@ import '../../node_modules/focus-visible/dist/focus-visible';
 import '../scss/main.scss';
 
 import '../pug/pages/index.pug'
-import '../pug/modules/header.pug'
