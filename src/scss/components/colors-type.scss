@@ -123,7 +123,7 @@
     &::before {
       position: absolute;
       content: "H3";
-      left: -8px;
+      left: 12px;
       top: 0;
       font-size: 12px;
       color: $dark25;
@@ -140,7 +140,7 @@
     &::before {
       position: absolute;
       content: "Body";
-      left: 0;
+      left: -8px;
       top: 0;
       font-size: 14px;
       color: $dark25;
