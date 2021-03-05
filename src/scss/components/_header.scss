@@ -36,10 +36,12 @@
       text-transform: uppercase;
       border-radius: 25px;
       padding: 0 20px;
-      transition: background-color 0.3s ease-in, color 0.4s ease-in;
+      transition: box-shadow 0.3s ease-in, color 0.3s ease-in,
+        opacity 0.3s ease-in;
       &:hover {
-        background-color: #b09efe;
-        color: $white;
+        color: darken($purple, 25%);
+        opacity: 0.5;
+        box-shadow: 0px 0px 10px 0px $purple;
       }
     }
     &__signup {
@@ -53,10 +55,10 @@
       border-radius: 25px;
       padding: 0 19px;
       margin-left: 20px;
-      transition: color 0.4s ease-in;
+      transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
       &:hover {
-        background: linear-gradient(-50deg, #bc9cff 50%, #8ba4f9 100%);
-        color: darken($white, 90%);
+        opacity: 0.6;
+        box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
       }
     }
   }
@@ -82,10 +84,7 @@
   &__item {
     color: $dark50;
     line-height: 17px;
-    transition: color 0.15s ease-in, text-shadow 0.15s ease-in;
     &:hover {
-      text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
-      color: $dark;
       .nav__link--drop {
         path {
           fill-opacity: 1;
@@ -98,7 +97,13 @@
   }
   &__link {
     display: inline-block;
+    transition: color 0.15s ease-in, text-shadow 0.15s ease-in;
+    &:hover {
+      text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+      color: $dark;
+    }
     &--drop {
+
       svg {
         margin-left: 7px;
         margin-right: 6px;

@@ -1,0 +1,25 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Form Elements';
+	- var pageClass = '';
+
+block content
+	section.form-elements
+		.container.form-elements__container
+			.form-elements__inner
+				include ../modules/text-field
+				include ../modules/checkbox
+				include ../modules/range
+			.form-elements__inner
+				.item
+					include ../modules/dropdown
+					include ../modules/list-checkbox
+				.item
+					include ../modules/rich-checkbox
+				.item
+					include ../modules/bullet
+			.form-elements__inner
+				.item
+					include ../modules/advantages
+			include ../modules/comment

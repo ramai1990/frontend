@@ -1,0 +1,21 @@
+.button-elements {
+  margin-bottom: 41px;
+  &__title {
+    margin-bottom: 17px;
+  }
+  &__btn {
+    width: 99px;
+    height: 44px;
+    margin-bottom: 30px;
+    margin-left: 1px;
+  }
+  &__border {
+    margin-bottom: 31px;
+  }
+  &__link {
+    display: inline-block;
+    margin-bottom: 32px;
+  }
+  &__default {
+  }
+}

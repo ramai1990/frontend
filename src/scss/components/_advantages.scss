@@ -1,0 +1,36 @@
+.advanteges {
+  &__item {
+    width: 280px;
+    color: $dark75;
+    border-bottom: 1px solid $dark10;
+    padding-left: 54px;
+    padding-bottom: 21px;
+    position: relative;
+    & + & {
+      margin-top: 24px;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 40px;
+      left: 0;
+      top: 0;
+      background-repeat: no-repeat;
+    }
+    &--comfort::before {
+      background-image: url("../img/comfort.svg");
+    }
+    &--convenience::before {
+      left: 1px;
+      background-image: url("../img/convenience.svg");
+    }
+  }
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  &__descr {
+  }
+}

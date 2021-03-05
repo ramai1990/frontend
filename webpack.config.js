@@ -65,6 +65,11 @@ const plugins = () => {
         { from: path.resolve(__dirname, 'src/assets'), to: path.resolve(__dirname, 'app') }
       ]
     }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
+    })
   ];
 
   if (isProd) {
