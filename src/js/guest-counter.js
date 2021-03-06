@@ -16,8 +16,7 @@ function declOfNum(n, text_forms) {
   return text_forms[2];
 }
 
-
-
+btnClear.style.opacity = '0'
 
 btnsGuest.forEach(btn => {
   btn.addEventListener('click', function () {
@@ -43,7 +42,15 @@ btnsGuest.forEach(btn => {
     btnClear.addEventListener('click', function () {
       inpGuest.value = 0
       inp1.value = 'Сколько гостей'
+      sum = 0
+      btnClear.style.opacity = '0'
     })
+
+    if (sum == 0 || sum < 1) {
+      btnClear.style.opacity = '0'
+    } else {
+      btnClear.style.opacity = '1'
+    }
 
     btnApply.addEventListener('click', function (e) {
       inp1.value = sum + ' ' + declOfNum(sum, list.dataset.value)
