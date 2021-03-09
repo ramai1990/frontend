@@ -5,8 +5,7 @@ block variables
 	- var pageClass = '';
 
 block content
-	.cards
+	section.cards
 		.container
-			.dropdown-date
-				input.dropdown-date__range.dropdown-date__range_from(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
-				input.dropdown-date__range.dropdown-date__range_to(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
+			include ../modules/search-rooms
+			include ../modules/signup

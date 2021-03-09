@@ -15,7 +15,13 @@
     align-items: center;
     position: relative;
     bottom: -1px;
-    span {
+    svg {
+      width: 8px;
+      height: 8px;
+      fill: $dark50;
+      path {
+        fill: $dark50;
+      }
     }
   }
   &__value {

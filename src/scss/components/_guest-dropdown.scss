@@ -1,3 +1,6 @@
+.dropdown-guest {
+  position: relative;
+}
 .guest {
   &__btn {
     width: 320px;
@@ -7,7 +10,7 @@
   }
   &__list {
     width: 320px;
-    top: 61px;
+    top: 41px;
     border: 1px solid $dark50;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
@@ -33,10 +36,18 @@
     align-items: center;
     position: relative;
     bottom: -1px;
+    svg {
+      width: 8px;
+      fill: $dark50;
+    }
     span {
-      position: relative;
-      top: 3.5px;
-      left: 0.5px;
+      svg {
+        width: 8px;
+        height: 8px;
+        path {
+          fill: $dark50;
+        }
+      }
     }
   }
   &__counter {
@@ -66,5 +77,4 @@
     text-transform: uppercase;
     color: $purple;
   }
-  
 }

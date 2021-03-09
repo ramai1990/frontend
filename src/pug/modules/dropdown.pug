@@ -5,19 +5,22 @@
 	ul.dropdown__list
 		li.dropdown__list-item спальни
 			.counter
-				button(data-direction="minus").counter__btn.btn-reset -
+				button(data-direction="minus").counter__btn.btn-reset
+					include ../../img/remove.svg
 				input(type="number" value="2" data-value="спальня,спальни,спален" readonly).counter__value
 				button(data-direction="plus").counter__btn.btn-reset
-					span +
+					include ../../img/plus.svg
 		li.dropdown__list-item кровати
 			.counter
-				button(data-direction="minus").counter__btn.btn-reset -
+				button(data-direction="minus").counter__btn.btn-reset
+					include ../../img/remove.svg
 				input(type="number" value="2" data-value="кровать,кровати,кроватей" readonly).counter__value
 				button(data-direction="plus").counter__btn.btn-reset
-					span +
+					include ../../img/plus.svg
 		li.dropdown__list-item ванные комнаты
 			.counter
-				button(data-direction="minus").counter__btn.btn-reset -
+				button(data-direction="minus").counter__btn.btn-reset
+					include ../../img/remove.svg
 				input(type="number" value="0" data-value="ванная комната,ванные комнаты,ванных комнат" readonly).counter__value
 				button(data-direction="plus").counter__btn.btn-reset
-					span +
+					include ../../img/plus.svg
