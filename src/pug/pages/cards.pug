@@ -6,6 +6,9 @@ block variables
 
 block content
 	section.cards
-		.container
-			include ../modules/search-rooms
-			include ../modules/signup
+		.container.cards__container
+			.cards__item
+				include ../modules/search-rooms
+				include ../modules/signup
+			.cards__item
+				include ../modules/signin

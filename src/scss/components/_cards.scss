@@ -1,3 +1,16 @@
 .cards {
-  padding: 100px;
+  padding: 80px;
+  &__container {
+    width: 100%;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  &__item {
+    display: grid;
+    grid-column: 1 span;
+    grid-row: auto;
+    grid-gap: 40px;
+  }
 }
