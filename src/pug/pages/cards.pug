@@ -1,0 +1,12 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Cards';
+	- var pageClass = '';
+
+block content
+	.cards
+		.container
+			.dropdown-date
+				input.dropdown-date__range.dropdown-date__range_from(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
+				input.dropdown-date__range.dropdown-date__range_to(type="text" placeholder="ДД.ММ.ГГГГ" readonly)

@@ -19,6 +19,9 @@
     flex-direction: column;
     margin-bottom: 22px;
     margin-bottom: 22px;
+    input::placeholder{
+      color: $dark75;
+    }
   }
   &__text {
     display: flex;
@@ -152,6 +155,11 @@
   &__email {
     position: relative;
     max-width: 267px;
+    input{
+      &::placeholder{
+        color: $dark25;
+      }
+    }
     button {
       padding: 5px 10px;
       position: absolute;

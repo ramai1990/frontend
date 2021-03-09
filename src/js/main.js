@@ -23,6 +23,7 @@ import '../scss/main.scss';
 import '../pug/pages/index.pug'
 import '../pug/pages/headers-footers.pug'
 import '../pug/pages/form-elements.pug'
+import '../pug/pages/cards.pug'
 
 import './like'
 import './rating'
@@ -35,3 +36,5 @@ import './drop-guest.js'
 import './counter.js'
 import './guest-counter.js'
 import './list-checkbox.js'
+import './calendar.js'
+
