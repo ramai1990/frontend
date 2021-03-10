@@ -1,0 +1,66 @@
+.card-luxe {
+	max-width: 270px;
+	max-height: 257px;
+	background: #ffffff;
+	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+	border-radius: 4px;
+	&__reviews {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-left: 22px;
+		padding-right: 20px;
+	}
+
+	&__text {
+		font-weight: 700;
+		color: $dark50;
+		span {
+			font-weight: 400;
+			padding-left: 3px;
+		}
+	}
+}
+.luxe-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 18px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 19px;
+	&::after {
+		position: absolute;
+		content: "";
+		width: 230px;
+		height: 1px;
+		bottom: -12px;
+		left: 50%;
+		transform: translateX(-50%);
+		background: $dark10;
+	}
+	&__left {
+		font-size: 20px;
+		font-weight: 700;
+		color: $dark;
+		span:nth-child(1) {
+			font-size: 14px;
+			padding-right: 4px;
+		}
+		span:nth-child(2) {
+			font-size: 12px;
+			color: $purple;
+			text-transform: uppercase;
+		}
+	}
+	&__right {
+		font-weight: 700;
+		color: $dark50;
+		span {
+			font-size: 12px;
+			font-weight: 400;
+			padding-left: 2px;
+		}
+	}
+}
