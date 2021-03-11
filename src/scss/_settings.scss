@@ -78,6 +78,8 @@ p {
 }
 
 .logo {
+	min-width: 106px;
+	height: 40px;
 	margin-right: auto;
 }
 .logo__ulkit {
@@ -86,7 +88,7 @@ p {
 	left: 30px;
 }
 .ulkit-page {
-	padding: 140px 0;
+	// padding: 140px 0;
 	background-color: #e5e5e5;
 }
 .colors-type {
