@@ -1,80 +1,80 @@
 .dropdown-guest {
-  position: relative;
+	position: relative;
 }
 .guest {
-  &__btn {
-    width: 320px;
-    &:focus {
-      border-color: $dark50;
-    }
-  }
-  &__list {
-    width: 320px;
-    top: 41px;
-    border: 1px solid $dark50;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-  }
-  &__input {
-    width: 100%;
-    border: none;
-    font-size: 14px;
-    color: $dark75;
-    padding: 0;
-    pointer-events: none;
-  }
-  &__counter-btn {
-    width: 30px;
-    height: 30px;
-    border: 1px solid $dark25;
-    border-radius: 22px;
-    color: $dark50;
-    font-size: 18px;
-    cursor: pointer;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: -1px;
-    svg {
-      width: 8px;
-      fill: $dark50;
-    }
-    span {
-      svg {
-        width: 8px;
-        height: 8px;
-        path {
-          fill: $dark50;
-        }
-      }
-    }
-  }
-  &__counter {
-    text-align: center;
-    width: 34px;
-    border: none;
-    font-weight: bold;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $dark;
-    position: relative;
-    top: 0;
-    right: 0;
-    background-color: transparent;
-  }
-  &__btns {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 23px;
-    padding-bottom: 4px;
-  }
-  &__clear,
-  &__apply {
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $purple;
-  }
+	&__btn {
+		width: 100%;
+		&:focus {
+			border-color: $dark50;
+		}
+	}
+	&__list {
+		width: 100%;
+		top: 41px;
+		border: 1px solid $dark50;
+		border-radius: 0 0 4px 4px;
+		box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+	}
+	&__input {
+		width: 100%;
+		border: none;
+		font-size: 14px;
+		color: $dark75;
+		padding: 0;
+		pointer-events: none;
+	}
+	&__counter-btn {
+		width: 30px;
+		height: 30px;
+		border: 1px solid $dark25;
+		border-radius: 22px;
+		color: $dark50;
+		font-size: 18px;
+		cursor: pointer;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		bottom: -1px;
+		svg {
+			width: 8px;
+			fill: $dark50;
+		}
+		span {
+			svg {
+				width: 8px;
+				height: 8px;
+				path {
+					fill: $dark50;
+				}
+			}
+		}
+	}
+	&__counter {
+		text-align: center;
+		width: 34px;
+		border: none;
+		font-weight: bold;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $dark;
+		position: relative;
+		top: 0;
+		right: 0;
+		background-color: transparent;
+	}
+	&__btns {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 23px;
+		padding-bottom: 4px;
+	}
+	&__clear,
+	&__apply {
+		font-weight: 700;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $purple;
+	}
 }

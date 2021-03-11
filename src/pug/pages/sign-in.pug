@@ -1,0 +1,10 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Sign in';
+	- var pageClass = '';
+
+block content
+	section.sign-in
+		.container.sign-in__container
+			include ../modules/signin.pug

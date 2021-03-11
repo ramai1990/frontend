@@ -1,65 +1,78 @@
 .search-rooms {
-  max-width: 380px;
-  max-height: 374px;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  padding: 30px;
-  padding-top: 40px;
-  &__title {
-    font-family: "Montserrat";
-    max-width: 320px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: $dark;
-    margin-bottom: 23px;
-  }
-  &__date {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 23px;
-  }
-  &__drop {
-    position: relative;
-    &:nth-child(2) {
-      margin-right: -1px;
-    }
-    &::after {
-      position: absolute;
-      content: "";
-      width: 12px;
-      height: 10px;
-      right: 15px;
-      top: 36px;
-      background-image: url("../img/arrow-down.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      pointer-events: none;
-    }
-  }
-  &__input {
-    max-width: 150px;
-    height: 44px;
-    background: #fff;
-    border: 1px solid $dark25;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding-left: 12px;
-    cursor: pointer;
-    &::placeholder {
-      color: $dark75;
-    }
-  }
-  &__text {
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $dark;
-    margin-bottom: 5px;
-  }
-  &__guest {
-    margin-bottom: 8px;
-  }
+	max-width: 380px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	padding: 30px;
+	padding-top: 40px;
+	padding-bottom: 28px;
+	&__title {
+		font-family: "Montserrat";
+		max-width: 320px;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 29px;
+		color: $dark;
+		margin-bottom: 23px;
+	}
+	&__date {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 23px;
+	}
+	&__drop {
+		position: relative;
+		&:nth-child(2) {
+			margin-right: -1px;
+		}
+		&::after {
+			position: absolute;
+			content: "";
+			width: 12px;
+			height: 10px;
+			right: 15px;
+			top: 36px;
+			background-image: url("../img/arrow-down.svg");
+			background-repeat: no-repeat;
+			background-position: center;
+			pointer-events: none;
+		}
+	}
+	&__input {
+		max-width: 150px;
+		height: 44px;
+		background: #fff;
+		border: 1px solid $dark25;
+		border-radius: 4px;
+		padding-left: 12px;
+		cursor: pointer;
+		&::placeholder {
+			color: $dark75;
+		}
+	}
+	&__text {
+		font-weight: 700;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $dark;
+		margin-bottom: 5px;
+	}
+	&__guest {
+		margin-bottom: 8px;
+	}
+}
+
+@media (max-width: 420px) {
+	.search-rooms__date {
+		flex-direction: column;
+	}
+	.search-rooms__input {
+		max-width: 100%;
+		width: 100%;
+	}
+	.search-rooms__drop:nth-child(1) {
+		margin-bottom: 10px;
+	}
+	
 }

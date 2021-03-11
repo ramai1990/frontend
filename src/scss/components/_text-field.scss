@@ -1,171 +1,170 @@
 .form-elements {
-  padding-top: 140px;
-  padding-bottom: 250px;
+	padding-top: 140px;
+	padding-bottom: 250px;
 
-  &__container {
-    max-width: 1188px;
-  }
-  &__inner {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-  }
+	&__container {
+		max-width: 1188px;
+	}
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 80px;
+	}
 
-  &__default {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 22px;
-    margin-bottom: 22px;
-    input::placeholder{
-      color: $dark75;
-    }
-  }
-  &__text {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 12px;
-    color: $dark;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    span {
-      color: $dark50;
-      font-weight: 400;
-    }
-  }
-  &__input {
-    padding: 13px 15px;
-    border: 1px solid $dark25;
-    border-radius: 4px;
-    &::placeholder {
-      color: $dark25;
-    }
-    &--focus {
-      outline: none;
-      &::placeholder {
-        color: $dark75;
-        font-size: 14px;
-      }
-      &:hover {
-        border: 1px solid rgba(31, 32, 65, 0.5);
-      }
-      &:focus {
-        border: 1px solid rgba(31, 32, 65, 0.5);
-      }
-    }
-  }
-  &__drop {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    cursor: pointer;
-    position: relative;
-    margin-bottom: 24px;
-    span {
-      margin-bottom: 5px;
-    }
-  }
-  &__date {
-    margin-bottom: 42px;
-    input {
-      padding: 13px 15px;
-      position: relative;
-      &::-webkit-calendar-picker-indicator {
-        position: absolute;
-        right: 10px;
-        opacity: 0;
-        cursor: pointer;
-      }
-    }
+	&__default {
+		width: 320px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 22px;
+		input::placeholder {
+			color: $dark75;
+		}
+	}
+	&__text {
+		display: flex;
+		justify-content: space-between;
+		font-weight: 700;
+		font-size: 12px;
+		color: $dark;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+		span {
+			color: $dark50;
+			font-weight: 400;
+		}
+	}
+	&__input {
+		padding: 13px 15px;
+		border: 1px solid $dark25;
+		border-radius: 4px;
+		&::placeholder {
+			color: $dark25;
+		}
+		&--focus {
+			outline: none;
+			&::placeholder {
+				color: $dark75;
+				font-size: 14px;
+			}
+			&:hover {
+				border: 1px solid rgba(31, 32, 65, 0.5);
+			}
+			&:focus {
+				border: 1px solid rgba(31, 32, 65, 0.5);
+			}
+		}
+	}
+	&__drop {
+		display: flex;
+		flex-direction: column;
+		max-width: 320px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 12px;
+		cursor: pointer;
+		position: relative;
+		margin-bottom: 24px;
+		span {
+			margin-bottom: 5px;
+		}
+	}
+	&__date {
+		margin-bottom: 42px;
+		input {
+			padding: 13px 15px;
+			position: relative;
+			&::-webkit-calendar-picker-indicator {
+				position: absolute;
+				right: 10px;
+				opacity: 0;
+				cursor: pointer;
+			}
+		}
 
-    input:valid {
-      text-transform: uppercase;
-      color: $dark25;
-    }
-  }
-  &__datedropdown {
-    max-width: 320px;
-    display: flex;
-    justify-content: space-between;
-  }
-  &__datedrop {
-    width: 150px;
-    position: relative;
-    input {
-      padding: 13px 15px;
-    }
-    input:valid {
-      text-transform: uppercase;
-      color: $dark75;
-    }
-    &::after {
-      position: absolute;
-      content: "";
-      width: 20px;
-      height: 20px;
-      background-image: url("../img/arrow-down.svg");
-      background-repeat: no-repeat;
-      right: 8px;
-      bottom: 6px;
-      pointer-events: none;
-    }
-  }
-  &__filter {
-    width: 266px;
-    font-size: 12px;
-    font-weight: 700;
-    color: $dark;
-    text-transform: uppercase;
-    span {
-      margin-bottom: 5px;
-    }
-  }
-  &__datepicker {
-    max-width: 266px;
-    position: relative;
-    text-transform: lowercase;
-    margin-bottom: 42px;
-    input {
-      text-transform: lowercase;
-      padding: 13px 15px;
-      border: 1px solid $dark25;
-      border-radius: 4px;
-      color: $dark75;
-      cursor: pointer;
-    }
+		input:valid {
+			text-transform: uppercase;
+			color: $dark25;
+		}
+	}
+	&__datedropdown {
+		max-width: 320px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__datedrop {
+		width: 150px;
+		position: relative;
+		input {
+			padding: 13px 15px;
+		}
+		input:valid {
+			text-transform: uppercase;
+			color: $dark75;
+		}
+		&::after {
+			position: absolute;
+			content: "";
+			width: 20px;
+			height: 20px;
+			background-image: url("../img/arrow-down.svg");
+			background-repeat: no-repeat;
+			right: 8px;
+			bottom: 6px;
+			pointer-events: none;
+		}
+	}
+	&__filter {
+		width: 266px;
+		font-size: 12px;
+		font-weight: 700;
+		color: $dark;
+		text-transform: uppercase;
+		span {
+			margin-bottom: 5px;
+		}
+	}
+	&__datepicker {
+		max-width: 266px;
+		position: relative;
+		text-transform: lowercase;
+		margin-bottom: 42px;
+		input {
+			text-transform: lowercase;
+			padding: 13px 15px;
+			border: 1px solid $dark25;
+			border-radius: 4px;
+			color: $dark75;
+			cursor: pointer;
+		}
 
-    &::after {
-      position: absolute;
-      content: "";
-      width: 20px;
-      height: 20px;
-      background-image: url("../img/arrow-down.svg");
-      background-repeat: no-repeat;
-      right: 8px;
-      bottom: 6px;
-      pointer-events: none;
-    }
-  }
-  &__email {
-    position: relative;
-    max-width: 267px;
-    input{
-      &::placeholder{
-        color: $dark25;
-      }
-    }
-    button {
-      padding: 5px 10px;
-      position: absolute;
-      right: 4px;
-      bottom: 5px;
-    }
-  }
+		&::after {
+			position: absolute;
+			content: "";
+			width: 20px;
+			height: 20px;
+			background-image: url("../img/arrow-down.svg");
+			background-repeat: no-repeat;
+			right: 8px;
+			bottom: 6px;
+			pointer-events: none;
+		}
+	}
+	&__email {
+		position: relative;
+		max-width: 267px;
+		input {
+			&::placeholder {
+				color: $dark25;
+			}
+		}
+		button {
+			padding: 5px 10px;
+			position: absolute;
+			right: 4px;
+			bottom: 5px;
+		}
+	}
 }
 .datepicker-here {
-  cursor: pointer;
+	cursor: pointer;
 }

@@ -21,6 +21,9 @@ window.$ = window.jQuery = $;
 import '../scss/main.scss';
 
 import '../pug/pages/index.pug'
+import '../pug/pages/landing.pug'
+import '../pug/pages/sign-in.pug'
+import '../pug/pages/sign-up.pug'
 import '../pug/pages/headers-footers.pug'
 import '../pug/pages/form-elements.pug'
 import '../pug/pages/cards.pug'
