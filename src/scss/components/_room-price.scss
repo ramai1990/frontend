@@ -1,6 +1,5 @@
 .room-price {
-	max-width: 380px;
-	max-height: 511px;
+	width: 380px;
 	background: #ffffff;
 	border: 1px solid rgba(0, 0, 0, 0.12);
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
@@ -12,12 +11,23 @@
 		margin-top: 13px;
 	}
 	&__additional {
-		margin-bottom: 32px;
+		margin-bottom: 34px;
 	}
 	&__total {
 		font-size: 19px;
 		color: $dark;
 		margin-bottom: 16px;
+		position: relative;
+		&::after {
+			position: absolute;
+			content: "";
+			width: 53%;
+			height: 1px;
+			bottom: 10px;
+			left: 44%;
+			transform: translateX(-44%);
+			background-image: url("../img/dots.svg");
+		}
 		h3 {
 			font-size: 19px;
 		}
@@ -25,7 +35,6 @@
 			width: 77px;
 			font-weight: 700;
 			color: $dark;
-			margin-right: -10px;
 		}
 	}
 	&__inner {
@@ -41,7 +50,8 @@
 			color: $dark25;
 			border: 1px solid $dark25;
 			border-radius: 100%;
-			margin-right: 12px;
+			margin-right: auto;
+			margin-left: 10px;
 		}
 	}
 	&__input {
@@ -57,12 +67,12 @@
 		}
 	}
 	&__text {
-		max-width: 215px;
+		// max-width: 215px;
 		color: $dark75;
-		line-height: 18px;
+		// line-height: 18px;
 		&--additional {
-			position: relative;
-			top: 9px;
+			// position: relative;
+			// top: 9px;
 		}
 	}
 }
@@ -94,5 +104,16 @@
 			font-weight: 400;
 			padding-left: 2px;
 		}
+	}
+}
+
+@media (max-width: 400px) {
+	.room-price {
+		max-width: 100%;
+		width: 100%;
+		padding: 15px;
+	}
+	.room-price__text {
+		width: 58%;
 	}
 }
