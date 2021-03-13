@@ -124,10 +124,10 @@
 		}
 	}
 	&__datepicker {
-		max-width: 266px;
+		width: 100%;
 		position: relative;
 		text-transform: lowercase;
-		margin-bottom: 42px;
+		margin-bottom: 22px;
 		input {
 			text-transform: lowercase;
 			padding: 13px 15px;
@@ -145,7 +145,7 @@
 			background-image: url("../img/arrow-down.svg");
 			background-repeat: no-repeat;
 			right: 8px;
-			bottom: 6px;
+			bottom: 5px;
 			pointer-events: none;
 		}
 	}

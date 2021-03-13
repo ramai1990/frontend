@@ -1,0 +1,69 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Search Room';
+	- var pageClass = '';
+
+block content
+	section.search-room
+		.container.search-room__container
+			.search-room__grid
+				.search-room__filter
+					.form-elements__default.form-elements__datepicker
+						p.form-elements__text даты пребывания в отеле
+						input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
+					include ../modules/guest-dropdown.pug
+					.range-elements.search-room__range
+						h3.range-elements__title.elements-title.search-room__range-title диапазон цены
+						.range-elements__wrapper
+							input.input-with-keypress-0(type='text')
+							span -
+							input.input-with-keypress-1(type='text')
+						.slider-keypress
+						span Стоимость за сутки пребывания в номере
+					.form-elements__checkbox
+						.checkbox-elements
+							h3.checkbox-elements__title.elements-title правила дома
+							.checkbox-elements__item
+								input.checkbox-elements__input(type="checkbox" id="checkbox-1")
+								label.checkbox-elements__label(for="checkbox-1") Можно курить
+							.checkbox-elements__item
+								input.checkbox-elements__input(type="checkbox" id="checkbox-2" checked)
+								label.checkbox-elements__label(for="checkbox-2") Можно с питомцами
+							.checkbox-elements__item
+								input.checkbox-elements__input(type="checkbox" id="checkbox-3" checked)
+								label.checkbox-elements__label(for="checkbox-3") Можно пригласить гостей
+									span (до 10 человек)
+					include ../modules/rich-checkbox.pug
+					include ../modules/dropdown.pug
+					include ../modules/list-checkbox.pug
+				.search-room__cards
+					h3.search-room__title Номера, которые мы для вас подобрали
+					include ../modules/card-luxe.pug
+					include ../modules/card.pug
+					include ../modules/cards/card-2.pug
+					include ../modules/cards/card-3.pug
+					include ../modules/cards/card-4.pug
+					include ../modules/cards/card-5.pug
+					include ../modules/cards/card-6.pug
+					include ../modules/cards/card-7.pug
+					include ../modules/cards/card-8.pug
+					include ../modules/cards/card-9.pug
+					include ../modules/cards/card-10.pug
+					include ../modules/cards/card-11.pug
+					.search-room__pagination
+						.pagination-elements
+							ul.pagination-elements__list
+								li.pagination-elements__item
+									a(href="#").pagination-elements__link.pagination-elements__link--active 1
+								li.pagination-elements__item
+									a(href="#").pagination-elements__link 2
+								li.pagination-elements__item
+									a(href="#").pagination-elements__link 3
+								li.pagination-elements__item
+									a(href="#").pagination-elements__link ...
+								li.pagination-elements__item
+									a(href="#").pagination-elements__link 15
+								li.pagination-elements__item
+									a(href="#").pagination-elements__link.pagination-elements__next
+							p.pagination-elements__text 1 – 12 из 100+ вариантов аренды
