@@ -25,7 +25,8 @@
 		vertical-align: top;
 	}
 	&__bottom-btn {
-		margin-right: -2px;
+		position: relative;
+		right: -2px;
 	}
 }
 @media (max-width: 426px) {

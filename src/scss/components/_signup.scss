@@ -45,8 +45,9 @@
 		margin-bottom: 21px;
 	}
 	&__toggle {
+		position: relative;
+		left: -3px;
 		margin-top: 2px;
-		margin-left: -3px;
 		margin-bottom: 25px;
 	}
 	&__btn {

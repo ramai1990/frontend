@@ -8,7 +8,8 @@
     margin-bottom: 19px;
   }
   &__item {
-    margin-left: -3px;
+    position: relative;
+		left: -3px;
   }
   &__input {
     -webkit-appearance: none;
