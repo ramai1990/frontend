@@ -1,49 +1,49 @@
 .landing {
-	height: 94vh;
-	background-image: url("../img/landing.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding-top: 70px;
-	position: relative;
-	&__descr {
-		position: absolute;
-		right: 134px;
-		bottom: 18px;
-	}
-	&__text {
-		text-align: right;
-		max-width: 300px;
-		color: $dark75;
-		line-height: 24px;
-	}
+  height: 94vh;
+  background-image: url("../img/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+  position: relative;
+  &__descr {
+    position: absolute;
+    right: 134px;
+    bottom: 18px;
+  }
+  &__text {
+    text-align: right;
+    max-width: 300px;
+    color: $dark75;
+    line-height: 24px;
+  }
 }
 .sign-in,
 .sign-up {
-	height: 90vh;
-	display: flex;
-	align-items: center;
-	background-image: url("../img/sign-in.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/sign-in.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .sign-up {
-	min-height: 683px;
+  min-height: 683px;
 }
 
 @media (max-height: 900px) {
-	.landing {
-		height: 93vh;
-	}
+  .landing {
+    height: 93vh;
+  }
 }
 @media (max-height: 750px) {
-	.landing {
-		height: 91vh;
-	}
+  .landing {
+    height: 91vh;
+  }
 }
 @media (max-width: 530px) {
-	.landing__descr {
-		right: 20px;
-	}
+  .landing__descr {
+    right: 20px;
+  }
 }

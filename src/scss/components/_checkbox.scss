@@ -1,57 +1,57 @@
 .checkbox-elements {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 31px;
-	&__title {
-		font-weight: 700;
-		font-size: 12px;
-		text-transform: uppercase;
-		color: $dark;
-		margin-bottom: 2px;
-	}
-	&__input {
-		-webkit-appearance: none;
-		appearance: none;
-		&:checked + .checkbox-elements__label::after {
-			opacity: 1;
-		}
-		&:checked + .checkbox-elements__label::before {
-			border-color: $purple;
-		}
-	}
-	&__label {
-		display: flex;
-		flex-direction: column;
-		color: $dark50;
-		position: relative;
-		padding-left: 30px;
-		cursor: pointer;
-		&::after {
-			position: absolute;
-			content: "";
-			width: 10px;
-			height: 10px;
-			left: 5px;
-			top: 4px;
-			background-image: url("../img/check.svg");
-			background-repeat: no-repeat;
-			opacity: 0;
-			transition: opacity 0.2s ease-in;
-		}
-		span {
-			margin-top: 2px;
-		}
-		&::before {
-			position: absolute;
-			content: "";
-			width: 20px;
-			height: 20px;
-			left: 0;
-			top: -2px;
-			display: block;
-			border: 1px solid $dark25;
-			border-radius: 4px;
-			background-color: #fff;
-		}
-	}
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 31px;
+  &__title {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $dark;
+    margin-bottom: 2px;
+  }
+  &__input {
+    -webkit-appearance: none;
+    appearance: none;
+    &:checked + .checkbox-elements__label::after {
+      opacity: 1;
+    }
+    &:checked + .checkbox-elements__label::before {
+      border-color: $purple;
+    }
+  }
+  &__label {
+    display: flex;
+    flex-direction: column;
+    color: $dark50;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      left: 5px;
+      top: 4px;
+      background-image: url("../img/check.svg");
+      background-repeat: no-repeat;
+      opacity: 0;
+      transition: opacity 0.2s ease-in;
+    }
+    span {
+      margin-top: 2px;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 20px;
+      left: 0;
+      top: -2px;
+      display: block;
+      border: 1px solid $dark25;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+  }
 }
