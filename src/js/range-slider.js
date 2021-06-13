@@ -81,7 +81,7 @@ import wNumb from "wnumb";
           }
         });
       });
-			
+      
     });
 
   }

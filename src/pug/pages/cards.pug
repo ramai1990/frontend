@@ -1,18 +1,18 @@
 extends ../layout/main-ulkit
 
 block variables
-	- var title = 'Cards';
-	- var pageClass = '';
+  - var title = 'Cards';
+  - var pageClass = '';
 
 block content
-	section.cards
-		.container.cards__container
-			.cards__item
-				include ../modules/search-rooms
-				include ../modules/signup
-			.cards__item
-				include ../modules/room-price
-				include ../modules/signin
-			.cards__item
-				include ../modules/card-luxe
-				include ../modules/card
+  section.cards
+    .container.cards__container
+      .cards__item
+        include ../modules/search-rooms
+        include ../modules/signup
+      .cards__item
+        include ../modules/room-price
+        include ../modules/signin
+      .cards__item
+        include ../modules/card-luxe
+        include ../modules/card
