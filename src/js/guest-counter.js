@@ -7,7 +7,6 @@
 		const btnClear = document.querySelector('.clear')
 		const btnApply = document.querySelector('.apply')
 		const inp1 = document.querySelector('.dropdown__input-guest')
-		// const inputs = document.querySelector('.guest__counter')
 		const inputs = document.querySelectorAll('.guest__counter')
 		const guest = document.querySelector('.guest')
 		const list = document.querySelector('.dropdown__list-item')
@@ -59,7 +58,6 @@
 
 				btnApply.addEventListener('click', function (e) {
 					inp1.value = sum + ' ' + declOfNum(sum, list.dataset.value)
-					// ===================
 					const printValue = (obj) => {
 						let list = [...obj.querySelectorAll('.guest__counter')];
 						list = list.map((el) => {

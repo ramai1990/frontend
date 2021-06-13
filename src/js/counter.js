@@ -15,12 +15,6 @@ btns.forEach(btn => {
       newValue = currentValue + 1 < 9 ? currentValue + 1 : 9;
     }
 
-    // if (direction === 'plus') {
-    //   newValue = currentValue + 1;
-    // } else {
-    //   newValue = currentValue - 1 > 1 ? currentValue - 1 : 1;
-    // }
-
     inp.value = newValue;
 
   })

@@ -1,4 +1,3 @@
-// Полифилл для метода forEach для NodeList
 if (window.NodeList && !NodeList.prototype.forEach) {
 	NodeList.prototype.forEach = function (callback, thisArg) {
 		thisArg = thisArg || window;
@@ -15,9 +14,6 @@ import './range-slider'
 import $ from 'jquery';
 import jQuery from 'jquery';
 window.$ = window.jQuery = $;
-// $(document).ready(function () {
-//   alert(jQuery.fn.jquery);
-// });
 import '../scss/main.scss';
 
 import '../pug/pages/index.pug'

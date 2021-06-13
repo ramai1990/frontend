@@ -17,19 +17,14 @@
     const dropDownInput = dropDownWrapper.querySelector('.dropdown__input-hidden');
     const btnClear = document.querySelector('.clear')
 
-
-    // Клик по кнопке. Открыть/Закрыть select
     dropDownBtn.addEventListener('click', function (e) {
       dropDownList.classList.toggle('dropdown__list--active');
       this.classList.add('dropdown__button--active');
     });
 
-    // Выбор элемента списка. Запомнить выбранное значение. Закрыть дропдаун
     dropDownListItems.forEach(function (listItem) {
       listItem.addEventListener('click', function (e) {
         e.stopPropagation();
-        // const inp = listItem.querySelector('.counter__value');
-        // dropDownBtn.textContent = inp.value + ' ' + declOfNum(inp.value, this.dataset.value);
 
         const printValue = (obj) => {
           let list = [...obj.querySelectorAll('.counter__value')];
@@ -40,16 +35,9 @@
           obj.querySelector('.dropdown__input').value = list.join(', ');
         };
         printValue(dropDownWrapper)
-
-        // dropDownBtn.focus();
-        // dropDownInput.value = this.dataset.value;
-        // dropDownList.classList.remove('dropdown__list--active');
       });
     });
 
-
-
-    // Клик снаружи дропдауна. Закрыть дропдаун
     document.addEventListener('click', function (e) {
 
       if (e.target !== dropDownBtn && e.target !== btnClear) {
@@ -58,7 +46,6 @@
       }
     });
 
-    // Нажатие на Tab или Escape. Закрыть дропдаун
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Tab' || e.key === 'Escape') {
         dropDownBtn.classList.remove('dropdown__button--active');

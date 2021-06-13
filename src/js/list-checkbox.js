@@ -2,7 +2,6 @@
 	const checkbox__list = document.querySelector('.list-checkbox__list')
 	if (checkbox__list) {
 
-
 		const checkBtn = document.querySelector('.list-checkbox__title')
 		const checkList = document.querySelector('.list-checkbox__list')
 
@@ -10,7 +9,6 @@
 			checkBtn.classList.toggle('list-checkbox__title--active')
 			checkList.classList.toggle('list-checkbox__list--active')
 		})
-
 
 		document.addEventListener('click', function (e) {
 			const target = e.target;
