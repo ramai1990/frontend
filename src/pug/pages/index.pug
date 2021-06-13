@@ -1,7 +1,13 @@
-extends ../layout/main-ulkit
+extends ../layout/main
 
 block variables
-	- var title = 'Index';
-	- var pageClass = 'ulkit-page';
+	- var title = 'Landing';
+	- var pageClass = '';
 
 block content
+	section.landing
+		.container.landing__container
+			include ../modules/search-rooms.pug
+			.landing__descr
+				p.landing__text Лучшие номера для вашей работы, отдыха и просто вдохновения
+
