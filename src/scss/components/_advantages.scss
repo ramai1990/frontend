@@ -19,14 +19,14 @@
       top: 0;
       background-repeat: no-repeat;
     }
-    &--comfort::before {
+    &_comfort::before {
       background-image: url("../img/comfort.svg");
     }
-    &--convenience::before {
+    &_convenience::before {
       left: 1px;
       background-image: url("../img/convenience.svg");
     }
-    &--cosiness::before {
+    &_cosiness::before {
       width: 43px;
       height: 43px;
       top: -1px;

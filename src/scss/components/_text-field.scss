@@ -40,7 +40,7 @@
     &::placeholder {
       color: $dark25;
     }
-    &--focus {
+    &_focus {
       outline: none;
       &::placeholder {
         color: $dark75;

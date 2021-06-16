@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     margin-left: 20px;
-    &--border {
+    &_border {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -89,7 +89,7 @@
     color: $dark50;
     line-height: 17px;
     &:hover {
-      .nav__link--drop {
+      .nav__link_drop {
         path {
           fill-opacity: 1;
         }
@@ -106,7 +106,7 @@
       text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
       color: $dark;
     }
-    &--drop {
+    &_drop {
       svg {
         margin-left: 7px;
         margin-right: 6px;
