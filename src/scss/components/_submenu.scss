@@ -10,7 +10,7 @@
     transform: perspective(600px) rotateX(-90deg) translateY(30px);
     transition: transform 0.3s ease-in;
     border-radius: 4px;
-    &--active {
+    &_active {
       transform: perspective(600px) rotateX(0deg) translateY(30px);
     }
   }
@@ -28,7 +28,7 @@
     }
   }
 }
-.nav__link--active {
+.nav__link_active {
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
   color: $dark;
   path {

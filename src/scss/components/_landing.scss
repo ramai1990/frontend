@@ -6,7 +6,7 @@
   background-size: cover;
   padding-top: 70px;
   position: relative;
-  &__descr {
+  &__description {
     position: absolute;
     right: 134px;
     bottom: 18px;
@@ -43,7 +43,7 @@
   }
 }
 @media (max-width: 530px) {
-  .landing__descr {
+  .landing__description {
     right: 20px;
   }
 }

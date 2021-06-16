@@ -26,7 +26,7 @@
     padding-right: 30px;
     position: relative;
     &:focus,
-    &--active {
+    &_active {
       outline: none;
       border-color: $dark50;
     }
@@ -58,7 +58,7 @@
     z-index: -1;
     transform: translateY(-50%);
     transition: transform 0.2s ease-in;
-    &--active {
+    &_active {
       z-index: 2;
       opacity: 1;
       transform: translateY(0);

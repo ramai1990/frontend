@@ -21,7 +21,7 @@
     justify-content: space-between;
     margin-bottom: 23px;
   }
-  &__drop {
+  &__dropdown {
     position: relative;
     &::after {
       position: absolute;
@@ -68,7 +68,7 @@
     max-width: 100%;
     width: 100%;
   }
-  .search-rooms__drop:nth-child(1) {
+  .search-rooms__dropdown:nth-child(1) {
     margin-bottom: 10px;
   }
 }

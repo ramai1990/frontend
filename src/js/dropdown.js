@@ -18,8 +18,8 @@
     const btnClear = document.querySelector('.clear')
 
     dropDownBtn.addEventListener('click', function (e) {
-      dropDownList.classList.toggle('dropdown__list--active');
-      this.classList.add('dropdown__button--active');
+      dropDownList.classList.toggle('dropdown__list_active');
+      this.classList.add('dropdown__button_active');
     });
 
     dropDownListItems.forEach(function (listItem) {
@@ -41,15 +41,15 @@
     document.addEventListener('click', function (e) {
 
       if (e.target !== dropDownBtn && e.target !== btnClear) {
-        dropDownBtn.classList.remove('dropdown__button--active');
-        dropDownList.classList.remove('dropdown__list--active');
+        dropDownBtn.classList.remove('dropdown__button_active');
+        dropDownList.classList.remove('dropdown__list_active');
       }
     });
 
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Tab' || e.key === 'Escape') {
-        dropDownBtn.classList.remove('dropdown__button--active');
-        dropDownList.classList.remove('dropdown__list--active');
+        dropDownBtn.classList.remove('dropdown__button_active');
+        dropDownList.classList.remove('dropdown__list_active');
       }
     });
   });

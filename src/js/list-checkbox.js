@@ -6,19 +6,19 @@
     const checkList = document.querySelector('.list-checkbox__list')
 
     checkBtn.addEventListener('click', () => {
-      checkBtn.classList.toggle('list-checkbox__title--active')
-      checkList.classList.toggle('list-checkbox__list--active')
+      checkBtn.classList.toggle('list-checkbox__title_active')
+      checkList.classList.toggle('list-checkbox__list_active')
     })
 
     document.addEventListener('click', function (e) {
       const target = e.target;
       const its_menu = target == checkList || checkList.contains(target);
       const its_btnMenu = target == checkBtn;
-      const menu_is_active = checkList.classList.contains('list-checkbox__list--active');
+      const menu_is_active = checkList.classList.contains('list-checkbox__list_active');
 
       if (!its_menu && !its_btnMenu && menu_is_active) {
-        checkBtn.classList.remove('list-checkbox__title--active')
-        checkList.classList.remove('list-checkbox__list--active')
+        checkBtn.classList.remove('list-checkbox__title_active')
+        checkList.classList.remove('list-checkbox__list_active')
       }
     });
 
