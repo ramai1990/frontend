@@ -1,7 +1,7 @@
 (function () {
   const navLink = document.querySelectorAll('.nav__link--drop')
   navLink.forEach(item => {
-    item.addEventListener('click', e => {
+    item.addEventListener('mouseover', e => {
       let el = e.currentTarget
       if (el.classList.contains('nav__link--active')) {
         el.classList.remove('nav__link--active')
