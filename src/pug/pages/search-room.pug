@@ -12,7 +12,7 @@ block content
           .form-elements__default.form-elements__datepicker
             p.form-elements__text даты пребывания в отеле
             input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
-          include ../modules/guest-dropdown.pug
+          include ../../components/guest-dropdown/guest-dropdown
           .range-elements.search-room__range
             h3.range-elements__title.elements-title.search-room__range-title диапазон цены
             .range-elements__wrapper
@@ -34,23 +34,23 @@ block content
                 input.checkbox-elements__input(type="checkbox" id="checkbox-3" checked)
                 label.checkbox-elements__label(for="checkbox-3") Можно пригласить гостей
                   span (до 10 человек)
-          include ../modules/rich-checkbox.pug
-          include ../modules/dropdown.pug
-          include ../modules/list-checkbox.pug
+          include ../../components/rich-checkbox/rich-checkbox
+          include ../../components/dropdown/dropdown
+          include ../../components/list-checkbox/list-checkbox
         .search-room__cards
           h3.search-room__title Номера, которые мы для вас подобрали
-          include ../modules/card-luxe.pug
-          include ../modules/card.pug
-          include ../modules/cards/card-2.pug
-          include ../modules/cards/card-3.pug
-          include ../modules/cards/card-4.pug
-          include ../modules/cards/card-5.pug
-          include ../modules/cards/card-6.pug
-          include ../modules/cards/card-7.pug
-          include ../modules/cards/card-8.pug
-          include ../modules/cards/card-9.pug
-          include ../modules/cards/card-10.pug
-          include ../modules/cards/card-11.pug
+          include ../../components/card-luxe/card-luxe
+          include ../../components/card/card
+          include ../../components/cards/cards/card-2.pug
+          include ../../components/cards/cards/card-3.pug
+          include ../../components/cards/cards/card-4.pug
+          include ../../components/cards/cards/card-5.pug
+          include ../../components/cards/cards/card-6.pug
+          include ../../components/cards/cards/card-7.pug
+          include ../../components/cards/cards/card-8.pug
+          include ../../components/cards/cards/card-9.pug
+          include ../../components/cards/cards/card-10.pug
+          include ../../components/cards/cards/card-11.pug
           .search-room__pagination
             .pagination-elements
               ul.pagination-elements__list
