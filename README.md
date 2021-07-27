@@ -1,6 +1,17 @@
 # Toxin – сайт для поиска номеров в отеле
 
-[Демо](https://ramai1990.github.io/frontend/app/index.html)
+# Демо
+
+[Landing](https://ramai1990.github.io/frontend/app/index.html)
+
+[Room](https://ramai1990.github.io/frontend/app/room.html)
+
+[Search-room](https://ramai1990.github.io/frontend/app/search-room.html)
+
+[Sign-in](https://ramai1990.github.io/frontend/app/sign-up.html)
+
+[Sign-up](https://ramai1990.github.io/frontend/app/sign-in.html)
+
 
 Pixel Perfect верстка проекта с использованием Pug, Scss, jQuery, Webpack
 
