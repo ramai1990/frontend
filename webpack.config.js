@@ -75,7 +75,7 @@ const plugins = () => {
   if (isProd) {
     basePlugins.push(
       new ImageminPlugin({
-        bail: false, 
+        bail: false,
         cache: true,
         imageminOptions: {
           plugins: [
