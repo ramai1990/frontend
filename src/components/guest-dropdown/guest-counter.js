@@ -48,7 +48,7 @@ class GuestCounter {
 
           inpGuest.value = newValue;
 
-          var sum = 0;
+          let sum = 0;
           inputs.forEach(function (i) {
             sum += parseInt(i.value);
           });

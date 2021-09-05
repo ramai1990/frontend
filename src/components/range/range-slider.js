@@ -4,10 +4,10 @@ import wNumb from "wnumb";
   const rangeElements = document.querySelector('.range-elements')
   if (rangeElements) {
 
-    var keypressSlider = document.querySelector(".slider-keypress");
-    var input0 = document.querySelector(".input-with-keypress-0");
-    var input1 = document.querySelector(".input-with-keypress-1");
-    var inputs = [input0, input1];
+    let keypressSlider = document.querySelector(".slider-keypress");
+    let input0 = document.querySelector(".input-with-keypress-0");
+    let input1 = document.querySelector(".input-with-keypress-1");
+    let inputs = [input0, input1];
 
     noUiSlider.create(keypressSlider, {
       start: [5000, 10000],
@@ -28,7 +28,7 @@ import wNumb from "wnumb";
       inputs[handle].value = values[handle];
 
       function setSliderHandle(i, value) {
-        var r = [null, null];
+        let r = [null, null];
         r[i] = value;
         keypressSlider.noUiSlider.set(r);
       }
@@ -39,14 +39,14 @@ import wNumb from "wnumb";
         });
 
         input.addEventListener("keydown", function (e) {
-          var values = keypressSlider.noUiSlider.get();
-          var value = Number(values[handle]);
+          let values = keypressSlider.noUiSlider.get();
+          let value = Number(values[handle]);
 
-          var steps = keypressSlider.noUiSlider.steps();
+          let steps = keypressSlider.noUiSlider.steps();
 
-          var step = steps[handle];
+          let step = steps[handle];
 
-          var position;
+          let position;
 
           switch (e.which) {
             case 13:
@@ -81,7 +81,7 @@ import wNumb from "wnumb";
           }
         });
       });
-      
+
     });
 
   }

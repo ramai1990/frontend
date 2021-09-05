@@ -3,7 +3,7 @@ import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 SwiperCore.use([Navigation, Pagination]);
 (function () {
 
-  var swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
@@ -17,7 +17,7 @@ SwiperCore.use([Navigation, Pagination]);
       prevEl: '.swiper-button-prev',
     },
   });
-  var swiper2 = new Swiper('.swiper-container2', {
+  const swiper2 = new Swiper('.swiper-container2', {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
