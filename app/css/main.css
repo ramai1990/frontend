@@ -590,7 +590,7 @@ input {
       text-transform: uppercase;
       border-radius: 25px;
       padding: 0 20px;
-      transition: box-shadow 0.3s ease-in, color 0.3s ease-in, opacity 0.3s ease-in; }
+      transition: box-shadow 0.3s ease-in, color 0.3s ease-in, opacity 0.3s ease-in; }
       .header-btns__signin:hover {
         color: #661dff;
         opacity: 0.5;
@@ -1733,37 +1733,41 @@ input {
     border-radius: 100%;
     background-color: rgba(31, 32, 65, 0.25); }
 
-.advanteges {
+.advantages {
   padding-left: 5px; }
-  .advanteges__item {
+  .advantages__item {
     width: 280px;
     color: rgba(31, 32, 65, 0.75);
     border-bottom: 1px solid rgba(31, 32, 65, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
     padding-left: 54px;
     padding-bottom: 21px;
     position: relative; }
-    .advanteges__item + .advanteges__item {
+    .advantages__item + .advantages__item {
       margin-top: 25px; }
-    .advanteges__item::before {
+    .advantages__item::before {
       position: absolute;
       content: "";
       width: 40px;
       height: 40px;
       left: 0;
-      top: 0;
+      top: 20px;
       background-repeat: no-repeat; }
-    .advanteges__item_comfort::before {
+    .advantages__item_comfort::before {
       background-image: url(.././img/comfort.svg); }
-    .advanteges__item_convenience::before {
+    .advantages__item_convenience::before {
       left: 1px;
       background-image: url(.././img/convenience.svg); }
-    .advanteges__item_cosiness::before {
+    .advantages__item_cosiness::before {
       width: 43px;
       height: 43px;
-      top: -1px;
+      top: 20px;
       left: 1px;
       background-image: url(.././img/cosiness.svg); }
-  .advanteges__title {
+  .advantages__title {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px; }

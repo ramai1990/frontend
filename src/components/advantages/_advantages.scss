@@ -1,9 +1,13 @@
-.advanteges {
+.advantages {
   padding-left: 5px;
   &__item {
     width: 280px;
     color: $dark75;
     border-bottom: 1px solid $dark10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
     padding-left: 54px;
     padding-bottom: 21px;
     position: relative;
@@ -16,7 +20,7 @@
       width: 40px;
       height: 40px;
       left: 0;
-      top: 0;
+      top: 20px;
       background-repeat: no-repeat;
     }
     &_comfort::before {
@@ -29,7 +33,7 @@
     &_cosiness::before {
       width: 43px;
       height: 43px;
-      top: -1px;
+      top: 20px;
       left: 1px;
       background-image: url("../img/cosiness.svg");
     }

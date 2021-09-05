@@ -1,4 +1,5 @@
 extends ../layout/main
+include ../../components/advantages/advantages.pug
 
 block variables
   - var title = 'Room';
@@ -18,16 +19,9 @@ block content
           .room__content_inner
             .room__content-item
               .room__title Сведения о номере
-              .advanteges
-                .advanteges__item.advanteges__item_comfort
-                  h3.advanteges__title Комфорт
-                  p.advanteges__descr Шумопоглощающие стены
-                .advanteges__item.advanteges__item_convenience
-                  h3.advanteges__title Удобство
-                  p.advanteges__descr Окно в каждой из спален
-                .advanteges__item.advanteges__item_cosiness
-                  h3.advanteges__title Уют
-                  p.advanteges__descr Номер оснащён камином
+              +advantages([{modifier: 'comfort',text: 'Шумопоглощающие стены',title: 'Комфорт'}])
+              +advantages([{modifier: 'convenience',text: 'Окно в каждой из спален',title: 'Удобство'}])
+              +advantages([{modifier: 'cosiness',text: 'Номер оснащён камином',title: 'Уют'}])
             .room__content-item
               .room__title Впечатления от номера
               .room__statistics

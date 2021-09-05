@@ -1,4 +1,5 @@
 extends ../layout/main-ulkit
+include ../../components/advantages/advantages.pug
 
 block variables
   - var title = 'Form Elements';
@@ -21,5 +22,7 @@ block content
           include ../../components/bullet/bullet
       .form-elements__inner
         .item
-          include ../../components/advantages/advantages
+          +advantages([{modifier: 'comfort',text: 'Шумопоглощающие стены',title: 'Комфорт'}])
+          +advantages([{modifier: 'convenience',text: 'Окно в каждой из спален',title: 'Удобство'}])
+          +advantages([{modifier: 'cosiness',text: 'Номер оснащён камином',title: 'Уют'}])
       include ../../components/comment/comment
