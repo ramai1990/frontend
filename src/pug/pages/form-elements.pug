@@ -22,7 +22,21 @@ block content
           include ../../components/bullet/bullet
       .form-elements__inner
         .item
-          +advantages([{modifier: 'comfort',text: 'Шумопоглощающие стены',title: 'Комфорт'}])
-          +advantages([{modifier: 'convenience',text: 'Окно в каждой из спален',title: 'Удобство'}])
-          +advantages([{modifier: 'cosiness',text: 'Номер оснащён камином',title: 'Уют'}])
+          +advantages([
+            {
+              modifier: 'comfort',
+              text: 'Шумопоглощающие стены',
+              title: 'Комфорт'
+            },
+            {
+              modifier: 'convenience',
+              text: 'Окно в каждой из спален',
+              title: 'Удобство'
+            },
+            {
+              modifier: 'cosiness',
+              text: 'Номер оснащён камином',
+              title: 'Уют'
+            }
+          ])
       include ../../components/comment/comment

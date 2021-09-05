@@ -1761,13 +1761,23 @@ const title = 'Form Elements';
 const pageClass = '';
 pug_html = pug_html + "\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"ru\"\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\n    \u003Clink rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\u002Fx-icon\"\u003E\n    \u003Ctitle\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody" + (pug.attr("class", pug.classes([pageClass], [true]), false, true)) + "\u003E\n    \u003Cdiv class=\"burger\"\u003E\u003Cspan\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"site-container\"\u003E\u003Cimg" + (" class=\"logo__ulkit\""+pug.attr("src", __webpack_require__(/*! ../../img/logo__ulkit.svg */ "./img/logo__ulkit.svg").default, true, true)+" alt=\"\"") + "\u003E\n      \u003Csection class=\"form-elements\"\u003E\n        \u003Cdiv class=\"container form-elements__container\"\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/text-field/text-field.pug */ "./components/text-field/text-field.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/checkbox/checkbox.pug */ "./components/checkbox/checkbox.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/range/range.pug */ "./components/range/range.pug").call(this, locals)) ? "" : pug_interp) + "\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E\n            \u003Cdiv class=\"item\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/dropdown/dropdown.pug */ "./components/dropdown/dropdown.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/list-checkbox/list-checkbox.pug */ "./components/list-checkbox/list-checkbox.pug").call(this, locals)) ? "" : pug_interp) + "\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"item\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/rich-checkbox/rich-checkbox.pug */ "./components/rich-checkbox/rich-checkbox.pug").call(this, locals)) ? "" : pug_interp) + "\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"item\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/bullet/bullet.pug */ "./components/bullet/bullet.pug").call(this, locals)) ? "" : pug_interp) + "\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E\n            \u003Cdiv class=\"item\"\u003E";
 pug_indent.push("              ");
-pug_mixins["advantages"]([{modifier: 'comfort',text: 'Шумопоглощающие стены',title: 'Комфорт'}]);
-pug_indent.pop();
-pug_indent.push("              ");
-pug_mixins["advantages"]([{modifier: 'convenience',text: 'Окно в каждой из спален',title: 'Удобство'}]);
-pug_indent.pop();
-pug_indent.push("              ");
-pug_mixins["advantages"]([{modifier: 'cosiness',text: 'Номер оснащён камином',title: 'Уют'}]);
+pug_mixins["advantages"]([
+            {
+              modifier: 'comfort',
+              text: 'Шумопоглощающие стены',
+              title: 'Комфорт'
+            },
+            {
+              modifier: 'convenience',
+              text: 'Окно в каждой из спален',
+              title: 'Удобство'
+            },
+            {
+              modifier: 'cosiness',
+              text: 'Номер оснащён камином',
+              title: 'Уют'
+            }
+          ]);
 pug_indent.pop();
 pug_html = pug_html + "\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/comment/comment.pug */ "./components/comment/comment.pug").call(this, locals)) ? "" : pug_interp) + "\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";
     }.call(this, "pug_indent" in locals_for_with ?

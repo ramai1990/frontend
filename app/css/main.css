@@ -1742,7 +1742,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
     padding-left: 54px;
     padding-bottom: 21px;
     position: relative; }
@@ -1754,7 +1753,7 @@ input {
       width: 40px;
       height: 40px;
       left: 0;
-      top: 20px;
+      top: 0;
       background-repeat: no-repeat; }
     .advantages__item_comfort::before {
       background-image: url(.././img/comfort.svg); }
@@ -1764,7 +1763,7 @@ input {
     .advantages__item_cosiness::before {
       width: 43px;
       height: 43px;
-      top: 20px;
+      top: -1px;
       left: 1px;
       background-image: url(.././img/cosiness.svg); }
   .advantages__title {
