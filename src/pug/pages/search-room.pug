@@ -1,4 +1,5 @@
 extends ../layout/main
+include ../../pug/utils/mixins
 
 block variables
   - const title = 'Search Room';
@@ -35,7 +36,7 @@ block content
                 label.checkbox-elements__label(for="checkbox-3") Можно пригласить гостей
                   span (до 10 человек)
           include ../../components/rich-checkbox/rich-checkbox
-          include ../../components/dropdown/dropdown
+          +dropdown('удобства номера')
           include ../../components/list-checkbox/list-checkbox
         .search-room__cards
           h3.search-room__title Номера, которые мы для вас подобрали

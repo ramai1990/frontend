@@ -1,26 +1,33 @@
-.elements-title.range-elements__title удобства номера
-.dropdown
-  button(value="", data-btn="btn").dropdown__button.btn-reset
-    input.dropdown__input(type='text' value='2 спальни, 2 кровати...' readonly)
-  ul.dropdown__list(data-list="list")
-    li.dropdown__list-item спальни
-      .counter
-        button(data-direction="minus").counter__btn.btn-reset
-          include ../../img/remove.svg
-        input(type="number" value="2" data-value="спальня,спальни,спален" readonly).counter__value
-        button(data-direction="plus").counter__btn.btn-reset
-          include ../../img/plus.svg
-    li.dropdown__list-item кровати
-      .counter
-        button(data-direction="minus").counter__btn.btn-reset
-          include ../../img/remove.svg
-        input(type="number" value="2" data-value="кровать,кровати,кроватей" readonly).counter__value
-        button(data-direction="plus").counter__btn.btn-reset
-          include ../../img/plus.svg
-    li.dropdown__list-item ванные комнаты
-      .counter
-        button(data-direction="minus").counter__btn.btn-reset
-          include ../../img/remove.svg
-        input(type="number" value="0" data-value="ванная комната,ванные комнаты,ванных комнат" readonly).counter__value
-        button(data-direction="plus").counter__btn.btn-reset
-          include ../../img/plus.svg
+include dropdown-counter
+mixin dropdown(title)
+  .elements-title.range-elements__title= title
+  .dropdown
+    button(value="", data-btn="btn").dropdown__button.btn-reset
+      input.dropdown__input(type='text' value='2 спальни, 2 кровати...' readonly)
+    ul.dropdown__list(data-list="list")
+      +dropdownCounter([
+        {
+          subtitle: 'спальни',
+          list: [
+            'спальня',
+            'спальни',
+            'спален'
+          ]
+        },
+        {
+          subtitle: 'кровати',
+          list: [
+            'кровать',
+            'кровати',
+            'кроватей'
+          ]
+        },
+        {
+          subtitle: 'ванные комнаты',
+          list: [
+            'ванная комната',
+            'ванные комнаты',
+            'ванных комнат'
+          ]
+        }
+      ])

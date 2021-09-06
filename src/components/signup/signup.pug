@@ -1,22 +1,23 @@
-form(action="/").signup
-  .signup__title Регистрация аккаунта
-  input.signup__input(type="text" placeholder='Имя')
-  input.signup__input(type="text" placeholder='Фамилия')
-  .signup__gender
-    input.radio-elements__input(type="radio" id="radio-1" name="gender" checked)
-    label.radio-elements__label(for="radio-1") Мужчина
-    input.radio-elements__input(type="radio" id="radio-2" name="gender")
-    label.radio-elements__label(for="radio-2") Женщина
-  p.signup__text дата рождения
-  input.datepicker-here.form-elements__input.signup__birthdate(type='text' placeholder='ДД.ММ.ГГГГ')
-  p.signup__text данные для входа в сервис
-  input.signup__input(type="email" placeholder='Email')
-  input.signup__input(type="password" placeholder='Пароль')
-  .toggle-elements__item.signup__toggle
-    input.toggle-elements__input(type="checkbox" id="toggle-2")
-    label.toggle-elements__label(for="toggle-2") Получать спецпредложения
-  button.signup__btn.btn-reset.btn-default.search-rooms__btn перейти к оплате
-  .signup__bottom
-    p.signup__bottom-text Уже есть аккаунт на Toxin
-    .btn-border.signup__bottom-btn
-      button(type="submit").btn-border__primary.btn-reset войти
+mixin signUp(title, man, woman, date, data, label, payment, account, sugnIn)
+  form(action="/").signup
+    .signup__title= title
+    input.signup__input(type="text" placeholder='Имя')
+    input.signup__input(type="text" placeholder='Фамилия')
+    .signup__gender
+      input.radio-elements__input(type="radio" id="radio-1" name="gender" checked)
+      label.radio-elements__label(for="radio-1")= man
+      input.radio-elements__input(type="radio" id="radio-2" name="gender")
+      label.radio-elements__label(for="radio-2")= woman
+    p.signup__text= date
+    input.datepicker-here.form-elements__input.signup__birthdate(type='text' placeholder='ДД.ММ.ГГГГ')
+    p.signup__text= data
+    input.signup__input(type="email" placeholder='Email')
+    input.signup__input(type="password" placeholder='Пароль')
+    .toggle-elements__item.signup__toggle
+      input.toggle-elements__input(type="checkbox" id="toggle-2")
+      label.toggle-elements__label(for="toggle-2")= label
+    button.signup__btn.btn-reset.btn-default.search-rooms__btn= payment
+    .signup__bottom
+      p.signup__bottom-text= account
+      .btn-border.signup__bottom-btn
+        button(type="submit").btn-border__primary.btn-reset= sugnIn

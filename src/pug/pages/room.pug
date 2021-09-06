@@ -1,5 +1,5 @@
 extends ../layout/main
-include ../../components/advantages/advantages.pug
+include ../../pug/utils/mixins
 
 block variables
   - const title = 'Room';
@@ -54,14 +54,34 @@ block content
           .room__comments
             .room__title Отзывы посетителей номера
               span 2 отзыва
-            include ../../components/comment/comment.pug
+            +comment([
+              {
+                avatar: 'author.png',
+                author: 'Мурад Сарафанов',
+                date: '5 дней назад',
+                text: 'Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.',
+                counter: '12'
+              }
+            ])
+            +comment([
+              {
+                avatar: 'author-2.png',
+                author: 'Патрисия Стёклышкова',
+                date: 'Неделю назад',
+                text: 'Обслуживание на высоте! Всё аккуратно, чисто. Завтраки в номер советую заказать, каждый день новое блюдо и десерт как комплимент',
+                counter: '2'
+              }
+            ])
           .room__rules
             .room__rules-item
-              .room__title.room__title_rules-left Правила
-              .bullet
-                p.bullet__text Нельзя с питомцами
-                p.bullet__text Без вечеринок и мероприятий
-                p.bullet__text Время прибытия — после 13:00, а выезд до 12:00
+              +bullet(
+                'Правила',
+                'room__title room__title_rules-left',
+                [
+                'Нельзя с питомцами',
+                'Без вечеринок и мероприятий',
+                'Время прибытия — после 13:00, а выезд до 12:00'
+              ])
             .room__rules-item
               .room__title.room__title_rules Отмена
               .room__text Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги.
