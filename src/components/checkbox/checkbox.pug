@@ -1,54 +1,70 @@
+include ../../pug/utils/mixins
+
 .form-elements__checkbox
-  .checkbox-elements
-    h3.checkbox-elements__title.elements-title Checkbox Buttons
-    .checkbox-elements__item
-      input.checkbox-elements__input(type="checkbox" id="checkbox-1")
-      label.checkbox-elements__label(for="checkbox-1") Можно курить
-    .checkbox-elements__item
-      input.checkbox-elements__input(type="checkbox" id="checkbox-2" checked)
-      label.checkbox-elements__label(for="checkbox-2") Можно с питомцами
-    .checkbox-elements__item
-      input.checkbox-elements__input(type="checkbox" id="checkbox-3" checked)
-      label.checkbox-elements__label(for="checkbox-3") Можно пригласить гостей
-        span (до 10 человек)
+  +checkbox('Checkbox Buttons', [
+    {
+      id: 1,
+      text: 'Можно курить'
+    },
+    {
+      id: 2,
+      text: 'Можно с питомцами',
+      checked: true
+    },
+    {
+      id: 3,
+      text: 'Можно пригласить гостей (до 10 человек)',
+      checked: true
+    },
+  ])
   .radio-elements
     .radio-elements__title Radio Buttons
     .radio-elements__item
-      input.radio-elements__input(type="radio" id="radio-1" name="gender" checked)
-      label.radio-elements__label(for="radio-1") Мужчина
-      input.radio-elements__input(type="radio" id="radio-2" name="gender")
-      label.radio-elements__label(for="radio-2") Женщина
+      +radio([
+        {
+          id: 1,
+          checked: true,
+          gender: 'Мужчина'
+        },
+        {
+          id: 2,
+          gender: 'Женщина'
+        }
+      ])
   .toggle-elements
     .toggle-elements__title Toggle
-    .toggle-elements__item
-      input.toggle-elements__input(type="checkbox" id="toggle-1" checked)
-      label.toggle-elements__label(for="toggle-1") Получать спецпредложения
-    .toggle-elements__item
-      input.toggle-elements__input(type="checkbox" id="toggle-2")
-      label.toggle-elements__label(for="toggle-2") Получать спецпредложения
+    +toggle([
+      {
+        id: 1,
+        checked: true,
+        text: 'Получать спецпредложения'
+      },
+      {
+        id: 2,
+        text: 'Получать спецпредложения'
+      }
+    ])
   .like-elements
     .like-elements__title.elements-title like button
     .like-elements__inner
-      .like-elements__like
-        button.like-elements__btn-like.btn-reset
-        .like-elements__counter 2
-      .like-elements__like.like-elements__like2
-        button.like-elements__btn-like.like-elements__btn-like2.btn-reset
-        .like-elements__counter.like-elements__counter2 12
+      +like([
+        {
+          counter: 2
+        },
+        {
+          counter: 12,
+          classes: 'like-elements__like2',
+          buttonClasses: 'like-elements__btn-like2'
+        }
+      ])
   .rate-elements
     .rate-elements__title.elements-title rate button
     .rate-elements__inner
-      .rate-elements__item
-        select.rate-elements__rating
-          option(value='1') 1
-          option(value='2') 2
-          option(value='3') 3
-          option(value='4') 4
-          option(value='5') 5
-      .rate-elements__item
-        select.rate-elements__rating2
-          option(value='1') 1
-          option(value='2') 2
-          option(value='3') 3
-          option(value='4') 4
-          option(value='5') 5
+      +rating([
+        {
+          selectClass: 'rate-elements__rating'
+        },
+        {
+          selectClass: 'rate-elements__rating2'
+        }
+      ])

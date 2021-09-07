@@ -2,7 +2,7 @@ extends ../layout/main
 include ../../pug/utils/mixins
 
 block variables
-  - const title = 'Sign in';
+  - const title = 'Sign up';
   - const pageClass = '';
 
 block content
@@ -10,11 +10,8 @@ block content
     .container
       +signUp(
         'Регистрация аккаунта',
-        'Мужчина',
-        'Женщина',
         'дата рождения',
         'данные для входа в сервис',
-        'Получать спецпредложения',
         'перейти к оплате',
         'Уже есть аккаунт на Toxin',
         'войти'

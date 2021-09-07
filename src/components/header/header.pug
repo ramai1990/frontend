@@ -1,39 +1,30 @@
-header.header
-  .container.header__container
-    .logo
-      a(href="/")
-        img(src=require('/img/logo.svg').default, alt="")
-    nav.nav
-      ul.nav__list
-        li.nav__item
-          a(href="/").nav__link О нас
-        li.nav__item.submenu
-          a(href="/").nav__link.nav__link_dropdown Услуги
-            include ../../img/arrow-down.svg
-          ul.submenu__list
-            li.submenu__item
-              a(href="/").submenu__link ссылка 1
-            li.submenu__item
-              a(href="/").submenu__link ссылка 2
-            li.submenu__item
-              a(href="/").submenu__link ссылка 3
-        li.nav__item
-          a(href="/").nav__link Вакансии
-        li.nav__item
-          a(href="/").nav__link Новости
-        li.nav__item.submenu
-          a(href="/").nav__link.nav__link_dropdown Соглашения
-            include ../../img/arrow-down.svg
-          ul.submenu__list
-            li.submenu__item
-              a(href="/").submenu__link ссылка 1
-            li.submenu__item
-              a(href="/").submenu__link ссылка 2
-            li.submenu__item
-              a(href="/").submenu__link ссылка 3
-    .header__btns.header-btns
-      .header-btns_border
-        form(action="/sign-in.html")
-          button(type="submit").header-btns__signin.btn-reset войти
-      form(action="/sign-up.html")
-        button(type="submit").header-btns__signup.btn-reset зарегистрироваться
+mixin header(status, navigations)
+  header.header
+    .container.header__container
+      .logo
+        a(href="/")
+          img(src=require('/img/logo.svg').default, alt="")
+      nav.nav
+        ul.nav__list
+          each nav in navigations
+            if nav.submenu
+              li.nav__item.submenu
+                a(href="/").nav__link.nav__link_dropdown= nav.name
+                  include ../../img/arrow-down.svg
+                ul.submenu__list
+                  each item in nav.items
+                    li.submenu__item
+                      a(href="/").submenu__link= item.name
+            else
+              li.nav__item
+                a(href="/").nav__link= nav.name
+      if status === 'non-authorized'
+        .header__btns.header-btns
+          .header-btns_border
+            form(action="/sign-in.html")
+              button(type="submit").header-btns__signin.btn-reset войти
+          form(action="/sign-up.html")
+            button(type="submit").header-btns__signup.btn-reset зарегистрироваться
+      else if status === 'authorized'
+        .header__user
+          a(href="/").header__user-link Юлий Цезарь

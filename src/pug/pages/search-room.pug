@@ -23,21 +23,64 @@ block content
             .slider-keypress
             span Стоимость за сутки пребывания в номере
           .form-elements__checkbox
-            .checkbox-elements
-              h3.checkbox-elements__title.elements-title правила дома
-              .checkbox-elements__item
-                input.checkbox-elements__input(type="checkbox" id="checkbox-1")
-                label.checkbox-elements__label(for="checkbox-1") Можно курить
-              .checkbox-elements__item
-                input.checkbox-elements__input(type="checkbox" id="checkbox-2" checked)
-                label.checkbox-elements__label(for="checkbox-2") Можно с питомцами
-              .checkbox-elements__item
-                input.checkbox-elements__input(type="checkbox" id="checkbox-3" checked)
-                label.checkbox-elements__label(for="checkbox-3") Можно пригласить гостей
-                  span (до 10 человек)
-          include ../../components/rich-checkbox/rich-checkbox
+            +checkbox('правила дома', [
+              {
+                id: 1,
+                text: 'Можно курить'
+              },
+              {
+                id: 2,
+                text: 'Можно с питомцами',
+                checked: true
+              },
+              {
+                id: 3,
+                text: 'Можно пригласить гостей (до 10 человек)',
+                checked: true
+              },
+            ])
+          +richCheckbox('доступность', [
+            {
+              id: '1',
+              title: 'Широкий коридор',
+              description: 'Ширина коридоров в номере не менее 91 см.'
+            },
+            {
+              id: '2',
+              title: 'Помощник для инвалидов',
+              description: 'На 1 этаже вас встретит специалист  и проводит до номера.'
+            },
+          ])
           +dropdown('удобства номера')
-          include ../../components/list-checkbox/list-checkbox
+          +list-checkbox('дополнительные удобства', [
+            {
+              text: 'Завтрак',
+              id: 1
+            },
+            {
+              text: 'Письменный стол',
+              id: 2,
+              checked: true
+            },
+            {
+              text: 'Письменный стол',
+              id: 3,
+              checked: true
+            },
+            {
+              text: 'Стул для кормления',
+              id: 4,
+              checked: true
+            },
+            {
+              text: 'Телевизор',
+              id: 5
+            },
+            {
+              text: 'Шампунь',
+              id: 6
+            }
+          ])
         .search-room__cards
           h3.search-room__title Номера, которые мы для вас подобрали
           include ../../components/card-luxe/card-luxe

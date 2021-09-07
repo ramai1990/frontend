@@ -1,4 +1,4 @@
-mixin comment(items )
+mixin comment(items)
   .comment
     each item in items
       - const { avatar, author, date, text, counter } = item;
@@ -6,6 +6,8 @@ mixin comment(items )
       h3.comment__author= author
       p.comment__date= date
       p.comment__text= text
-        .like-elements__like
-          button.like-elements__btn-like.btn-reset
-          .like-elements__counter= counter
+        +like([
+          {
+            counter: counter
+          }
+        ])

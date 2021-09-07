@@ -1,21 +1,14 @@
-.list-checkbox
-  .elements-title.list-checkbox__title дополнительные удобства
-  .list-checkbox__list
-    .checkbox-elements__item.list-checkbox__item
-      input.checkbox-elements__input(type="checkbox" id="list-checkbox-1")
-      label.checkbox-elements__label(for="list-checkbox-1") Завтрак
-    .checkbox-elements__item.list-checkbox__item
-      input.checkbox-elements__input(type="checkbox" id="list-checkbox-2" checked)
-      label.checkbox-elements__label(for="list-checkbox-2") Письменный стол
-    .checkbox-elements__item.list-checkbox__item
-      input.checkbox-elements__input(type="checkbox" id="list-checkbox-3" checked)
-      label.checkbox-elements__label(for="list-checkbox-3") Стул для кормления
-    .checkbox-elements__item.list-checkbox__item
-      input.checkbox-elements__input(type="checkbox" id="list-checkbox-4" checked)
-      label.checkbox-elements__label(for="list-checkbox-4") Кроватка
-    .checkbox-elements__item.list-checkbox__item
-      input.checkbox-elements__input(type="checkbox" id="list-checkbox-5")
-      label.checkbox-elements__label(for="list-checkbox-5") Телевизор
-    .checkbox-elements__item.list-checkbox__item
-      input.checkbox-elements__input(type="checkbox" id="list-checkbox-6")
-      label.checkbox-elements__label(for="list-checkbox-6") Шампунь
+mixin list-checkbox(title, items)
+  .list-checkbox
+    .elements-title.list-checkbox__title= title
+    .list-checkbox__list
+      each item in items
+        - const { id, text, checked } = item;
+        if checked
+          .checkbox-elements__item.list-checkbox__item
+            input.checkbox-elements__input(type="checkbox" id=`list-checkbox-${id}` checked)
+            label.checkbox-elements__label(for=`list-checkbox-${id}`)= text
+        else
+          .checkbox-elements__item.list-checkbox__item
+            input.checkbox-elements__input(type="checkbox" id=`list-checkbox-${id}`)
+            label.checkbox-elements__label(for=`list-checkbox-${id}`)= text

@@ -1,0 +1,11 @@
+mixin toggle(items)
+  each item in items
+    - const { id, checked, text, classes } = item;
+    if checked
+      .toggle-elements__item(class=classes)
+        input.toggle-elements__input(type="checkbox" id=`toggle-${id}` checked)
+        label.toggle-elements__label(for=`toggle-${id}`)= text
+    else
+      .toggle-elements__item(class=classes)
+        input.toggle-elements__input(type="checkbox" id=`toggle-${id}`)
+        label.toggle-elements__label(for=`toggle-${id}`)= text

@@ -1,0 +1,14 @@
+mixin copy(text)
+  .footer__copy.footer-copy
+    .container.footer-copy__container
+      p.footer-copy__text= text
+      ul.footer-copy__socials.copy-socials
+        li.copy-socials__item
+          a(href="/").copy-socials__link
+            include ../../img/tw.svg
+        li.copy-socials__item
+          a(href="/").copy-socials__link
+            include ../../img/fc.svg
+        li.copy-socials__item
+          a(href="/").copy-socials__link
+            include ../../img/in.svg

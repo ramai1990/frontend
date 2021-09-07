@@ -1,4 +1,5 @@
 block variables
+include ../utils/mixins
 
 doctype html
 html(lang="ru")
@@ -12,7 +13,107 @@ html(lang="ru")
     .burger
       span
     .site-container
-      include ../../components/header/header
+      +header('non-authorized', [
+        {
+          name: 'О нас'
+        },
+        {
+          submenu: true,
+          name: 'Услуги',
+          items: [
+            {
+              name: 'link 1'
+            },
+            {
+              name: 'link 2'
+            },
+            {
+              name: 'link 3'
+            }
+          ]
+        },
+        {
+          name: 'Вакансии'
+        },
+        {
+          name: 'Новости'
+        },
+        {
+          submenu: true,
+          name: 'Соглашения',
+          items: [
+            {
+              name: 'link 1'
+            },
+            {
+              name: 'link 2'
+            },
+            {
+              name: 'link 3'
+            }
+          ]
+        },
+      ])
       .main
         block content
-      include ../../components/footer/footer
+      +footer([
+        {
+          title: 'навигация',
+          items: [
+            {
+              title: 'О нас',
+              href: '/'
+            },
+            {
+              title: 'Новости',
+              href: '/'
+            },
+            {
+              title: 'Служба поддержки',
+              href: '/'
+            },
+            {
+              title: 'Услуги',
+              href: '/'
+            }
+          ]
+        },
+        {
+          title: 'О нас',
+          items: [
+            {
+              title: 'О сервисе',
+              href: '/'
+            },
+            {
+              title: 'Наша команда',
+              href: '/'
+            },
+            {
+              title: 'Вакансии',
+              href: '/'
+            },
+            {
+              title: 'Инвесторы',
+              href: '/'
+            }
+          ]
+        },
+        {
+          title: 'Служба поддержки',
+          items: [
+            {
+              title: 'Соглашения',
+              href: '/'
+            },
+            {
+              title: 'Сообщества',
+              href: '/'
+            },
+            {
+              title: 'Связь с нами',
+              href: '/'
+            }
+          ]
+        },
+      ])

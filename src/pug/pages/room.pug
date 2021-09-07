@@ -4,6 +4,8 @@ include ../../pug/utils/mixins
 block variables
   - const title = 'Room';
   - const pageClass = '';
+  - const user1 = require('../../assets/user1.json');
+  - const user2 = require('../../assets/user2.json');
 
 block content
   section.room
@@ -56,20 +58,20 @@ block content
               span 2 отзыва
             +comment([
               {
-                avatar: 'author.png',
-                author: 'Мурад Сарафанов',
-                date: '5 дней назад',
-                text: 'Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.',
-                counter: '12'
+                avatar: user1.avatar,
+                author: user1.author,
+                date: user1.date,
+                text: user1.text,
+                counter: user1.counter
               }
             ])
             +comment([
               {
-                avatar: 'author-2.png',
-                author: 'Патрисия Стёклышкова',
-                date: 'Неделю назад',
-                text: 'Обслуживание на высоте! Всё аккуратно, чисто. Завтраки в номер советую заказать, каждый день новое блюдо и десерт как комплимент',
-                counter: '2'
+                avatar: user2.avatar,
+                author: user2.author,
+                date: user2.date,
+                text: user2.text,
+                counter: user2.counter
               }
             ])
           .room__rules
