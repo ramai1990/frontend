@@ -1,34 +1,36 @@
-mixin signUp(title, date, data, payment, account, sugnIn)
-  form(action="/").signup
-    .signup__title= title
-    input.signup__input(type="text" placeholder='Имя')
-    input.signup__input(type="text" placeholder='Фамилия')
-    .signup__gender
-      +radio([
+mixin signUp(items)
+  each item in items
+    - const { title, date, data, payment, account, sugnIn } = item;
+    form(action="/").signup
+      .signup__title= title
+      input.signup__input(type="text" placeholder='Имя')
+      input.signup__input(type="text" placeholder='Фамилия')
+      .signup__gender
+        +radio([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ])
+      p.signup__text= date
+      input.datepicker-here.form-elements__input.signup__birthdate(type='text' placeholder='ДД.ММ.ГГГГ')
+      p.signup__text= data
+      input.signup__input(type="email" placeholder='Email')
+      input.signup__input(type="password" placeholder='Пароль')
+      +toggle([
         {
           id: 1,
-          checked: true,
-          gender: 'Мужчина'
-        },
-        {
-          id: 2,
-          gender: 'Женщина'
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
         }
       ])
-    p.signup__text= date
-    input.datepicker-here.form-elements__input.signup__birthdate(type='text' placeholder='ДД.ММ.ГГГГ')
-    p.signup__text= data
-    input.signup__input(type="email" placeholder='Email')
-    input.signup__input(type="password" placeholder='Пароль')
-    +toggle([
-      {
-        id: 1,
-        text: 'Получать спецпредложения',
-        classes: 'signup__toggle'
-      }
-    ])
-    button.signup__btn.btn-reset.btn-default.search-rooms__btn= payment
-    .signup__bottom
-      p.signup__bottom-text= account
-      .btn-border.signup__bottom-btn
-        button(type="submit").btn-border__primary.btn-reset= sugnIn
+      button.signup__btn.btn-reset.btn-default.search-rooms__btn= payment
+      .signup__bottom
+        p.signup__bottom-text= account
+        .btn-border.signup__bottom-btn
+          button(type="submit").btn-border__primary.btn-reset= sugnIn

@@ -8,9 +8,11 @@ block variables
 block content
   section.sign-in
     .container.sign-in__container
-      +signIn(
-        'Войти',
-        'войти',
-        'Нет аккаунта на Toxin?',
-        'создать'
-      )
+      +signIn([
+        {
+          title: 'Войти',
+          buttonSignIn: 'войти',
+          text: 'Нет аккаунта на Toxin?',
+          buttonCreate: 'создать'
+        }
+      ])

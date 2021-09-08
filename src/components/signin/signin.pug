@@ -1,10 +1,12 @@
-mixin signIn(title, buttonSignIn, text, buttonCreate)
-  .signin
-    .signin__title= title
-    input.signup__input(type="email" placeholder='Email')
-    input.signup__input(type="password" placeholder='Пароль')
-    button.signin__btn.btn-reset.btn-default= buttonSignIn
-    .signin__bottom
-      p.signin__bottom-text= text
-      .btn-border.signin__bottom-btn
-        button(type="submit").btn-border__primary.btn-reset= buttonCreate
+mixin signIn(items)
+  each item in items
+    - const { title, buttonSignIn, text, buttonCreate } = item;
+    .signin
+      .signin__title= title
+      input.signup__input(type="email" placeholder='Email')
+      input.signup__input(type="password" placeholder='Пароль')
+      button.signin__btn.btn-reset.btn-default= buttonSignIn
+      .signin__bottom
+        p.signin__bottom-text= text
+        .btn-border.signin__bottom-btn
+          button(type="submit").btn-border__primary.btn-reset= buttonCreate
