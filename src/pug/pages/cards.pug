@@ -1,4 +1,5 @@
 extends ../layout/main-ulkit
+include ../../pug/utils/mixins
 
 block variables
   - const title = 'Cards';
@@ -8,11 +9,27 @@ block content
   section.cards
     .container.cards__container
       .cards__item
-        include ../../components/search-rooms/search-rooms
-        include ../../components/signup/signup
+        +search-rooms
+        +signUp([
+          {
+            title: 'Регистрация аккаунта',
+            date: 'дата рождения',
+            data: 'данные для входа в сервис',
+            payment: 'перейти к оплате',
+            account: 'Уже есть аккаунт на Toxin',
+            sugnIn: 'войти'
+          }
+        ])
       .cards__item
-        include ../../components/room-price/room-price
-        include ../../components/signin/signin
+        +roomPrice
+        +signIn([
+          {
+            title: 'Войти',
+            buttonSignIn: 'войти',
+            text: 'Нет аккаунта на Toxin?',
+            buttonCreate: 'создать'
+          }
+        ])
       .cards__item
         include ../../components/card-luxe/card-luxe
         include ../../components/card/card

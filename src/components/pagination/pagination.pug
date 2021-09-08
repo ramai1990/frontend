@@ -1,0 +1,8 @@
+mixin pagination({title, list, text})
+  .pagination-elements
+    h3.pagination-elements__title.elements-title= title
+    ul.pagination-elements__list
+      each item in list
+        li.pagination-elements__item
+          a(href=`${item.href}` class=item.class).pagination-elements__link= item.link
+    p.pagination-elements__text= text

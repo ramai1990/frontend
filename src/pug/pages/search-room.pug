@@ -13,15 +13,44 @@ block content
           .form-elements__default.form-elements__datepicker
             p.form-elements__text даты пребывания в отеле
             input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
-          include ../../components/guest-dropdown/guest-dropdown
-          .range-elements.search-room__range
-            h3.range-elements__title.elements-title.search-room__range-title диапазон цены
-            .range-elements__wrapper
-              input.input-with-keypress-0(type='text')
-              span -
-              input.input-with-keypress-1(type='text')
-            .slider-keypress
-            span Стоимость за сутки пребывания в номере
+          +guest({
+            title: 'гости',
+            list: [
+              {
+                title: 'взрослые',
+                list: [
+                  'взрослый',
+                  'взрослых',
+                  'взрослых'
+                ]
+              },
+              {
+                title: 'дети',
+                list: [
+                  'ребенок',
+                  'ребенка',
+                  'детей'
+                ]
+              },
+              {
+                title: 'младенцы',
+                list: [
+                  'младенец',
+                  'младенца',
+                  'младенцев'
+                ],
+                class: 'guest__counter_baby'
+              }
+            ]
+          })
+          +rangeSlider([
+            {
+              title: 'диапазон цены',
+              classRange: 'search-room__range',
+              classTitle: 'search-room__range-title',
+              span: 'Стоимость за сутки пребывания в номере'
+            }
+          ])
           .form-elements__checkbox
             +checkbox('правила дома', [
               {
@@ -96,18 +125,33 @@ block content
           include ../../components/cards/cards/card-10.pug
           include ../../components/cards/cards/card-11.pug
           .search-room__pagination
-            .pagination-elements
-              ul.pagination-elements__list
-                li.pagination-elements__item
-                  a(href="/search-room.html").pagination-elements__link.pagination-elements__link_active 1
-                li.pagination-elements__item
-                  a(href="/search-room.html").pagination-elements__link 2
-                li.pagination-elements__item
-                  a(href="/search-room.html").pagination-elements__link 3
-                li.pagination-elements__item
-                  a(href="/search-room.html").pagination-elements__link ...
-                li.pagination-elements__item
-                  a(href="/search-room.html").pagination-elements__link 15
-                li.pagination-elements__item
-                  a(href="/search-room.html").pagination-elements__link.pagination-elements__next
-              p.pagination-elements__text 1 – 12 из 100+ вариантов аренды
+            +pagination({
+              text: '1 – 12 из 100+ вариантов аренды',
+              list: [
+                {
+                  href: '/form-elements.html',
+                  link: 1,
+                  class: 'pagination-elements__link_active'
+                },
+                {
+                  href: '/form-elements.html',
+                  link: 2
+                },
+                {
+                  href: '/form-elements.html',
+                  link: 3
+                },
+                {
+                  href: '/form-elements.html',
+                  link: '...'
+                },
+                {
+                  href: '/form-elements.html',
+                  link: 15
+                },
+                {
+                  href: '/form-elements.html',
+                  class: 'pagination-elements__next'
+                }
+              ]
+            })

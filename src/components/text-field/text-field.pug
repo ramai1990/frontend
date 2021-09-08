@@ -1,25 +1,55 @@
-.form-elements__textfield
-  .form-elements__default
-    p.form-elements__text Text Field
-      span Default
-    input(type="email" placeholder="Email").form-elements__input
-  .form-elements__default.form-elements__default_focus
-    p.form-elements__text Text Field
-      span Hover / Focus
-    input(type="email" placeholder="This is pretty awesome").form-elements__input.form-elements__input_focus
-  include ../guest-dropdown/guest-dropdown
-  .form-elements__default.form-elements__date
-    p.form-elements__text masked text field
-    input(type="date").form-elements__input
-  .form-elements__datedropdown
-    .form-elements__default.form-elements__date.form-elements__datedrop
-      p.form-elements__text date Dropdown
-      input.datepicker-here(type='text' placeholder='ДД.ММ.ГГГГ').form-elements__input
-  .form-elements__default.form-elements__datepicker
-    p.form-elements__text filter date dropdown
-    input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
-  .form-elements__default.form-elements__email
-    p.form-elements__text subscription text field
-    input(type="email" placeholder="Email").form-elements__input
-    button(type="submit").btn-reset
-      include ../../img/arrow-forward.svg
+mixin textField
+  .form-elements__textfield
+    .form-elements__default
+      p.form-elements__text Text Field
+        span Default
+      input(type="email" placeholder="Email").form-elements__input
+    .form-elements__default.form-elements__default_focus
+      p.form-elements__text Text Field
+        span Hover / Focus
+      input(type="email" placeholder="This is pretty awesome").form-elements__input.form-elements__input_focus
+    +guest({
+      title: 'гости',
+      list: [
+        {
+          title: 'взрослые',
+          list: [
+            'взрослый',
+            'взрослых',
+            'взрослых'
+          ]
+        },
+        {
+          title: 'дети',
+          list: [
+            'ребенок',
+            'ребенка',
+            'детей'
+          ]
+        },
+        {
+          title: 'младенцы',
+          list: [
+            'младенец',
+            'младенца',
+            'младенцев'
+          ],
+          class: 'guest__counter_baby'
+        }
+      ]
+    })
+    .form-elements__default.form-elements__date
+      p.form-elements__text masked text field
+      input(type="date").form-elements__input
+    .form-elements__datedropdown
+      .form-elements__default.form-elements__date.form-elements__datedrop
+        p.form-elements__text date Dropdown
+        input.datepicker-here(type='text' placeholder='ДД.ММ.ГГГГ').form-elements__input
+    .form-elements__default.form-elements__datepicker
+      p.form-elements__text filter date dropdown
+      input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
+    .form-elements__default.form-elements__email
+      p.form-elements__text subscription text field
+      input(type="email" placeholder="Email").form-elements__input
+      button(type="submit").btn-reset
+        include ../../img/arrow-forward.svg

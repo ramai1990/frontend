@@ -1,4 +1,5 @@
 extends ../layout/main-ulkit
+include ../../pug/utils/mixins
 
 block variables
   - const title = 'Colors & Type';
@@ -9,20 +10,43 @@ block content
     .container.colors-type__container
       .colors-type__inner
         .colors-type__item.item-colors
-          p.item-colors__text.item-colors__shade100 Dark Shade 100%
-            span #1F2041
-          p.item-colors__text.item-colors__shade75 Dark Shade 75%
-            span #1F2041
-          p.item-colors__text.item-colors__shade50 Dark Shade 50%
-            span #1F2041
-          p.item-colors__text.item-colors__shade25 Dark Shade 25%
-            span #1F2041
-          p.item-colors__text.item-colors__shade5 Dark Shade 5%
-            span #1F2041
-          p.item-colors__text.item-colors__purple Purple
-            span #BC9CFF
-          p.item-colors__text.item-colors__green Green
-            span #6FCF97
+          +colors([
+            {
+              modifier: 'shade100',
+              title: 'Dark Shade 100%',
+              colorsName: '#1F2041'
+            },
+            {
+              modifier: 'shade75',
+              title: 'Dark Shade 75%',
+              colorsName: '#1F2041'
+            },
+            {
+              modifier: 'shade50',
+              title: 'Dark Shade 50%',
+              colorsName: '#1F2041'
+            },
+            {
+              modifier: 'shade25',
+              title: 'Dark Shade 25%',
+              colorsName: '#1F2041'
+            },
+            {
+              modifier: 'shade5',
+              title: 'Dark Shade 5%',
+              colorsName: '#1F2041'
+            },
+            {
+              modifier: 'purple',
+              title: 'Purple',
+              colorsName: '#BC9CFF'
+            },
+            {
+              modifier: 'green',
+              title: 'Green',
+              colorsName: '6FCF97'
+            },
+          ])
         .colors-type__item.item-type
           h1 This one is the sub-section or widget title
           h2 Next one is the item title inside widgets

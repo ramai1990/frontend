@@ -1,0 +1,5 @@
+mixin colors(list)
+  each item in list
+    - const { modifier, title, colorsName } = item;
+    p(class=`item-colors__text item-colors__${modifier}`)= title
+      span= colorsName

@@ -1,0 +1,56 @@
+mixin rangeElements
+  .form-elements__range
+    +rangeSlider([
+      {
+        title: 'Range Slider'
+      }
+    ])
+    .button-elements
+      h3.button-elements__title.elements-title Buttons
+      +buttonPrimary({
+          text: 'CLICK ME',
+          classes: 'btn-primary'
+      })
+      +buttonBorder({
+        text: 'CLICK ME',
+        classes: 'btn-border__primary'
+      })
+      .button-elements__item
+        +buttonLink({
+          text: 'CLICK ME',
+          href: 'form-elements.html'
+        })
+      +buttonDefault({
+        text: 'перейти к оплате'
+      })
+    +pagination({
+      title: 'pagination',
+      text: '1 – 12 из 100+ вариантов аренды',
+      list: [
+        {
+          href: '/form-elements.html',
+          link: 1,
+          class: 'pagination-elements__link_active'
+        },
+        {
+          href: '/form-elements.html',
+          link: 2
+        },
+        {
+          href: '/form-elements.html',
+          link: 3
+        },
+        {
+          href: '/form-elements.html',
+          link: '...'
+        },
+        {
+          href: '/form-elements.html',
+          link: 15
+        },
+        {
+          href: '/form-elements.html',
+          class: 'pagination-elements__next'
+        }
+      ]
+    })

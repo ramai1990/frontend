@@ -16,7 +16,7 @@ block content
     .container.room__container
       .room__grid
         .room__price
-          include ../../components/room-price/room-price
+          +roomPrice
         .room__content
           .room__content_inner
             .room__content-item
@@ -40,19 +40,10 @@ block content
               ])
             .room__content-item
               .room__title Впечатления от номера
-              .room__statistics
-                p 260 <br>
-                  span голосов
-                #great.room__statistic
-                #well.room__statistic
-                #satisfactory.room__statistic
-                #disappointed.room__statistic
-              .room__stats
-                ul.room__stats-list
-                  li.room__stats-item(data-name='Great') Великолепно
-                  li.room__stats-item(data-name='Well') Хорошо
-                  li.room__stats-item(data-name='Satisfactory') Удовлетворительно
-                  li.room__stats-item(data-name='Disappointed') Разочарован
+              +statistics({
+                number: 260,
+                text: 'голосов'
+              })
           .room__comments
             .room__title Отзывы посетителей номера
               span 2 отзыва

@@ -1,0 +1,14 @@
+mixin statistics({number, text})
+  .room__statistics
+    p #{number} <br>
+      span= text
+    #great.room__statistic
+    #well.room__statistic
+    #satisfactory.room__statistic
+    #disappointed.room__statistic
+  .room__stats
+    ul.room__stats-list
+      li.room__stats-item(data-name='Great') Великолепно
+      li.room__stats-item(data-name='Well') Хорошо
+      li.room__stats-item(data-name='Satisfactory') Удовлетворительно
+      li.room__stats-item(data-name='Disappointed') Разочарован

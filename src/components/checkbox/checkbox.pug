@@ -1,70 +1,13 @@
-include ../../pug/utils/mixins
-
-.form-elements__checkbox
-  +checkbox('Checkbox Buttons', [
-    {
-      id: 1,
-      text: 'Можно курить'
-    },
-    {
-      id: 2,
-      text: 'Можно с питомцами',
-      checked: true
-    },
-    {
-      id: 3,
-      text: 'Можно пригласить гостей (до 10 человек)',
-      checked: true
-    },
-  ])
-  .radio-elements
-    .radio-elements__title Radio Buttons
-    .radio-elements__item
-      +radio([
-        {
-          id: 1,
-          checked: true,
-          gender: 'Мужчина'
-        },
-        {
-          id: 2,
-          gender: 'Женщина'
-        }
-      ])
-  .toggle-elements
-    .toggle-elements__title Toggle
-    +toggle([
-      {
-        id: 1,
-        checked: true,
-        text: 'Получать спецпредложения'
-      },
-      {
-        id: 2,
-        text: 'Получать спецпредложения'
-      }
-    ])
-  .like-elements
-    .like-elements__title.elements-title like button
-    .like-elements__inner
-      +like([
-        {
-          counter: 2
-        },
-        {
-          counter: 12,
-          classes: 'like-elements__like2',
-          buttonClasses: 'like-elements__btn-like2'
-        }
-      ])
-  .rate-elements
-    .rate-elements__title.elements-title rate button
-    .rate-elements__inner
-      +rating([
-        {
-          selectClass: 'rate-elements__rating'
-        },
-        {
-          selectClass: 'rate-elements__rating2'
-        }
-      ])
+mixin checkbox(title, items)
+  .checkbox-elements
+    h3.checkbox-elements__title.elements-title= title
+    each item in items
+      - const { id, text, checked } = item;
+      if checked
+        .checkbox-elements__item
+          input.checkbox-elements__input(type="checkbox" id=`checkbox-${id}` checked)
+          label.checkbox-elements__label(for=`checkbox-${id}`)= text
+      else
+        .checkbox-elements__item
+          input.checkbox-elements__input(type="checkbox" id=`checkbox-${id}`)
+          label.checkbox-elements__label(for=`checkbox-${id}`)= text
