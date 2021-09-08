@@ -1681,34 +1681,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./components/card-luxe/card-luxe.pug":
-/*!********************************************!*\
-  !*** ./components/card-luxe/card-luxe.pug ***!
-  \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"card-luxe\"\u003E\n  \u003Cdiv class=\"swiper-container\"\u003E\n    \u003Cdiv class=\"swiper-wrapper\"\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe.jpg */ "./img/luxe.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-2.png */ "./img/luxe-2.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-3.png */ "./img/luxe-3.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-4.png */ "./img/luxe-4.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"swiper-pagination\"\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"swiper-button-next\"\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"swiper-button-prev\"\u003E\u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"card-luxe__title luxe-title\"\u003E\n    \u003Ch3 class=\"luxe-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n    \u003Cp class=\"luxe-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"card-luxe__reviews\"\u003E\n    \u003Cdiv class=\"rate-elements__item card-luxe__rating\"\u003E\n      \u003Cselect class=\"rate-elements__rating\"\u003E\n        \u003Coption value=\"1\"\u003E1\u003C\u002Foption\u003E\n        \u003Coption value=\"2\"\u003E2\u003C\u002Foption\u003E\n        \u003Coption value=\"3\"\u003E3\u003C\u002Foption\u003E\n        \u003Coption value=\"4\"\u003E4\u003C\u002Foption\u003E\n        \u003Coption value=\"5\"\u003E5\u003C\u002Foption\u003E\n      \u003C\u002Fselect\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"card-luxe__text\"\u003E145\u003Cspan\u003EОтзывов\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./components/card/card.pug":
-/*!**********************************!*\
-  !*** ./components/card/card.pug ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"card\"\u003E\n  \u003Cdiv class=\"swiper-container swiper-container2\"\u003E\n    \u003Cdiv class=\"swiper-wrapper\"\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"swiper-pagination\"\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"swiper-button-next card__next\"\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"swiper-button-prev card__prev\"\u003E\u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"card-luxe__title luxe-title\"\u003E\n    \u003Ch3 class=\"luxe-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E840\u003C\u002Fh3\u003E\n    \u003Cp class=\"luxe-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"card-luxe__reviews\"\u003E\n    \u003Cdiv class=\"rate-elements__item card-luxe__rating\"\u003E\n      \u003Cselect class=\"rate-elements__rating2\"\u003E\n        \u003Coption value=\"1\"\u003E1\u003C\u002Foption\u003E\n        \u003Coption value=\"2\"\u003E2\u003C\u002Foption\u003E\n        \u003Coption value=\"3\"\u003E3\u003C\u002Foption\u003E\n        \u003Coption value=\"4\"\u003E4\u003C\u002Foption\u003E\n        \u003Coption value=\"5\"\u003E5\u003C\u002Foption\u003E\n      \u003C\u002Fselect\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"card-luxe__text\"\u003E65\u003Cspan\u003EОтзывов\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
 /***/ "./components/cards/cards/card-10.pug":
 /*!********************************************!*\
   !*** ./components/cards/cards/card-10.pug ***!
@@ -1849,76 +1821,6 @@ module.exports = template;
 
 /***/ }),
 
-/***/ "./components/guest-dropdown/guest-dropdown.pug":
-/*!******************************************************!*\
-  !*** ./components/guest-dropdown/guest-dropdown.pug ***!
-  \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  \u003Cdiv class=\"elements-title range-elements__title\"\u003Eгости\u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"dropdown-guest\"\u003E\n    \u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      \u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    \u003C\u002Fbutton\u003E\n    \u003Cul class=\"dropdown__list guest__list\"\u003E\n      \u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003Eвзрослые\n        \u003Cdiv class=\"counter guest__counters\"\u003E\n          \u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          \u003C\u002Fbutton\u003E\n          \u003Cinput class=\"guest__counter\" type=\"number\" value=\"0\" data-value=\"взрослый,взрослых,взрослых\" readonly\u003E\n          \u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fli\u003E\n      \u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003Eдети\n        \u003Cdiv class=\"counter guest__counters\"\u003E\n          \u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          \u003C\u002Fbutton\u003E\n          \u003Cinput class=\"guest__counter\" type=\"number\" value=\"0\" data-value=\"ребенок,ребенка,детей\" readonly\u003E\n          \u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fli\u003E\n      \u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003Eмладенцы\n        \u003Cdiv class=\"counter guest__counters\"\u003E\n          \u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          \u003C\u002Fbutton\u003E\n          \u003Cinput class=\"guest__counter guest__counter_baby\" type=\"number\" value=\"0\" data-value=\"младенец,младенца,младенцев\" readonly\u003E\n          \u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fli\u003E\n      \u003Cdiv class=\"guest__btns\"\u003E\n        \u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        \u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Ful\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./components/range/range.pug":
-/*!************************************!*\
-  !*** ./components/range/range.pug ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"form-elements__range\"\u003E\n  \u003Cdiv class=\"range-elements\"\u003E\n    \u003Ch3 class=\"range-elements__title elements-title\"\u003ERange Slider\u003C\u002Fh3\u003E\n    \u003Cdiv class=\"range-elements__wrapper\"\u003E\n      \u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n      \u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"button-elements\"\u003E\n    \u003Ch3 class=\"button-elements__title elements-title\"\u003EButtons\u003C\u002Fh3\u003E\n    \u003Cbutton class=\"button-elements__btn btn-reset btn-primary\"\u003ECLICK ME\u003C\u002Fbutton\u003E\n    \u003Cdiv class=\"btn-border button-elements__border\"\u003E\n      \u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003ECLICK ME\u003C\u002Fbutton\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"button-elements__item\"\u003E\u003Ca class=\"button-elements__link link-primary\" href=\"\u002Fform-elements.html\"\u003ECLICK ME\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n    \u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"pagination-elements\"\u003E\n    \u003Ch3 class=\"pagination-elements__title elements-title\"\u003Epagination\u003C\u002Fh3\u003E\n    \u003Cul class=\"pagination-elements__list\"\u003E\n      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link pagination-elements__link_active\" href=\"\u002Fform-elements.html\"\u003E1\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fform-elements.html\"\u003E2\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fform-elements.html\"\u003E3\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fform-elements.html\"\u003E...\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fform-elements.html\"\u003E15\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link pagination-elements__next\" href=\"\u002Fform-elements.html\"\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003C\u002Ful\u003E\n    \u003Cp class=\"pagination-elements__text\"\u003E1 – 12 из 100+ вариантов аренды\u003C\u002Fp\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./components/room-price/room-price.pug":
-/*!**********************************************!*\
-  !*** ./components/room-price/room-price.pug ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"room-price\"\u003E\n  \u003Cdiv class=\"room-price__title price-title\"\u003E\n    \u003Ch3 class=\"price-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n    \u003Cp class=\"price-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"dropdown-date search-rooms__date room-price__date\"\u003E\n    \u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      \u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n      \u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"19.08.2019\" readonly\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      \u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n      \u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"23.08.2019\" readonly\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ../guest-dropdown/guest-dropdown.pug */ "./components/guest-dropdown/guest-dropdown.pug").call(this, locals)) ? "" : pug_interp) + "\n  \u003Cdiv class=\"room-price__amount room-price__inner\"\u003E\n    \u003Cinput class=\"room-price__input\" type=\"text\" value=\"9 990₽ х 4 суток\" disabled\u003E\n    \u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"39 960₽\" disabled\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"room-price__services room-price__inner\"\u003E\n    \u003Cp class=\"room-price__text\"\u003EСбор за услуги: скидка 2 179₽\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n    \u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"0₽\" disabled\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"room-price__additional room-price__inner\"\u003E\n    \u003Cp class=\"room-price__text room-price__text_additional\"\u003EСбор за доп. услуги\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n    \u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"300₽\" disabled\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"room-price__total room-price__inner\"\u003E\n    \u003Ch3\u003EИтого\u003C\u002Fh3\u003E\n    \u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"38 081₽\" disabled\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cbutton class=\"btn-reset btn-default room-price__btn\"\u003Eзабронировать\u003C\u002Fbutton\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./components/search-rooms/search-rooms.pug":
-/*!**************************************************!*\
-  !*** ./components/search-rooms/search-rooms.pug ***!
-  \**************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"search-rooms\"\u003E\n  \u003Cdiv class=\"search-rooms__title\"\u003EНайдём номера под ваши пожелания\u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"dropdown-date search-rooms__date\"\u003E\n    \u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      \u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n      \u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      \u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n      \u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"form-elements__dropdown\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../guest-dropdown/guest-dropdown.pug */ "./components/guest-dropdown/guest-dropdown.pug").call(this, locals)) ? "" : pug_interp) + "\n  \u003C\u002Fdiv\u003E\n  \u003Cform action=\"\u002Fsearch-room.html\"\u003E\n    \u003Cbutton class=\"button-elements__default btn-reset btn-default search-rooms__btn\"\u003Eподобрать номер\u003C\u002Fbutton\u003E\n  \u003C\u002Fform\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
-/***/ "./components/text-field/text-field.pug":
-/*!**********************************************!*\
-  !*** ./components/text-field/text-field.pug ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"form-elements__textfield\"\u003E\n  \u003Cdiv class=\"form-elements__default\"\u003E\n    \u003Cp class=\"form-elements__text\"\u003EText Field\u003Cspan\u003EDefault\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n    \u003Cinput class=\"form-elements__input\" type=\"email\" placeholder=\"Email\"\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"form-elements__default form-elements__default_focus\"\u003E\n    \u003Cp class=\"form-elements__text\"\u003EText Field\u003Cspan\u003EHover \u002F Focus\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n    \u003Cinput class=\"form-elements__input form-elements__input_focus\" type=\"email\" placeholder=\"This is pretty awesome\"\u003E\n  \u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ../guest-dropdown/guest-dropdown.pug */ "./components/guest-dropdown/guest-dropdown.pug").call(this, locals)) ? "" : pug_interp) + "\n  \u003Cdiv class=\"form-elements__default form-elements__date\"\u003E\n    \u003Cp class=\"form-elements__text\"\u003Emasked text field\u003C\u002Fp\u003E\n    \u003Cinput class=\"form-elements__input\" type=\"date\"\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"form-elements__datedropdown\"\u003E\n    \u003Cdiv class=\"form-elements__default form-elements__date form-elements__datedrop\"\u003E\n      \u003Cp class=\"form-elements__text\"\u003Edate Dropdown\u003C\u002Fp\u003E\n      \u003Cinput class=\"datepicker-here form-elements__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"form-elements__default form-elements__datepicker\"\u003E\n    \u003Cp class=\"form-elements__text\"\u003Efilter date dropdown\u003C\u002Fp\u003E\n    \u003Cinput class=\"datepicker-here\" type=\"text\" placeholder=\"19 авг - 23 авг\" data-range=\"true\" data-multiple-dates-separator=\" - \" data-date-format=\"d M\"\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"form-elements__default form-elements__email\"\u003E\n    \u003Cp class=\"form-elements__text\"\u003Esubscription text field\u003C\u002Fp\u003E\n    \u003Cinput class=\"form-elements__input\" type=\"email\" placeholder=\"Email\"\u003E\n    \u003Cbutton class=\"btn-reset\" type=\"submit\"\u003E\u003Csvg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M9 0.984375L17.0156 9L9 17.0156L7.59375 15.6094L13.1719 9.98438H0.984375V8.01562H13.1719L7.59375 2.39062L9 0.984375Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"9\" y1=\"-13\" x2=\"9\" y2=\"31\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\n    \u003C\u002Fbutton\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-
 /***/ "./pug/pages/cards.pug":
 /*!*****************************!*\
   !*** ./pug/pages/cards.pug ***!
@@ -1927,10 +1829,1704 @@ module.exports = template;
 
 var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;
+    var locals_for_with = (locals || {});
+    
+    (function (pug_indent) {
+      var pug_indent = [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["dropdownCounter"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index3 = 0, $$l = $$obj.length; pug_index3 < $$l; pug_index3++) {
+        var item = $$obj[pug_index3];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index3 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index3];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["radio"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index4 = 0, $$l = $$obj.length; pug_index4 < $$l; pug_index4++) {
+        var item = $$obj[pug_index4];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index4 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index4];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["signIn"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
+        var item = $$obj[pug_index5];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index5 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index5];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["signUp"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
+        var item = $$obj[pug_index6];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("    ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("  ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index6 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index6];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("    ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("  ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["copy"] = pug_interp = function(text){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index15 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["toggle"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index16 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index16];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["like"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
+        var item = $$obj[pug_index17];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index17 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index17];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index18 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["search-rooms"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__title\"\u003EНайдём номера под ваши пожелания\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown\"\u003E";
+pug_indent.push("    ");
+pug_mixins["guest"]({
+        title: 'гости',
+        list: [
+          {
+            title: 'взрослые',
+            list: [
+              'взрослый',
+              'взрослых',
+              'взрослых'
+            ]
+          },
+          {
+            title: 'дети',
+            list: [
+              'ребенок',
+              'ребенка',
+              'детей'
+            ]
+          },
+          {
+            title: 'младенцы',
+            list: [
+              'младенец',
+              'младенца',
+              'младенцев'
+            ],
+            class: 'guest__counter_baby'
+          }
+        ]
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsearch-room.html\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default search-rooms__btn\"\u003Eподобрать номер\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["roomPrice"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__title price-title\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"price-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"price-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date room-price__date\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"19.08.2019\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"23.08.2019\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("  ");
+pug_mixins["guest"]({
+      title: 'гости',
+      list: [
+        {
+          title: 'взрослые',
+          list: [
+            'взрослый',
+            'взрослых',
+            'взрослых'
+          ]
+        },
+        {
+          title: 'дети',
+          list: [
+            'ребенок',
+            'ребенка',
+            'детей'
+          ]
+        },
+        {
+          title: 'младенцы',
+          list: [
+            'младенец',
+            'младенца',
+            'младенцев'
+          ],
+          class: 'guest__counter_baby'
+        }
+      ]
+    });
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__amount room-price__inner\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input\" type=\"text\" value=\"9 990₽ х 4 суток\" disabled\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"39 960₽\" disabled\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__services room-price__inner\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"room-price__text\"\u003EСбор за услуги: скидка 2 179₽\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"0₽\" disabled\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__additional room-price__inner\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"room-price__text room-price__text_additional\"\u003EСбор за доп. услуги\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"300₽\" disabled\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__total room-price__inner\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3\u003EИтого\u003C\u002Fh3\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"38 081₽\" disabled\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-reset btn-default room-price__btn\"\u003Eзабронировать\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const title = 'Cards';
 const pageClass = '';
-pug_html = pug_html + ("\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"ru\"\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\n    \u003Clink rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\u002Fx-icon\"\u003E\n    \u003Ctitle\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody" + (pug.attr("class", pug.classes([pageClass], [true]), false, true)) + "\u003E\n    \u003Cdiv class=\"burger\"\u003E\u003Cspan\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"site-container\"\u003E\u003Cimg" + (" class=\"logo__ulkit\""+pug.attr("src", __webpack_require__(/*! ../../img/logo__ulkit.svg */ "./img/logo__ulkit.svg").default, true, true)+" alt=\"\"") + "\u003E\n      \u003Csection class=\"cards\"\u003E\n        \u003Cdiv class=\"container cards__container\"\u003E\n          \u003Cdiv class=\"cards__item\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/search-rooms/search-rooms.pug */ "./components/search-rooms/search-rooms.pug").call(this, locals)) ? "" : pug_interp));
+pug_html = pug_html + "\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"ru\"\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\n    \u003Clink rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\u002Fx-icon\"\u003E\n    \u003Ctitle\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody" + (pug.attr("class", pug.classes([pageClass], [true]), false, true)) + "\u003E\n    \u003Cdiv class=\"burger\"\u003E\u003Cspan\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"site-container\"\u003E\u003Cimg" + (" class=\"logo__ulkit\""+pug.attr("src", __webpack_require__(/*! ../../img/logo__ulkit.svg */ "./img/logo__ulkit.svg").default, true, true)+" alt=\"\"") + "\u003E\n      \u003Csection class=\"cards\"\u003E\n        \u003Cdiv class=\"container cards__container\"\u003E\n          \u003Cdiv class=\"cards__item\"\u003E";
+pug_indent.push("            ");
+pug_mixins["search-rooms"]();
+pug_indent.pop();
+pug_indent.push("            ");
+pug_mixins["signUp"]([
+          {
+            title: 'Регистрация аккаунта',
+            date: 'дата рождения',
+            data: 'данные для входа в сервис',
+            payment: 'перейти к оплате',
+            account: 'Уже есть аккаунт на Toxin',
+            sugnIn: 'войти'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"cards__item\"\u003E";
+pug_indent.push("            ");
+pug_mixins["roomPrice"]();
+pug_indent.pop();
+pug_indent.push("            ");
+pug_mixins["signIn"]([
+          {
+            title: 'Войти',
+            buttonSignIn: 'войти',
+            text: 'Нет аккаунта на Toxin?',
+            buttonCreate: 'создать'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"cards__item\"\u003E";
 
 
 
@@ -1981,7 +3577,6 @@ pug_html = pug_html + ("\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"ru\"\u003E\
 
 
 
-pug_html = pug_html + ("\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"cards__item\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/room-price/room-price.pug */ "./components/room-price/room-price.pug").call(this, locals)) ? "" : pug_interp));
 
 
 
@@ -2010,7 +3605,3272 @@ pug_html = pug_html + ("\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv c
 
 
 
-pug_html = pug_html + "\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"cards__item\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/card-luxe/card-luxe.pug */ "./components/card-luxe/card-luxe.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/card/card.pug */ "./components/card/card.pug").call(this, locals)) ? "" : pug_interp) + "\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";;return pug_html;};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["dropdownCounter"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
+        var item = $$obj[pug_index28];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index28 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index28];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["radio"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
+        var item = $$obj[pug_index29];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index29 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index29];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["signIn"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index30 = 0, $$l = $$obj.length; pug_index30 < $$l; pug_index30++) {
+        var item = $$obj[pug_index30];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index30 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index30];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["signUp"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index31 = 0, $$l = $$obj.length; pug_index31 < $$l; pug_index31++) {
+        var item = $$obj[pug_index31];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("                ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("              ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index31 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index31];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("                ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("              ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["copy"] = pug_interp = function(text){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index40 = 0, $$l = $$obj.length; pug_index40 < $$l; pug_index40++) {
+        var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index40 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["toggle"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index41 = 0, $$l = $$obj.length; pug_index41 < $$l; pug_index41++) {
+        var item = $$obj[pug_index41];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index41 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index41];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["like"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index42 = 0, $$l = $$obj.length; pug_index42 < $$l; pug_index42++) {
+        var item = $$obj[pug_index42];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index42 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index42];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index43 = 0, $$l = $$obj.length; pug_index43 < $$l; pug_index43++) {
+        var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index44 = 0, $$l = $$obj.length; pug_index44 < $$l; pug_index44++) {
+        var value = $$obj[pug_index44];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index44 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index44];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index43 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index45 = 0, $$l = $$obj.length; pug_index45 < $$l; pug_index45++) {
+        var value = $$obj[pug_index45];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index45 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index45];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index46 = 0, $$l = $$obj.length; pug_index46 < $$l; pug_index46++) {
+        var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index46 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index47 = 0, $$l = $$obj.length; pug_index47 < $$l; pug_index47++) {
+        var item = $$obj[pug_index47];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index47 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index47];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index48 = 0, $$l = $$obj.length; pug_index48 < $$l; pug_index48++) {
+        var item = $$obj[pug_index48];
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index48 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index48];
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["search-rooms"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__title\"\u003EНайдём номера под ваши пожелания\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown\"\u003E";
+pug_indent.push("                ");
+pug_mixins["guest"]({
+        title: 'гости',
+        list: [
+          {
+            title: 'взрослые',
+            list: [
+              'взрослый',
+              'взрослых',
+              'взрослых'
+            ]
+          },
+          {
+            title: 'дети',
+            list: [
+              'ребенок',
+              'ребенка',
+              'детей'
+            ]
+          },
+          {
+            title: 'младенцы',
+            list: [
+              'младенец',
+              'младенца',
+              'младенцев'
+            ],
+            class: 'guest__counter_baby'
+          }
+        ]
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsearch-room.html\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default search-rooms__btn\"\u003Eподобрать номер\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["roomPrice"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__title price-title\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"price-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"price-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date room-price__date\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"19.08.2019\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"23.08.2019\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("              ");
+pug_mixins["guest"]({
+      title: 'гости',
+      list: [
+        {
+          title: 'взрослые',
+          list: [
+            'взрослый',
+            'взрослых',
+            'взрослых'
+          ]
+        },
+        {
+          title: 'дети',
+          list: [
+            'ребенок',
+            'ребенка',
+            'детей'
+          ]
+        },
+        {
+          title: 'младенцы',
+          list: [
+            'младенец',
+            'младенца',
+            'младенцев'
+          ],
+          class: 'guest__counter_baby'
+        }
+      ]
+    });
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__amount room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input\" type=\"text\" value=\"9 990₽ х 4 суток\" disabled\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"39 960₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__services room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"room-price__text\"\u003EСбор за услуги: скидка 2 179₽\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"0₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__additional room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"room-price__text room-price__text_additional\"\u003EСбор за доп. услуги\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"300₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__total room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3\u003EИтого\u003C\u002Fh3\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"38 081₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-reset btn-default room-price__btn\"\u003Eзабронировать\u003C\u002Fbutton\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_html = pug_html + "\n            \u003Cdiv class=\"card-luxe\"\u003E\n              \u003Cdiv class=\"swiper-container\"\u003E\n                \u003Cdiv class=\"swiper-wrapper\"\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe.jpg */ "./img/luxe.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-2.png */ "./img/luxe-2.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-3.png */ "./img/luxe-3.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-4.png */ "./img/luxe-4.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"swiper-pagination\"\u003E\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"swiper-button-next\"\u003E\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"swiper-button-prev\"\u003E\u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"card-luxe__title luxe-title\"\u003E\n                \u003Ch3 class=\"luxe-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n                \u003Cp class=\"luxe-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"card-luxe__reviews\"\u003E";
+pug_indent.push("                ");
+pug_mixins["rating"]([
+      {
+        classes: 'card-luxe__rating',
+        selectClass: 'rate-elements__rating'
+      }
+    ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                \u003Cdiv class=\"card-luxe__text\"\u003E145\u003Cspan\u003EОтзывов\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["dropdownCounter"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index53 = 0, $$l = $$obj.length; pug_index53 < $$l; pug_index53++) {
+        var item = $$obj[pug_index53];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index53 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index53];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["radio"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index54 = 0, $$l = $$obj.length; pug_index54 < $$l; pug_index54++) {
+        var item = $$obj[pug_index54];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index54 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index54];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["signIn"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index55 = 0, $$l = $$obj.length; pug_index55 < $$l; pug_index55++) {
+        var item = $$obj[pug_index55];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index55 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index55];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["signUp"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index56 = 0, $$l = $$obj.length; pug_index56 < $$l; pug_index56++) {
+        var item = $$obj[pug_index56];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("                ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("              ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index56 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index56];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("                ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("              ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["copy"] = pug_interp = function(text){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index65 = 0, $$l = $$obj.length; pug_index65 < $$l; pug_index65++) {
+        var item = $$obj[pug_index65];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index65 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index65];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["toggle"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index66 = 0, $$l = $$obj.length; pug_index66 < $$l; pug_index66++) {
+        var item = $$obj[pug_index66];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index66 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index66];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["like"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index67 = 0, $$l = $$obj.length; pug_index67 < $$l; pug_index67++) {
+        var item = $$obj[pug_index67];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index67 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index67];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index68 = 0, $$l = $$obj.length; pug_index68 < $$l; pug_index68++) {
+        var item = $$obj[pug_index68];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index69 = 0, $$l = $$obj.length; pug_index69 < $$l; pug_index69++) {
+        var value = $$obj[pug_index69];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index69 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index69];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index68 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index68];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index70 = 0, $$l = $$obj.length; pug_index70 < $$l; pug_index70++) {
+        var value = $$obj[pug_index70];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index70 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index70];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index71 = 0, $$l = $$obj.length; pug_index71 < $$l; pug_index71++) {
+        var item = $$obj[pug_index71];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index71 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index71];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index72 = 0, $$l = $$obj.length; pug_index72 < $$l; pug_index72++) {
+        var item = $$obj[pug_index72];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index72 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index72];
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index73 = 0, $$l = $$obj.length; pug_index73 < $$l; pug_index73++) {
+        var item = $$obj[pug_index73];
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index73 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index73];
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["search-rooms"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__title\"\u003EНайдём номера под ваши пожелания\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown\"\u003E";
+pug_indent.push("                ");
+pug_mixins["guest"]({
+        title: 'гости',
+        list: [
+          {
+            title: 'взрослые',
+            list: [
+              'взрослый',
+              'взрослых',
+              'взрослых'
+            ]
+          },
+          {
+            title: 'дети',
+            list: [
+              'ребенок',
+              'ребенка',
+              'детей'
+            ]
+          },
+          {
+            title: 'младенцы',
+            list: [
+              'младенец',
+              'младенца',
+              'младенцев'
+            ],
+            class: 'guest__counter_baby'
+          }
+        ]
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsearch-room.html\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default search-rooms__btn\"\u003Eподобрать номер\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["roomPrice"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price\"\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__title price-title\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"price-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"price-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date room-price__date\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"19.08.2019\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"23.08.2019\" readonly\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("              ");
+pug_mixins["guest"]({
+      title: 'гости',
+      list: [
+        {
+          title: 'взрослые',
+          list: [
+            'взрослый',
+            'взрослых',
+            'взрослых'
+          ]
+        },
+        {
+          title: 'дети',
+          list: [
+            'ребенок',
+            'ребенка',
+            'детей'
+          ]
+        },
+        {
+          title: 'младенцы',
+          list: [
+            'младенец',
+            'младенца',
+            'младенцев'
+          ],
+          class: 'guest__counter_baby'
+        }
+      ]
+    });
+pug_indent.pop();
+pug_html = pug_html + "\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__amount room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input\" type=\"text\" value=\"9 990₽ х 4 суток\" disabled\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"39 960₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__services room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"room-price__text\"\u003EСбор за услуги: скидка 2 179₽\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"0₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__additional room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"room-price__text room-price__text_additional\"\u003EСбор за доп. услуги\u003C\u002Fp\u003E\u003Cspan\u003Ei\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"300₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"room-price__total room-price__inner\"\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3\u003EИтого\u003C\u002Fh3\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"room-price__input room-price__input_price\" type=\"text\" value=\"38 081₽\" disabled\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n              ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-reset btn-default room-price__btn\"\u003Eзабронировать\u003C\u002Fbutton\u003E\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_html = pug_html + "\n            \u003Cdiv class=\"card\"\u003E\n              \u003Cdiv class=\"swiper-container swiper-container2\"\u003E\n                \u003Cdiv class=\"swiper-wrapper\"\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"swiper-pagination\"\u003E\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"swiper-button-next card__next\"\u003E\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"swiper-button-prev card__prev\"\u003E\u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"card-luxe__title luxe-title\"\u003E\n                \u003Ch3 class=\"luxe-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E840\u003C\u002Fh3\u003E\n                \u003Cp class=\"luxe-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"card-luxe__reviews\"\u003E";
+pug_indent.push("                ");
+pug_mixins["rating"]([
+      {
+        classes: 'card-luxe__rating',
+        selectClass: 'rate-elements__rating2'
+      }
+    ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                \u003Cdiv class=\"card-luxe__text\"\u003E65\u003Cspan\u003EОтзывов\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";
+    }.call(this, "pug_indent" in locals_for_with ?
+        locals_for_with.pug_indent :
+        typeof pug_indent !== 'undefined' ? pug_indent : undefined));
+    ;;return pug_html;};
 module.exports = template;
 
 /***/ }),
@@ -2515,6 +7375,94 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pug_mixins["copy"] = pug_interp = function(text){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 pug_html = pug_html + "\n";
@@ -2655,8 +7603,8 @@ pug_html = pug_html + "\u003Cdiv class=\"list-checkbox__list\"\u003E";
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
-        var item = $$obj[pug_index11];
+      for (var pug_index13 = 0, $$l = $$obj.length; pug_index13 < $$l; pug_index13++) {
+        var item = $$obj[pug_index13];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n    ";
@@ -2683,9 +7631,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index11 in $$obj) {
+    for (var pug_index13 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index11];
+      var item = $$obj[pug_index13];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n    ";
@@ -2730,8 +7678,8 @@ pug_html = pug_html + "\u003Cdiv class=\"elements-title rich-checkbox__title\"\u
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
-        var item = $$obj[pug_index12];
+      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
+        var item = $$obj[pug_index14];
 const { id, title, description } = item;
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -2745,9 +7693,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index12 in $$obj) {
+    for (var pug_index14 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index12];
+      var item = $$obj[pug_index14];
 const { id, title, description } = item;
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -2777,8 +7725,8 @@ pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index13 = 0, $$l = $$obj.length; pug_index13 < $$l; pug_index13++) {
-        var item = $$obj[pug_index13];
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n  ";
@@ -2805,9 +7753,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index13 in $$obj) {
+    for (var pug_index15 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index13];
+      var item = $$obj[pug_index15];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n  ";
@@ -2845,8 +7793,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
-        var item = $$obj[pug_index14];
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -2873,9 +7821,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index14 in $$obj) {
+    for (var pug_index16 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index14];
+      var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -2910,122 +7858,16 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
-        var item = $$obj[pug_index15];
-const { counter, classes, buttonClasses } = item;
-pug_html = pug_html + "\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index15 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index15];
-const { counter, classes, buttonClasses } = item;
-pug_html = pug_html + "\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-    }
-  }
-}).call(this);
-
-};
-pug_mixins["rating"] = pug_interp = function(items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
-        var item = $$obj[pug_index16];
-const { classes, selectClass } = item;
-pug_html = pug_html + "\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"1\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"2\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"3\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"4\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"5\"\u003E\u003C\u002Foption\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index16 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index16];
-const { classes, selectClass } = item;
-pug_html = pug_html + "\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"1\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"2\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"3\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"4\"\u003E\u003C\u002Foption\u003E\n    ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"5\"\u003E\u003C\u002Foption\u003E\n  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-    }
-  }
-}).call(this);
-
-};
-const title = 'Form Elements';
-const pageClass = '';
-const user1 = __webpack_require__(/*! ../../assets/user1.json */ "./assets/user1.json");
-const user2 = __webpack_require__(/*! ../../assets/user2.json */ "./assets/user2.json");
-pug_html = pug_html + ("\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"ru\"\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\n    \u003Clink rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\u002Fx-icon\"\u003E\n    \u003Ctitle\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody" + (pug.attr("class", pug.classes([pageClass], [true]), false, true)) + "\u003E\n    \u003Cdiv class=\"burger\"\u003E\u003Cspan\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"site-container\"\u003E\u003Cimg" + (" class=\"logo__ulkit\""+pug.attr("src", __webpack_require__(/*! ../../img/logo__ulkit.svg */ "./img/logo__ulkit.svg").default, true, true)+" alt=\"\"") + "\u003E\n      \u003Csection class=\"form-elements\"\u003E\n        \u003Cdiv class=\"container form-elements__container\"\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/text-field/text-field.pug */ "./components/text-field/text-field.pug").call(this, locals)) ? "" : pug_interp));
-pug_mixins["advantages"] = pug_interp = function(list){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"advantages\"\u003E";
-// iterate list
-;(function(){
-  var $$obj = list;
-  if ('number' == typeof $$obj.length) {
       for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
         var item = $$obj[pug_index17];
-const { title, text, modifier } = item;
-pug_html = pug_html + "\n              ";
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes([`advantages__item advantages__item_${modifier}`], [true]), false, true)) + "\u003E\n                ";
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Ch3 class=\"advantages__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                ";
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"advantages__description\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
@@ -3034,887 +7876,14 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
     for (var pug_index17 in $$obj) {
       $$l++;
       var item = $$obj[pug_index17];
-const { title, text, modifier } = item;
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes([`advantages__item advantages__item_${modifier}`], [true]), false, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Ch3 class=\"advantages__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"advantages__description\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["bullet"] = pug_interp = function(title, classes, items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Ch2" + (pug.attr("class", pug.classes([classes], [true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh2\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"bullet\"\u003E";
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
-        var text = $$obj[pug_index18];
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"bullet__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index18 in $$obj) {
-      $$l++;
-      var text = $$obj[pug_index18];
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"bullet__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E";
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["comment"] = pug_interp = function(items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"comment\"\u003E";
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
-        var item = $$obj[pug_index19];
-const { avatar, author, date, text, counter } = item;
-pug_html = pug_html + "\u003Cimg" + (" class=\"comment__img\""+pug.attr("src", __webpack_require__("./img sync recursive ^\\.\\/.*$")("./" + avatar).default, true, true)+" alt=\"\"") + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Ch3 class=\"comment__author\"\u003E" + (pug.escape(null == (pug_interp = author) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"comment__date\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + ("\u003Cp class=\"comment__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)));
-pug_indent.push("                ");
-pug_mixins["like"]([
-          {
-            counter: counter
-          }
-        ]);
-pug_indent.pop();
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fp\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index19 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index19];
-const { avatar, author, date, text, counter } = item;
-pug_html = pug_html + "\u003Cimg" + (" class=\"comment__img\""+pug.attr("src", __webpack_require__("./img sync recursive ^\\.\\/.*$")("./" + avatar).default, true, true)+" alt=\"\"") + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Ch3 class=\"comment__author\"\u003E" + (pug.escape(null == (pug_interp = author) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"comment__date\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + ("\u003Cp class=\"comment__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)));
-pug_indent.push("                ");
-pug_mixins["like"]([
-          {
-            counter: counter
-          }
-        ]);
-pug_indent.pop();
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fp\u003E";
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["dropdownCounter"] = pug_interp = function(items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
-        var item = $$obj[pug_index20];
-const {subtitle, list } = item;
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fli\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index20 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index20];
-const {subtitle, list } = item;
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fli\u003E";
-    }
-  }
-}).call(this);
-
-};
-pug_mixins["dropdown"] = pug_interp = function(title){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"dropdown\"\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton class=\"dropdown__button btn-reset\" value=\"\" data-btn=\"btn\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput class=\"dropdown__input\" type=\"text\" value=\"2 спальни, 2 кровати...\" readonly\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fbutton\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cul class=\"dropdown__list\" data-list=\"list\"\u003E";
-pug_indent.push("                ");
-pug_mixins["dropdownCounter"]([
-        {
-          subtitle: 'спальни',
-          list: [
-            'спальня',
-            'спальни',
-            'спален'
-          ]
-        },
-        {
-          subtitle: 'кровати',
-          list: [
-            'кровать',
-            'кровати',
-            'кроватей'
-          ]
-        },
-        {
-          subtitle: 'ванные комнаты',
-          list: [
-            'ванная комната',
-            'ванные комнаты',
-            'ванных комнат'
-          ]
-        }
-      ]);
-pug_indent.pop();
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Ful\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["radio"] = pug_interp = function(items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
-        var item = $$obj[pug_index21];
-const { id, checked, gender} = item;
-if (checked) {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
-}
-else {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index21 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index21];
-const { id, checked, gender} = item;
-if (checked) {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
-}
-else {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
-}
-    }
-  }
-}).call(this);
-
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pug_mixins["copy"] = pug_interp = function(text){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Ful\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pug_mixins["list-checkbox"] = pug_interp = function(title, items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"list-checkbox\"\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"elements-title list-checkbox__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"list-checkbox__list\"\u003E";
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
-        var item = $$obj[pug_index28];
-const { id, text, checked } = item;
-if (checked) {
-pug_html = pug_html + "\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)) + "\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index28 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index28];
-const { id, text, checked } = item;
-if (checked) {
-pug_html = pug_html + "\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)) + "\u003E\n                  ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["richCheckbox"] = pug_interp = function(title, items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"rich-checkbox\"\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"elements-title rich-checkbox__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E";
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
-        var item = $$obj[pug_index29];
-const { id, title, description } = item;
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item rich-checkbox__item\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `rich-checkbox-${id}`, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label rich-checkbox__label\""+pug.attr("for", `rich-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003Cspan\u003E" + (pug.escape(null == (pug_interp = description) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Flabel\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index29 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index29];
-const { id, title, description } = item;
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item rich-checkbox__item\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `rich-checkbox-${id}`, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label rich-checkbox__label\""+pug.attr("for", `rich-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003Cspan\u003E" + (pug.escape(null == (pug_interp = description) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Flabel\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["checkbox"] = pug_interp = function(title, items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index30 = 0, $$l = $$obj.length; pug_index30 < $$l; pug_index30++) {
-        var item = $$obj[pug_index30];
-const { id, text, checked } = item;
-if (checked) {
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index30 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index30];
-const { id, text, checked } = item;
-if (checked) {
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-    }
-  }
-}).call(this);
-
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-};
-pug_mixins["toggle"] = pug_interp = function(items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index31 = 0, $$l = $$obj.length; pug_index31 < $$l; pug_index31++) {
-        var item = $$obj[pug_index31];
-const { id, checked, text, classes } = item;
-if (checked) {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index31 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index31];
-const { id, checked, text, classes } = item;
-if (checked) {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-else {
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-}
-    }
-  }
-}).call(this);
-
-};
-pug_mixins["like"] = pug_interp = function(items){
-var block = (this && this.block), attributes = (this && this.attributes) || {};
-// iterate items
-;(function(){
-  var $$obj = items;
-  if ('number' == typeof $$obj.length) {
-      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
-        var item = $$obj[pug_index32];
 const { counter, classes, buttonClasses } = item;
-pug_html = pug_html + "\n            ";
+pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n              ";
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fdiv\u003E";
-      }
-  } else {
-    var $$l = 0;
-    for (var pug_index32 in $$obj) {
-      $$l++;
-      var item = $$obj[pug_index32];
-const { counter, classes, buttonClasses } = item;
-pug_html = pug_html + "\n            ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n            ";
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E";
     }
@@ -3928,52 +7897,78 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index33 = 0, $$l = $$obj.length; pug_index33 < $$l; pug_index33++) {
-        var item = $$obj[pug_index33];
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
 const { classes, selectClass } = item;
-pug_html = pug_html + "\n            ";
+pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E\n                ";
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"1\"\u003E\u003C\u002Foption\u003E\n                ";
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"2\"\u003E\u003C\u002Foption\u003E\n                ";
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"3\"\u003E\u003C\u002Foption\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"4\"\u003E\u003C\u002Foption\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"5\"\u003E\u003C\u002Foption\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fselect\u003E\n            ";
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index33 in $$obj) {
+    for (var pug_index18 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index33];
+      var item = $$obj[pug_index18];
 const { classes, selectClass } = item;
-pug_html = pug_html + "\n            ";
+pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n              ";
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E\n                ";
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"1\"\u003E\u003C\u002Foption\u003E\n                ";
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"2\"\u003E\u003C\u002Foption\u003E\n                ";
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"3\"\u003E\u003C\u002Foption\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"4\"\u003E\u003C\u002Foption\u003E\n                ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Coption value=\"5\"\u003E\u003C\u002Foption\u003E\n              ";
-pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003C\u002Fselect\u003E\n            ";
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E";
     }
@@ -3981,78 +7976,691 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
-pug_html = pug_html + "\n            \u003Cdiv class=\"form-elements__checkbox\"\u003E";
-pug_indent.push("              ");
+pug_mixins["checkboxElements"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__checkbox\"\u003E";
+pug_indent.push("  ");
 pug_mixins["checkbox"]('Checkbox Buttons', [
-    {
-      id: 1,
-      text: 'Можно курить'
-    },
-    {
-      id: 2,
-      text: 'Можно с питомцами',
-      checked: true
-    },
-    {
-      id: 3,
-      text: 'Можно пригласить гостей (до 10 человек)',
-      checked: true
-    },
-  ]);
-pug_indent.pop();
-pug_html = pug_html + "\n              \u003Cdiv class=\"radio-elements\"\u003E\n                \u003Cdiv class=\"radio-elements__title\"\u003ERadio Buttons\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"radio-elements__item\"\u003E";
-pug_indent.push("                  ");
-pug_mixins["radio"]([
-        {
-          id: 1,
-          checked: true,
-          gender: 'Мужчина'
-        },
-        {
-          id: 2,
-          gender: 'Женщина'
-        }
-      ]);
-pug_indent.pop();
-pug_html = pug_html + "\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"toggle-elements\"\u003E\n                \u003Cdiv class=\"toggle-elements__title\"\u003EToggle\u003C\u002Fdiv\u003E";
-pug_indent.push("                ");
-pug_mixins["toggle"]([
       {
         id: 1,
-        checked: true,
-        text: 'Получать спецпредложения'
+        text: 'Можно курить'
       },
       {
         id: 2,
-        text: 'Получать спецпредложения'
+        text: 'Можно с питомцами',
+        checked: true
+      },
+      {
+        id: 3,
+        text: 'Можно пригласить гостей (до 10 человек)',
+        checked: true
+      },
+    ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"radio-elements\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"radio-elements__title\"\u003ERadio Buttons\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"radio-elements__item\"\u003E";
+pug_indent.push("      ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"toggle-elements\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"toggle-elements__title\"\u003EToggle\u003C\u002Fdiv\u003E";
+pug_indent.push("    ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          checked: true,
+          text: 'Получать спецпредложения'
+        },
+        {
+          id: 2,
+          text: 'Получать спецпредложения'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__title elements-title\"\u003Elike button\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__inner\"\u003E";
+pug_indent.push("      ");
+pug_mixins["like"]([
+          {
+            counter: 2
+          },
+          {
+            counter: 12,
+            classes: 'like-elements__like2',
+            buttonClasses: 'like-elements__btn-like2'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"rate-elements\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"rate-elements__title elements-title\"\u003Erate button\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"rate-elements__inner\"\u003E";
+pug_indent.push("      ");
+pug_mixins["rating"]([
+          {
+            selectClass: 'rate-elements__rating'
+          },
+          {
+            selectClass: 'rate-elements__rating2'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["rangeElements"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__range\"\u003E";
+pug_indent.push("  ");
+pug_mixins["rangeSlider"]([
+      {
+        title: 'Range Slider'
       }
     ]);
 pug_indent.pop();
-pug_html = pug_html + "\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"like-elements\"\u003E\n                \u003Cdiv class=\"like-elements__title elements-title\"\u003Elike button\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"like-elements__inner\"\u003E";
-pug_indent.push("                  ");
-pug_mixins["like"]([
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"button-elements\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"button-elements__title elements-title\"\u003EButtons\u003C\u002Fh3\u003E";
+pug_indent.push("    ");
+pug_mixins["buttonPrimary"]({
+          text: 'CLICK ME',
+          classes: 'btn-primary'
+      });
+pug_indent.pop();
+pug_indent.push("    ");
+pug_mixins["buttonBorder"]({
+        text: 'CLICK ME',
+        classes: 'btn-border__primary'
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"button-elements__item\"\u003E";
+pug_indent.push("      ");
+pug_mixins["buttonLink"]({
+          text: 'CLICK ME',
+          href: 'form-elements.html'
+        });
+pug_indent.pop();
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("    ");
+pug_mixins["buttonDefault"]({
+        text: 'перейти к оплате'
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("  ");
+pug_mixins["pagination"]({
+      title: 'pagination',
+      text: '1 – 12 из 100+ вариантов аренды',
+      list: [
         {
-          counter: 2
+          href: '/form-elements.html',
+          link: 1,
+          class: 'pagination-elements__link_active'
         },
         {
-          counter: 12,
-          classes: 'like-elements__like2',
-          buttonClasses: 'like-elements__btn-like2'
-        }
-      ]);
-pug_indent.pop();
-pug_html = pug_html + "\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"rate-elements\"\u003E\n                \u003Cdiv class=\"rate-elements__title elements-title\"\u003Erate button\u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"rate-elements__inner\"\u003E";
-pug_indent.push("                  ");
-pug_mixins["rating"]([
-        {
-          selectClass: 'rate-elements__rating'
+          href: '/form-elements.html',
+          link: 2
         },
         {
-          selectClass: 'rate-elements__rating2'
+          href: '/form-elements.html',
+          link: 3
+        },
+        {
+          href: '/form-elements.html',
+          link: '...'
+        },
+        {
+          href: '/form-elements.html',
+          link: 15
+        },
+        {
+          href: '/form-elements.html',
+          class: 'pagination-elements__next'
         }
-      ]);
+      ]
+    });
 pug_indent.pop();
-pug_html = pug_html + "\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/range/range.pug */ "./components/range/range.pug").call(this, locals)) ? "" : pug_interp) + "\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E\n            \u003Cdiv class=\"item\"\u003E";
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["textField"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__textfield\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__default\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"form-elements__text\"\u003EText Field\u003Cspan\u003EDefault\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"form-elements__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__default form-elements__default_focus\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"form-elements__text\"\u003EText Field\u003Cspan\u003EHover \u002F Focus\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"form-elements__input form-elements__input_focus\" type=\"email\" placeholder=\"This is pretty awesome\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("  ");
+pug_mixins["guest"]({
+      title: 'гости',
+      list: [
+        {
+          title: 'взрослые',
+          list: [
+            'взрослый',
+            'взрослых',
+            'взрослых'
+          ]
+        },
+        {
+          title: 'дети',
+          list: [
+            'ребенок',
+            'ребенка',
+            'детей'
+          ]
+        },
+        {
+          title: 'младенцы',
+          list: [
+            'младенец',
+            'младенца',
+            'младенцев'
+          ],
+          class: 'guest__counter_baby'
+        }
+      ]
+    });
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__default form-elements__date\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"form-elements__text\"\u003Emasked text field\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"form-elements__input\" type=\"date\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__datedropdown\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__default form-elements__date form-elements__datedrop\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"form-elements__text\"\u003Edate Dropdown\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__default form-elements__datepicker\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"form-elements__text\"\u003Efilter date dropdown\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here\" type=\"text\" placeholder=\"19 авг - 23 авг\" data-range=\"true\" data-multiple-dates-separator=\" - \" data-date-format=\"d M\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__default form-elements__email\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"form-elements__text\"\u003Esubscription text field\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"form-elements__input\" type=\"email\" placeholder=\"Email\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-reset\" type=\"submit\"\u003E\u003Csvg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M9 0.984375L17.0156 9L9 17.0156L7.59375 15.6094L13.1719 9.98438H0.984375V8.01562H13.1719L7.59375 2.39062L9 0.984375Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"9\" y1=\"-13\" x2=\"9\" y2=\"31\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const title = 'Form Elements';
+const pageClass = '';
+const user1 = __webpack_require__(/*! ../../assets/user1.json */ "./assets/user1.json");
+const user2 = __webpack_require__(/*! ../../assets/user2.json */ "./assets/user2.json");
+pug_html = pug_html + "\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"ru\"\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\n    \u003Clink rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\u002Fx-icon\"\u003E\n    \u003Ctitle\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody" + (pug.attr("class", pug.classes([pageClass], [true]), false, true)) + "\u003E\n    \u003Cdiv class=\"burger\"\u003E\u003Cspan\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"site-container\"\u003E\u003Cimg" + (" class=\"logo__ulkit\""+pug.attr("src", __webpack_require__(/*! ../../img/logo__ulkit.svg */ "./img/logo__ulkit.svg").default, true, true)+" alt=\"\"") + "\u003E\n      \u003Csection class=\"form-elements\"\u003E\n        \u003Cdiv class=\"container form-elements__container\"\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E";
+pug_indent.push("            ");
+pug_mixins["textField"]();
+pug_indent.pop();
+pug_indent.push("            ");
+pug_mixins["checkboxElements"]();
+pug_indent.pop();
+pug_indent.push("            ");
+pug_mixins["rangeElements"]();
+pug_indent.pop();
+pug_html = pug_html + "\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"form-elements__inner\"\u003E\n            \u003Cdiv class=\"item\"\u003E";
 pug_indent.push("              ");
 pug_mixins["dropdown"]('удобства номера');
 pug_indent.pop();
@@ -4485,6 +9093,94 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pug_mixins["header"] = pug_interp = function(status, navigations){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 pug_html = pug_html + "\n";
@@ -4502,8 +9198,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
-        var nav = $$obj[pug_index5];
+      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
+        var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -4514,17 +9210,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
-        var item = $$obj[pug_index6];
+      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
+        var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index6 in $$obj) {
+    for (var pug_index8 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index6];
+      var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -4546,9 +9242,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index5 in $$obj) {
+    for (var pug_index7 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index5];
+      var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -4559,17 +9255,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
-        var item = $$obj[pug_index7];
+      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
+        var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index7 in $$obj) {
+    for (var pug_index9 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index7];
+      var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -4681,8 +9377,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
-        var nav = $$obj[pug_index8];
+      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
+        var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -4694,17 +9390,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
-        var item = $$obj[pug_index9];
+      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
+        var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index9 in $$obj) {
+    for (var pug_index11 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index9];
+      var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -4720,9 +9416,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index8 in $$obj) {
+    for (var pug_index10 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index8];
+      var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -4734,17 +9430,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
-        var item = $$obj[pug_index10];
+      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
+        var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index10 in $$obj) {
+    for (var pug_index12 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index10];
+      var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -4893,77 +9589,87 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 
 
 
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index15 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
 pug_mixins["toggle"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate items
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
-        var item = $$obj[pug_index14];
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -4990,9 +9696,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index14 in $$obj) {
+    for (var pug_index16 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index14];
+      var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -5027,8 +9733,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
-        var item = $$obj[pug_index15];
+      for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
+        var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -5042,9 +9748,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index15 in $$obj) {
+    for (var pug_index17 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index15];
+      var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -5060,6 +9766,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index18 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5283,8 +10570,6 @@ function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;
     
     (function (pug_indent) {
       var pug_indent = [];
-const title = 'Landing';
-const pageClass = '';
 
 
 
@@ -5592,6 +10877,94 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pug_mixins["header"] = pug_interp = function(status, navigations){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 pug_html = pug_html + "\n";
@@ -5609,8 +10982,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
-        var nav = $$obj[pug_index5];
+      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
+        var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -5621,17 +10994,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
-        var item = $$obj[pug_index6];
+      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
+        var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index6 in $$obj) {
+    for (var pug_index8 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index6];
+      var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -5653,9 +11026,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index5 in $$obj) {
+    for (var pug_index7 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index5];
+      var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -5666,17 +11039,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
-        var item = $$obj[pug_index7];
+      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
+        var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index7 in $$obj) {
+    for (var pug_index9 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index7];
+      var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -5788,8 +11161,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
-        var nav = $$obj[pug_index8];
+      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
+        var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -5801,17 +11174,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
-        var item = $$obj[pug_index9];
+      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
+        var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index9 in $$obj) {
+    for (var pug_index11 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index9];
+      var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -5827,9 +11200,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index8 in $$obj) {
+    for (var pug_index10 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index8];
+      var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -5841,17 +11214,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
-        var item = $$obj[pug_index10];
+      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
+        var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index10 in $$obj) {
+    for (var pug_index12 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index10];
+      var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -6000,77 +11373,87 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 
 
 
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index15 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
 pug_mixins["toggle"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate items
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
-        var item = $$obj[pug_index14];
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -6097,9 +11480,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index14 in $$obj) {
+    for (var pug_index16 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index14];
+      var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -6134,8 +11517,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
-        var item = $$obj[pug_index15];
+      for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
+        var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -6149,9 +11532,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index15 in $$obj) {
+    for (var pug_index17 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index15];
+      var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -6167,6 +11550,2257 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index18 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["search-rooms"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__title\"\u003EНайдём номера под ваши пожелания\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown\"\u003E";
+pug_indent.push("    ");
+pug_mixins["guest"]({
+        title: 'гости',
+        list: [
+          {
+            title: 'взрослые',
+            list: [
+              'взрослый',
+              'взрослых',
+              'взрослых'
+            ]
+          },
+          {
+            title: 'дети',
+            list: [
+              'ребенок',
+              'ребенка',
+              'детей'
+            ]
+          },
+          {
+            title: 'младенцы',
+            list: [
+              'младенец',
+              'младенца',
+              'младенцев'
+            ],
+            class: 'guest__counter_baby'
+          }
+        ]
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsearch-room.html\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default search-rooms__btn\"\u003Eподобрать номер\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const title = 'Landing';
+const pageClass = '';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["dropdownCounter"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
+        var item = $$obj[pug_index28];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index28 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index28];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["radio"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
+        var item = $$obj[pug_index29];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index29 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index29];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["header"] = pug_interp = function(status, navigations){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cheader class=\"header\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container header__container\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cnav class=\"nav\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
+// iterate navigations
+;(function(){
+  var $$obj = navigations;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
+        var nav = $$obj[pug_index32];
+if (nav.submenu) {
+pug_html = pug_html + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item submenu\"\u003E\u003Ca class=\"nav__link nav__link_dropdown\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003Csvg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z\" fill=\"#1F2041\" fill-opacity=\"0.5\"\u002F\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index33 = 0, $$l = $$obj.length; pug_index33 < $$l; pug_index33++) {
+        var item = $$obj[pug_index33];
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index33 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index33];
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index32 in $$obj) {
+      $$l++;
+      var nav = $$obj[pug_index32];
+if (nav.submenu) {
+pug_html = pug_html + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item submenu\"\u003E\u003Ca class=\"nav__link nav__link_dropdown\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003Csvg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z\" fill=\"#1F2041\" fill-opacity=\"0.5\"\u002F\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index34 = 0, $$l = $$obj.length; pug_index34 < $$l; pug_index34++) {
+        var item = $$obj[pug_index34];
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index34 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index34];
+pug_html = pug_html + "\n            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fnav\u003E";
+if (status === 'non-authorized') {
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header__btns header-btns\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header-btns_border\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsign-in.html\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"header-btns__signin btn-reset\" type=\"submit\"\u003Eвойти\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsign-up.html\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"header-btns__signup btn-reset\" type=\"submit\"\u003Eзарегистрироваться\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else
+if (status === 'authorized') {
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header__user\"\u003E\u003Ca class=\"header__user-link\" href=\"\u002F\"\u003EЮлий Цезарь\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E";
+}
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fheader\u003E";
+};
+pug_mixins["copy"] = pug_interp = function(text){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["footer"] = pug_interp = function(navigations = []){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cfooter\u003E\u003C\u002Ffooter\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer__container\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-logo logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__inner footer-inner\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__logo logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-inner__text\"\u003EБронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+// iterate navigations
+;(function(){
+  var $$obj = navigations;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index35 = 0, $$l = $$obj.length; pug_index35 < $$l; pug_index35++) {
+        var nav = $$obj[pug_index35];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-inner__list\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_title\"\u003E\u003Ca class=\"footer-inner__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index36 = 0, $$l = $$obj.length; pug_index36 < $$l; pug_index36++) {
+        var item = $$obj[pug_index36];
+pug_html = pug_html + "\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index36 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index36];
+pug_html = pug_html + "\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index35 in $$obj) {
+      $$l++;
+      var nav = $$obj[pug_index35];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-inner__list\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_title\"\u003E\u003Ca class=\"footer-inner__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index37 = 0, $$l = $$obj.length; pug_index37 < $$l; pug_index37++) {
+        var item = $$obj[pug_index37];
+pug_html = pug_html + "\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index37 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index37];
+pug_html = pug_html + "\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__item_title\"\u003E\u003Ca href=\"\u002F\"\u003EПодписка\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-inner__text\"\u003EПолучайте специальные предложения и новости сервиса\u003C\u002Fp\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"footer-inner__email\" action=\"\u002F\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput type=\"email\" placeholder=\"Email\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"footer-inner__btn btn-reset\" type=\"submit\"\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("  ");
+pug_mixins["copy"]('Copyright © 2018 Toxin отель. Все права зачищены.');
+pug_indent.pop();
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index40 = 0, $$l = $$obj.length; pug_index40 < $$l; pug_index40++) {
+        var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index40 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["toggle"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index41 = 0, $$l = $$obj.length; pug_index41 < $$l; pug_index41++) {
+        var item = $$obj[pug_index41];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index41 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index41];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["like"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index42 = 0, $$l = $$obj.length; pug_index42 < $$l; pug_index42++) {
+        var item = $$obj[pug_index42];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index42 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index42];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index43 = 0, $$l = $$obj.length; pug_index43 < $$l; pug_index43++) {
+        var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index44 = 0, $$l = $$obj.length; pug_index44 < $$l; pug_index44++) {
+        var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index44 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index43 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index45 = 0, $$l = $$obj.length; pug_index45 < $$l; pug_index45++) {
+        var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index45 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index46 = 0, $$l = $$obj.length; pug_index46 < $$l; pug_index46++) {
+        var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index46 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index47 = 0, $$l = $$obj.length; pug_index47 < $$l; pug_index47++) {
+        var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index47 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index48 = 0, $$l = $$obj.length; pug_index48 < $$l; pug_index48++) {
+        var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index48 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["search-rooms"] = pug_interp = function(){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__title\"\u003EНайдём номера под ваши пожелания\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-date search-rooms__date\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eприбытие\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_from search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"search-rooms__dropdown\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"search-rooms__text\"\u003Eвыезд\u003C\u002Fp\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown-date__range dropdown-date__range_to search-rooms__input\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown\"\u003E";
+pug_indent.push("    ");
+pug_mixins["guest"]({
+        title: 'гости',
+        list: [
+          {
+            title: 'взрослые',
+            list: [
+              'взрослый',
+              'взрослых',
+              'взрослых'
+            ]
+          },
+          {
+            title: 'дети',
+            list: [
+              'ребенок',
+              'ребенка',
+              'детей'
+            ]
+          },
+          {
+            title: 'младенцы',
+            list: [
+              'младенец',
+              'младенца',
+              'младенцев'
+            ],
+            class: 'guest__counter_baby'
+          }
+        ]
+      });
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsearch-room.html\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default search-rooms__btn\"\u003Eподобрать номер\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6260,7 +13894,11 @@ pug_mixins["header"]('non-authorized', [
         },
       ]);
 pug_indent.pop();
-pug_html = pug_html + "\n      \u003Cdiv class=\"main\"\u003E\n        \u003Csection class=\"landing\"\u003E\n          \u003Cdiv class=\"container landing__container\"\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/search-rooms/search-rooms.pug */ "./components/search-rooms/search-rooms.pug").call(this, locals)) ? "" : pug_interp) + "\n            \u003Cdiv class=\"landing__description\"\u003E\n              \u003Cp class=\"landing__text\"\u003EЛучшие номера для вашей работы, отдыха и просто вдохновения\u003C\u002Fp\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fsection\u003E\n      \u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\n      \u003Cdiv class=\"main\"\u003E\n        \u003Csection class=\"landing\"\u003E\n          \u003Cdiv class=\"container landing__container\"\u003E";
+pug_indent.push("            ");
+pug_mixins["search-rooms"]();
+pug_indent.pop();
+pug_html = pug_html + "\n            \u003Cdiv class=\"landing__description\"\u003E\n              \u003Cp class=\"landing__text\"\u003EЛучшие номера для вашей работы, отдыха и просто вдохновения\u003C\u002Fp\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fsection\u003E\n      \u003C\u002Fdiv\u003E";
 pug_indent.push("      ");
 pug_mixins["footer"]([
         {
@@ -6678,6 +14316,94 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pug_mixins["header"] = pug_interp = function(status, navigations){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 pug_html = pug_html + "\n";
@@ -6695,8 +14421,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
-        var nav = $$obj[pug_index5];
+      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
+        var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -6707,17 +14433,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
-        var item = $$obj[pug_index6];
+      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
+        var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index6 in $$obj) {
+    for (var pug_index8 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index6];
+      var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -6739,9 +14465,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index5 in $$obj) {
+    for (var pug_index7 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index5];
+      var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -6752,17 +14478,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
-        var item = $$obj[pug_index7];
+      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
+        var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index7 in $$obj) {
+    for (var pug_index9 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index7];
+      var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -6874,8 +14600,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
-        var nav = $$obj[pug_index8];
+      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
+        var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -6887,17 +14613,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
-        var item = $$obj[pug_index9];
+      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
+        var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index9 in $$obj) {
+    for (var pug_index11 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index9];
+      var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -6913,9 +14639,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index8 in $$obj) {
+    for (var pug_index10 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index8];
+      var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -6927,17 +14653,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
-        var item = $$obj[pug_index10];
+      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
+        var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index10 in $$obj) {
+    for (var pug_index12 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index10];
+      var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -6995,8 +14721,8 @@ pug_html = pug_html + "\u003Cdiv class=\"list-checkbox__list\"\u003E";
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
-        var item = $$obj[pug_index11];
+      for (var pug_index13 = 0, $$l = $$obj.length; pug_index13 < $$l; pug_index13++) {
+        var item = $$obj[pug_index13];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n    ";
@@ -7023,9 +14749,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index11 in $$obj) {
+    for (var pug_index13 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index11];
+      var item = $$obj[pug_index13];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n    ";
@@ -7070,8 +14796,8 @@ pug_html = pug_html + "\u003Cdiv class=\"elements-title rich-checkbox__title\"\u
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
-        var item = $$obj[pug_index12];
+      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
+        var item = $$obj[pug_index14];
 const { id, title, description } = item;
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -7085,9 +14811,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index12 in $$obj) {
+    for (var pug_index14 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index12];
+      var item = $$obj[pug_index14];
 const { id, title, description } = item;
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -7117,8 +14843,8 @@ pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index13 = 0, $$l = $$obj.length; pug_index13 < $$l; pug_index13++) {
-        var item = $$obj[pug_index13];
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n  ";
@@ -7145,9 +14871,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index13 in $$obj) {
+    for (var pug_index15 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index13];
+      var item = $$obj[pug_index15];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n  ";
@@ -7185,8 +14911,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
-        var item = $$obj[pug_index14];
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -7213,9 +14939,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index14 in $$obj) {
+    for (var pug_index16 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index14];
+      var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -7250,8 +14976,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
-        var item = $$obj[pug_index15];
+      for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
+        var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -7265,9 +14991,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index15 in $$obj) {
+    for (var pug_index17 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index15];
+      var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -7283,6 +15009,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index18 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7441,8 +15748,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
-        var item = $$obj[pug_index20];
+      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
+        var item = $$obj[pug_index28];
 const {subtitle, list } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -7464,9 +15771,9 @@ pug_html = pug_html + "\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index20 in $$obj) {
+    for (var pug_index28 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index20];
+      var item = $$obj[pug_index28];
 const {subtitle, list } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -7545,8 +15852,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
-        var item = $$obj[pug_index21];
+      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
+        var item = $$obj[pug_index29];
 const { id, checked, gender} = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -7565,9 +15872,9 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
       }
   } else {
     var $$l = 0;
-    for (var pug_index21 in $$obj) {
+    for (var pug_index29 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index21];
+      var item = $$obj[pug_index29];
 const { id, checked, gender} = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -7588,6 +15895,94 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 }).call(this);
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7683,8 +16078,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
-        var nav = $$obj[pug_index22];
+      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
+        var nav = $$obj[pug_index32];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -7695,17 +16090,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
-        var item = $$obj[pug_index23];
+      for (var pug_index33 = 0, $$l = $$obj.length; pug_index33 < $$l; pug_index33++) {
+        var item = $$obj[pug_index33];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index23 in $$obj) {
+    for (var pug_index33 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index23];
+      var item = $$obj[pug_index33];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -7727,9 +16122,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index22 in $$obj) {
+    for (var pug_index32 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index22];
+      var nav = $$obj[pug_index32];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -7740,17 +16135,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index24 = 0, $$l = $$obj.length; pug_index24 < $$l; pug_index24++) {
-        var item = $$obj[pug_index24];
+      for (var pug_index34 = 0, $$l = $$obj.length; pug_index34 < $$l; pug_index34++) {
+        var item = $$obj[pug_index34];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index24 in $$obj) {
+    for (var pug_index34 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index24];
+      var item = $$obj[pug_index34];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -7862,8 +16257,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index25 = 0, $$l = $$obj.length; pug_index25 < $$l; pug_index25++) {
-        var nav = $$obj[pug_index25];
+      for (var pug_index35 = 0, $$l = $$obj.length; pug_index35 < $$l; pug_index35++) {
+        var nav = $$obj[pug_index35];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -7875,17 +16270,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index26 = 0, $$l = $$obj.length; pug_index26 < $$l; pug_index26++) {
-        var item = $$obj[pug_index26];
+      for (var pug_index36 = 0, $$l = $$obj.length; pug_index36 < $$l; pug_index36++) {
+        var item = $$obj[pug_index36];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index26 in $$obj) {
+    for (var pug_index36 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index26];
+      var item = $$obj[pug_index36];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -7901,9 +16296,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index25 in $$obj) {
+    for (var pug_index35 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index25];
+      var nav = $$obj[pug_index35];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -7915,17 +16310,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index27 = 0, $$l = $$obj.length; pug_index27 < $$l; pug_index27++) {
-        var item = $$obj[pug_index27];
+      for (var pug_index37 = 0, $$l = $$obj.length; pug_index37 < $$l; pug_index37++) {
+        var item = $$obj[pug_index37];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index27 in $$obj) {
+    for (var pug_index37 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index27];
+      var item = $$obj[pug_index37];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -7983,8 +16378,8 @@ pug_html = pug_html + "\u003Cdiv class=\"list-checkbox__list\"\u003E";
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
-        var item = $$obj[pug_index28];
+      for (var pug_index38 = 0, $$l = $$obj.length; pug_index38 < $$l; pug_index38++) {
+        var item = $$obj[pug_index38];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n    ";
@@ -8011,9 +16406,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index28 in $$obj) {
+    for (var pug_index38 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index28];
+      var item = $$obj[pug_index38];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n    ";
@@ -8058,8 +16453,8 @@ pug_html = pug_html + "\u003Cdiv class=\"elements-title rich-checkbox__title\"\u
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
-        var item = $$obj[pug_index29];
+      for (var pug_index39 = 0, $$l = $$obj.length; pug_index39 < $$l; pug_index39++) {
+        var item = $$obj[pug_index39];
 const { id, title, description } = item;
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -8073,9 +16468,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index29 in $$obj) {
+    for (var pug_index39 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index29];
+      var item = $$obj[pug_index39];
 const { id, title, description } = item;
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -8105,8 +16500,8 @@ pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index30 = 0, $$l = $$obj.length; pug_index30 < $$l; pug_index30++) {
-        var item = $$obj[pug_index30];
+      for (var pug_index40 = 0, $$l = $$obj.length; pug_index40 < $$l; pug_index40++) {
+        var item = $$obj[pug_index40];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n  ";
@@ -8133,9 +16528,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index30 in $$obj) {
+    for (var pug_index40 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index30];
+      var item = $$obj[pug_index40];
 const { id, text, checked } = item;
 if (checked) {
 pug_html = pug_html + "\n  ";
@@ -8173,8 +16568,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index31 = 0, $$l = $$obj.length; pug_index31 < $$l; pug_index31++) {
-        var item = $$obj[pug_index31];
+      for (var pug_index41 = 0, $$l = $$obj.length; pug_index41 < $$l; pug_index41++) {
+        var item = $$obj[pug_index41];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -8201,9 +16596,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index31 in $$obj) {
+    for (var pug_index41 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index31];
+      var item = $$obj[pug_index41];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -8238,8 +16633,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
-        var item = $$obj[pug_index32];
+      for (var pug_index42 = 0, $$l = $$obj.length; pug_index42 < $$l; pug_index42++) {
+        var item = $$obj[pug_index42];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -8253,9 +16648,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index32 in $$obj) {
+    for (var pug_index42 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index32];
+      var item = $$obj[pug_index42];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -8271,6 +16666,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index43 = 0, $$l = $$obj.length; pug_index43 < $$l; pug_index43++) {
+        var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index44 = 0, $$l = $$obj.length; pug_index44 < $$l; pug_index44++) {
+        var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index44 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index43 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index45 = 0, $$l = $$obj.length; pug_index45 < $$l; pug_index45++) {
+        var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index45 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index46 = 0, $$l = $$obj.length; pug_index46 < $$l; pug_index46++) {
+        var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index46 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index47 = 0, $$l = $$obj.length; pug_index47 < $$l; pug_index47++) {
+        var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index47 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index48 = 0, $$l = $$obj.length; pug_index48 < $$l; pug_index48++) {
+        var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index48 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8364,7 +17340,50 @@ pug_mixins["header"]('non-authorized', [
         },
       ]);
 pug_indent.pop();
-pug_html = pug_html + "\n      \u003Cdiv class=\"main\"\u003E\n        \u003Csection class=\"search-room\"\u003E\n          \u003Cdiv class=\"container search-room__container\"\u003E\n            \u003Cdiv class=\"search-room__grid\"\u003E\n              \u003Cdiv class=\"search-room__filter\"\u003E\n                \u003Cdiv class=\"form-elements__default form-elements__datepicker\"\u003E\n                  \u003Cp class=\"form-elements__text\"\u003Eдаты пребывания в отеле\u003C\u002Fp\u003E\n                  \u003Cinput class=\"datepicker-here\" type=\"text\" placeholder=\"19 авг - 23 авг\" data-range=\"true\" data-multiple-dates-separator=\" - \" data-date-format=\"d M\"\u003E\n                \u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/guest-dropdown/guest-dropdown.pug */ "./components/guest-dropdown/guest-dropdown.pug").call(this, locals)) ? "" : pug_interp) + "\n                \u003Cdiv class=\"range-elements search-room__range\"\u003E\n                  \u003Ch3 class=\"range-elements__title elements-title search-room__range-title\"\u003Eдиапазон цены\u003C\u002Fh3\u003E\n                  \u003Cdiv class=\"range-elements__wrapper\"\u003E\n                    \u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                    \u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003EСтоимость за сутки пребывания в номере\u003C\u002Fspan\u003E\n                \u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"form-elements__checkbox\"\u003E";
+pug_html = pug_html + "\n      \u003Cdiv class=\"main\"\u003E\n        \u003Csection class=\"search-room\"\u003E\n          \u003Cdiv class=\"container search-room__container\"\u003E\n            \u003Cdiv class=\"search-room__grid\"\u003E\n              \u003Cdiv class=\"search-room__filter\"\u003E\n                \u003Cdiv class=\"form-elements__default form-elements__datepicker\"\u003E\n                  \u003Cp class=\"form-elements__text\"\u003Eдаты пребывания в отеле\u003C\u002Fp\u003E\n                  \u003Cinput class=\"datepicker-here\" type=\"text\" placeholder=\"19 авг - 23 авг\" data-range=\"true\" data-multiple-dates-separator=\" - \" data-date-format=\"d M\"\u003E\n                \u003C\u002Fdiv\u003E";
+pug_indent.push("                ");
+pug_mixins["guest"]({
+            title: 'гости',
+            list: [
+              {
+                title: 'взрослые',
+                list: [
+                  'взрослый',
+                  'взрослых',
+                  'взрослых'
+                ]
+              },
+              {
+                title: 'дети',
+                list: [
+                  'ребенок',
+                  'ребенка',
+                  'детей'
+                ]
+              },
+              {
+                title: 'младенцы',
+                list: [
+                  'младенец',
+                  'младенца',
+                  'младенцев'
+                ],
+                class: 'guest__counter_baby'
+              }
+            ]
+          });
+pug_indent.pop();
+pug_indent.push("                ");
+pug_mixins["rangeSlider"]([
+            {
+              title: 'диапазон цены',
+              classRange: 'search-room__range',
+              classTitle: 'search-room__range-title',
+              span: 'Стоимость за сутки пребывания в номере'
+            }
+          ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                \u003Cdiv class=\"form-elements__checkbox\"\u003E";
 pug_indent.push("                  ");
 pug_mixins["checkbox"]('правила дома', [
               {
@@ -8432,7 +17451,3370 @@ pug_mixins["list-checkbox"]('дополнительные удобства', [
             }
           ]);
 pug_indent.pop();
-pug_html = pug_html + "\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"search-room__cards\"\u003E\n                \u003Ch3 class=\"search-room__title\"\u003EНомера, которые мы для вас подобрали\u003C\u002Fh3\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/card-luxe/card-luxe.pug */ "./components/card-luxe/card-luxe.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/card/card.pug */ "./components/card/card.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-2.pug */ "./components/cards/cards/card-2.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-3.pug */ "./components/cards/cards/card-3.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-4.pug */ "./components/cards/cards/card-4.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-5.pug */ "./components/cards/cards/card-5.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-6.pug */ "./components/cards/cards/card-6.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-7.pug */ "./components/cards/cards/card-7.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-8.pug */ "./components/cards/cards/card-8.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-9.pug */ "./components/cards/cards/card-9.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-10.pug */ "./components/cards/cards/card-10.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-11.pug */ "./components/cards/cards/card-11.pug").call(this, locals)) ? "" : pug_interp) + "\n                \u003Cdiv class=\"search-room__pagination\"\u003E\n                  \u003Cdiv class=\"pagination-elements\"\u003E\n                    \u003Cul class=\"pagination-elements__list\"\u003E\n                      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link pagination-elements__link_active\" href=\"\u002Fsearch-room.html\"\u003E1\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fsearch-room.html\"\u003E2\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fsearch-room.html\"\u003E3\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fsearch-room.html\"\u003E...\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link\" href=\"\u002Fsearch-room.html\"\u003E15\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      \u003Cli class=\"pagination-elements__item\"\u003E\u003Ca class=\"pagination-elements__link pagination-elements__next\" href=\"\u002Fsearch-room.html\"\u003E\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                    \u003C\u002Ful\u003E\n                    \u003Cp class=\"pagination-elements__text\"\u003E1 – 12 из 100+ вариантов аренды\u003C\u002Fp\u003E\n                  \u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fsection\u003E\n      \u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"search-room__cards\"\u003E\n                \u003Ch3 class=\"search-room__title\"\u003EНомера, которые мы для вас подобрали\u003C\u002Fh3\u003E";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["dropdownCounter"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index53 = 0, $$l = $$obj.length; pug_index53 < $$l; pug_index53++) {
+        var item = $$obj[pug_index53];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index53 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index53];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["dropdown"] = pug_interp = function(title){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button btn-reset\" value=\"\" data-btn=\"btn\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input\" type=\"text\" value=\"2 спальни, 2 кровати...\" readonly\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list\" data-list=\"list\"\u003E";
+pug_indent.push("                    ");
+pug_mixins["dropdownCounter"]([
+        {
+          subtitle: 'спальни',
+          list: [
+            'спальня',
+            'спальни',
+            'спален'
+          ]
+        },
+        {
+          subtitle: 'кровати',
+          list: [
+            'кровать',
+            'кровати',
+            'кроватей'
+          ]
+        },
+        {
+          subtitle: 'ванные комнаты',
+          list: [
+            'ванная комната',
+            'ванные комнаты',
+            'ванных комнат'
+          ]
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["radio"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index54 = 0, $$l = $$obj.length; pug_index54 < $$l; pug_index54++) {
+        var item = $$obj[pug_index54];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index54 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index54];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["header"] = pug_interp = function(status, navigations){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cheader class=\"header\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container header__container\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cnav class=\"nav\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
+// iterate navigations
+;(function(){
+  var $$obj = navigations;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index57 = 0, $$l = $$obj.length; pug_index57 < $$l; pug_index57++) {
+        var nav = $$obj[pug_index57];
+if (nav.submenu) {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item submenu\"\u003E\u003Ca class=\"nav__link nav__link_dropdown\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003Csvg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z\" fill=\"#1F2041\" fill-opacity=\"0.5\"\u002F\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index58 = 0, $$l = $$obj.length; pug_index58 < $$l; pug_index58++) {
+        var item = $$obj[pug_index58];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index58 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index58];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index57 in $$obj) {
+      $$l++;
+      var nav = $$obj[pug_index57];
+if (nav.submenu) {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item submenu\"\u003E\u003Ca class=\"nav__link nav__link_dropdown\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003Csvg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z\" fill=\"#1F2041\" fill-opacity=\"0.5\"\u002F\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index59 = 0, $$l = $$obj.length; pug_index59 < $$l; pug_index59++) {
+        var item = $$obj[pug_index59];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index59 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index59];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fnav\u003E";
+if (status === 'non-authorized') {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header__btns header-btns\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header-btns_border\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsign-in.html\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"header-btns__signin btn-reset\" type=\"submit\"\u003Eвойти\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsign-up.html\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"header-btns__signup btn-reset\" type=\"submit\"\u003Eзарегистрироваться\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else
+if (status === 'authorized') {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header__user\"\u003E\u003Ca class=\"header__user-link\" href=\"\u002F\"\u003EЮлий Цезарь\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E";
+}
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fheader\u003E";
+};
+pug_mixins["copy"] = pug_interp = function(text){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["footer"] = pug_interp = function(navigations = []){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cfooter\u003E\u003C\u002Ffooter\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer__container\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-logo logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__inner footer-inner\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__logo logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-inner__text\"\u003EБронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»\u003C\u002Fp\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+// iterate navigations
+;(function(){
+  var $$obj = navigations;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index60 = 0, $$l = $$obj.length; pug_index60 < $$l; pug_index60++) {
+        var nav = $$obj[pug_index60];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-inner__list\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_title\"\u003E\u003Ca class=\"footer-inner__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index61 = 0, $$l = $$obj.length; pug_index61 < $$l; pug_index61++) {
+        var item = $$obj[pug_index61];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index61 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index61];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index60 in $$obj) {
+      $$l++;
+      var nav = $$obj[pug_index60];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-inner__list\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_title\"\u003E\u003Ca class=\"footer-inner__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index62 = 0, $$l = $$obj.length; pug_index62 < $$l; pug_index62++) {
+        var item = $$obj[pug_index62];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index62 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index62];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__item_title\"\u003E\u003Ca href=\"\u002F\"\u003EПодписка\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-inner__text\"\u003EПолучайте специальные предложения и новости сервиса\u003C\u002Fp\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"footer-inner__email\" action=\"\u002F\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput type=\"email\" placeholder=\"Email\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"footer-inner__btn btn-reset\" type=\"submit\"\u003E\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("                  ");
+pug_mixins["copy"]('Copyright © 2018 Toxin отель. Все права зачищены.');
+pug_indent.pop();
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["list-checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"list-checkbox\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title list-checkbox__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"list-checkbox__list\"\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index63 = 0, $$l = $$obj.length; pug_index63 < $$l; pug_index63++) {
+        var item = $$obj[pug_index63];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index63 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index63];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["richCheckbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"rich-checkbox\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title rich-checkbox__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index64 = 0, $$l = $$obj.length; pug_index64 < $$l; pug_index64++) {
+        var item = $$obj[pug_index64];
+const { id, title, description } = item;
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item rich-checkbox__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `rich-checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label rich-checkbox__label\""+pug.attr("for", `rich-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003Cspan\u003E" + (pug.escape(null == (pug_interp = description) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index64 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index64];
+const { id, title, description } = item;
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item rich-checkbox__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `rich-checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label rich-checkbox__label\""+pug.attr("for", `rich-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003Cspan\u003E" + (pug.escape(null == (pug_interp = description) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index65 = 0, $$l = $$obj.length; pug_index65 < $$l; pug_index65++) {
+        var item = $$obj[pug_index65];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index65 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index65];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["toggle"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index66 = 0, $$l = $$obj.length; pug_index66 < $$l; pug_index66++) {
+        var item = $$obj[pug_index66];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index66 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index66];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["like"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index67 = 0, $$l = $$obj.length; pug_index67 < $$l; pug_index67++) {
+        var item = $$obj[pug_index67];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index67 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index67];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index68 = 0, $$l = $$obj.length; pug_index68 < $$l; pug_index68++) {
+        var item = $$obj[pug_index68];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index69 = 0, $$l = $$obj.length; pug_index69 < $$l; pug_index69++) {
+        var value = $$obj[pug_index69];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index69 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index69];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index68 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index68];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index70 = 0, $$l = $$obj.length; pug_index70 < $$l; pug_index70++) {
+        var value = $$obj[pug_index70];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index70 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index70];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index71 = 0, $$l = $$obj.length; pug_index71 < $$l; pug_index71++) {
+        var item = $$obj[pug_index71];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index71 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index71];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index72 = 0, $$l = $$obj.length; pug_index72 < $$l; pug_index72++) {
+        var item = $$obj[pug_index72];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index72 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index72];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index73 = 0, $$l = $$obj.length; pug_index73 < $$l; pug_index73++) {
+        var item = $$obj[pug_index73];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index73 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index73];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_html = pug_html + "\n                \u003Cdiv class=\"card-luxe\"\u003E\n                  \u003Cdiv class=\"swiper-container\"\u003E\n                    \u003Cdiv class=\"swiper-wrapper\"\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe.jpg */ "./img/luxe.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-2.png */ "./img/luxe-2.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-3.png */ "./img/luxe-3.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/luxe-4.png */ "./img/luxe-4.png").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                    \u003C\u002Fdiv\u003E\n                    \u003Cdiv class=\"swiper-pagination\"\u003E\u003C\u002Fdiv\u003E\n                    \u003Cdiv class=\"swiper-button-next\"\u003E\u003C\u002Fdiv\u003E\n                    \u003Cdiv class=\"swiper-button-prev\"\u003E\u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"card-luxe__title luxe-title\"\u003E\n                    \u003Ch3 class=\"luxe-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E888\u003Cspan\u003Eлюкс\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n                    \u003Cp class=\"luxe-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"card-luxe__reviews\"\u003E";
+pug_indent.push("                    ");
+pug_mixins["rating"]([
+      {
+        classes: 'card-luxe__rating',
+        selectClass: 'rate-elements__rating'
+      }
+    ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                    \u003Cdiv class=\"card-luxe__text\"\u003E145\u003Cspan\u003EОтзывов\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["dropdownCounter"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index78 = 0, $$l = $$obj.length; pug_index78 < $$l; pug_index78++) {
+        var item = $$obj[pug_index78];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index78 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index78];
+const {subtitle, list } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\"\u003E" + (pug.escape(null == (pug_interp = subtitle) ? "" : pug_interp)) + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"counter__value\""+" type=\"number\" value=\"2\""+pug.attr("data-value", `${list}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn btn-reset\" data-direction=\"plus\"\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["dropdown"] = pug_interp = function(title){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button btn-reset\" value=\"\" data-btn=\"btn\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input\" type=\"text\" value=\"2 спальни, 2 кровати...\" readonly\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list\" data-list=\"list\"\u003E";
+pug_indent.push("                    ");
+pug_mixins["dropdownCounter"]([
+        {
+          subtitle: 'спальни',
+          list: [
+            'спальня',
+            'спальни',
+            'спален'
+          ]
+        },
+        {
+          subtitle: 'кровати',
+          list: [
+            'кровать',
+            'кровати',
+            'кроватей'
+          ]
+        },
+        {
+          subtitle: 'ванные комнаты',
+          list: [
+            'ванная комната',
+            'ванные комнаты',
+            'ванных комнат'
+          ]
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["radio"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index79 = 0, $$l = $$obj.length; pug_index79 < $$l; pug_index79++) {
+        var item = $$obj[pug_index79];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index79 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index79];
+const { id, checked, gender} = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\""+pug.attr("checked", true, true, true)) + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"radio-elements__input\""+" type=\"radio\""+pug.attr("id", `radio-${id}`, true, true)+" name=\"gender\"") + "\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.attr("for", `radio-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = gender) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["header"] = pug_interp = function(status, navigations){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cheader class=\"header\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container header__container\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cnav class=\"nav\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
+// iterate navigations
+;(function(){
+  var $$obj = navigations;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index82 = 0, $$l = $$obj.length; pug_index82 < $$l; pug_index82++) {
+        var nav = $$obj[pug_index82];
+if (nav.submenu) {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item submenu\"\u003E\u003Ca class=\"nav__link nav__link_dropdown\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003Csvg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z\" fill=\"#1F2041\" fill-opacity=\"0.5\"\u002F\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index83 = 0, $$l = $$obj.length; pug_index83 < $$l; pug_index83++) {
+        var item = $$obj[pug_index83];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index83 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index83];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index82 in $$obj) {
+      $$l++;
+      var nav = $$obj[pug_index82];
+if (nav.submenu) {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item submenu\"\u003E\u003Ca class=\"nav__link nav__link_dropdown\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003Csvg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z\" fill=\"#1F2041\" fill-opacity=\"0.5\"\u002F\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index84 = 0, $$l = $$obj.length; pug_index84 < $$l; pug_index84++) {
+        var item = $$obj[pug_index84];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index84 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index84];
+pug_html = pug_html + "\n                            ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+}
+else {
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fnav\u003E";
+if (status === 'non-authorized') {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header__btns header-btns\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header-btns_border\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsign-in.html\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"header-btns__signin btn-reset\" type=\"submit\"\u003Eвойти\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform action=\"\u002Fsign-up.html\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"header-btns__signup btn-reset\" type=\"submit\"\u003Eзарегистрироваться\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else
+if (status === 'authorized') {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"header__user\"\u003E\u003Ca class=\"header__user-link\" href=\"\u002F\"\u003EЮлий Цезарь\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E";
+}
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fheader\u003E";
+};
+pug_mixins["copy"] = pug_interp = function(text){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__copy footer-copy\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer-copy__container\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-copy__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-copy__socials copy-socials\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"24\" height=\"20\" viewBox=\"0 0 24 20\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M19.25 0.5H2.75C1.48438 0.5 0.5 1.53125 0.5 2.75V19.25C0.5 20.5156 1.48438 21.5 2.75 21.5H9.17188V14.375H6.21875V11H9.17188V8.46875C9.17188 5.5625 10.9062 3.92188 13.5312 3.92188C14.8438 3.92188 16.1562 4.15625 16.1562 4.15625V7.01562H14.7031C13.25 7.01562 12.7812 7.90625 12.7812 8.84375V11H16.0156L15.5 14.375H12.7812V21.5H19.25C20.4688 21.5 21.5 20.5156 21.5 19.25V2.75C21.5 1.53125 20.4688 0.5 19.25 0.5Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"copy-socials__item\"\u003E\u003Ca class=\"copy-socials__link\" href=\"\u002F\"\u003E\u003Csvg width=\"22\" height=\"22\" viewBox=\"0 0 22 22\" fill=\"none\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\n\u003Cpath d=\"M11 5.60938C8 5.60938 5.60938 8.04688 5.60938 11C5.60938 14 8 16.3906 11 16.3906C13.9531 16.3906 16.3906 14 16.3906 11C16.3906 8.04688 13.9531 5.60938 11 5.60938ZM11 14.5156C9.07812 14.5156 7.48438 12.9688 7.48438 11C7.48438 9.07812 9.03125 7.53125 11 7.53125C12.9219 7.53125 14.4688 9.07812 14.4688 11C14.4688 12.9688 12.9219 14.5156 11 14.5156ZM17.8438 5.42188C17.8438 4.71875 17.2812 4.15625 16.5781 4.15625C15.875 4.15625 15.3125 4.71875 15.3125 5.42188C15.3125 6.125 15.875 6.6875 16.5781 6.6875C17.2812 6.6875 17.8438 6.125 17.8438 5.42188ZM21.4062 6.6875C21.3125 5 20.9375 3.5 19.7188 2.28125C18.5 1.0625 17 0.6875 15.3125 0.59375C13.5781 0.5 8.375 0.5 6.64062 0.59375C4.95312 0.6875 3.5 1.0625 2.23438 2.28125C1.01562 3.5 0.640625 5 0.546875 6.6875C0.453125 8.42188 0.453125 13.625 0.546875 15.3594C0.640625 17.0469 1.01562 18.5 2.23438 19.7656C3.5 20.9844 4.95312 21.3594 6.64062 21.4531C8.375 21.5469 13.5781 21.5469 15.3125 21.4531C17 21.3594 18.5 20.9844 19.7188 19.7656C20.9375 18.5 21.3125 17.0469 21.4062 15.3594C21.5 13.625 21.5 8.42188 21.4062 6.6875ZM19.1562 17.1875C18.8281 18.125 18.0781 18.8281 17.1875 19.2031C15.7812 19.7656 12.5 19.625 11 19.625C9.45312 19.625 6.17188 19.7656 4.8125 19.2031C3.875 18.8281 3.17188 18.125 2.79688 17.1875C2.23438 15.8281 2.375 12.5469 2.375 11C2.375 9.5 2.23438 6.21875 2.79688 4.8125C3.17188 3.92188 3.875 3.21875 4.8125 2.84375C6.17188 2.28125 9.45312 2.42188 11 2.42188C12.5 2.42188 15.7812 2.28125 17.1875 2.84375C18.0781 3.17188 18.7812 3.92188 19.1562 4.8125C19.7188 6.21875 19.5781 9.5 19.5781 11C19.5781 12.5469 19.7188 15.8281 19.1562 17.1875Z\" fill=\"url(#paint0_linear)\"\u002F\u003E\n\u003Cdefs\u003E\n\u003ClinearGradient id=\"paint0_linear\" x1=\"11\" y1=\"1\" x2=\"11\" y2=\"25\" gradientUnits=\"userSpaceOnUse\"\u003E\n\u003Cstop stop-color=\"#BC9CFF\"\u002F\u003E\n\u003Cstop offset=\"1\" stop-color=\"#8BA4F9\"\u002F\u003E\n\u003C\u002FlinearGradient\u003E\n\u003C\u002Fdefs\u003E\n\u003C\u002Fsvg\u003E\n\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["footer"] = pug_interp = function(navigations = []){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cfooter\u003E\u003C\u002Ffooter\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"container footer__container\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-logo logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__inner footer-inner\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer__logo logo\"\u003E\u003Ca href=\"\u002F\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/logo.svg */ "./img/logo.svg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-inner__text\"\u003EБронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»\u003C\u002Fp\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+// iterate navigations
+;(function(){
+  var $$obj = navigations;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index85 = 0, $$l = $$obj.length; pug_index85 < $$l; pug_index85++) {
+        var nav = $$obj[pug_index85];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-inner__list\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_title\"\u003E\u003Ca class=\"footer-inner__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index86 = 0, $$l = $$obj.length; pug_index86 < $$l; pug_index86++) {
+        var item = $$obj[pug_index86];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index86 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index86];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index85 in $$obj) {
+      $$l++;
+      var nav = $$obj[pug_index85];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"footer-inner__list\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_title\"\u003E\u003Ca class=\"footer-inner__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = nav.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+// iterate nav.items
+;(function(){
+  var $$obj = nav.items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index87 = 0, $$l = $$obj.length; pug_index87 < $$l; pug_index87++) {
+        var item = $$obj[pug_index87];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index87 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index87];
+pug_html = pug_html + "\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"footer-inner__item_title\"\u003E\u003Ca href=\"\u002F\"\u003EПодписка\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"footer-inner__text\"\u003EПолучайте специальные предложения и новости сервиса\u003C\u002Fp\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"footer-inner__email\" action=\"\u002F\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput type=\"email\" placeholder=\"Email\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"footer-inner__btn btn-reset\" type=\"submit\"\u003E\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+pug_indent.push("                  ");
+pug_mixins["copy"]('Copyright © 2018 Toxin отель. Все права зачищены.');
+pug_indent.pop();
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["list-checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"list-checkbox\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title list-checkbox__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"list-checkbox__list\"\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index88 = 0, $$l = $$obj.length; pug_index88 < $$l; pug_index88++) {
+        var item = $$obj[pug_index88];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index88 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index88];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `list-checkbox-${id}`, true, true)) + "\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `list-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["richCheckbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"rich-checkbox\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title rich-checkbox__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index89 = 0, $$l = $$obj.length; pug_index89 < $$l; pug_index89++) {
+        var item = $$obj[pug_index89];
+const { id, title, description } = item;
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item rich-checkbox__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `rich-checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label rich-checkbox__label\""+pug.attr("for", `rich-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003Cspan\u003E" + (pug.escape(null == (pug_interp = description) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index89 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index89];
+const { id, title, description } = item;
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item list-checkbox__item rich-checkbox__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `rich-checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label rich-checkbox__label\""+pug.attr("for", `rich-checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003Cspan\u003E" + (pug.escape(null == (pug_interp = description) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index90 = 0, $$l = $$obj.length; pug_index90 < $$l; pug_index90++) {
+        var item = $$obj[pug_index90];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index90 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index90];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["toggle"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index91 = 0, $$l = $$obj.length; pug_index91 < $$l; pug_index91++) {
+        var item = $$obj[pug_index91];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index91 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index91];
+const { id, checked, text, classes } = item;
+if (checked) {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["toggle-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"toggle-elements__input\""+" type=\"checkbox\""+pug.attr("id", `toggle-${id}`, true, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"toggle-elements__label\""+pug.attr("for", `toggle-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["like"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index92 = 0, $$l = $$obj.length; pug_index92 < $$l; pug_index92++) {
+        var item = $$obj[pug_index92];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index92 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index92];
+const { counter, classes, buttonClasses } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["like-elements__like",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["like-elements__btn-like","btn-reset",buttonClasses], [false,false,true]), false, true)) + "\u003E\u003C\u002Fbutton\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"like-elements__counter\"\u003E" + (pug.escape(null == (pug_interp = counter) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index93 = 0, $$l = $$obj.length; pug_index93 < $$l; pug_index93++) {
+        var item = $$obj[pug_index93];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index94 = 0, $$l = $$obj.length; pug_index94 < $$l; pug_index94++) {
+        var value = $$obj[pug_index94];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index94 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index94];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index93 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index93];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index95 = 0, $$l = $$obj.length; pug_index95 < $$l; pug_index95++) {
+        var value = $$obj[pug_index95];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index95 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index95];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index96 = 0, $$l = $$obj.length; pug_index96 < $$l; pug_index96++) {
+        var item = $$obj[pug_index96];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index96 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index96];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index97 = 0, $$l = $$obj.length; pug_index97 < $$l; pug_index97++) {
+        var item = $$obj[pug_index97];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index97 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index97];
+pug_html = pug_html + "\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index98 = 0, $$l = $$obj.length; pug_index98 < $$l; pug_index98++) {
+        var item = $$obj[pug_index98];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index98 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index98];
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n                          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n                        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n                      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n                  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n                ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_html = pug_html + "\n                \u003Cdiv class=\"card\"\u003E\n                  \u003Cdiv class=\"swiper-container swiper-container2\"\u003E\n                    \u003Cdiv class=\"swiper-wrapper\"\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                      \u003Cdiv class=\"swiper-slide\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(/*! ../../img/card.jpg */ "./img/card.jpg").default, true, true)+" alt=\"\"") + "\u003E\u003C\u002Fdiv\u003E\n                    \u003C\u002Fdiv\u003E\n                    \u003Cdiv class=\"swiper-pagination\"\u003E\u003C\u002Fdiv\u003E\n                    \u003Cdiv class=\"swiper-button-next card__next\"\u003E\u003C\u002Fdiv\u003E\n                    \u003Cdiv class=\"swiper-button-prev card__prev\"\u003E\u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"card-luxe__title luxe-title\"\u003E\n                    \u003Ch3 class=\"luxe-title__left\"\u003E\u003Cspan\u003E№\u003C\u002Fspan\u003E840\u003C\u002Fh3\u003E\n                    \u003Cp class=\"luxe-title__right\"\u003E9 990₽\u003Cspan\u003Eв сутки\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"card-luxe__reviews\"\u003E";
+pug_indent.push("                    ");
+pug_mixins["rating"]([
+      {
+        classes: 'card-luxe__rating',
+        selectClass: 'rate-elements__rating2'
+      }
+    ]);
+pug_indent.pop();
+pug_html = pug_html + "\n                    \u003Cdiv class=\"card-luxe__text\"\u003E65\u003Cspan\u003EОтзывов\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E" + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-2.pug */ "./components/cards/cards/card-2.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-3.pug */ "./components/cards/cards/card-3.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-4.pug */ "./components/cards/cards/card-4.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-5.pug */ "./components/cards/cards/card-5.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-6.pug */ "./components/cards/cards/card-6.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-7.pug */ "./components/cards/cards/card-7.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-8.pug */ "./components/cards/cards/card-8.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-9.pug */ "./components/cards/cards/card-9.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-10.pug */ "./components/cards/cards/card-10.pug").call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(/*! ../../components/cards/cards/card-11.pug */ "./components/cards/cards/card-11.pug").call(this, locals)) ? "" : pug_interp) + "\n                \u003Cdiv class=\"search-room__pagination\"\u003E";
+pug_indent.push("                  ");
+pug_mixins["pagination"]({
+              text: '1 – 12 из 100+ вариантов аренды',
+              list: [
+                {
+                  href: '/form-elements.html',
+                  link: 1,
+                  class: 'pagination-elements__link_active'
+                },
+                {
+                  href: '/form-elements.html',
+                  link: 2
+                },
+                {
+                  href: '/form-elements.html',
+                  link: 3
+                },
+                {
+                  href: '/form-elements.html',
+                  link: '...'
+                },
+                {
+                  href: '/form-elements.html',
+                  link: 15
+                },
+                {
+                  href: '/form-elements.html',
+                  class: 'pagination-elements__next'
+                }
+              ]
+            });
+pug_indent.pop();
+pug_html = pug_html + "\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fsection\u003E\n      \u003C\u002Fdiv\u003E";
 pug_indent.push("      ");
 pug_mixins["footer"]([
         {
@@ -8747,8 +21129,15 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 }).call(this);
 
 };
-pug_mixins["signIn"] = pug_interp = function(title, buttonSignIn, text, buttonCreate){
+pug_mixins["signIn"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
+        var item = $$obj[pug_index5];
+const { title, buttonSignIn, text, buttonCreate } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n  ";
@@ -8774,7 +21163,98 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index5 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index5];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8842,8 +21322,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
-        var nav = $$obj[pug_index5];
+      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
+        var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -8854,17 +21334,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
-        var item = $$obj[pug_index6];
+      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
+        var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index6 in $$obj) {
+    for (var pug_index8 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index6];
+      var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -8886,9 +21366,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index5 in $$obj) {
+    for (var pug_index7 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index5];
+      var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -8899,17 +21379,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
-        var item = $$obj[pug_index7];
+      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
+        var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index7 in $$obj) {
+    for (var pug_index9 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index7];
+      var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -9021,8 +21501,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
-        var nav = $$obj[pug_index8];
+      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
+        var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -9034,17 +21514,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
-        var item = $$obj[pug_index9];
+      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
+        var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index9 in $$obj) {
+    for (var pug_index11 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index9];
+      var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -9060,9 +21540,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index8 in $$obj) {
+    for (var pug_index10 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index8];
+      var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -9074,17 +21554,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
-        var item = $$obj[pug_index10];
+      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
+        var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index10 in $$obj) {
+    for (var pug_index12 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index10];
+      var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -9233,77 +21713,87 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 
 
 
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index15 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
 pug_mixins["toggle"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate items
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
-        var item = $$obj[pug_index14];
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -9330,9 +21820,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index14 in $$obj) {
+    for (var pug_index16 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index14];
+      var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -9367,8 +21857,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
-        var item = $$obj[pug_index15];
+      for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
+        var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -9382,9 +21872,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index15 in $$obj) {
+    for (var pug_index17 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index15];
+      var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -9400,6 +21890,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index18 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9558,8 +22629,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
-        var item = $$obj[pug_index20];
+      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
+        var item = $$obj[pug_index28];
 const {subtitle, list } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -9581,9 +22652,9 @@ pug_html = pug_html + "\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index20 in $$obj) {
+    for (var pug_index28 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index20];
+      var item = $$obj[pug_index28];
 const {subtitle, list } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -9637,8 +22708,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
-        var item = $$obj[pug_index21];
+      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
+        var item = $$obj[pug_index29];
 const { id, checked, gender} = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -9657,9 +22728,9 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
       }
   } else {
     var $$l = 0;
-    for (var pug_index21 in $$obj) {
+    for (var pug_index29 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index21];
+      var item = $$obj[pug_index29];
 const { id, checked, gender} = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -9680,8 +22751,15 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 }).call(this);
 
 };
-pug_mixins["signIn"] = pug_interp = function(title, buttonSignIn, text, buttonCreate){
+pug_mixins["signIn"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index30 = 0, $$l = $$obj.length; pug_index30 < $$l; pug_index30++) {
+        var item = $$obj[pug_index30];
+const { title, buttonSignIn, text, buttonCreate } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n  ";
@@ -9707,7 +22785,98 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index30 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index30];
+const { title, buttonSignIn, text, buttonCreate } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signin__btn btn-reset btn-default\"\u003E" + (pug.escape(null == (pug_interp = buttonSignIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signin__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signin__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signin__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = buttonCreate) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9775,8 +22944,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
-        var nav = $$obj[pug_index22];
+      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
+        var nav = $$obj[pug_index32];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -9787,17 +22956,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
-        var item = $$obj[pug_index23];
+      for (var pug_index33 = 0, $$l = $$obj.length; pug_index33 < $$l; pug_index33++) {
+        var item = $$obj[pug_index33];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index23 in $$obj) {
+    for (var pug_index33 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index23];
+      var item = $$obj[pug_index33];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -9819,9 +22988,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index22 in $$obj) {
+    for (var pug_index32 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index22];
+      var nav = $$obj[pug_index32];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -9832,17 +23001,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index24 = 0, $$l = $$obj.length; pug_index24 < $$l; pug_index24++) {
-        var item = $$obj[pug_index24];
+      for (var pug_index34 = 0, $$l = $$obj.length; pug_index34 < $$l; pug_index34++) {
+        var item = $$obj[pug_index34];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index24 in $$obj) {
+    for (var pug_index34 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index24];
+      var item = $$obj[pug_index34];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -9954,8 +23123,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index25 = 0, $$l = $$obj.length; pug_index25 < $$l; pug_index25++) {
-        var nav = $$obj[pug_index25];
+      for (var pug_index35 = 0, $$l = $$obj.length; pug_index35 < $$l; pug_index35++) {
+        var nav = $$obj[pug_index35];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -9967,17 +23136,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index26 = 0, $$l = $$obj.length; pug_index26 < $$l; pug_index26++) {
-        var item = $$obj[pug_index26];
+      for (var pug_index36 = 0, $$l = $$obj.length; pug_index36 < $$l; pug_index36++) {
+        var item = $$obj[pug_index36];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index26 in $$obj) {
+    for (var pug_index36 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index26];
+      var item = $$obj[pug_index36];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -9993,9 +23162,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index25 in $$obj) {
+    for (var pug_index35 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index25];
+      var nav = $$obj[pug_index35];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -10007,17 +23176,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index27 = 0, $$l = $$obj.length; pug_index27 < $$l; pug_index27++) {
-        var item = $$obj[pug_index27];
+      for (var pug_index37 = 0, $$l = $$obj.length; pug_index37 < $$l; pug_index37++) {
+        var item = $$obj[pug_index37];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index27 in $$obj) {
+    for (var pug_index37 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index27];
+      var item = $$obj[pug_index37];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -10166,77 +23335,87 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 
 
 
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index40 = 0, $$l = $$obj.length; pug_index40 < $$l; pug_index40++) {
+        var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index40 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
 pug_mixins["toggle"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate items
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index31 = 0, $$l = $$obj.length; pug_index31 < $$l; pug_index31++) {
-        var item = $$obj[pug_index31];
+      for (var pug_index41 = 0, $$l = $$obj.length; pug_index41 < $$l; pug_index41++) {
+        var item = $$obj[pug_index41];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -10263,9 +23442,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index31 in $$obj) {
+    for (var pug_index41 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index31];
+      var item = $$obj[pug_index41];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -10300,8 +23479,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
-        var item = $$obj[pug_index32];
+      for (var pug_index42 = 0, $$l = $$obj.length; pug_index42 < $$l; pug_index42++) {
+        var item = $$obj[pug_index42];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -10315,9 +23494,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index32 in $$obj) {
+    for (var pug_index42 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index32];
+      var item = $$obj[pug_index42];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -10333,6 +23512,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index43 = 0, $$l = $$obj.length; pug_index43 < $$l; pug_index43++) {
+        var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index44 = 0, $$l = $$obj.length; pug_index44 < $$l; pug_index44++) {
+        var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index44 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index43 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index45 = 0, $$l = $$obj.length; pug_index45 < $$l; pug_index45++) {
+        var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index45 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index46 = 0, $$l = $$obj.length; pug_index46 < $$l; pug_index46++) {
+        var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index46 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index47 = 0, $$l = $$obj.length; pug_index47 < $$l; pug_index47++) {
+        var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index47 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index48 = 0, $$l = $$obj.length; pug_index48 < $$l; pug_index48++) {
+        var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index48 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10428,12 +24188,14 @@ pug_mixins["header"]('non-authorized', [
 pug_indent.pop();
 pug_html = pug_html + "\n      \u003Cdiv class=\"main\"\u003E\n        \u003Csection class=\"sign-in\"\u003E\n          \u003Cdiv class=\"container sign-in__container\"\u003E";
 pug_indent.push("            ");
-pug_mixins["signIn"](
-        'Войти',
-        'войти',
-        'Нет аккаунта на Toxin?',
-        'создать'
-      );
+pug_mixins["signIn"]([
+        {
+          title: 'Войти',
+          buttonSignIn: 'войти',
+          text: 'Нет аккаунта на Toxin?',
+          buttonCreate: 'создать'
+        }
+      ]);
 pug_indent.pop();
 pug_html = pug_html + "\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fsection\u003E\n      \u003C\u002Fdiv\u003E";
 pug_indent.push("      ");
@@ -10778,8 +24540,48 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 
 
 
-pug_mixins["signUp"] = pug_interp = function(title, date, data, payment, account, sugnIn){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["signUp"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
+        var item = $$obj[pug_index6];
+const { title, date, data, payment, account, sugnIn } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n  ";
@@ -10793,16 +24595,16 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
 pug_indent.push("    ");
 pug_mixins["radio"]([
-        {
-          id: 1,
-          checked: true,
-          gender: 'Мужчина'
-        },
-        {
-          id: 2,
-          gender: 'Женщина'
-        }
-      ]);
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
 pug_indent.pop();
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -10819,12 +24621,12 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
 pug_indent.push("  ");
 pug_mixins["toggle"]([
-      {
-        id: 1,
-        text: 'Получать спецпредложения',
-        classes: 'signup__toggle'
-      }
-    ]);
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
 pug_indent.pop();
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -10843,6 +24645,80 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fform\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index6 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index6];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("    ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("  ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+    }
+  }
+}).call(this);
+
 };
 pug_mixins["header"] = pug_interp = function(status, navigations){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
@@ -10861,8 +24737,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index5 = 0, $$l = $$obj.length; pug_index5 < $$l; pug_index5++) {
-        var nav = $$obj[pug_index5];
+      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
+        var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -10873,17 +24749,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index6 = 0, $$l = $$obj.length; pug_index6 < $$l; pug_index6++) {
-        var item = $$obj[pug_index6];
+      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
+        var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index6 in $$obj) {
+    for (var pug_index8 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index6];
+      var item = $$obj[pug_index8];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -10905,9 +24781,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index5 in $$obj) {
+    for (var pug_index7 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index5];
+      var nav = $$obj[pug_index7];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -10918,17 +24794,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index7 = 0, $$l = $$obj.length; pug_index7 < $$l; pug_index7++) {
-        var item = $$obj[pug_index7];
+      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
+        var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index7 in $$obj) {
+    for (var pug_index9 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index7];
+      var item = $$obj[pug_index9];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -11040,8 +24916,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index8 = 0, $$l = $$obj.length; pug_index8 < $$l; pug_index8++) {
-        var nav = $$obj[pug_index8];
+      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
+        var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -11053,17 +24929,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index9 = 0, $$l = $$obj.length; pug_index9 < $$l; pug_index9++) {
-        var item = $$obj[pug_index9];
+      for (var pug_index11 = 0, $$l = $$obj.length; pug_index11 < $$l; pug_index11++) {
+        var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index9 in $$obj) {
+    for (var pug_index11 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index9];
+      var item = $$obj[pug_index11];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -11079,9 +24955,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index8 in $$obj) {
+    for (var pug_index10 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index8];
+      var nav = $$obj[pug_index10];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -11093,17 +24969,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index10 = 0, $$l = $$obj.length; pug_index10 < $$l; pug_index10++) {
-        var item = $$obj[pug_index10];
+      for (var pug_index12 = 0, $$l = $$obj.length; pug_index12 < $$l; pug_index12++) {
+        var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index10 in $$obj) {
+    for (var pug_index12 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index10];
+      var item = $$obj[pug_index12];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -11252,77 +25128,87 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 
 
 
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
+        var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index15 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index15];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
 pug_mixins["toggle"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate items
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index14 = 0, $$l = $$obj.length; pug_index14 < $$l; pug_index14++) {
-        var item = $$obj[pug_index14];
+      for (var pug_index16 = 0, $$l = $$obj.length; pug_index16 < $$l; pug_index16++) {
+        var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -11349,9 +25235,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index14 in $$obj) {
+    for (var pug_index16 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index14];
+      var item = $$obj[pug_index16];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -11386,8 +25272,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index15 = 0, $$l = $$obj.length; pug_index15 < $$l; pug_index15++) {
-        var item = $$obj[pug_index15];
+      for (var pug_index17 = 0, $$l = $$obj.length; pug_index17 < $$l; pug_index17++) {
+        var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -11401,9 +25287,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index15 in $$obj) {
+    for (var pug_index17 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index15];
+      var item = $$obj[pug_index17];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -11419,6 +25305,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index18 = 0, $$l = $$obj.length; pug_index18 < $$l; pug_index18++) {
+        var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index19 = 0, $$l = $$obj.length; pug_index19 < $$l; pug_index19++) {
+        var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index19 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index19];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index18 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index18];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
+        var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index20 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index20];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
+        var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index21 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index21];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
+        var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index22 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index22];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
+        var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index23 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index23];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11577,8 +26044,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index20 = 0, $$l = $$obj.length; pug_index20 < $$l; pug_index20++) {
-        var item = $$obj[pug_index20];
+      for (var pug_index28 = 0, $$l = $$obj.length; pug_index28 < $$l; pug_index28++) {
+        var item = $$obj[pug_index28];
 const {subtitle, list } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -11600,9 +26067,9 @@ pug_html = pug_html + "\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index20 in $$obj) {
+    for (var pug_index28 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index20];
+      var item = $$obj[pug_index28];
 const {subtitle, list } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -11656,8 +26123,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index21 = 0, $$l = $$obj.length; pug_index21 < $$l; pug_index21++) {
-        var item = $$obj[pug_index21];
+      for (var pug_index29 = 0, $$l = $$obj.length; pug_index29 < $$l; pug_index29++) {
+        var item = $$obj[pug_index29];
 const { id, checked, gender} = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -11676,9 +26143,9 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
       }
   } else {
     var $$l = 0;
-    for (var pug_index21 in $$obj) {
+    for (var pug_index29 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index21];
+      var item = $$obj[pug_index29];
 const { id, checked, gender} = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -11727,8 +26194,48 @@ pug_html = pug_html + "\u003Clabel" + (" class=\"radio-elements__label\""+pug.at
 
 
 
-pug_mixins["signUp"] = pug_interp = function(title, date, data, payment, account, sugnIn){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["signUp"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index31 = 0, $$l = $$obj.length; pug_index31 < $$l; pug_index31++) {
+        var item = $$obj[pug_index31];
+const { title, date, data, payment, account, sugnIn } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n  ";
@@ -11742,16 +26249,16 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
 pug_indent.push("    ");
 pug_mixins["radio"]([
-        {
-          id: 1,
-          checked: true,
-          gender: 'Мужчина'
-        },
-        {
-          id: 2,
-          gender: 'Женщина'
-        }
-      ]);
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
 pug_indent.pop();
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -11768,12 +26275,12 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
 pug_indent.push("  ");
 pug_mixins["toggle"]([
-      {
-        id: 1,
-        text: 'Получать спецпредложения',
-        classes: 'signup__toggle'
-      }
-    ]);
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
 pug_indent.pop();
 pug_html = pug_html + "\n  ";
 pug_html = pug_html + pug_indent.join("");
@@ -11792,6 +26299,80 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fform\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index31 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index31];
+const { title, date, data, payment, account, sugnIn } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cform class=\"signup\" action=\"\u002F\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Имя\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"text\" placeholder=\"Фамилия\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__gender\"\u003E";
+pug_indent.push("    ");
+pug_mixins["radio"]([
+          {
+            id: 1,
+            checked: true,
+            gender: 'Мужчина'
+          },
+          {
+            id: 2,
+            gender: 'Женщина'
+          }
+        ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = date) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"datepicker-here form-elements__input signup__birthdate\" type=\"text\" placeholder=\"ДД.ММ.ГГГГ\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__text\"\u003E" + (pug.escape(null == (pug_interp = data) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"email\" placeholder=\"Email\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"signup__input\" type=\"password\" placeholder=\"Пароль\"\u003E";
+pug_indent.push("  ");
+pug_mixins["toggle"]([
+        {
+          id: 1,
+          text: 'Получать спецпредложения',
+          classes: 'signup__toggle'
+        }
+      ]);
+pug_indent.pop();
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"signup__btn btn-reset btn-default search-rooms__btn\"\u003E" + (pug.escape(null == (pug_interp = payment) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"signup__bottom\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"signup__bottom-text\"\u003E" + (pug.escape(null == (pug_interp = account) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border signup__bottom-btn\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"btn-border__primary btn-reset\" type=\"submit\"\u003E" + (pug.escape(null == (pug_interp = sugnIn) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fform\u003E";
+    }
+  }
+}).call(this);
+
 };
 pug_mixins["header"] = pug_interp = function(status, navigations){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
@@ -11810,8 +26391,8 @@ pug_html = pug_html + "\u003Cul class=\"nav__list\"\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index22 = 0, $$l = $$obj.length; pug_index22 < $$l; pug_index22++) {
-        var nav = $$obj[pug_index22];
+      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
+        var nav = $$obj[pug_index32];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -11822,17 +26403,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index23 = 0, $$l = $$obj.length; pug_index23 < $$l; pug_index23++) {
-        var item = $$obj[pug_index23];
+      for (var pug_index33 = 0, $$l = $$obj.length; pug_index33 < $$l; pug_index33++) {
+        var item = $$obj[pug_index33];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index23 in $$obj) {
+    for (var pug_index33 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index23];
+      var item = $$obj[pug_index33];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -11854,9 +26435,9 @@ pug_html = pug_html + "\u003Cli class=\"nav__item\"\u003E\u003Ca class=\"nav__li
       }
   } else {
     var $$l = 0;
-    for (var pug_index22 in $$obj) {
+    for (var pug_index32 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index22];
+      var nav = $$obj[pug_index32];
 if (nav.submenu) {
 pug_html = pug_html + "\n        ";
 pug_html = pug_html + pug_indent.join("");
@@ -11867,17 +26448,17 @@ pug_html = pug_html + "\u003Cul class=\"submenu__list\"\u003E";
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index24 = 0, $$l = $$obj.length; pug_index24 < $$l; pug_index24++) {
-        var item = $$obj[pug_index24];
+      for (var pug_index34 = 0, $$l = $$obj.length; pug_index34 < $$l; pug_index34++) {
+        var item = $$obj[pug_index34];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index24 in $$obj) {
+    for (var pug_index34 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index24];
+      var item = $$obj[pug_index34];
 pug_html = pug_html + "\n            ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"submenu__item\"\u003E\u003Ca class=\"submenu__link\" href=\"\u002F\"\u003E" + (pug.escape(null == (pug_interp = item.name) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -11989,8 +26570,8 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 ;(function(){
   var $$obj = navigations;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index25 = 0, $$l = $$obj.length; pug_index25 < $$l; pug_index25++) {
-        var nav = $$obj[pug_index25];
+      for (var pug_index35 = 0, $$l = $$obj.length; pug_index35 < $$l; pug_index35++) {
+        var nav = $$obj[pug_index35];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -12002,17 +26583,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index26 = 0, $$l = $$obj.length; pug_index26 < $$l; pug_index26++) {
-        var item = $$obj[pug_index26];
+      for (var pug_index36 = 0, $$l = $$obj.length; pug_index36 < $$l; pug_index36++) {
+        var item = $$obj[pug_index36];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index26 in $$obj) {
+    for (var pug_index36 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index26];
+      var item = $$obj[pug_index36];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -12028,9 +26609,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index25 in $$obj) {
+    for (var pug_index35 in $$obj) {
       $$l++;
-      var nav = $$obj[pug_index25];
+      var nav = $$obj[pug_index35];
 pug_html = pug_html + "\n      ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cdiv class=\"footer-inner__items\"\u003E\n        ";
@@ -12042,17 +26623,17 @@ pug_html = pug_html + "\u003Cli class=\"footer-inner__item footer-inner__item_ti
 ;(function(){
   var $$obj = nav.items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index27 = 0, $$l = $$obj.length; pug_index27 < $$l; pug_index27++) {
-        var item = $$obj[pug_index27];
+      for (var pug_index37 = 0, $$l = $$obj.length; pug_index37 < $$l; pug_index37++) {
+        var item = $$obj[pug_index37];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index27 in $$obj) {
+    for (var pug_index37 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index27];
+      var item = $$obj[pug_index37];
 pug_html = pug_html + "\n          ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cli class=\"footer-inner__item\"\u003E\u003Ca" + (" class=\"footer-inner__link\""+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
@@ -12201,77 +26782,87 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 
 
 
+pug_mixins["checkbox"] = pug_interp = function(title, items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"checkbox-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E";
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index40 = 0, $$l = $$obj.length; pug_index40 < $$l; pug_index40++) {
+        var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index40 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index40];
+const { id, text, checked } = item;
+if (checked) {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)+pug.attr("checked", true, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+else {
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"checkbox-elements__item\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (" class=\"checkbox-elements__input\""+" type=\"checkbox\""+pug.attr("id", `checkbox-${id}`, true, true)) + "\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Clabel" + (" class=\"checkbox-elements__label\""+pug.attr("for", `checkbox-${id}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Flabel\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+}
+    }
+  }
+}).call(this);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
 pug_mixins["toggle"] = pug_interp = function(items){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 // iterate items
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index31 = 0, $$l = $$obj.length; pug_index31 < $$l; pug_index31++) {
-        var item = $$obj[pug_index31];
+      for (var pug_index41 = 0, $$l = $$obj.length; pug_index41 < $$l; pug_index41++) {
+        var item = $$obj[pug_index41];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -12298,9 +26889,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index31 in $$obj) {
+    for (var pug_index41 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index31];
+      var item = $$obj[pug_index41];
 const { id, checked, text, classes } = item;
 if (checked) {
 pug_html = pug_html + "\n";
@@ -12335,8 +26926,8 @@ var block = (this && this.block), attributes = (this && this.attributes) || {};
 ;(function(){
   var $$obj = items;
   if ('number' == typeof $$obj.length) {
-      for (var pug_index32 = 0, $$l = $$obj.length; pug_index32 < $$l; pug_index32++) {
-        var item = $$obj[pug_index32];
+      for (var pug_index42 = 0, $$l = $$obj.length; pug_index42 < $$l; pug_index42++) {
+        var item = $$obj[pug_index42];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -12350,9 +26941,9 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
-    for (var pug_index32 in $$obj) {
+    for (var pug_index42 in $$obj) {
       $$l++;
-      var item = $$obj[pug_index32];
+      var item = $$obj[pug_index42];
 const { counter, classes, buttonClasses } = item;
 pug_html = pug_html + "\n";
 pug_html = pug_html + pug_indent.join("");
@@ -12368,6 +26959,587 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E";
 }).call(this);
 
 };
+pug_mixins["rating"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index43 = 0, $$l = $$obj.length; pug_index43 < $$l; pug_index43++) {
+        var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index44 = 0, $$l = $$obj.length; pug_index44 < $$l; pug_index44++) {
+        var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index44 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index44];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index43 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index43];
+const { classes, selectClass } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["rate-elements__item",classes], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cselect" + (pug.attr("class", pug.classes([selectClass], [true]), false, true)) + "\u003E";
+// iterate [1, 2, 3, 4, 5]
+;(function(){
+  var $$obj = [1, 2, 3, 4, 5];
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index45 = 0, $$l = $$obj.length; pug_index45 < $$l; pug_index45++) {
+        var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index45 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index45];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Coption" + (pug.attr("value", `${value}`, true, true)) + "\u003E\u003C\u002Foption\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fselect\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["rangeSlider"] = pug_interp = function(items){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+// iterate items
+;(function(){
+  var $$obj = items;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index46 = 0, $$l = $$obj.length; pug_index46 < $$l; pug_index46++) {
+        var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index46 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index46];
+const { title, classRange, classTitle, span } = item;
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv" + (pug.attr("class", pug.classes(["range-elements",classRange], [false,true]), false, true)) + "\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3" + (pug.attr("class", pug.classes(["range-elements__title","elements-title",classTitle], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"range-elements__wrapper\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-0\" type=\"text\"\u003E\u003Cspan\u003E-\u003C\u002Fspan\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"input-with-keypress-1\" type=\"text\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"slider-keypress\"\u003E\u003C\u002Fdiv\u003E\u003Cspan\u003E" + (pug.escape(null == (pug_interp = span) ? "" : pug_interp)) + "\u003C\u002Fspan\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+    }
+  }
+}).call(this);
+
+};
+pug_mixins["buttonPrimary"] = pug_interp = function({classes, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes(["button-elements__btn","btn-reset",classes], [false,false,true]), false, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E";
+};
+pug_mixins["buttonBorder"] = pug_interp = function({text, classes}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"btn-border button-elements__border\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton" + (pug.attr("class", pug.classes([classes,"btn-reset"], [true,false]), false, true)+" type=\"submit\"") + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fbutton\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+pug_mixins["buttonLink"] = pug_interp = function({text, href}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\u003Ca" + (" class=\"button-elements__link link-primary\""+pug.attr("href", href, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fa\u003E";
+};
+pug_mixins["buttonDefault"] = pug_interp = function({text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"button-elements__default btn-reset btn-default\"\u003Eперейти к оплате\u003C\u002Fbutton\u003E";
+};
+pug_mixins["pagination"] = pug_interp = function({title, list, text}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"pagination-elements\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Ch3 class=\"pagination-elements__title elements-title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fh3\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"pagination-elements__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index47 = 0, $$l = $$obj.length; pug_index47 < $$l; pug_index47++) {
+        var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index47 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index47];
+pug_html = pug_html + "\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"pagination-elements__item\"\u003E\u003Ca" + (pug.attr("class", pug.classes([item.class,"pagination-elements__link"], [true,false]), false, true)+pug.attr("href", `${item.href}`, true, true)) + "\u003E" + (pug.escape(null == (pug_interp = item.link) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cp class=\"pagination-elements__text\"\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pug_mixins["guest"] = pug_interp = function({title, list}){
+var block = (this && this.block), attributes = (this && this.attributes) || {};
+pug_html = pug_html + "\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"form-elements__dropdown search-rooms__guest\"\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"elements-title range-elements__title\"\u003E" + (pug.escape(null == (pug_interp = title) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"dropdown-guest\"\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"dropdown__button guest__btn btn-reset\" value=\"\"\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput class=\"dropdown__input-guest guest__input\" type=\"text\" value=\"Сколько гостей\" readonly\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cul class=\"dropdown__list guest__list\"\u003E";
+// iterate list
+;(function(){
+  var $$obj = list;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index48 = 0, $$l = $$obj.length; pug_index48 < $$l; pug_index48++) {
+        var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index48 in $$obj) {
+      $$l++;
+      var item = $$obj[pug_index48];
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cli class=\"dropdown__list-item\" data-value=\"гость,гостя,гостей\"\u003E" + (pug.escape(null == (pug_interp = item.title) ? "" : pug_interp)) + "\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"counter guest__counters\"\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"minus\"\u003E\u003C?xml version=\"1.0\" encoding=\"iso-8859-1\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Capa_1\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\" xmlns:xlink=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 298.667 298.667\" style=\"enable-background:new 0 0 298.667 298.667;\" xml:space=\"preserve\"\u003E\n\u003Cg\u003E\n\t\u003Cg\u003E\n\t\t\u003Crect y=\"128\" width=\"298.667\" height=\"42.667\"\u002F\u003E\n\t\u003C\u002Fg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003Cg\u003E\n\u003C\u002Fg\u003E\n\u003C\u002Fsvg\u003E\n\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fbutton\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cinput" + (pug.attr("class", pug.classes([item.class,"guest__counter"], [true,false]), false, true)+" type=\"number\" value=\"0\""+pug.attr("data-value", `${item.list}`, true, true)+pug.attr("readonly", true, true, true)) + "\u003E\n          ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"counter__btn-guest guest__counter-btn btn-reset\" data-direction=\"plus\"\u003E\u003Cspan\u003E\u003Csvg height=\"469.33333pt\" viewBox=\"0 0 469.33333 469.33333\" width=\"469.33333pt\" xmlns=\"http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg\"\u003E\u003Cpath d=\"m437.332031 192h-160v-160c0-17.664062-14.335937-32-32-32h-21.332031c-17.664062 0-32 14.335938-32 32v160h-160c-17.664062 0-32 14.335938-32 32v21.332031c0 17.664063 14.335938 32 32 32h160v160c0 17.664063 14.335938 32 32 32h21.332031c17.664063 0 32-14.335937 32-32v-160h160c17.664063 0 32-14.335937 32-32v-21.332031c0-17.664062-14.335937-32-32-32zm0 0\"\u002F\u003E\u003C\u002Fsvg\u003E\u003C\u002Fspan\u003E\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cdiv class=\"guest__btns\"\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"clear guest__clear btn-reset\"\u003Eочистить\u003C\u002Fbutton\u003E\n        ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003Cbutton class=\"apply guest__apply btn-reset\"\u003Eприменить\u003C\u002Fbutton\u003E\n      ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Ful\u003E\n  ";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E\n";
+pug_html = pug_html + pug_indent.join("");
+pug_html = pug_html + "\u003C\u002Fdiv\u003E";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12463,14 +27635,16 @@ pug_mixins["header"]('non-authorized', [
 pug_indent.pop();
 pug_html = pug_html + "\n      \u003Cdiv class=\"main\"\u003E\n        \u003Csection class=\"sign-up\"\u003E\n          \u003Cdiv class=\"container\"\u003E";
 pug_indent.push("            ");
-pug_mixins["signUp"](
-        'Регистрация аккаунта',
-        'дата рождения',
-        'данные для входа в сервис',
-        'перейти к оплате',
-        'Уже есть аккаунт на Toxin',
-        'войти'
-      );
+pug_mixins["signUp"]([
+        {
+          title: 'Регистрация аккаунта',
+          date: 'дата рождения',
+          data: 'данные для входа в сервис',
+          payment: 'перейти к оплате',
+          account: 'Уже есть аккаунт на Toxin',
+          sugnIn: 'войти'
+        }
+      ]);
 pug_indent.pop();
 pug_html = pug_html + "\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fsection\u003E\n      \u003C\u002Fdiv\u003E";
 pug_indent.push("      ");

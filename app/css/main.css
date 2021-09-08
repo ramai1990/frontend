@@ -1141,7 +1141,7 @@ input {
   position: relative;
   margin-bottom: 29px; }
   .range-elements__title {
-    margin-bottom: 24px; }
+    margin-bottom: 24px !important; }
   .range-elements__wrapper {
     position: absolute;
     right: -2px;
