@@ -2344,7 +2344,7 @@ input {
   background: #ffffff;
   box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
   border-radius: 4px; }
-  .card__next, .card__prev {
+  .card__arrow_hidden {
     opacity: 0; }
 
 .landing {
