@@ -20,11 +20,17 @@ mixin header(status, navigations)
                 a(href="/").nav__link= nav.name
       if status === 'non-authorized'
         .header__btns.header-btns
-          .header-btns_border
-            form(action="/sign-in.html")
-              button(type="submit").header-btns__signin.btn-reset войти
-          form(action="/sign-up.html")
-            button(type="submit").header-btns__signup.btn-reset зарегистрироваться
+          +buttonBorder({
+            classes: 'header-btns_border',
+            href: '/sign-in.html',
+            text: 'войти',
+            buttonClass: 'header-btns__signin'
+          })
+          +buttonPrimary({
+            href: '/sign-up.html',
+            classes: 'header-btns__signup',
+            text: 'зарегистрироваться'
+          })
       else if status === 'authorized'
         .header__user
           a(href="/").header__user-link Юлий Цезарь

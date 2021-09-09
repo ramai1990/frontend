@@ -1,2 +1,3 @@
-mixin buttonPrimary({classes, text})
-  button.button-elements__btn.btn-reset(class=classes)= text
+mixin buttonPrimary({href, classes, text})
+  form(action=href)
+    button.btn-reset(class=classes)= text

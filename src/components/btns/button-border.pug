@@ -1,3 +1,4 @@
-mixin buttonBorder({text, classes})
-  .btn-border.button-elements__border
-    button(type="submit" class=classes).btn-reset= text
+mixin buttonBorder({classes, href, text, buttonClass})
+  div(class=classes)
+    form(action=href)
+      button(type="submit" class=buttonClass).btn-reset= text

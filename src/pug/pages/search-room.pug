@@ -112,18 +112,7 @@ block content
           ])
         .search-room__cards
           h3.search-room__title Номера, которые мы для вас подобрали
-          include ../../components/card-luxe/card-luxe
-          include ../../components/card/card
-          include ../../components/cards/cards/card-2.pug
-          include ../../components/cards/cards/card-3.pug
-          include ../../components/cards/cards/card-4.pug
-          include ../../components/cards/cards/card-5.pug
-          include ../../components/cards/cards/card-6.pug
-          include ../../components/cards/cards/card-7.pug
-          include ../../components/cards/cards/card-8.pug
-          include ../../components/cards/cards/card-9.pug
-          include ../../components/cards/cards/card-10.pug
-          include ../../components/cards/cards/card-11.pug
+          +cards
           .search-room__pagination
             +pagination({
               text: '1 – 12 из 100+ вариантов аренды',

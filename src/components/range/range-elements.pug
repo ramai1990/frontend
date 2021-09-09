@@ -9,11 +9,12 @@ mixin rangeElements
       h3.button-elements__title.elements-title Buttons
       +buttonPrimary({
           text: 'CLICK ME',
-          classes: 'btn-primary'
+          classes: 'btn-primary button-elements__btn'
       })
       +buttonBorder({
+        classes: 'button-elements__border btn-border',
         text: 'CLICK ME',
-        classes: 'btn-border__primary'
+        buttonClass: 'btn-border__primary'
       })
       .button-elements__item
         +buttonLink({

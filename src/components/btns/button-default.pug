@@ -1,2 +1,3 @@
-mixin buttonDefault({text})
-  button.button-elements__default.btn-reset.btn-default перейти к оплате
+mixin buttonDefault({href, classes, text})
+  form(action=href)
+    button.button-elements__default.btn-reset.btn-default(class=classes)= text

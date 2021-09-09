@@ -39,5 +39,8 @@ mixin search-rooms
           }
         ]
       })
-    form(action="/search-room.html")
-      button.button-elements__default.btn-reset.btn-default.search-rooms__btn подобрать номер
+    +buttonDefault({
+      href: '/search-room.html',
+      classes: 'search-rooms__btn',
+      text: 'подобрать номер'
+    })
