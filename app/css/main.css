@@ -590,7 +590,7 @@ input {
       text-transform: uppercase;
       border-radius: 25px;
       padding: 0 20px;
-      transition: box-shadow 0.3s ease-in, color 0.3s ease-in, opacity 0.3s ease-in; }
+      transition: box-shadow 0.3s ease-in, color 0.3s ease-in, opacity 0.3s ease-in; }
       .header-btns__signin:hover {
         color: #661dff;
         opacity: 0.5;
@@ -640,7 +640,8 @@ input {
 
 .nav__link {
   display: inline-block;
-  transition: color 0.15s ease-in, text-shadow 0.15s ease-in; }
+  transition: color 0.15s ease-in, text-shadow 0.15s ease-in;
+  cursor: pointer; }
   .nav__link:hover {
     text-shadow: 0px 0px 1px black;
     color: #1f2041; }
