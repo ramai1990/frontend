@@ -102,6 +102,7 @@
   &__link {
     display: inline-block;
     transition: color 0.15s ease-in, text-shadow 0.15s ease-in;
+    cursor: pointer;
     &:hover {
       text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
       color: $dark;

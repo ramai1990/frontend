@@ -6,7 +6,7 @@ class SubMenu {
 
   show() {
     this.navLink.forEach(item => {
-      item.addEventListener('mouseover', e => {
+      item.addEventListener('click', e => {
         let el = e.currentTarget
         if (el.classList.contains('nav__link_active')) {
           el.classList.remove('nav__link_active')
