@@ -583,13 +583,13 @@ input {
       background-clip: content-box, border-box; }
     .header-btns__signin {
       font-family: "Montserrat";
+      width: 87px;
       height: 34px;
       color: #bc9cff;
       font-weight: 700;
       font-size: 12px;
       text-transform: uppercase;
       border-radius: 25px;
-      padding: 0 20px;
       transition: box-shadow 0.3s ease-in, color 0.3s ease-in, opacity 0.3s ease-in; }
       .header-btns__signin:hover {
         color: #661dff;
@@ -1400,6 +1400,8 @@ input {
     margin-bottom: 29px;
     margin-left: 1px; }
   .button-elements__border {
+    width: 99px;
+    height: 44px;
     margin-bottom: 31px; }
   .button-elements__link {
     display: inline-block;
