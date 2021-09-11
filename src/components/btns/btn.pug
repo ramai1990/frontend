@@ -1,0 +1,13 @@
+mixin btn({theme, href, text, buttonClass})
+  case theme
+    when "primary"
+      form(action=href)
+        button.btn-reset.header-btns__signup(class=buttonClass)= text
+    when "border"
+      .header-btns_border&attributes(attributes)
+        form(action=href)
+          button(type="submit" class=buttonClass).btn-reset= text
+    when "arrow"
+      button.button-elements__default.btn-reset.btn-default(class=buttonClass)= text
+    default
+      a(href=href).button-elements__link.link-primary= text

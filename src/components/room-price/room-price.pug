@@ -58,4 +58,8 @@ mixin roomPrice
     .room-price__total.room-price__inner
       h3 Итого
       input.room-price__input.room-price__input_price(type="text" value='38 081₽' disabled)
-    button.btn-reset.btn-default.room-price__btn забронировать
+    +btn({
+      theme: 'arrow',
+      buttonClass: 'room-price__btn',
+      text: 'забронировать'
+    })

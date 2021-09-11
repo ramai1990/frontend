@@ -7,21 +7,23 @@ mixin rangeElements
     ])
     .button-elements
       h3.button-elements__title.elements-title Buttons
-      +buttonPrimary({
-          text: 'CLICK ME',
-          classes: 'btn-primary button-elements__btn'
-      })
-      +buttonBorder({
-        classes: 'button-elements__border btn-border',
+      +btn({
+        theme: 'primary',
         text: 'CLICK ME',
-        buttonClass: 'btn-border__primary'
+        buttonClass: 'button-elements__btn'
       })
+      +btn({
+        theme: 'border',
+        text: 'CLICK ME',
+        buttonClass: 'header-btns__signin'
+      })(class='button-elements__border')
       .button-elements__item
-        +buttonLink({
+        +btn({
           text: 'CLICK ME',
           href: 'form-elements.html'
         })
-      +buttonDefault({
+      +btn({
+        theme: 'arrow',
         text: 'перейти к оплате'
       })
     +pagination({

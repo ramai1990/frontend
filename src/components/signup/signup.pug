@@ -1,6 +1,6 @@
 mixin signUp(items)
   each item in items
-    - const { title, date, data, payment, account, sugnIn } = item;
+    - const { title, date, data, account, sugnIn } = item;
     form(action="/").signup
       .signup__title= title
       input.signup__input(type="text" placeholder='Имя')
@@ -29,8 +29,15 @@ mixin signUp(items)
           classes: 'signup__toggle'
         }
       ])
-      button.signup__btn.btn-reset.btn-default.search-rooms__btn= payment
+      +btn({
+        theme: 'arrow',
+        text: 'перейти к оплате',
+        buttonClass: 'signup__btn'
+      })
       .signup__bottom
         p.signup__bottom-text= account
-        .btn-border.signup__bottom-btn
-          button(type="submit").btn-border__primary.btn-reset= sugnIn
+        +btn({
+          theme: 'border',
+          buttonClass: 'header-btns__signin',
+          text: 'войти'
+        })

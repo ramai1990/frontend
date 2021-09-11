@@ -20,15 +20,15 @@ mixin header(status, navigations)
                 a(href="/").nav__link= nav.name
       if status === 'non-authorized'
         .header__btns.header-btns
-          +buttonBorder({
-            classes: 'header-btns_border',
+          +btn({
+            theme: 'border',
             href: '/sign-in.html',
             text: 'войти',
             buttonClass: 'header-btns__signin'
           })
-          +buttonPrimary({
+          +btn({
+            theme: 'primary',
             href: '/sign-up.html',
-            classes: 'header-btns__signup',
             text: 'зарегистрироваться'
           })
       else if status === 'authorized'
