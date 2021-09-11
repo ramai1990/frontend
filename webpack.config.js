@@ -9,6 +9,7 @@ const ImageminPlugin = require('imagemin-webpack');
 const webpack = require("webpack");
 const autoprefixer = require("autoprefixer");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const TerserPlugin = require("terser-webpack-plugin");
 
 const PATHS = {
   src: path.join(__dirname, './src')
@@ -25,6 +26,7 @@ const filename = (ext) => isDev ? `[name].${ext}` : `[name].[contenthash].${ext}
 
 const optimization = () => {
   const configObj = {
+    moduleIds: 'deterministic',
     splitChunks: {
       chunks: 'all'
     }
@@ -32,8 +34,11 @@ const optimization = () => {
 
   if (isProd) {
     configObj.minimizer = [
-      new OptimizeCssAssetWebpackPlugin(),
-      new TerserWebpackPlugin()
+      new TerserWebpackPlugin({
+        parallel: true,
+        cashe: true
+      }),
+      new OptimizeCssAssetWebpackPlugin()
     ];
   }
 
