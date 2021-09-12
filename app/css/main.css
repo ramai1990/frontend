@@ -351,7 +351,7 @@ li {
   overflow: hidden; }
 
 .is-hidden {
-  display: none !important; }
+  display: none; }
 
 .visually-hidden {
   position: absolute !important;
@@ -1142,7 +1142,7 @@ input {
   position: relative;
   margin-bottom: 29px; }
   .range-elements__title {
-    margin-bottom: 24px !important; }
+    margin-bottom: 24px; }
   .range-elements__wrapper {
     position: absolute;
     right: -2px;
@@ -1482,9 +1482,6 @@ input {
   color: #1f2041; }
   .nav__link_active path {
     fill-opacity: 1; }
-
-.range-elements__title {
-  margin-bottom: 5px; }
 
 .dropdown__input {
   width: 160px;

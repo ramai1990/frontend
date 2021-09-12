@@ -74,7 +74,8 @@ const plugins = () => {
       $: "jquery",
       jQuery: "jquery",
       "window.jQuery": "jquery"
-    })
+    }),
+    new webpack.HotModuleReplacementPlugin()
   ];
 
   if (isProd) {
