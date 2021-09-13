@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "simple webpack",
   "main": "index.js",
+  "homepage": "https://ramai1990.github.io/frontend",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
-    "start": "cross-env NODE_ENV=development webpack serve --mode development"
+    "start": "cross-env NODE_ENV=development webpack serve --mode development",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d app"
   },
   "author": "Ramil",
   "license": "ISC",
@@ -20,6 +23,7 @@
     "cross-env": "^7.0.2",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.0",
     "html-webpack-pug-plugin": "^2.0.1",
