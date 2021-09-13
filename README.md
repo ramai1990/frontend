@@ -2,15 +2,15 @@
 
 # Демо
 
-[Landing](https://ramai1990.github.io/frontend/)
+[Landing](https://ramai1990.github.io/frontend)
 
-[Room](https://ramai1990.github.io/frontend/room.html)
+[Room](https://ramai1990.github.io/frontend/room)
 
-[Search-room](https://ramai1990.github.io/frontend/search-room.html)
+[Search-room](https://ramai1990.github.io/frontend/search-room)
 
-[Sign-in](https://ramai1990.github.io/frontend/sign-up.html)
+[Sign-in](https://ramai1990.github.io/frontend/sign-up)
 
-[Sign-up](https://ramai1990.github.io/frontend/sign-in.html)
+[Sign-up](https://ramai1990.github.io/frontend/sign-in)
 
 
 Pixel Perfect верстка проекта с использованием Pug, Scss, jQuery, Webpack
