@@ -1,4 +1,5 @@
 mixin search-rooms
+  - const guest = require('../../components/guest-dropdown/guest.json');
   .search-rooms
     .search-rooms__title Найдём номера под ваши пожелания
     .dropdown-date.search-rooms__date
@@ -11,33 +12,7 @@ mixin search-rooms
     .form-elements__dropdown
       +guest({
         title: 'гости',
-        list: [
-          {
-            title: 'взрослые',
-            list: [
-              'взрослый',
-              'взрослых',
-              'взрослых'
-            ]
-          },
-          {
-            title: 'дети',
-            list: [
-              'ребенок',
-              'ребенка',
-              'детей'
-            ]
-          },
-          {
-            title: 'младенцы',
-            list: [
-              'младенец',
-              'младенца',
-              'младенцев'
-            ],
-            class: 'guest__counter_baby'
-          }
-        ]
+        list: guest
       })
     +btn({
       theme: 'arrow',

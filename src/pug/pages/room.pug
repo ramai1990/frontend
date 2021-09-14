@@ -6,6 +6,7 @@ block variables
   - const pageClass = '';
   - const user1 = require('../../assets/user1.json');
   - const user2 = require('../../assets/user2.json');
+  - const advantages = require('../../components/advantages/advantages.json');
 
 block content
   section.room
@@ -21,23 +22,7 @@ block content
           .room__content_inner
             .room__content-item
               .room__title Сведения о номере
-              +advantages([
-                {
-                  modifier: 'comfort',
-                  text: 'Шумопоглощающие стены',
-                  title: 'Комфорт'
-                },
-                {
-                  modifier: 'convenience',
-                  text: 'Окно в каждой из спален',
-                  title: 'Удобство'
-                },
-                {
-                  modifier: 'cosiness',
-                  text: 'Номер оснащён камином',
-                  title: 'Уют'
-                }
-              ])
+              +advantages(advantages)
             .room__content-item
               .room__title Впечатления от номера
               +statistics({
@@ -47,24 +32,8 @@ block content
           .room__comments
             .room__title Отзывы посетителей номера
               span 2 отзыва
-            +comment([
-              {
-                avatar: user1.avatar,
-                author: user1.author,
-                date: user1.date,
-                text: user1.text,
-                counter: user1.counter
-              }
-            ])
-            +comment([
-              {
-                avatar: user2.avatar,
-                author: user2.author,
-                date: user2.date,
-                text: user2.text,
-                counter: user2.counter
-              }
-            ])
+            +comment([user1])
+            +comment([user2])
           .room__rules
             .room__rules-item
               +bullet(

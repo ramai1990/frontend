@@ -1,0 +1,37 @@
+[
+  {
+    "modifier": "shade100",
+    "title": "Dark Shade 100%",
+    "colorsName": "#1F2041"
+  },
+  {
+    "modifier": "shade75",
+    "title": "Dark Shade 75%",
+    "colorsName": "#1F2041"
+  },
+  {
+    "modifier": "shade50",
+    "title": "Dark Shade 50%",
+    "colorsName": "#1F2041"
+  },
+  {
+    "modifier": "shade25",
+    "title": "Dark Shade 25%",
+    "colorsName": "#1F2041"
+  },
+  {
+    "modifier": "shade5",
+    "title": "Dark Shade 5%",
+    "colorsName": "#1F2041"
+  },
+  {
+    "modifier": "purple",
+    "title": "Purple",
+    "colorsName": "#BC9CFF"
+  },
+  {
+    "modifier": "green",
+    "title": "Green",
+    "colorsName": "6FCF97"
+  }
+]

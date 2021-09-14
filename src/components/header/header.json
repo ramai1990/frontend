@@ -1,0 +1,41 @@
+[
+  {
+    "name": "О нас"
+  },
+  {
+    "submenu": true,
+    "name": "Услуги",
+    "items": [
+      {
+        "name": "link 1"
+      },
+      {
+        "name": "link 2"
+      },
+      {
+        "name": "link 3"
+      }
+    ]
+  },
+  {
+    "name": "Вакансии"
+  },
+  {
+    "name": "Новости"
+  },
+  {
+    "submenu": true,
+    "name": "Соглашения",
+    "items": [
+      {
+        "name": "link 1"
+      },
+      {
+        "name": "link 2"
+      },
+      {
+        "name": "link 3"
+      }
+    ]
+  }
+]

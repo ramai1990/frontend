@@ -1,21 +1,7 @@
 mixin checkboxElements
+  - const checkbox = require('../../components/checkbox/checkbox.json');
   .form-elements__checkbox
-    +checkbox('Checkbox Buttons', [
-      {
-        id: 1,
-        text: 'Можно курить'
-      },
-      {
-        id: 2,
-        text: 'Можно с питомцами',
-        checked: true
-      },
-      {
-        id: 3,
-        text: 'Можно пригласить гостей (до 10 человек)',
-        checked: true
-      },
-    ])
+    +checkbox('Checkbox Buttons', checkbox)
     .radio-elements
       .radio-elements__title Radio Buttons
       .radio-elements__item

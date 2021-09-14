@@ -4,49 +4,14 @@ include ../../pug/utils/mixins
 block variables
   - const title = 'Colors & Type';
   - const pageClass = 'colors-type';
+  - const colors = require('../../components/colors-type/colors.json');
 
 block content
   .colors-type__section
     .container.colors-type__container
       .colors-type__inner
         .colors-type__item.item-colors
-          +colors([
-            {
-              modifier: 'shade100',
-              title: 'Dark Shade 100%',
-              colorsName: '#1F2041'
-            },
-            {
-              modifier: 'shade75',
-              title: 'Dark Shade 75%',
-              colorsName: '#1F2041'
-            },
-            {
-              modifier: 'shade50',
-              title: 'Dark Shade 50%',
-              colorsName: '#1F2041'
-            },
-            {
-              modifier: 'shade25',
-              title: 'Dark Shade 25%',
-              colorsName: '#1F2041'
-            },
-            {
-              modifier: 'shade5',
-              title: 'Dark Shade 5%',
-              colorsName: '#1F2041'
-            },
-            {
-              modifier: 'purple',
-              title: 'Purple',
-              colorsName: '#BC9CFF'
-            },
-            {
-              modifier: 'green',
-              title: 'Green',
-              colorsName: '6FCF97'
-            },
-          ])
+          +colors(colors)
         .colors-type__item.item-type
           h1 This one is the sub-section or widget title
           h2 Next one is the item title inside widgets

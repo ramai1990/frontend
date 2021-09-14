@@ -4,6 +4,12 @@ include ../../pug/utils/mixins
 block variables
   - const title = 'Search Room';
   - const pageClass = '';
+  - const listCheckbox = require('../../components/list-checkbox/list-checkbox.json');
+  - const pagination = require('../../components/pagination/pagination.json');
+  - const guest = require('../../components/guest-dropdown/guest.json');
+  - const cards = require('../../components/card/cards.json');
+  - const checkbox = require('../../components/checkbox/checkbox.json');
+  - const richCheckbox = require('../../components/rich-checkbox/rich-checkbox.json');
 
 block content
   section.search-room
@@ -15,33 +21,7 @@ block content
             input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
           +guest({
             title: 'гости',
-            list: [
-              {
-                title: 'взрослые',
-                list: [
-                  'взрослый',
-                  'взрослых',
-                  'взрослых'
-                ]
-              },
-              {
-                title: 'дети',
-                list: [
-                  'ребенок',
-                  'ребенка',
-                  'детей'
-                ]
-              },
-              {
-                title: 'младенцы',
-                list: [
-                  'младенец',
-                  'младенца',
-                  'младенцев'
-                ],
-                class: 'guest__counter_baby'
-              }
-            ]
+            list: guest
           })
           +rangeSlider([
             {
@@ -52,95 +32,15 @@ block content
             }
           ])
           .form-elements__checkbox
-            +checkbox('правила дома', [
-              {
-                id: 1,
-                text: 'Можно курить'
-              },
-              {
-                id: 2,
-                text: 'Можно с питомцами',
-                checked: true
-              },
-              {
-                id: 3,
-                text: 'Можно пригласить гостей (до 10 человек)',
-                checked: true
-              },
-            ])
-          +richCheckbox('доступность', [
-            {
-              id: '1',
-              title: 'Широкий коридор',
-              description: 'Ширина коридоров в номере не менее 91 см.'
-            },
-            {
-              id: '2',
-              title: 'Помощник для инвалидов',
-              description: 'На 1 этаже вас встретит специалист  и проводит до номера.'
-            },
-          ])
+            +checkbox('правила дома', checkbox)
+          +richCheckbox('доступность', richCheckbox)
           +dropdown('удобства номера')
-          +list-checkbox('дополнительные удобства', [
-            {
-              text: 'Завтрак',
-              id: 1
-            },
-            {
-              text: 'Письменный стол',
-              id: 2,
-              checked: true
-            },
-            {
-              text: 'Письменный стол',
-              id: 3,
-              checked: true
-            },
-            {
-              text: 'Стул для кормления',
-              id: 4,
-              checked: true
-            },
-            {
-              text: 'Телевизор',
-              id: 5
-            },
-            {
-              text: 'Шампунь',
-              id: 6
-            }
-          ])
+          +list-checkbox('дополнительные удобства', listCheckbox)
         .search-room__cards
           h3.search-room__title Номера, которые мы для вас подобрали
-          +cards
+          +card(cards)
           .search-room__pagination
             +pagination({
               text: '1 – 12 из 100+ вариантов аренды',
-              list: [
-                {
-                  href: '/form-elements.html',
-                  link: 1,
-                  class: 'pagination-elements__link_active'
-                },
-                {
-                  href: '/form-elements.html',
-                  link: 2
-                },
-                {
-                  href: '/form-elements.html',
-                  link: 3
-                },
-                {
-                  href: '/form-elements.html',
-                  link: '...'
-                },
-                {
-                  href: '/form-elements.html',
-                  link: 15
-                },
-                {
-                  href: '/form-elements.html',
-                  class: 'pagination-elements__next'
-                }
-              ]
+              list: pagination
             })

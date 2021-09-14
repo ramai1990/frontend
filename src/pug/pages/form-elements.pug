@@ -6,6 +6,9 @@ block variables
   - const pageClass = '';
   - const user1 = require('../../assets/user1.json');
   - const user2 = require('../../assets/user2.json');
+  - const listCheckbox = require('../../components/list-checkbox/list-checkbox.json');
+  - const richCheckbox = require('../../components/rich-checkbox/rich-checkbox.json');
+  - const advantages = require('../../components/advantages/advantages.json');
 
 block content
   section.form-elements
@@ -17,48 +20,9 @@ block content
       .form-elements__inner
         .item
           +dropdown('удобства номера')
-          +list-checkbox('дополнительные удобства', [
-            {
-              text: 'Завтрак',
-              id: 1
-            },
-            {
-              text: 'Письменный стол',
-              id: 2,
-              checked: true
-            },
-            {
-              text: 'Письменный стол',
-              id: 3,
-              checked: true
-            },
-            {
-              text: 'Стул для кормления',
-              id: 4,
-              checked: true
-            },
-            {
-              text: 'Телевизор',
-              id: 5
-            },
-            {
-              text: 'Шампунь',
-              id: 6
-            }
-          ])
+          +list-checkbox('дополнительные удобства', listCheckbox)
         .item
-          +richCheckbox('доступность', [
-            {
-              id: '1',
-              title: 'Широкий коридор',
-              description: 'Ширина коридоров в номере не менее 91 см.'
-            },
-            {
-              id: '2',
-              title: 'Помощник для инвалидов',
-              description: 'На 1 этаже вас встретит специалист  и проводит до номера.'
-            },
-          ])
+          +richCheckbox('доступность', richCheckbox)
         .item
           +bullet(
             'bullet list',
@@ -70,38 +34,6 @@ block content
           ])
       .form-elements__inner
         .item
-          +advantages([
-            {
-              modifier: 'comfort',
-              text: 'Шумопоглощающие стены',
-              title: 'Комфорт'
-            },
-            {
-              modifier: 'convenience',
-              text: 'Окно в каждой из спален',
-              title: 'Удобство'
-            },
-            {
-              modifier: 'cosiness',
-              text: 'Номер оснащён камином',
-              title: 'Уют'
-            }
-          ])
-      +comment([
-        {
-          avatar: user1.avatar,
-          author: user1.author,
-          date: user1.date,
-          text: user1.text,
-          counter: user1.counter
-        }
-      ])
-      +comment([
-        {
-          avatar: user2.avatar,
-          author: user2.author,
-          date: user2.date,
-          text: user2.text,
-          counter: user2.counter
-        }
-      ])
+          +advantages(advantages)
+      +comment([user1])
+      +comment([user2])
