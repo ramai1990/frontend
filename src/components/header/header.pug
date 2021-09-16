@@ -1,6 +1,6 @@
 mixin header({status, navigations})
   header.header
-    .container.header__container
+    .header__container
       .logo
         a(href="/")
           img(src=require('/img/logo.svg').default, alt="")
@@ -22,7 +22,6 @@ mixin header({status, navigations})
         .header__btns.header-btns
           +btn({
             theme: 'border',
-            href: '/sign-in.html',
             text: 'войти',
             buttonClass: 'header-btns__signin'
           })
