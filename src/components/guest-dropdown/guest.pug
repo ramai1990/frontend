@@ -3,7 +3,7 @@ mixin guest({title, list})
     .elements-title.range-elements__title= title
     .dropdown-guest
       button(value="").dropdown__button.guest__btn.btn-reset
-        input.dropdown__input-guest.guest__input(type='text' value='Сколько гостей' readonly)
+      input.dropdown__input-guest.guest__input(type='text' value='Сколько гостей' readonly)
       ul.dropdown__list.guest__list
         each item in list
           li.dropdown__list-item(data-value="гость,гостя,гостей")= item.title
@@ -14,6 +14,6 @@ mixin guest({title, list})
               button(data-direction="plus").counter__btn-guest.guest__counter-btn.btn-reset
                 span
                   include ../../img/plus.svg
-        .guest__btns
+        li.guest__btns
           button.clear.guest__clear.btn-reset очистить
           button.apply.guest__apply.btn-reset применить

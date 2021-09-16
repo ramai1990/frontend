@@ -16,12 +16,16 @@
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
   }
   &__input {
+    position: absolute;
+    left: 16px;
+    top: 14px;
     width: 100%;
     border: none;
     font-size: 14px;
     color: $dark75;
     padding: 0;
     pointer-events: none;
+    background: transparent;
   }
   &__counter-btn {
     width: 30px;

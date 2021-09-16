@@ -110,7 +110,7 @@ p {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  background: $primary-gradient;
   border-radius: 22px;
   transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
   &:hover {
@@ -169,7 +169,7 @@ p {
   font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  background: $primary-gradient;
   border-radius: 22px;
   position: relative;
   transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
