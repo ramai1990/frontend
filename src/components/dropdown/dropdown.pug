@@ -3,6 +3,6 @@ mixin dropdown(title)
   .elements-title.range-elements__title= title
   .dropdown
     button(value="", data-btn="btn").dropdown__button.btn-reset
-      input.dropdown__input(type='text' value='2 спальни, 2 кровати...' readonly)
+    input.dropdown__input(type='text' value='2 спальни, 2 кровати...' readonly)
     ul.dropdown__list(data-list="list")
       +dropdownCounter(dropdown)

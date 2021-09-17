@@ -4,4 +4,4 @@ mixin rating(items)
     .rate-elements__item(class=classes)
       select(class=selectClass)
         each value in [1, 2, 3, 4, 5]
-          option(value=`${value}`)
+          option(value=`${value}`)= value
