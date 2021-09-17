@@ -3,7 +3,7 @@
   padding-bottom: 250px;
 
   &__container {
-    max-width: 1188px;
+    @include container(1188px);
   }
   &__inner {
     display: flex;

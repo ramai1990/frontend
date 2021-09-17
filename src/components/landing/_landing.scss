@@ -6,6 +6,9 @@
   background-size: cover;
   padding-top: 70px;
   position: relative;
+  &__container {
+    @include container(1190px);
+  }
   &__description {
     position: absolute;
     right: 134px;

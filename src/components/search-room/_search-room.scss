@@ -1,7 +1,7 @@
 .search-room {
   padding-top: 31px;
   &__container {
-    margin: 0 auto;
+    @include container(1190px);
   }
   &__grid {
     width: 100%;

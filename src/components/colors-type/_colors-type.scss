@@ -1,6 +1,6 @@
 .colors-type {
   &__container {
-    max-width: 1230px;
+    @include container(1230px);
   }
   &__inner {
     display: flex;

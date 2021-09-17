@@ -1,6 +1,7 @@
 .room {
   width: 100%;
   &__container {
+    @include container(1190px);
     padding-top: 72px;
   }
   &__grid {

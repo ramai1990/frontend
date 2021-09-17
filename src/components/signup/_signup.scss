@@ -1,3 +1,8 @@
+.sign-up {
+  &__container {
+    @include container(1190px);
+  }
+}
 .signup {
   max-width: 380px;
   background: #fff;

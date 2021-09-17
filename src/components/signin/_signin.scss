@@ -1,3 +1,8 @@
+.sign-in {
+  &__container {
+    @include container(1190px);
+  }
+}
 .signin {
   max-width: 380px;
   padding: 30px;
@@ -7,6 +12,7 @@
   box-sizing: border-box;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
   &__title {
     font-size: 24px;
     font-weight: 700;
