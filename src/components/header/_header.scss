@@ -38,6 +38,7 @@
       border-radius: 25px;
       transition: box-shadow 0.3s ease-in, color 0.3s ease-in,
         opacity 0.3s ease-in;
+      padding: 0 9px;
       &:hover {
         color: darken($purple, 25%);
         opacity: 0.5;

@@ -24,6 +24,7 @@
     border: 1px solid $dark25;
     border-radius: 4px;
     padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 10px;
     &::placeholder {
       color: $dark25;
@@ -46,8 +47,9 @@
   }
   &__birthdate {
     width: 100%;
-    color: $dark75;
+    color: $dark25;
     margin-bottom: 21px;
+    text-transform: uppercase;
   }
   &__toggle {
     position: relative;

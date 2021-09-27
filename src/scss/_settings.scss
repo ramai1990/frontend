@@ -47,6 +47,9 @@ li {
   border: none;
   padding: 0;
   background: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -145,6 +148,7 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: $purple;
+    padding: 0 6px;
     transition: box-shadow 0.3s ease-in, color 0.3s ease-in;
     &:hover {
       color: darken($purple, 25%);
@@ -202,4 +206,7 @@ input[type="number"] {
 }
 input {
   outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
 }

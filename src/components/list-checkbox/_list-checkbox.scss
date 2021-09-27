@@ -1,4 +1,7 @@
 .list-checkbox {
+  max-width: 266px;
+  overflow: hidden;
+  white-space: nowrap;
   position: relative;
   cursor: pointer;
   &__title {
