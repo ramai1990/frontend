@@ -40,3 +40,4 @@ import "../components/calendare/calendar.js";
 import "../../node_modules/swiper/swiper-bundle";
 import "../components/swiper/swiper.js";
 import "../components/burger/burger.js";
+import "../components/imask/imask";

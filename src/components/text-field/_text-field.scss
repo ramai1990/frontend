@@ -73,17 +73,17 @@
     input {
       padding: 13px 15px;
       position: relative;
-      &::-webkit-calendar-picker-indicator {
-        position: absolute;
-        right: 10px;
-        opacity: 0;
-        cursor: pointer;
-      }
+      // &::-webkit-calendar-picker-indicator {
+      //   position: absolute;
+      //   right: 10px;
+      //   opacity: 0;
+      //   cursor: pointer;
+      // }
     }
 
     input:valid {
       text-transform: uppercase;
-      color: $dark25;
+      // color: $dark25;
     }
   }
   &__datedropdown {
