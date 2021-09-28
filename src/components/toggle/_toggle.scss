@@ -23,7 +23,7 @@
       border: 1px solid $purple;
     }
     &:checked + .toggle-elements__label::before {
-      background-color: $purple;
+      background: $primary-gradient;
       left: 24px;
     }
   }

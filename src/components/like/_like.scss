@@ -23,6 +23,9 @@
       border: 1px solid $purple;
       .like-elements__btn-like {
         background-image: url("../img/like.svg");
+        svg {
+          fill: $primary-gradient;
+        }
       }
       .like-elements__counter {
         color: $purple;
