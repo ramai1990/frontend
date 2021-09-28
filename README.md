@@ -8,9 +8,9 @@
 
 [Search-room](https://ramai1990.github.io/frontend/search-room)
 
-[Sign-in](https://ramai1990.github.io/frontend/sign-up)
+[Sign-up](https://ramai1990.github.io/frontend/sign-up)
 
-[Sign-up](https://ramai1990.github.io/frontend/sign-in)
+[Sign-in](https://ramai1990.github.io/frontend/sign-in)
 
 
 Pixel Perfect верстка проекта с использованием Pug, Scss, jQuery, Webpack
