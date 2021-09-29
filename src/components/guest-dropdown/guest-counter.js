@@ -29,14 +29,21 @@ class GuestCounter {
     const list = this.list;
     const clear = this.clear;
     const showValue = this.showValue;
+
     if (dropdownguest) {
       btnClear.style.opacity = "0";
 
       this.btnsGuest.forEach((btn) => {
+        const minBtn = btn.parentElement.querySelector(
+          "[data-direction='minus']"
+        );
+        const inpGuest = btn.parentElement.querySelector(".guest__counter");
+
+        clear(inpGuest.value, minBtn, "0.3");
+
         btn.addEventListener("click", function () {
           const direction = this.dataset.direction;
 
-          const inpGuest = this.parentElement.querySelector(".guest__counter");
           const currentValue = +inpGuest.value;
           let newValue;
 
@@ -58,8 +65,10 @@ class GuestCounter {
             input.value = "Сколько гостей";
             sum = 0;
             btnClear.style.opacity = "0";
+            minBtn.style.opacity = "0.3";
           });
 
+          clear(inpGuest.value, minBtn, "0.3");
           clear(sum, btnClear);
 
           btnApply.addEventListener("click", function (e) {
@@ -86,9 +95,9 @@ class GuestCounter {
     }
   }
 
-  clear(sum, btnClear) {
+  clear(sum, btnClear, opacity = "0") {
     if (sum == 0 || sum < 1) {
-      btnClear.style.opacity = "0";
+      btnClear.style.opacity = opacity;
     } else {
       btnClear.style.opacity = "1";
     }

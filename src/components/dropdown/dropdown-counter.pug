@@ -1,10 +1,10 @@
 mixin dropdownCounter(items)
   each item in items
-    - const {subtitle, list } = item;
+    - const {subtitle, list, value } = item;
     li.dropdown__list-item= subtitle
       .counter
         button(data-direction="minus").counter__btn.btn-reset
           include ../../img/remove.svg
-        input(type="number" value="2" data-value=`${list}`).counter__value
+        input(type="number" value=`${value}` data-value=`${list}`).counter__value
         button(data-direction="plus").counter__btn.btn-reset
           include ../../img/plus.svg
