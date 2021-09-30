@@ -10,13 +10,39 @@
   &__amount {
     margin-top: 13px;
   }
+  &__services {
+    span {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $dark25;
+      border: 1px solid $dark25;
+      border-radius: 100%;
+      margin-right: auto;
+      margin-left: 6px;
+    }
+  }
   &__additional {
-    margin-bottom: 34px;
+    margin-bottom: 35px;
+    span {
+      width: 23px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $dark25;
+      border: 1px solid $dark25;
+      border-radius: 100%;
+      margin-right: 16px;
+      margin-left: 6px;
+    }
   }
   &__total {
     font-size: 19px;
     color: $dark;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     position: relative;
     &::after {
       position: absolute;
@@ -41,18 +67,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    span {
-      width: 20px;
-      height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $dark25;
-      border: 1px solid $dark25;
-      border-radius: 100%;
-      margin-right: auto;
-      margin-left: 10px;
-    }
   }
   &__input {
     width: 100%;
@@ -68,13 +82,17 @@
   }
   &__text {
     color: $dark75;
+    &_additional {
+      position: relative;
+      top: 9px;
+    }
   }
 }
 .price-title {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
   &__left {
     font-size: 24px;
     font-weight: 700;
@@ -84,15 +102,17 @@
       padding-right: 4px;
     }
     span:nth-child(2) {
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       color: $purple;
       text-transform: uppercase;
+      padding-left: 7px;
     }
   }
   &__right {
     font-weight: 700;
     color: $dark50;
+    padding-top: 4px;
     span {
       font-size: 12px;
       font-weight: 400;

@@ -3,7 +3,7 @@
   color: $dark75;
   position: relative;
   & + & {
-    margin-top: 29px;
+    margin-top: 25px;
   }
   &__img {
     position: absolute;
@@ -37,9 +37,11 @@
   &__text {
     line-height: 1.7;
     padding-left: 58px;
+    position: relative;
   }
-}
-.like-elements__like {
-  left: 4px;
-  top: 56px;
+  &__like {
+    position: absolute;
+    top: 55px;
+    left: 3px;
+  }
 }

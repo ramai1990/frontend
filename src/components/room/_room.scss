@@ -13,7 +13,7 @@
     font-weight: 700;
     font-size: 19px;
     color: $dark;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@
       max-width: 672px;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 15px;
+      margin-bottom: 16px;
     }
   }
   &__price {
@@ -62,7 +62,7 @@
     max-width: 340px;
   }
   &__comments {
-    margin-bottom: 36px;
+    margin-bottom: 33px;
   }
 }
 .room-intro {
