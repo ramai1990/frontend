@@ -8,6 +8,7 @@ mixin comment(items)
       p.comment__text= text
         +like([
           {
+            classes: 'comment__like',
             counter: counter
           }
         ])
