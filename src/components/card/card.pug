@@ -1,6 +1,6 @@
 mixin card(list)
   each item in list
-    - const { type, number, text, price, counter, test, slides, swipperArrowHidden } = item;
+    - const { number, text, price, counter, test, slides, swipperArrowHidden, rating } = item;
     .card
       .swiper-container
         .swiper-wrapper
@@ -18,19 +18,11 @@ mixin card(list)
         p.luxe-title__right= price
           span в сутки
       .card-luxe__reviews
-        if type === 'luxe'
-          +rating([
-            {
-              classes: 'card-luxe__rating',
-              selectClass: 'rate-elements__rating'
-            }
-          ])
-        else if type === 'normal'
-          +rating([
-            {
-              classes: 'card-luxe__rating',
-              selectClass: 'rate-elements__rating2'
-            }
-          ])
+        +rating([
+          {
+            classes: 'card-luxe__rating',
+            rating: `${rating}`
+          }
+        ])
         .card-luxe__text= counter
           span Отзывов

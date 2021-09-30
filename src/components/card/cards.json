@@ -1,10 +1,10 @@
 [
   {
-    "type": "luxe",
     "number": 888,
     "text": "люкс",
     "price": "9 990₽",
     "counter": 145,
+    "rating": "5",
     "slides": [
       { "image": "luxe.jpg" },
       { "image": "luxe-2.png" },
@@ -13,10 +13,10 @@
     ]
   },
   {
-    "type": "normal",
     "number": 840,
     "price": "9 990₽",
     "counter": 65,
+    "rating": "4",
     "slides": [
       { "image": "card.jpg" },
       { "image": "card.jpg" },
@@ -26,10 +26,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 980,
     "price": "8 500₽",
     "counter": 35,
+    "rating": "3",
     "slides": [
       { "image": "card-2.png" },
       { "image": "card-2.png" },
@@ -39,10 +39,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 856,
     "price": "7 300₽",
     "counter": 19,
+    "rating": "5",
     "slides": [
       { "image": "card-3.png" },
       { "image": "card-3.png" },
@@ -52,10 +52,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 740,
     "price": "6 000₽",
     "counter": 44,
+    "rating": "4",
     "slides": [
       { "image": "card-4.png" },
       { "image": "card-4.png" },
@@ -65,10 +65,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 982,
     "price": "5 800₽",
     "counter": 56,
+    "rating": "3",
     "slides": [
       { "image": "card-5.png" },
       { "image": "card-5.png" },
@@ -78,10 +78,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 678,
     "price": "5 500₽",
     "counter": 45,
+    "rating": "5",
     "slides": [
       { "image": "card-6.png" },
       { "image": "card-6.png" },
@@ -91,10 +91,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 450,
     "price": "5 300₽",
     "counter": 39,
+    "rating": "4",
     "slides": [
       { "image": "card-7.png" },
       { "image": "card-7.png" },
@@ -104,10 +104,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 350,
     "price": "5 000₽",
     "counter": 77,
+    "rating": "3",
     "slides": [
       { "image": "card-8.png" },
       { "image": "card-8.png" },
@@ -117,10 +117,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 666,
     "price": "5 000₽",
     "counter": 25,
+    "rating": "5",
     "slides": [
       { "image": "card-9.png" },
       { "image": "card-9.png" },
@@ -130,10 +130,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 444,
     "price": "5 000₽",
     "counter": 15,
+    "rating": "3",
     "slides": [
       { "image": "card-10.png" },
       { "image": "card-10.png" },
@@ -143,10 +143,10 @@
     "swipperArrowHidden": "card__arrow_hidden"
   },
   {
-    "type": "normal",
     "number": 352,
     "price": "5 000₽",
     "counter": 55,
+    "rating": "3",
     "slides": [
       { "image": "card-11.png" },
       { "image": "card-11.png" },
