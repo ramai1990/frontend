@@ -2,7 +2,7 @@ mixin header({status, navigations})
   header.header
     .header__container
       .logo
-        a(href="/")
+        a(href="https://ramai1990.github.io/frontend")
           img(src=require('/img/logo.svg').default, alt="")
       nav.nav
         ul.nav__list
@@ -22,12 +22,13 @@ mixin header({status, navigations})
         .header__btns.header-btns
           +btn({
             theme: 'border',
+            href: 'https://ramai1990.github.io/frontend/sign-in',
             text: 'войти',
             buttonClass: 'header-btns__signin'
           })
           +btn({
             theme: 'primary',
-            href: '/sign-up.html',
+            href: 'https://ramai1990.github.io/frontend/sign-up',
             text: 'зарегистрироваться'
           })
       else if status === 'authorized'

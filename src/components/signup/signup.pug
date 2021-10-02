@@ -1,7 +1,7 @@
 mixin signUp(items)
   each item in items
-    - const { title, date, data, account, sugnIn } = item;
-    form(action="/").signup
+    - const { title, date, data, account } = item;
+    .signup
       .signup__title= title
       input.signup__input(type="text" placeholder='Имя')
       input.signup__input(type="text" placeholder='Фамилия')
@@ -38,5 +38,6 @@ mixin signUp(items)
         p.signup__bottom-text= account
         +btn({
           theme: 'btn-form',
+          href: 'https://ramai1990.github.io/frontend/sign-in',
           text: 'Войти'
         })
