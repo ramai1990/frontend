@@ -18,8 +18,7 @@
     }
   }
   &__search-rooms {
-    width: 380px;
-    height: 374px;
+    max-width: 380px;
     margin-bottom: 39px;
   }
   &__room-price {
