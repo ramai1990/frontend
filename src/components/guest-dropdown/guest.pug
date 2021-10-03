@@ -1,19 +1,19 @@
-mixin guest({title, list})
-  .form-elements__dropdown.search-rooms__guest
+mixin guest({title, list, marginBottom})
+  .search-rooms__guest
     .elements-title.range-elements__title= title
-    .dropdown-guest
-      button(value="").dropdown__button.guest__btn.btn-reset
+    .dropdown-guest(style={'margin-bottom': `${marginBottom}px`})
+      button(value="").dropdown__button.guest__btn
       input.dropdown__input-guest.guest__input(type='text' value='Сколько гостей' readonly)
       ul.dropdown__list.guest__list
         each item in list
           li.dropdown__list-item(data-value="гость,гостя,гостей")= item.title
             .counter.guest__counters
-              button(data-direction="minus").counter__btn-guest.guest__counter-btn.btn-reset
+              button(data-direction="minus").counter__btn-guest.guest__counter-btn
                 include ../../img/remove.svg
               input(type="number" value="0" data-value=`${item.list}` readonly class=item.class).guest__counter
-              button(data-direction="plus").counter__btn-guest.guest__counter-btn.btn-reset
+              button(data-direction="plus").counter__btn-guest.guest__counter-btn
                 span
                   include ../../img/plus.svg
         li.guest__btns
-          button.clear.guest__clear.btn-reset очистить
-          button.apply.guest__apply.btn-reset применить
+          button.clear.guest__clear очистить
+          button.apply.guest__apply применить

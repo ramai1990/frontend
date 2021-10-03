@@ -14,7 +14,6 @@
   },
   {
     "number": 840,
-    "text": "люкс",
     "price": "9 900₽",
     "counter": 65,
     "rating": "4",
@@ -28,6 +27,7 @@
   },
   {
     "number": 980,
+    "text": "люкс",
     "price": "8 500₽",
     "counter": 35,
     "rating": "3",

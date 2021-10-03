@@ -54,36 +54,29 @@
       }
     }
   }
-  &__dropdown {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    cursor: pointer;
-    position: relative;
-    margin-bottom: 25px;
-    span {
-      margin-bottom: 5px;
-    }
-  }
+  // &__dropdown {
+  //   display: flex;
+  //   flex-direction: column;
+  //   max-width: 320px;
+  //   font-weight: 700;
+  //   text-transform: uppercase;
+  //   font-size: 12px;
+  //   cursor: pointer;
+  //   position: relative;
+  //   margin-bottom: 25px;
+  //   span {
+  //     margin-bottom: 5px;
+  //   }
+  // }
   &__date {
     margin-bottom: 42px;
     input {
       padding: 13px 15px;
       position: relative;
-      // &::-webkit-calendar-picker-indicator {
-      //   position: absolute;
-      //   right: 10px;
-      //   opacity: 0;
-      //   cursor: pointer;
-      // }
     }
 
     input:valid {
       text-transform: uppercase;
-      // color: $dark25;
     }
   }
   &__datedropdown {
@@ -152,6 +145,9 @@
   &__email {
     position: relative;
     max-width: 267px;
+    button {
+      @include btn-reset;
+    }
     input {
       &::placeholder {
         color: $dark25;

@@ -58,6 +58,7 @@
     margin-bottom: 25px;
   }
   &__btn {
+    @include btn-default;
     margin-bottom: 30px;
   }
   &__bottom {

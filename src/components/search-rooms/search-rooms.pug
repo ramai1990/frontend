@@ -1,4 +1,4 @@
-mixin search-rooms
+mixin search-rooms(marginBottom)
   - const guest = require('../../components/guest-dropdown/guest.json');
   .search-rooms
     .search-rooms__title Найдём номера под ваши пожелания
@@ -9,11 +9,11 @@ mixin search-rooms
       .search-rooms__dropdown
         p.search-rooms__text выезд
         input.dropdown-date__range.dropdown-date__range_to.search-rooms__input(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
-    .form-elements__dropdown
-      +guest({
-        title: 'гости',
-        list: guest
-      })
+    +guest({
+      title: 'гости',
+      list: guest,
+      marginBottom: marginBottom
+    })
     +btn({
       theme: 'arrow',
       href: 'https://ramai1990.github.io/frontend/search-room',

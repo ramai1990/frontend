@@ -3,8 +3,8 @@ mixin dropdownCounter(items)
     - const {subtitle, list, value } = item;
     li.dropdown__list-item= subtitle
       .counter
-        button(data-direction="minus").counter__btn.btn-reset
+        button(data-direction="minus").counter__btn
           include ../../img/remove.svg
         input(type="number" value=`${value}` data-value=`${list}`).counter__value
-        button(data-direction="plus").counter__btn.btn-reset
+        button(data-direction="plus").counter__btn
           include ../../img/plus.svg

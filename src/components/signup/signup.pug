@@ -1,6 +1,6 @@
 mixin signUp(items)
   each item in items
-    - const { title, date, data, account } = item;
+    - const { title, date, data, account, textBtn = 'зарегистрироваться' } = item;
     .signup
       .signup__title= title
       input.signup__input(type="text" placeholder='Имя')
@@ -31,7 +31,7 @@ mixin signUp(items)
       ])
       +btn({
         theme: 'arrow',
-        text: 'зарегистрироваться',
+        text: textBtn,
         buttonClass: 'signup__btn'
       })
       .signup__bottom

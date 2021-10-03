@@ -8,12 +8,18 @@ block variables
   - const footer = require('../../components/footer/footer.json');
 
 block content
-  +header({
-    status:'non-authorized',
-    navigations: header
-  })
-  +header({
-    status:'authorized',
-    navigations: header
-  })
-  +footer(footer)
+  .headers-footers
+    .headers-footers__non-authorized
+      +header({
+        status:'non-authorized',
+        navigations: header
+      })
+    .headers-footers__authorized
+      +header({
+        status:'authorized',
+        navigations: header
+      })
+    .headers-footers__footer
+      +footer(footer)
+    .headers-footers__small
+      +footer(footer)

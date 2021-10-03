@@ -1,40 +1,42 @@
-const fs = require('fs');
-const path = require('path');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const OptimizeCssAssetWebpackPlugin = require('optimize-css-assets-webpack-plugin');
-const TerserWebpackPlugin = require('terser-webpack-plugin');
-const ImageminPlugin = require('imagemin-webpack');
+const fs = require("fs");
+const path = require("path");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const OptimizeCssAssetWebpackPlugin = require("optimize-css-assets-webpack-plugin");
+const TerserWebpackPlugin = require("terser-webpack-plugin");
+const ImageminPlugin = require("imagemin-webpack");
 const webpack = require("webpack");
 const autoprefixer = require("autoprefixer");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const PATHS = {
-  src: path.join(__dirname, './src')
-}
+  src: path.join(__dirname, "./src"),
+};
 
+const PAGES_DIR = `${PATHS.src}/pug/pages/`;
+const PAGES = fs
+  .readdirSync(PAGES_DIR)
+  .filter((fileName) => fileName.endsWith(".pug"));
 
-const PAGES_DIR = `${PATHS.src}/pug/pages/`
-const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.pug'))
-
-const isDev = process.env.NODE_ENV === 'development';
+const isDev = process.env.NODE_ENV === "development";
 const isProd = !isDev;
 
-const filename = (ext) => isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`;
+const filename = (ext) =>
+  isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`;
 
 const optimization = () => {
   const configObj = {
-    moduleIds: 'deterministic',
+    moduleIds: "deterministic",
     splitChunks: {
-      chunks: 'all'
-    }
+      chunks: "all",
+    },
   };
 
   if (isProd) {
     configObj.minimizer = [
       new OptimizeCssAssetWebpackPlugin(),
-      new TerserWebpackPlugin()
+      new TerserWebpackPlugin(),
     ];
   }
 
@@ -43,35 +45,39 @@ const optimization = () => {
 
 const plugins = () => {
   const basePlugins = [
-    ...PAGES.map(page => new HtmlWebpackPlugin({
-      template: `${PAGES_DIR}/${page}`,
-      filename: `./${page.replace(/\.pug/, '.html')}`,
-      minify: {
-        collapseWhitespace: isProd
-      }
-    })),
+    ...PAGES.map(
+      (page) =>
+        new HtmlWebpackPlugin({
+          template: `${PAGES_DIR}/${page}`,
+          filename: `./${page.replace(/\.pug/, ".html")}`,
+          minify: {
+            collapseWhitespace: isProd,
+          },
+        })
+    ),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: `./css/${filename('css')}`
+      filename: `./css/${filename("css")}`,
     }),
     new webpack.LoaderOptionsPlugin({
       options: {
-        postcss: [
-          autoprefixer()
-        ]
-      }
+        postcss: [autoprefixer()],
+      },
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: path.resolve(__dirname, 'src/assets'), to: path.resolve(__dirname, 'app') }
-      ]
+        {
+          from: path.resolve(__dirname, "src/assets"),
+          to: path.resolve(__dirname, "app"),
+        },
+      ],
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
-      "window.jQuery": "jquery"
+      "window.jQuery": "jquery",
     }),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
   ];
 
   if (isProd) {
@@ -89,32 +95,32 @@ const plugins = () => {
               {
                 plugins: [
                   {
-                    removeViewBox: false
-                  }
-                ]
-              }
-            ]
-          ]
-        }
+                    removeViewBox: false,
+                  },
+                ],
+              },
+            ],
+          ],
+        },
       })
-    )
+    );
   }
 
   return basePlugins;
 };
 
 module.exports = {
-  context: path.resolve(__dirname, 'src'),
-  mode: 'development',
-  entry: './js/main.js',
+  context: path.resolve(__dirname, "src"),
+  mode: "development",
+  entry: "./js/main.js",
   output: {
-    filename: `./js/${filename('js')}`,
-    path: path.resolve(__dirname, 'app'),
-    publicPath: ''
+    filename: `./js/${filename("js")}`,
+    path: path.resolve(__dirname, "app"),
+    publicPath: "",
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, 'app'),
+    contentBase: path.resolve(__dirname, "app"),
     open: true,
     compress: true,
     hot: true,
@@ -122,15 +128,15 @@ module.exports = {
   },
   optimization: optimization(),
   plugins: plugins(),
-  devtool: isProd ? false : 'source-map',
+  devtool: isProd ? false : "source-map",
   module: {
     rules: [
       {
         test: /\.pug$/,
-        loader: 'pug-loader',
+        loader: "pug-loader",
         options: {
           pretty: true,
-          root: path.resolve(__dirname, 'src'),
+          root: path.resolve(__dirname, "src"),
         },
       },
       {
@@ -139,10 +145,10 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmr: isDev
+              hmr: isDev,
             },
           },
-          'css-loader'
+          "css-loader",
         ],
       },
       {
@@ -152,38 +158,42 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
             options: {
               publicPath: (resourcePath, context) => {
-                return path.relative(path.dirname(resourcePath), context) + '/';
+                return path.relative(path.dirname(resourcePath), context) + "/";
               },
-            }
+            },
           },
-          'css-loader',
-          'postcss-loader',
-          'sass-loader'
+          "css-loader",
+          "postcss-loader",
+          "sass-loader",
         ],
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        use: ["babel-loader"],
       },
       {
         test: /\.(?:|gif|png|jpg|jpeg|svg)$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: `./img/${filename('[ext]')}`
-          }
-        }],
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: `./img/${filename("[ext]")}`,
+            },
+          },
+        ],
       },
       {
         test: /\.(woff(2)?|eot|ttf|otf|)$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: `./fonts/${filename('[ext]')}`
-          }
-        }],
-      }
-    ]
-  }
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: `./fonts/${filename("[ext]")}`,
+            },
+          },
+        ],
+      },
+    ],
+  },
 };

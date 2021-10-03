@@ -1,6 +1,6 @@
 mixin like(items)
   each item in items
-    - const { counter, classes, buttonClasses } = item;
-    .like-elements__like(class=classes)
-      button.like-elements__btn-like.btn-reset(class=buttonClasses)
+    - const { counter, buttonClasses } = item;
+    .like-elements__like
+      button.like-elements__btn-like(class=buttonClasses)
       .like-elements__counter= counter

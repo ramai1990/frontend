@@ -28,6 +28,7 @@
       background-clip: content-box, border-box;
     }
     &__signin {
+      @include btn-reset;
       font-family: "Montserrat";
       width: 87px;
       height: 34px;
@@ -46,6 +47,7 @@
       }
     }
     &__signup {
+      @include btn-reset;
       font-family: "Montserrat";
       height: 34px;
       background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);

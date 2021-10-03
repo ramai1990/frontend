@@ -21,6 +21,9 @@
     margin-bottom: 22px;
   }
   &__btn {
+    @include btn-reset;
+    @include btn-default;
+    background: $primary-gradient;
     margin: 10px 0 30px;
     padding: 0 35px;
   }

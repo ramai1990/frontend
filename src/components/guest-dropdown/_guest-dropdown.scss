@@ -28,6 +28,7 @@
     background: transparent;
   }
   &__counter-btn {
+    @include btn-reset;
     width: 30px;
     height: 30px;
     border: 1px solid $dark25;
@@ -76,6 +77,7 @@
   }
   &__clear,
   &__apply {
+    @include btn-reset;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;

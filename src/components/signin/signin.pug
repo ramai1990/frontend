@@ -5,7 +5,7 @@ mixin signIn(items)
       .signin__title= title
       input.signup__input(type="email" placeholder='Email')
       input.signup__input(type="password" placeholder='Пароль')
-      button.signin__btn.btn-reset.btn-default= buttonSignIn
+      button.signin__btn= buttonSignIn
       .signin__bottom
         p.signin__bottom-text= text
         +btn({

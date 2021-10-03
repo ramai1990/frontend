@@ -1,0 +1,9 @@
+@mixin btn-reset {
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}

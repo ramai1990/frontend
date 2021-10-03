@@ -1,15 +1,38 @@
 .cards {
-  padding: 70px;
   &__container {
     @include container(1190px);
     width: 100%;
-    display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 151px;
+    padding-bottom: 140px;
+    @include media(1200px) {
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+    }
   }
   &__item {
-    display: grid;
-    grid-column: 1 span;
-    grid-gap: 40px;
+    @include media(1200px) {
+      margin-top: 40px;
+    }
+  }
+  &__search-rooms {
+    width: 380px;
+    height: 374px;
+    margin-bottom: 39px;
+  }
+  &__room-price {
+    padding-top: 3px;
+    margin-bottom: 37px;
+  }
+  &__sign-in {
+    height: 358px;
+  }
+  &__datepicker {
+    margin-bottom: 40px;
+  }
+  &__card + &__card {
+    margin-top: 40px;
   }
 }

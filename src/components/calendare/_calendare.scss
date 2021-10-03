@@ -8,9 +8,18 @@
 }
 .datepicker--button[data-action="today"] {
   order: 1;
+  left: 22px;
 }
 .datepicker--button[data-action="clear"] {
   color: #ece7ff;
+  right: 30px;
+  &:hover {
+    color: $dark50;
+  }
+}
+.datepicker--button:hover {
+  color: $dark50;
+  background: transparent;
 }
 .open.datepicker--button {
   color: $purple;
@@ -120,7 +129,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 10px 0;
+  padding: 4px 10px 0;
 }
 .datepicker--button {
   font-family: Montserrat;
@@ -132,7 +141,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -10px;
   padding: 0 10px;
 }
 .datepicker--nav-action[data-action="prev"] {

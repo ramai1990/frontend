@@ -1,22 +1,26 @@
 .landing {
-  height: 94vh;
+  height: 830px;
   background-image: url("../img/landing.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 70px;
-  position: relative;
   &__container {
     @include container(1190px);
+    height: 762px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   &__description {
-    position: absolute;
-    right: 134px;
-    bottom: 18px;
+    align-self: flex-end;
+    padding-bottom: 23px;
+    text-align: right;
   }
   &__text {
-    text-align: right;
-    max-width: 300px;
+    position: relative;
+    right: -6px;
+    width: 300px;
     color: $dark75;
     line-height: 24px;
   }
@@ -36,16 +40,9 @@
 
 @media (max-height: 900px) {
   .landing {
-    height: 93vh;
+    height: 600px;
   }
-}
-@media (max-height: 750px) {
-  .landing {
-    height: 91vh;
-  }
-}
-@media (max-width: 530px) {
-  .landing__description {
-    right: 20px;
+  .landing__container {
+    height: 550px;
   }
 }

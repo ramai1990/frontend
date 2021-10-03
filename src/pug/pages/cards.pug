@@ -9,55 +9,62 @@ block content
   section.cards
     .cards__container
       .cards__item
-        +search-rooms
+        .cards__search-rooms
+          +search-rooms(25)
         +signUp([
           {
             title: 'Регистрация аккаунта',
             date: 'дата рождения',
             data: 'данные для входа в сервис',
-            payment: 'перейти к оплате',
-            account: 'Уже есть аккаунт на Toxin',
-            sugnIn: 'войти'
+            textBtn: 'перейти к оплате',
+            account: 'Уже есть аккаунт на Toxin'
           }
         ])
       .cards__item
-        +roomPrice
-        +signIn([
-          {
-            title: 'Войти',
-            buttonSignIn: 'войти',
-            text: 'Нет аккаунта на Toxin?',
-            buttonCreate: 'создать'
-          }
-        ])
+        .cards__room-price
+          +roomPrice
+        .cards__sign-in
+          +signIn([
+            {
+              title: 'Войти',
+              buttonSignIn: 'войти',
+              text: 'Нет аккаунта на Toxin?'
+            }
+          ])
       .cards__item
-        +card([
-          {
-            type: 'luxe',
-            number: 888,
-            text: 'люкс',
-            price: '9 990₽',
-            counter: 145,
-            rating: 5,
-            slides: [
-              {image: 'luxe.jpg'},
-              {image: 'luxe-2.png'},
-              {image: 'luxe-3.png'},
-              {image: 'luxe-4.png'}
-            ]
-          },
-          {
-            type: 'normal',
-            number: 840,
-            price: '9 900₽',
-            counter: 65,
-            rating: 4,
-            slides: [
-              {image: 'card.jpg'},
-              {image: 'card.jpg'},
-              {image: 'card.jpg'},
-              {image: 'card.jpg'}
-            ],
-            swipperArrowHidden: 'card__arrow_hidden'
-          }
-        ])
+        .cards__datepicker
+          .datepicker-here(data-range="true")
+        .cards__card
+          +card([
+            {
+              type: 'luxe',
+              number: 888,
+              text: 'люкс',
+              price: '9 990₽',
+              counter: 145,
+              rating: 5,
+              slides: [
+                {image: 'luxe.jpg'},
+                {image: 'luxe-2.png'},
+                {image: 'luxe-3.png'},
+                {image: 'luxe-4.png'}
+              ]
+            }
+          ])
+        .cards__card
+          +card([
+            {
+              type: 'normal',
+              number: 840,
+              price: '9 900₽',
+              counter: 65,
+              rating: 4,
+              slides: [
+                {image: 'card.jpg'},
+                {image: 'card.jpg'},
+                {image: 'card.jpg'},
+                {image: 'card.jpg'}
+              ],
+              swipperArrowHidden: 'card__arrow_hidden'
+            }
+          ])

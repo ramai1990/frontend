@@ -20,5 +20,8 @@
   }
   &__default {
     padding: 0 32px;
+    @include btn-reset;
+    @include btn-default;
+    background: $primary-gradient;
   }
 }

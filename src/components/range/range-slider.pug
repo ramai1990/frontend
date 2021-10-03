@@ -1,7 +1,7 @@
 mixin rangeSlider(items)
   each item in items
     - const { title, classRange, classTitle, span } = item;
-    .range-elements(class=classRange)
+    .range-elements
       h3.range-elements__title.elements-title(class=classTitle)= title
       .range-elements__wrapper
         input.input-with-keypress-0(type='text')

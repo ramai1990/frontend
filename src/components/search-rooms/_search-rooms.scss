@@ -1,5 +1,6 @@
 .search-rooms {
   max-width: 380px;
+  min-height: 374px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
@@ -56,6 +57,7 @@
     margin-bottom: 4px;
   }
   &__guest {
+    @include form-elements-dropdown;
     margin-bottom: 6px;
   }
 }

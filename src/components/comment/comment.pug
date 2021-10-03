@@ -6,9 +6,9 @@ mixin comment(items)
       h3.comment__author= author
       p.comment__date= date
       p.comment__text= text
-        +like([
-          {
-            classes: 'comment__like',
-            counter: counter
-          }
-        ])
+        .comment__like
+          +like([
+            {
+              counter: counter
+            }
+          ])

@@ -23,14 +23,14 @@ block content
             title: 'гости',
             list: guest
           })
-          +rangeSlider([
-            {
-              title: 'диапазон цены',
-              classRange: 'search-room__range',
-              classTitle: 'search-room__range-title',
-              span: 'Стоимость за сутки пребывания в номере'
-            }
-          ])
+          .search-room__range
+            +rangeSlider([
+              {
+                title: 'диапазон цены',
+                classTitle: 'search-room__range-title',
+                span: 'Стоимость за сутки пребывания в номере'
+              }
+            ])
           .form-elements__checkbox
             +checkbox('правила дома', checkbox)
           +richCheckbox('доступность', richCheckbox)

@@ -1,15 +1,24 @@
 .colors-type {
   &__container {
-    @include container(1230px);
+    @include container(1168px);
   }
   &__inner {
     display: flex;
     justify-content: space-between;
+    @include media(840px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 .item-colors {
-  padding-left: 55px;
-  &__text {
+  &__shade100,
+  &__shade75,
+  &__shade50,
+  &__shade25,
+  &__shade5,
+  &__purple,
+  &__green {
     height: 70px;
     display: flex;
     justify-content: center;
@@ -73,6 +82,9 @@
       background-color: $green;
     }
   }
+  @include media(840px) {
+    margin-bottom: 60px;
+  }
 }
 .item-type {
   max-width: 440px;
@@ -80,6 +92,7 @@
   font-weight: 700;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 1px;
+  padding-left: 5px;
   h1 {
     font-size: 24px;
     line-height: 29px;
