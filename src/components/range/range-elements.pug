@@ -7,12 +7,15 @@ mixin rangeElements
       }
     ])
     .button-elements
-      h3.button-elements__title.elements-title Buttons
-      +btn({
-        theme: 'primary',
-        text: 'CLICK ME',
-        buttonClass: 'button-elements__btn'
-      })
+      h3.button-elements__title Buttons
+      .button-elements__btn
+        +btn({
+          theme: 'primary',
+          text: 'CLICK ME',
+          width: 99,
+          height: 44,
+          marginLeft: 0
+        })
       +btn({
         theme: 'btn-form',
         text: 'CLICK ME'
@@ -26,7 +29,7 @@ mixin rangeElements
         theme: 'arrow',
         text: 'перейти к оплате'
       })
-    h3.pagination-elements__title.elements-title pagination
+    h3.pagination-elements__title pagination
     +pagination({
       text: '1 – 12 из 100+ вариантов аренды',
       list: pagination

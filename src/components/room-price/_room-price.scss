@@ -8,6 +8,12 @@
   padding: 30px;
   padding-top: 40px;
 
+  &__amount,
+  &__services,
+  &__additional,
+  &__total {
+    @include flex;
+  }
   &__amount {
     margin-top: 13px;
   }
@@ -26,6 +32,10 @@
     }
   }
   &__additional {
+    .room-price__text {
+      position: relative;
+      top: 9px;
+    }
     margin-bottom: 35px;
     span {
       width: 23px;
@@ -70,23 +80,16 @@
     justify-content: space-between;
   }
   &__input {
-    width: 100%;
+    width: 62px;
     height: 34px;
     color: $dark75;
     border: none;
     background-color: #fff;
+    text-align: right;
     padding: 0;
-    &_price {
-      width: 62px;
-      text-align: right;
-    }
   }
   &__text {
     color: $dark75;
-    &_additional {
-      position: relative;
-      top: 9px;
-    }
   }
 }
 .price-title {

@@ -7,7 +7,7 @@ mixin guest({title, list, marginBottom, value = 'Сколько гостей'})
       ul.dropdown__list.guest__list&attributes(attributes)
         each item in list
           li.dropdown__list-item(data-value="гость,гостя,гостей")= item.title
-            .counter.guest__counters
+            .guest__counters
               button(data-direction="minus").counter__btn-guest.guest__counter-btn
                 include ../../img/remove.svg
               input(type="number" value=`${item.value}` data-value=`${item.list}` readonly class=item.class).guest__counter

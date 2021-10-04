@@ -1,6 +1,6 @@
 mixin checkbox(title, items)
   .checkbox-elements
-    h3.checkbox-elements__title.elements-title= title
+    h3.checkbox-elements__title= title
     each item in items
       - const { id, text, checked } = item;
       if checked

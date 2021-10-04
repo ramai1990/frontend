@@ -1,6 +1,7 @@
 .pagination-elements {
   margin-right: 11px;
   &__title {
+    @include elements-title;
     margin-bottom: 17px;
   }
   &__list {

@@ -1,5 +1,6 @@
 .rate-elements {
   &__title {
+    @include elements-title;
     margin-bottom: 15px;
   }
   &__inner {

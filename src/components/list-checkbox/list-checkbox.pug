@@ -1,14 +1,14 @@
 mixin list-checkbox(title, items, activeClass)
   .list-checkbox
-    .elements-title.list-checkbox__title&attributes(attributes)= title
+    .list-checkbox__title&attributes(attributes)= title
     .list-checkbox__list(class=`${activeClass}`)
       each item in items
         - const { id, text, checked } = item;
         if checked
-          .checkbox-elements__item.list-checkbox__item
+          .list-checkbox__item
             input.checkbox-elements__input(type="checkbox" id=`list-checkbox-${id}` checked)
             label.checkbox-elements__label(for=`list-checkbox-${id}`)= text
         else
-          .checkbox-elements__item.list-checkbox__item
+          .list-checkbox__item
             input.checkbox-elements__input(type="checkbox" id=`list-checkbox-${id}`)
             label.checkbox-elements__label(for=`list-checkbox-${id}`)= text

@@ -5,6 +5,7 @@
   position: relative;
   cursor: pointer;
   &__title {
+    @include elements-title;
     width: 266px;
     position: relative;
     padding: 5px 0;

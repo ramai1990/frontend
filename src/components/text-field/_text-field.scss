@@ -52,12 +52,14 @@
   }
 
   &__default {
-    max-width: 320px;
-    display: flex;
-    flex-direction: column;
+    @include elements-default;
     margin-bottom: 22px;
     input::placeholder {
       color: $dark75;
+    }
+    &_focus {
+      @include elements-default;
+      margin-bottom: 22px;
     }
   }
   &__text {
@@ -95,6 +97,7 @@
     }
   }
   &__date {
+    @include elements-default;
     margin-bottom: 19px;
     input {
       padding: 13px 15px;
@@ -112,8 +115,10 @@
     margin-bottom: 23px;
   }
   &__datedrop {
+    @include elements-default;
     width: 150px;
     position: relative;
+    margin-bottom: 19px;
     input {
       padding: 13px 15px;
     }
@@ -144,10 +149,11 @@
     }
   }
   &__datepicker {
+    @include elements-default;
     max-width: 266px;
     position: relative;
     text-transform: lowercase;
-    // margin-bottom: 42px;
+    margin-bottom: 22px;
     input {
       text-transform: lowercase;
       padding: 13px 15px;
@@ -173,8 +179,10 @@
     margin-bottom: 42px;
   }
   &__email {
+    @include elements-default;
     position: relative;
     max-width: 267px;
+    margin-bottom: 22px;
     button {
       @include btn-reset;
     }
@@ -191,7 +199,7 @@
     }
   }
   &__checkbox-item {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
   }
   &__toggle + &__toggle {
     margin-top: 17px;

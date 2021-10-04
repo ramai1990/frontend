@@ -1,19 +1,20 @@
-mixin btn({theme, href, text, buttonClass})
+mixin btn({theme, href, text, buttonClass, width, height, marginLeft = 20})
   case theme
     when "primary"
       form(action=href)
-        button.header-btns__signup(class=buttonClass)= text
+        .button-elements__btn
+          button.header-btns__signup(style={'width': `${width}px`, 'height': `${height}px`, 'margin-left': `${marginLeft}px`})= text
     when "border"
       form(action=href)
         .header-btns_border&attributes(attributes)
           button(type="submit" class=buttonClass)= text
     when "arrow"
       form(action=href)
-        button.button-elements__default(class=buttonClass)= text
+        button.button-elements__default= text
     when "btn-form"
       form(action=href)
         .signin__bottom-btn
           .btn-border
             button(type="submit").btn-border__primary= text
     default
-      a(href=href).button-elements__link.link-primary= text
+      a(href=href).link-primary= text

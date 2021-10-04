@@ -2,12 +2,9 @@
   width: 89%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   &__title {
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $dark;
+    @include elements-title;
     margin-bottom: 2px;
   }
   &__input {
@@ -54,8 +51,5 @@
       border-radius: 4px;
       background-color: #fff;
     }
-  }
-  &__item + &__item {
-    margin-top: -2px;
   }
 }

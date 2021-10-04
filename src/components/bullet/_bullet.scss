@@ -1,5 +1,6 @@
 .bullet {
   &__title {
+    @include elements-title;
     margin-bottom: 16px;
   }
   &__text {

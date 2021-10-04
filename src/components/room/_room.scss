@@ -17,13 +17,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &_rules {
-      margin-bottom: 20px;
-    }
-    &_rules-left {
-      margin-left: 20px;
-      margin-bottom: 20px;
-    }
 
     span {
       font-size: 14px;
@@ -57,6 +50,18 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 72px;
+    .room__title {
+      &:nth-child(1) {
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    &__title-right {
+      font-weight: 700;
+      font-size: 19px;
+      color: $dark;
+      margin-bottom: 20px;
+    }
   }
   &__rules-item {
     max-width: 340px;

@@ -4,6 +4,7 @@
   margin-bottom: 29px;
   &__title {
     margin-bottom: 24px;
+    @include elements-title;
   }
   &__wrapper {
     position: absolute;

@@ -2,6 +2,11 @@
   position: relative;
 }
 .guest {
+  &__counters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   &__btn {
     width: 100%;
     &:focus {

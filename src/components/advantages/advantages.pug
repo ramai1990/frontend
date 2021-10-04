@@ -2,6 +2,7 @@ mixin advantages(list)
   .advantages
     each item in list
       - const { title, text, modifier } = item;
-      div(class=`advantages__item advantages__item_${modifier}`)
-        h3.advantages__title= title
-        p.advantages__description= text
+      .advantages__item
+        div(class=`advantages__item_${modifier}`)
+          h3.advantages__title= title
+          p.advantages__description= text

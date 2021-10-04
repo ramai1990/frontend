@@ -35,7 +35,7 @@ mixin checkboxElements
           }
         ])
     .like-elements
-      .like-elements__title.elements-title like button
+      .like-elements__title like button
       .like-elements__inner
         +like([
           {
@@ -43,12 +43,11 @@ mixin checkboxElements
           },
           {
             counter: 12,
-            classes: 'like-elements__like2',
             buttonClasses: 'like-elements__btn-like2'
           }
         ])
     .rate-elements
-      .rate-elements__title.elements-title rate button
+      .rate-elements__title rate button
       .rate-elements__inner
         +rating([
           {

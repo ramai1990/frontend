@@ -1,9 +1,9 @@
 mixin richCheckbox(title, items)
   .rich-checkbox
-    .elements-title.rich-checkbox__title= title
+    .rich-checkbox__title= title
     each item in items
       - const { id, title, description } = item;
-      .checkbox-elements__item.list-checkbox__item.rich-checkbox__item
-        input.checkbox-elements__input(type="checkbox" id=`rich-checkbox-${id}`)
-        label.checkbox-elements__label.rich-checkbox__label(for=`rich-checkbox-${id}`)= title
+      .rich-checkbox__item
+        input.rich-checkbox__input(type="checkbox" id=`rich-checkbox-${id}`)
+        label.rich-checkbox__label(for=`rich-checkbox-${id}`)= title
           span= description
