@@ -1,7 +1,8 @@
 mixin checkboxElements
   - const checkbox = require('../../components/checkbox/checkbox.json');
   .form-elements__checkbox
-    +checkbox('Checkbox Buttons', checkbox)
+    .form-elements__checkbox-item
+      +checkbox('Checkbox Buttons', checkbox)
     .radio-elements
       .radio-elements__title Radio Buttons
       .radio-elements__item
@@ -18,17 +19,21 @@ mixin checkboxElements
         ])
     .toggle-elements
       .toggle-elements__title Toggle
-      +toggle([
-        {
-          id: 1,
-          checked: true,
-          text: 'Получать спецпредложения'
-        },
-        {
-          id: 2,
-          text: 'Получать спецпредложения'
-        }
-      ])
+      .form-elements__toggle
+        +toggle([
+          {
+            id: 1,
+            checked: true,
+            text: 'Получать спецпредложения'
+          }
+        ])
+      .form-elements__toggle
+        +toggle([
+          {
+            id: 2,
+            text: 'Получать спецпредложения'
+          }
+        ])
     .like-elements
       .like-elements__title.elements-title like button
       .like-elements__inner

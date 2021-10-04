@@ -1,7 +1,7 @@
-mixin list-checkbox(title, items)
+mixin list-checkbox(title, items, activeClass)
   .list-checkbox
-    .elements-title.list-checkbox__title= title
-    .list-checkbox__list
+    .elements-title.list-checkbox__title&attributes(attributes)= title
+    .list-checkbox__list(class=`${activeClass}`)
       each item in items
         - const { id, text, checked } = item;
         if checked

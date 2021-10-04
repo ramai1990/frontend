@@ -8,7 +8,7 @@ block variables
   - const user2 = require('../../assets/user2.json');
   - const listCheckbox = require('../../components/list-checkbox/list-checkbox.json');
   - const richCheckbox = require('../../components/rich-checkbox/rich-checkbox.json');
-  - const advantages = require('../../components/advantages/advantages.json');
+  - const guest = require('../../components/guest-dropdown/guest.json');
 
 block content
   section.form-elements
@@ -17,23 +17,91 @@ block content
         +textField
         +checkboxElements
         +rangeElements
-      .form-elements__inner
+      .form-elements__bottom
         .item
-          +dropdown('удобства номера')
-          +list-checkbox('дополнительные удобства', listCheckbox)
+          .form-elements__dropdown
+            span Default
+            +dropdown('dropdown', 24)
+          .form-elements__dropdown
+            span expanded
+            +dropdown('dropdown', 167)(class="dropdown__list_active")
+          .form-elements__list-checkbox
+            +list-checkbox('expandable checkbox list', listCheckbox)
+          .form-elements__list-checkbox
+            +list-checkbox('expandable checkbox list', listCheckbox, 'list-checkbox__list_active')(class="list-checkbox__title_active")
         .item
-          +richCheckbox('доступность', richCheckbox)
+          .form-elements__dropdown-guest
+            +guest({
+              title: 'dropdown',
+              list: [
+                {
+                  "title": "взрослые",
+                  "list": ["взрослый", "взрослых", "взрослых"],
+                  "value": "0"
+                },
+                {
+                  "title": "дети",
+                  "list": ["ребенок", "ребенка", "детей"],
+                  "value": "0"
+                },
+                {
+                  "title": "младенцы",
+                  "list": ["младенец", "младенца", "младенцев"],
+                  "class": "guest__counter_baby",
+                  "value": "0"
+                }
+              ],
+              marginBottom: 19
+            })(class="dropdown__list_active")
+          .form-elements__rich-checkbox
+            +richCheckbox('rich Checkbox Buttons', richCheckbox)
         .item
-          +bullet(
-            'bullet list',
-            'elements-title bullet__title',
-            [
-            'Нельзя с питомцами',
-            'Без вечеринок и мероприятий',
-            'Время прибытия — после 13:00, а выезд до 12:00'
-          ])
-      .form-elements__inner
-        .item
-          +advantages(advantages)
-      +comment([user1])
-      +comment([user2])
+          .form-elements__dropdown-guest
+              +guest({
+                title: 'dropdown',
+                list: [
+                  {
+                    "title": "взрослые",
+                    "list": ["взрослый", "взрослых", "взрослых"],
+                    "value": "2"
+                  },
+                  {
+                    "title": "дети",
+                    "list": ["ребенок", "ребенка", "детей"],
+                    "value": "1"
+                  },
+                  {
+                    "title": "младенцы",
+                    "list": ["младенец", "младенца", "младенцев"],
+                    "class": "guest__counter_baby",
+                    "value": "0"
+                  }
+                ],
+                marginBottom: 20,
+                value: '3 гостя'
+              })(class="dropdown__list_active")
+          .form-elements__bullet-list
+            +bullet(
+              'bullet list',
+              'elements-title bullet__title',
+              [
+              'Нельзя с питомцами',
+              'Без вечеринок и мероприятий',
+              'Время прибытия — после 13:00, а выезд до 12:00'
+            ])
+      .form-elements__footer
+        .form-elements__advantages
+            +advantages([
+              {
+                "modifier": "comfort",
+                "text": "Шумопоглощающие стены",
+                "title": "Комфорт"
+              },
+              {
+                "modifier": "convenience",
+                "text": "Окно в каждой из спален",
+                "title": "Удобство"
+              },
+            ])
+        .form-elements__comment
+          +comment([user1])

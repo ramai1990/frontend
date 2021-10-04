@@ -17,6 +17,10 @@
     color: $dark;
     margin-bottom: 23px;
   }
+  &__title-bottom {
+    @include elements-title;
+    margin-bottom: 4px;
+  }
   &__date {
     display: flex;
     justify-content: space-between;

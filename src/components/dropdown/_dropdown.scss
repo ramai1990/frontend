@@ -1,6 +1,10 @@
 .dropdown {
   position: relative;
   margin-bottom: 26px;
+  &__title {
+    @include elements-title;
+    margin-bottom: 4px;
+  }
   &__button {
     @include btn-reset;
     width: 266px;

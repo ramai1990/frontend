@@ -1,5 +1,6 @@
 .button-elements {
-  margin-bottom: 41px;
+  margin-top: 45px;
+  margin-bottom: 39px;
   &__title {
     margin-bottom: 17px;
   }
@@ -23,5 +24,8 @@
     @include btn-reset;
     @include btn-default;
     background: $primary-gradient;
+  }
+  &__item {
+    margin-top: 29px;
   }
 }
