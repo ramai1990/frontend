@@ -1,4 +1,4 @@
-mixin guest({title, list, marginBottom, value = 'Сколько гостей'})
+mixin guest({title, list, marginBottom = 0, value = 'Сколько гостей'})
   .search-rooms__guest
     .search-rooms__title-bottom= title
     .dropdown-guest(style={'margin-bottom': `${marginBottom}px`})

@@ -28,7 +28,35 @@ block content
           .form-elements__list-checkbox
             +list-checkbox('expandable checkbox list', listCheckbox)
           .form-elements__list-checkbox
-            +list-checkbox('expandable checkbox list', listCheckbox, 'list-checkbox__list_active')(class="list-checkbox__title_active")
+            +list-checkbox('expandable checkbox list', [
+              {
+                "text": "Завтрак",
+                "id": 11
+              },
+              {
+                "text": "Письменный стол",
+                "id": 22,
+                "checked": true
+              },
+              {
+                "text": "Стул для кормления",
+                "id": 33,
+                "checked": true
+              },
+              {
+                "text": "Кроватка",
+                "id": 44,
+                "checked": true
+              },
+              {
+                "text": "Телевизор",
+                "id": 55
+              },
+              {
+                "text": "Шампунь",
+                "id": 66
+              }
+            ], 'list-checkbox__list_active')(class="list-checkbox__title_active")
         .item
           .form-elements__dropdown-guest
             +guest({
