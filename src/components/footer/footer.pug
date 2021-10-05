@@ -17,13 +17,13 @@ mixin footer(navigations = [])
             .footer-inner__items
               ul.footer-inner__list
                 li.footer-inner__item_title
-                  a(href="https://ramai1990.github.io/frontend/404").footer-inner__link= nav.title
+                  a(href="https://ramai1990.github.io/frontend/404.html").footer-inner__link= nav.title
                 each item in nav.items
                   li.footer-inner__item
                     a(href=`${item.href}`).footer-inner__link= item.title
           .footer-inner__items
             .footer-inner__item_title
-              a(href="https://ramai1990.github.io/frontend/404") Подписка
+              a(href="https://ramai1990.github.io/frontend/404.html") Подписка
             p.footer-inner__text
               | Получайте специальные предложения и новости сервиса
             form.footer-inner__email(action="/")
