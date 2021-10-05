@@ -14,10 +14,10 @@ mixin header({status, navigations})
                 ul.submenu__list
                   each item in nav.items
                     li.submenu__item
-                      a(href="/").submenu__link= item.name
+                      a(href="https://ramai1990.github.io/frontend/404").submenu__link= item.name
             else
               li.nav__item
-                a(href="/").nav__link= nav.name
+                a(href="https://ramai1990.github.io/frontend/404").nav__link= nav.name
       if status === 'non-authorized'
         .header__btns
           .header-btns
@@ -34,4 +34,4 @@ mixin header({status, navigations})
             })
       else if status === 'authorized'
         .header__user
-          a(href="/").header__user-link Юлий Цезарь
+          a(href="https://ramai1990.github.io/frontend/404").header__user-link Юлий Цезарь
