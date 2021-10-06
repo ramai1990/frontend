@@ -1,7 +1,5 @@
 .range-elements {
-  max-width: 266px;
-  position: relative;
-  margin-bottom: 29px;
+  @include range-elements;
   &__title {
     margin-bottom: 24px;
     @include elements-title;
