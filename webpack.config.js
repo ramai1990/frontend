@@ -55,14 +55,6 @@ const plugins = () => {
           },
         })
     ),
-    // new HtmlWebpackPlugin({
-    //   template: `${PAGES_DIR}/form-elements.pug`,
-    //   filename: "./form-elements.html",
-    //   inject: true,
-    //   minify: {
-    //     collapseWhitespace: isProd,
-    //   },
-    // }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: `./css/${filename("css")}`,
