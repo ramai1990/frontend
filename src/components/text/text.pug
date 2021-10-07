@@ -1,0 +1,6 @@
+mixin text(list)
+  each item in list
+    - const { modifier, text, title } = item;
+    .text
+      p(class=`text__${modifier}`)= text
+        span= title

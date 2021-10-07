@@ -23,6 +23,7 @@ import "../pug/pages/headers-footers.pug";
 import "../pug/pages/form-elements.pug";
 import "../pug/pages/cards.pug";
 import "../pug/pages/search-room.pug";
+import "../pug/pages/colors-type.pug";
 
 import "../components/like/like";
 import "../components/rating/rating";
