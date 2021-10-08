@@ -10,7 +10,6 @@ mixin header({status, navigations})
             if nav.submenu
               li.nav__item.submenu
                 a.nav__link.nav__link_dropdown= nav.name
-                  include ../../img/arrow-down.svg
                 ul.submenu__list
                   each item in nav.items
                     li.submenu__item

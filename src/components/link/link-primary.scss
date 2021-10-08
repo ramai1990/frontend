@@ -1,0 +1,10 @@
+.link-primary {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $purple;
+  transition: color 0.3s ease-in;
+  &:hover {
+    color: $dark50;
+  }
+}

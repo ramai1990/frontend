@@ -123,9 +123,12 @@
   }
   &__link {
     display: block;
+    path {
+      transition: opacity 0.2s ease-in;
+    }
     &:hover {
       path {
-        fill: rgb(132, 0, 255);
+        opacity: 0.5;
       }
     }
   }
