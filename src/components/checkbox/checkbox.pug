@@ -1,13 +1,13 @@
 mixin checkbox(title, items)
-  .checkbox-elements
-    h3.checkbox-elements__title= title
+  .checkbox
+    h3.checkbox__title= title
     each item in items
       - const { id, text, checked } = item;
       if checked
-        .checkbox-elements__item
-          input.checkbox-elements__input(type="checkbox" id=`checkbox-${id}` checked)
-          label.checkbox-elements__label(for=`checkbox-${id}`)= text
+        .checkbox__item
+          input.checkbox__input(type="checkbox" id=`checkbox-${id}` checked)
+          label.checkbox__label(for=`checkbox-${id}`)= text
       else
-        .checkbox-elements__item
-          input.checkbox-elements__input(type="checkbox" id=`checkbox-${id}`)
-          label.checkbox-elements__label(for=`checkbox-${id}`)= text
+        .checkbox__item
+          input.checkbox__input(type="checkbox" id=`checkbox-${id}`)
+          label.checkbox__label(for=`checkbox-${id}`)= text

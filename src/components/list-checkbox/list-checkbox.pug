@@ -6,9 +6,9 @@ mixin list-checkbox(title, items, activeClass)
         - const { id, text, checked } = item;
         if checked
           .list-checkbox__item
-            input.checkbox-elements__input(type="checkbox" id=`list-checkbox-${id}` checked)
-            label.checkbox-elements__label(for=`list-checkbox-${id}`)= text
+            input.checkbox__input(type="checkbox" id=`list-checkbox-${id}` checked)
+            label.checkbox__label(for=`list-checkbox-${id}`)= text
         else
           .list-checkbox__item
-            input.checkbox-elements__input(type="checkbox" id=`list-checkbox-${id}`)
-            label.checkbox-elements__label(for=`list-checkbox-${id}`)= text
+            input.checkbox__input(type="checkbox" id=`list-checkbox-${id}`)
+            label.checkbox__label(for=`list-checkbox-${id}`)= text
