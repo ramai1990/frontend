@@ -1,0 +1,11 @@
+.like-elements {
+  margin-bottom: 41px;
+  &__title {
+    @include elements-title;
+    margin-bottom: 17px;
+  }
+  &__inner {
+    display: flex;
+    position: relative;
+  }
+}

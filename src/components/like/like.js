@@ -7,14 +7,14 @@ class Like {
   counter() {
     this.btnLikes.forEach((item) => {
       let like = true,
-        likeCount = item.querySelector(".like-elements__counter").textContent;
-      item.querySelector(".like-elements__counter").textContent =
+        likeCount = item.querySelector(".like__counter").textContent;
+      item.querySelector(".like__counter").textContent =
         this.shortValue(likeCount);
       item.addEventListener("click", () => {
-        item.classList.toggle("like-elements__like_active");
+        item.classList.toggle("like__active");
         likeCount = like ? ++likeCount : --likeCount;
         like = !like;
-        item.querySelector(".like-elements__counter").textContent =
+        item.querySelector(".like__counter").textContent =
           this.shortValue(likeCount);
       });
     });
@@ -29,4 +29,4 @@ class Like {
   }
 }
 
-const like = new Like(document.querySelectorAll(".like-elements__like"));
+const like = new Like(document.querySelectorAll(".like"));
