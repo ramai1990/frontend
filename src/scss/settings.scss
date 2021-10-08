@@ -72,92 +72,8 @@ p {
   margin: 0;
 }
 
-.logo {
-  min-width: 106px;
-  height: 40px;
-  margin-right: auto;
-}
-.logo__ulkit {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
 .ulkit-page {
   background-color: #e5e5e5;
-}
-.colors-type {
-  padding: 145px 0;
-  background-color: #fff;
-  &__logo {
-    position: absolute;
-    left: 30px;
-    top: 30px;
-  }
-}
-.elements-title {
-  font-weight: 700;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: $dark;
-}
-.btn-primary {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  background: $primary-gradient;
-  border-radius: 22px;
-  transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
-  &:hover {
-    opacity: 0.6;
-    box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
-  }
-}
-
-.btn-border {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 99px;
-  height: 44px;
-  text-align: center;
-  border: double 2px transparent;
-  border-radius: 22px;
-  background-image: linear-gradient(180deg, $white, $white),
-    radial-gradient(circle at top left, #bc9cff, #8ba4f9);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  transition: opacity 0.3s ease-in;
-  &:hover {
-    opacity: 0.5;
-  }
-
-  &__primary {
-    @include btn-reset;
-    height: 44px;
-    width: 100px;
-    border-radius: 22px;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $purple;
-    padding: 0 6px;
-    transition: box-shadow 0.3s ease-in, color 0.3s ease-in;
-    &:hover {
-      color: darken($purple, 25%);
-      box-shadow: 0px 0px 12px 0px $purple;
-    }
-  }
-}
-.link-primary {
-  font-weight: 700;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: $purple;
-  transition: color 0.3s ease-in;
-  &:hover {
-    color: $dark50;
-  }
 }
 
 button,
@@ -184,9 +100,4 @@ input {
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
-}
-
-.btn-form {
-  width: 99px;
-  height: 44px;
 }

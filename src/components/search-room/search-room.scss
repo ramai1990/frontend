@@ -17,6 +17,9 @@
     grid-row-gap: 20px;
     padding-left: 59px;
   }
+  &__checkbox {
+    width: 266px;
+  }
   &__title {
     grid-column: 3 span;
     font-weight: 700;

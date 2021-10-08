@@ -1,0 +1,14 @@
+@mixin form-elements-dropdown {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 25px;
+  span {
+    margin-bottom: 5px;
+  }
+}

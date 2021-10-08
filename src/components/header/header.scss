@@ -11,7 +11,7 @@
   &-btns {
     height: 33px;
     display: flex;
-    margin-left: 20px;
+    margin-left: 26px;
     &_border {
       display: flex;
       align-items: center;
@@ -25,6 +25,10 @@
         radial-gradient(circle at top left, #bc9cff, #8ba4f9);
       background-origin: border-box;
       background-clip: content-box, border-box;
+      transition: opacity 0.3s ease-in;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &__signin {
       @include btn-reset;
@@ -36,13 +40,12 @@
       font-size: 12px;
       text-transform: uppercase;
       border-radius: 25px;
-      transition: box-shadow 0.3s ease-in, color 0.3s ease-in,
-        opacity 0.3s ease-in;
       padding: 0 9px;
+      z-index: 45;
+      transition: box-shadow 0.3s ease-in, color 0.3s ease-in;
       &:hover {
-        color: darken($purple, 25%);
-        opacity: 0.5;
-        box-shadow: 0px 0px 10px 0px $purple;
+        color: darken($purple, 15%);
+        box-shadow: 0px 0px 12px 0px $purple;
       }
     }
     &__signup {
@@ -66,7 +69,7 @@
         margin-left: 0;
       }
     }
-    @include media(541px){
+    @include media(541px) {
       flex-direction: column;
       align-items: center;
     }
@@ -110,7 +113,7 @@
     }
   }
   &__link {
-    display: inline-block;
+    display: inline;
     transition: color 0.15s ease-in, text-shadow 0.15s ease-in;
     cursor: pointer;
     &:hover {
@@ -118,12 +121,25 @@
       color: $dark;
     }
     &_dropdown {
-      svg {
-        margin-left: 7px;
-        margin-right: 6px;
+      position: relative;
+      padding-right: 20px;
+
+      &:after {
+        position: absolute;
+        display: block;
+        width: 8px;
+        height: 8px;
+        content: "";
+        top: 4px;
+        right: 3px;
+        border-right: 2px solid rgba(31, 32, 65, 0.3);
+        border-top: 2px solid rgba(31, 32, 65, 0.3);
+        transform: rotate(-226deg);
+        transition: border-color 0.15s ease-in;
       }
-      path {
-        transition: fill-opacity 0.2s ease-in;
+      &:hover::after {
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+        border-color: $dark;
       }
     }
   }
