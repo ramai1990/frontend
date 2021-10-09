@@ -10,11 +10,12 @@ class DropdownGuest {
       const dropDownList = el.querySelector(".dropdown__list");
       const btnApply = el.querySelector(".apply");
       const btnClear = el.querySelector(".clear");
+      const guestBtn = el.querySelector(".guest__btn");
 
       dropDownBtn.addEventListener("click", function (e) {
         e.stopPropagation();
         dropDownList.classList.toggle("dropdown__list_active");
-        this.classList.remove("dropdown__button_active");
+        this.classList.toggle("dropdown__button_active");
       });
 
       btnApply.addEventListener("click", function (e) {
@@ -32,6 +33,7 @@ class DropdownGuest {
 
         if (!its_menu && !its_btnMenu && menu_is_active) {
           dropDownList.classList.remove("dropdown__list_active");
+          dropDownBtn.classList.remove("dropdown__button_active");
         }
       });
     });

@@ -170,9 +170,11 @@
       height: 20px;
       background-image: url("../img/arrow-down.svg");
       background-repeat: no-repeat;
-      right: 8px;
-      bottom: 5px;
+      background-position: center;
+      right: 12px;
+      bottom: 10px;
       pointer-events: none;
+      transition: transform 0.2s ease-in;
     }
   }
   &__filter-date {

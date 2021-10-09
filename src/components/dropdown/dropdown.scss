@@ -27,12 +27,12 @@
       width: 20px;
       height: 20px;
       right: 11px;
-      top: 50%;
-      transform: translateY(-50%);
+      top: 11px;
       background-image: url("../img/arrow-down.svg");
       background-repeat: no-repeat;
       background-position: center;
       pointer-events: none;
+      transition: transform 0.3s ease-in;
     }
   }
   &__input {
@@ -82,4 +82,8 @@
       margin-top: 7px;
     }
   }
+}
+
+.dropdown__button_active.dropdown__button::after {
+  transform: rotate(180deg);
 }
