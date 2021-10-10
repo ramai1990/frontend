@@ -1,46 +1,45 @@
 mixin roomPrice
   - const guest = require('../../components/guest-dropdown/guest.json');
   .room-price
-    .room-price__title
-      .price-title
-        h3.price-title__left
-          span №
-          | 888
-          span люкс
-        p.price-title__right 9 990₽
-          span в сутки
-    .room-price__date
-      .search-rooms__date
-        +air-datepicker({
-          title: 'прибытие',
-          type: 'from',
-          placeholder: 'ДД.ММ.ГГГГ'
-        })
-        +air-datepicker({
-          title: 'выезд',
-          type: 'to',
-          placeholder: 'ДД.ММ.ГГГГ'
-        })
-    +guest({
-      title: 'гости',
-      list: guest
-    })
-    .room-price__amount
-      input.room-price__input(type="text" value='9 990₽ х 4 суток' disabled)
-      input.room-price__input(type="text" value='39 960₽' disabled)
-    .room-price__services
-      p.room-price__text Сбор за услуги: скидка 2 179₽
-      span i
-      input.room-price__input(type="text" value='0₽' disabled)
-    .room-price__additional
-      p.room-price__text Сбор за дополнительные услуги
-      span i
-      input.room-price__input(type="text" value='300₽' disabled)
-    .room-price__total
-      h3 Итого
-      input.room-price__input(type="text" value='38 081₽' disabled)
-    +btn({
-      theme: 'arrow',
-      buttonClass: 'room-price__btn',
-      text: 'забронировать'
-    })
+    form(action="https://ramai1990.github.io/frontend/sign-in")
+      .room-price__title
+        .price-title
+          h3.price-title__left
+            span №
+            | 888
+            span люкс
+          p.price-title__right 9 990₽
+            span в сутки
+      .room-price__date
+        .search-rooms__date
+          +air-datepicker({
+            title: 'прибытие',
+            type: 'from',
+            placeholder: 'ДД.ММ.ГГГГ'
+          })
+          +air-datepicker({
+            title: 'выезд',
+            type: 'to',
+            placeholder: 'ДД.ММ.ГГГГ'
+          })
+      +guest({
+        title: 'гости',
+        list: guest
+      })
+      .room-price__amount
+        input.room-price__input(type="text" value='9 990₽ х 4 суток' disabled)
+        input.room-price__input(type="text" value='39 960₽' disabled)
+      .room-price__services
+        p.room-price__text Сбор за услуги: скидка 2 179₽
+        input.room-price__input(type="text" value='0₽' disabled)
+      .room-price__additional
+        p.room-price__text Сбор за дополнительные услуги
+        input.room-price__input(type="text" value='300₽' disabled)
+      .room-price__total
+        h3 Итого
+        input.room-price__input(type="text" value='38 081₽' disabled)
+      +btn({
+        theme: 'arrow',
+        buttonClass: 'room-price__btn',
+        text: 'забронировать'
+      })

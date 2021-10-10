@@ -18,36 +18,40 @@
     margin-top: 13px;
   }
   &__services {
-    span {
-      width: 20px;
-      height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $dark25;
-      border: 1px solid $dark25;
-      border-radius: 100%;
-      margin-right: auto;
-      margin-left: 6px;
+    .room-price__text {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url("../img/ellipse.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        right: -29px;
+        top: -3px;
+      }
     }
   }
   &__additional {
-    .room-price__text {
-      position: relative;
-      top: 9px;
-    }
     margin-bottom: 35px;
-    span {
-      width: 23px;
-      height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $dark25;
-      border: 1px solid $dark25;
-      border-radius: 100%;
-      margin-right: 16px;
-      margin-left: 6px;
+    .room-price__text {
+      max-width: 199px;
+      position: relative;
+      top: 7px;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url("../img/ellipse.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        right: -43px;
+        top: 0;
+      }
     }
   }
   &__total {
@@ -87,6 +91,10 @@
     background-color: #fff;
     text-align: right;
     padding: 0;
+    &:nth-child(1) {
+      width: 100%;
+      text-align: left;
+    }
   }
   &__text {
     color: $dark75;

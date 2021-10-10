@@ -4,6 +4,7 @@
   text-transform: lowercase;
   margin-bottom: 23px;
   &__input {
+    width: 150px;
     text-transform: lowercase;
     padding: 13px 15px;
     border: 1px solid $dark25;
@@ -78,9 +79,14 @@
   transform: rotate(180deg);
 }
 
+.filter-date {
+  width: 100%;
+}
+
 @media (max-width: 420px) {
   .js-dropdown-date-range-from,
-  .js-dropdown-date-range-to {
+  .js-dropdown-date-range-to,
+  .air-datepicker__input {
     width: 100%;
   }
   .js-dropdown-date-range-from {
