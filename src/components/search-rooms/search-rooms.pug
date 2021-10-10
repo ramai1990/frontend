@@ -1,25 +1,25 @@
 mixin search-rooms(marginBottom)
   - const guest = require('../../components/guest-dropdown/guest.json');
   .search-rooms
-    .search-rooms__title Найдём номера под ваши пожелания
-    .search-rooms__date
-      +air-datepicker({
-        title: 'прибытие',
-        type: 'from',
-        placeholder: 'ДД.ММ.ГГГГ'
+    form(action="https://ramai1990.github.io/frontend/search-room")
+      .search-rooms__title Найдём номера под ваши пожелания
+      .search-rooms__date
+        +air-datepicker({
+          title: 'прибытие',
+          type: 'from',
+          placeholder: 'ДД.ММ.ГГГГ'
+        })
+        +air-datepicker({
+          title: 'выезд',
+          type: 'to',
+          placeholder: 'ДД.ММ.ГГГГ'
+        })
+      +guest({
+        title: 'гости',
+        list: guest,
+        marginBottom: marginBottom
       })
-      +air-datepicker({
-        title: 'выезд',
-        type: 'to',
-        placeholder: 'ДД.ММ.ГГГГ'
+      +btn({
+        theme: 'arrow',
+        text: 'подобрать номер'
       })
-    +guest({
-      title: 'гости',
-      list: guest,
-      marginBottom: marginBottom
-    })
-    +btn({
-      theme: 'arrow',
-      href: 'https://ramai1990.github.io/frontend/search-room',
-      text: 'подобрать номер'
-    })

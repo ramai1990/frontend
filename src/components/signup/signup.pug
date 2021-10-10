@@ -2,41 +2,42 @@ mixin signUp(items)
   each item in items
     - const { title, date, data, account, textBtn = 'зарегистрироваться' } = item;
     .signup
-      .signup__title= title
-      input.signup__input(type="text" placeholder='Имя')
-      input.signup__input(type="text" placeholder='Фамилия')
-      .signup__gender
-        +radio([
+      form(action="https://ramai1990.github.io/frontend/sign-in")
+        .signup__title= title
+        input.signup__input(type="text" placeholder='Имя')
+        input.signup__input(type="text" placeholder='Фамилия')
+        .signup__gender
+          +radio([
+            {
+              id: 1,
+              checked: true,
+              gender: 'Мужчина'
+            },
+            {
+              id: 2,
+              gender: 'Женщина'
+            }
+          ])
+        p.signup__text= date
+        +imaskBirthday
+        p.signup__text= data
+        input.signup__input(type="email" placeholder='Email')
+        input.signup__input(type="password" placeholder='Пароль')
+        +toggle([
           {
             id: 1,
-            checked: true,
-            gender: 'Мужчина'
-          },
-          {
-            id: 2,
-            gender: 'Женщина'
+            text: 'Получать спецпредложения'
           }
         ])
-      p.signup__text= date
-      +imaskBirthday
-      p.signup__text= data
-      input.signup__input(type="email" placeholder='Email')
-      input.signup__input(type="password" placeholder='Пароль')
-      +toggle([
-        {
-          id: 1,
-          text: 'Получать спецпредложения'
-        }
-      ])
-      +btn({
-        theme: 'arrow',
-        text: textBtn,
-        buttonClass: 'signup__btn'
-      })
-      .signup__bottom
-        p.signup__bottom-text= account
         +btn({
-          theme: 'btn-form',
-          href: 'https://ramai1990.github.io/frontend/sign-in',
-          text: 'Войти'
+          theme: 'arrow',
+          text: textBtn,
+          type: 'button',
+          buttonClass: 'signup__btn'
         })
+        .signup__bottom
+          p.signup__bottom-text= account
+          +btn({
+            theme: 'btn-form',
+            text: 'Войти'
+          })

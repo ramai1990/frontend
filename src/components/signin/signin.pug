@@ -2,14 +2,14 @@ mixin signIn(items)
   each item in items
     - const { title, buttonSignIn, text } = item;
     .signin
-      .signin__title= title
-      input.signup__input(type="email" placeholder='Email')
-      input.signup__input(type="password" placeholder='Пароль')
-      button(type="submit").signin__btn= buttonSignIn
-      .signin__bottom
-        p.signin__bottom-text= text
-        +btn({
-          theme: 'btn-form',
-          href: 'https://ramai1990.github.io/frontend/sign-up',
-          text: 'Создать'
-        })
+      form(action="https://ramai1990.github.io/frontend/sign-up")
+        .signin__title= title
+        input.signup__input(type="email" placeholder='Email')
+        input.signup__input(type="password" placeholder='Пароль')
+        button(type="button").signin__btn= buttonSignIn
+        .signin__bottom
+          p.signin__bottom-text= text
+          +btn({
+            theme: 'btn-form',
+            text: 'Создать'
+          })
