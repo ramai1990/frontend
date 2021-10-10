@@ -113,24 +113,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 26px;
+    @include media(420px) {
+      flex-direction: column;
+    }
   }
-  // &__datedrop {
-  //   @include elements-default;
-  //   width: 150px;
-  //   position: relative;
-  //   margin-bottom: 19px;
-  //   input {
-  //     padding: 13px 15px;
-  //     cursor: pointer;
-  //     &::placeholder {
-  //       color: $dark75;
-  //     }
-  //   }
-  //   input:valid {
-  //     text-transform: uppercase;
-  //     color: $dark75;
-  //   }
-  // }
   &__filter {
     max-width: 266px;
     font-size: 12px;
