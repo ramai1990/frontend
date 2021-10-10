@@ -114,30 +114,23 @@
     justify-content: space-between;
     margin-bottom: 26px;
   }
-  &__datedrop {
-    @include elements-default;
-    width: 150px;
-    position: relative;
-    margin-bottom: 19px;
-    input {
-      padding: 13px 15px;
-    }
-    input:valid {
-      text-transform: uppercase;
-      color: $dark75;
-    }
-    &::after {
-      position: absolute;
-      content: "";
-      width: 20px;
-      height: 20px;
-      background-image: url("../img/arrow-down.svg");
-      background-repeat: no-repeat;
-      right: 8px;
-      bottom: 6px;
-      pointer-events: none;
-    }
-  }
+  // &__datedrop {
+  //   @include elements-default;
+  //   width: 150px;
+  //   position: relative;
+  //   margin-bottom: 19px;
+  //   input {
+  //     padding: 13px 15px;
+  //     cursor: pointer;
+  //     &::placeholder {
+  //       color: $dark75;
+  //     }
+  //   }
+  //   input:valid {
+  //     text-transform: uppercase;
+  //     color: $dark75;
+  //   }
+  // }
   &__filter {
     max-width: 266px;
     font-size: 12px;
@@ -148,35 +141,7 @@
       margin-bottom: 5px;
     }
   }
-  &__datepicker {
-    @include elements-default;
-    max-width: 266px;
-    position: relative;
-    text-transform: lowercase;
-    margin-bottom: 22px;
-    input {
-      text-transform: lowercase;
-      padding: 13px 15px;
-      border: 1px solid $dark25;
-      border-radius: 4px;
-      color: $dark75;
-      cursor: pointer;
-    }
 
-    &::after {
-      position: absolute;
-      content: "";
-      width: 20px;
-      height: 20px;
-      background-image: url("../img/arrow-down.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      right: 12px;
-      bottom: 10px;
-      pointer-events: none;
-      transition: transform 0.2s ease-in;
-    }
-  }
   &__filter-date {
     margin-bottom: 42px;
   }
@@ -266,7 +231,4 @@
       margin-top: 40px;
     }
   }
-}
-.datepicker-here {
-  cursor: pointer;
 }

@@ -1,0 +1,79 @@
+.air-datepicker {
+  @include elements-default;
+  max-width: 266px;
+  text-transform: lowercase;
+  margin-bottom: 23px;
+  &__input {
+    text-transform: lowercase;
+    padding: 13px 15px;
+    border: 1px solid $dark25;
+    border-radius: 4px;
+    color: $dark75;
+    cursor: pointer;
+    &::placeholder {
+      color: $dark75;
+    }
+  }
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 12px;
+    color: $dark;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    span {
+      color: $dark50;
+      font-weight: 400;
+    }
+  }
+}
+
+.js-dropdown-date-range-from,
+.js-dropdown-date-range-to,
+.air-datepicker {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 10px;
+    right: 15px;
+    top: 36px;
+    background-image: url("../img/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    transition: transform 0.2s ease-in;
+  }
+}
+
+.js-dropdown-date-range-from,
+.js-dropdown-date-range-to {
+  @include elements-default;
+  width: 150px;
+  position: relative;
+  margin-bottom: 19px;
+  input {
+    padding: 13px 15px;
+    cursor: pointer;
+    &::placeholder {
+      color: $dark75;
+    }
+  }
+  input:valid {
+    text-transform: uppercase;
+    color: $dark75;
+  }
+}
+
+.active.air-datepicker::after {
+  transform: rotate(180deg);
+}
+.active.js-dropdown-date-range-from::after {
+  transform: rotate(180deg);
+}
+.active.js-dropdown-date-range-to::after {
+  transform: rotate(180deg);
+}

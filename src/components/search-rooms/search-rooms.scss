@@ -24,23 +24,9 @@
   &__date {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 23px;
+    margin-bottom: 5px;
   }
-  &__dropdown {
-    position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 12px;
-      height: 10px;
-      right: 15px;
-      top: 36px;
-      background-image: url("../img/arrow-down.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      pointer-events: none;
-    }
-  }
+
   &__input {
     max-width: 150px;
     height: 44px;
@@ -48,6 +34,7 @@
     border: 1px solid $dark25;
     border-radius: 4px;
     padding-left: 14px;
+    color: $dark75;
     cursor: pointer;
     &::placeholder {
       color: $dark75;

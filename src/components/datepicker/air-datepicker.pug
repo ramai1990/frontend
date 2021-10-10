@@ -1,0 +1,14 @@
+mixin air-datepicker({title, type, placeholder})
+  case type
+    when "range"
+      .air-datepicker
+        p.air-datepicker__text= title
+        input.filter-date.air-datepicker__input(type='text' placeholder='19 авг - 23 авг')
+    when "from"
+      .js-dropdown-date-range-from
+        p.air-datepicker__text= title
+        input.dropdown-date__range_from.air-datepicker__input(type='text' placeholder=`${placeholder}`)
+    when "to"
+      .js-dropdown-date-range-to
+        p.air-datepicker__text= title
+        input.dropdown-date__range_to.air-datepicker__input(type='text' placeholder=`${placeholder}`)

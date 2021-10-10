@@ -10,13 +10,17 @@ mixin roomPrice
         p.price-title__right 9 990₽
           span в сутки
     .room-price__date
-      .dropdown-date.search-rooms__date
-        .search-rooms__dropdown
-          p.search-rooms__text прибытие
-          input.dropdown-date__range.dropdown-date__range_from.search-rooms__input(type="text" placeholder="19.08.2019" readonly)
-        .search-rooms__dropdown
-          p.search-rooms__text выезд
-          input.dropdown-date__range.dropdown-date__range_to.search-rooms__input(type="text" placeholder="23.08.2019" readonly)
+      .search-rooms__date
+        +air-datepicker({
+          title: 'прибытие',
+          type: 'from',
+          placeholder: 'ДД.ММ.ГГГГ'
+        })
+        +air-datepicker({
+          title: 'выезд',
+          type: 'to',
+          placeholder: 'ДД.ММ.ГГГГ'
+        })
     +guest({
       title: 'гости',
       list: guest

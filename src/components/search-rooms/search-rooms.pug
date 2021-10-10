@@ -2,13 +2,23 @@ mixin search-rooms(marginBottom)
   - const guest = require('../../components/guest-dropdown/guest.json');
   .search-rooms
     .search-rooms__title Найдём номера под ваши пожелания
-    .dropdown-date.search-rooms__date
-      .search-rooms__dropdown
-        p.search-rooms__text прибытие
-        input.dropdown-date__range.dropdown-date__range_from.search-rooms__input(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
-      .search-rooms__dropdown
-        p.search-rooms__text выезд
-        input.dropdown-date__range.dropdown-date__range_to.search-rooms__input(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
+    .search-rooms__date
+      +air-datepicker({
+        title: 'прибытие',
+        type: 'from',
+        placeholder: 'ДД.ММ.ГГГГ'
+      })
+      +air-datepicker({
+        title: 'выезд',
+        type: 'to',
+        placeholder: 'ДД.ММ.ГГГГ'
+      })
+      //- .search-rooms__dropdown.js-dropdown-date-range-from
+      //-   p.search-rooms__text прибытие
+      //-   input.dropdown-date__range.dropdown-date__range_from.search-rooms__input(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
+      //- .search-rooms__dropdown.js-dropdown-date-range-to
+      //-   p.search-rooms__text выезд
+      //-   input.dropdown-date__range.dropdown-date__range_to.search-rooms__input(type="text" placeholder="ДД.ММ.ГГГГ" readonly)
     +guest({
       title: 'гости',
       list: guest,

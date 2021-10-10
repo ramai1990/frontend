@@ -16,9 +16,10 @@ block content
     .search-room__container
       .search-room__grid
         .search-room__filter
-          .form-elements__datepicker
-            p.form-elements__text даты пребывания в отеле
-            input.datepicker-here(type='text' placeholder='19 авг - 23 авг' data-range='true' data-multiple-dates-separator=' - ' data-date-format="d M")
+          +air-datepicker({
+            title: 'даты пребывания в отеле',
+            type: 'range'
+          })
           +guest({
             title: 'гости',
             list: guest
