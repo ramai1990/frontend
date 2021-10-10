@@ -2,5 +2,5 @@ mixin like(items)
   each item in items
     - const { counter } = item;
     .like
-      button.like__button
+      button(type="button").like__button
       .like__counter= counter

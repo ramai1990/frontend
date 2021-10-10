@@ -3,14 +3,14 @@ mixin btn({theme, href, text, buttonClass, width = 196, height = 34, marginLeft 
     when "primary"
       form(action=href)
         .button-elements__btn
-          button.header-btns__signup(style={'max-width': `${width}px`, 'height': `${height}px`, 'margin-left': `${marginLeft}px`})= text
+          button.header-btns__signup(type="submit" style={'max-width': `${width}px`, 'height': `${height}px`, 'margin-left': `${marginLeft}px`})= text
     when "border"
       form(action=href)
         .header-btns_border&attributes(attributes)
           button(type="submit" class=buttonClass)= text
     when "arrow"
       form(action=href)
-        button.button-elements__default= text
+        button(type="submit").button-elements__default= text
     when "btn-form"
       form(action=href)
         .signin__bottom-btn

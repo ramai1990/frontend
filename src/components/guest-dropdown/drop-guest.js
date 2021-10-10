@@ -15,11 +15,12 @@ class DropdownGuest {
       dropDownBtn.addEventListener("click", function (e) {
         e.stopPropagation();
         dropDownList.classList.toggle("dropdown__list_active");
-        this.classList.toggle("dropdown__button_active");
+        dropDownBtn.classList.toggle("dropdown__button_active");
       });
 
       btnApply.addEventListener("click", function (e) {
         dropDownList.classList.remove("dropdown__list_active");
+        dropDownBtn.classList.remove("dropdown__button_active");
       });
 
       const btnMenu = document.querySelector(".dropdown__button");

@@ -2,7 +2,7 @@ mixin dropdown(title, marginBottom = 26)
   - const dropdown = require('../../components/dropdown/dropdown.json');
   .dropdown__title= title
   .dropdown(style={'margin-bottom': `${marginBottom}px`})
-    button(value="", data-btn="btn").dropdown__button
+    button(type="button" value="", data-btn="btn").dropdown__button
     input.dropdown__input(type='text' value='2 спальни, 2 кровати...' readonly)
     ul(data-list="list").dropdown__list&attributes(attributes)
       +dropdownCounter(dropdown)
