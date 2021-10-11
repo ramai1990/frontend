@@ -1,4 +1,4 @@
-.radio-elements {
+.radio {
   margin-bottom: 44px;
   &__title {
     font-weight: 700;
@@ -14,13 +14,13 @@
   &__input {
     -webkit-appearance: none;
     appearance: none;
-    &:checked + .radio-elements__label::after {
+    &:checked + .radio__label::after {
       border: 1px solid $purple;
     }
-    &:checked + .radio-elements__label::before {
+    &:checked + .radio__label::before {
       opacity: 1;
     }
-    &:checked + .radio-elements__label {
+    &:checked + .radio__label {
       color: $dark75;
     }
   }

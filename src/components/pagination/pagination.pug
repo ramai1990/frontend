@@ -1,7 +1,7 @@
 mixin pagination({list, text})
-  .pagination-elements
-    ul.pagination-elements__list
+  .pagination
+    ul.pagination__list
       each item in list
-        li.pagination-elements__item
-          a(href=`${item.href}` class=item.class).pagination-elements__link= item.link
-    p.pagination-elements__text= text
+        li.pagination__item
+          a(href=`${item.href}` class=item.class).pagination__link= item.link
+    p.pagination__text= text

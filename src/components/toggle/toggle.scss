@@ -1,4 +1,4 @@
-.toggle-elements {
+.toggle {
   margin-bottom: 47px;
   &__title {
     font-weight: 700;
@@ -19,10 +19,10 @@
   &__input {
     -webkit-appearance: none;
     appearance: none;
-    &:checked + .toggle-elements__label::after {
+    &:checked + .toggle__label::after {
       border: 1px solid $purple;
     }
-    &:checked + .toggle-elements__label::before {
+    &:checked + .toggle__label::before {
       background: $primary-gradient;
       left: 24px;
     }

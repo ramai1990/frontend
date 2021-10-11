@@ -2,8 +2,8 @@ mixin radio(items)
   each item in items
     - const { id, checked, gender} = item;
     if checked
-      input.radio-elements__input(type="radio" id=`radio-${id}` name="gender" checked)
-      label.radio-elements__label(for=`radio-${id}`)= gender
+      input.radio__input(type="radio" id=`radio-${id}` name="gender" checked)
+      label.radio__label(for=`radio-${id}`)= gender
     else
-      input.radio-elements__input(type="radio" id=`radio-${id}` name="gender")
-      label.radio-elements__label(for=`radio-${id}`)= gender
+      input.radio__input(type="radio" id=`radio-${id}` name="gender")
+      label.radio__label(for=`radio-${id}`)= gender

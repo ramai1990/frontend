@@ -3,9 +3,9 @@ mixin checkboxElements
   .form-elements__checkbox
     .form-elements__checkbox-item
       +checkbox('Checkbox Buttons', checkbox)
-    .radio-elements
-      .radio-elements__title Radio Buttons
-      .radio-elements__item
+    .radio
+      .radio__title Radio Buttons
+      .radio__item
         +radio([
           {
             id: 1,
@@ -17,8 +17,8 @@ mixin checkboxElements
             gender: 'Женщина'
           }
         ])
-    .toggle-elements
-      .toggle-elements__title Toggle
+    .toggle
+      .toggle__title Toggle
       .form-elements__toggle
         +toggle([
           {
@@ -46,9 +46,9 @@ mixin checkboxElements
             buttonClasses: 'like-elements__btn-like2'
           }
         ])
-    .rate-elements
-      .rate-elements__title rate button
-      .rate-elements__inner
+    .rating
+      .rating__title rate button
+      .rating__inner
         +rating([
           {
             rating: '4'

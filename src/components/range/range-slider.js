@@ -1,7 +1,7 @@
 import noUiSlider from "nouislider";
 import wNumb from "wnumb";
 (function () {
-  const rangeElements = document.querySelector('.range-elements')
+  const rangeElements = document.querySelector('.range')
   if (rangeElements) {
 
     let keypressSlider = document.querySelector(".slider-keypress");

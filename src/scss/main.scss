@@ -7,7 +7,7 @@
 @import "../components/header/header";
 @import "../components/footer/footer";
 @import "../components/colors-type/colors-type";
-@import "../components/text-field/text-field";
+@import "../components/form-elements/form-elements.scss";
 @import "../components/checkbox/checkbox";
 @import "../components/range/range";
 @import "../components/radio/radio";
@@ -19,7 +19,7 @@
 @import "../components/submenu/submenu";
 @import "../components/dropdown/dropdown";
 @import "../components/counter/counter";
-@import "../components/guest-dropdown/guest-dropdown";
+@import "../components/guest-dropdown/guest";
 @import "../components/list-checkbox/list-checkbox";
 @import "../components/rich-checkbox/rich-checkbox";
 @import "../components/bullet/bullet";
@@ -27,12 +27,12 @@
 @import "../components/comment/comment";
 @import "../components/calendare/calendare";
 @import "../components/cards/cards";
+@import "../components/card/card-luxe";
 @import "../components/search-rooms/search-rooms";
 @import "../components/signup/signup";
 @import "../components/signin/signin";
 @import "../components/room-price/room-price";
 @import "../components/swiper/swiper";
-@import "../components/card-luxe/card-luxe";
 @import "../components/card/card";
 @import "../components/landing/landing";
 @import "../components/room/room";
@@ -46,3 +46,5 @@
 @import "../components/btns/btn-border";
 @import "../components/link/link-primary";
 @import "../components/datepicker/air-datepicker";
+@import "../components/footer-copy/footer-copy";
+@import "../components/footer-small/footer-small";

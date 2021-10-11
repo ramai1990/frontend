@@ -1,7 +1,7 @@
 mixin rating(items)
   each item in items
     - const { rating } = item;
-    .rate-elements__item
-      select(class=`rate-elements__rating-${rating}`)
+    .rating__item
+      select(class=`rating-${rating}`)
         each value in [1,2,3,4,5]
           option(value=`${value}`)= value

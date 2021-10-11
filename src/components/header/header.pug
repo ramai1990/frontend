@@ -1,9 +1,7 @@
 mixin header({status, navigations})
   header.header
     .header__container
-      .logo
-        a(href="https://ramai1990.github.io/frontend")
-          img(src=require('/img/logo.svg').default, alt="")
+      +logo
       nav.nav
         ul.nav__list
           each nav in navigations

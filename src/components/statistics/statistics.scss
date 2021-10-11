@@ -1,4 +1,4 @@
-.room__statistics {
+.statistics {
   position: relative;
   float: left;
   width: 120px;
@@ -24,23 +24,22 @@
       text-transform: uppercase;
     }
   }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    width: 93%;
+    height: 93%;
+    color: $purple;
+    background-color: #fff;
+    border-radius: 50%;
+  }
 }
 
-.room__statistics::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 50;
-  width: 93%;
-  height: 93%;
-  color: $purple;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.room__statistic {
+.statistics__item {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -75,20 +74,20 @@
   transform: rotate(0deg);
 }
 
-.room__stats {
+.statistics__stats {
   float: left;
   margin-left: 45px;
 }
-.room__stats-list {
+.statistics__list {
   margin-top: 27px;
 }
-.room__stats-item {
+.statistics__list-item {
   position: relative;
   margin: 9px 0;
   color: $dark75;
 }
 
-.room__stats-item::before {
+.statistics__list-item::before {
   content: "";
   position: absolute;
   top: 2px;
@@ -99,24 +98,24 @@
   border-radius: 100%;
 }
 
-.room__stats-item:first-child::before {
+.statistics__list-item:first-child::before {
   background: linear-gradient(180deg, #ffe39c 0%, #ffba9c 100%);
 }
 
-.room__stats-item:nth-child(2)::before {
+.statistics__list-item:nth-child(2)::before {
   background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
 }
 
-.room__stats-item:nth-child(3)::before {
+.statistics__list-item:nth-child(3)::before {
   background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
 }
 @media (max-width: 665px) {
-  .room__stats {
+  .statistics__stats {
     margin-left: 30px;
   }
 }
 @media (max-width: 540px) {
-  .room__stats {
+  .statistics__stats {
     margin-left: 22px;
   }
 }
