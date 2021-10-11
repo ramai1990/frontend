@@ -63,12 +63,9 @@
     }
   }
   &__text {
+    @include text-h3;
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
-    font-size: 12px;
-    color: $dark;
-    text-transform: uppercase;
     margin-bottom: 5px;
     span {
       color: $dark50;

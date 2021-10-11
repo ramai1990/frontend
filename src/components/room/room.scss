@@ -10,9 +10,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
   &__title {
-    font-weight: 700;
-    font-size: 19px;
-    color: $dark;
+    @include text-h2;
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;

@@ -10,10 +10,8 @@
     margin-bottom: 20px;
   }
   &__h1 {
-    font-size: 24px;
+    @include text-h1;
     line-height: 29px;
-    color: $dark;
-    font-weight: 700;
     padding-left: 73px;
     span {
       position: absolute;
@@ -25,10 +23,8 @@
     }
   }
   &__h2 {
-    font-size: 19px;
+    @include text-h2;
     line-height: 23px;
-    color: $dark;
-    font-weight: 700;
     padding-left: 73px;
     span {
       position: absolute;
@@ -40,10 +36,7 @@
     }
   }
   &__h3 {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $dark;
-    font-weight: 700;
+    @include text-h3;
     padding-left: 73px;
     span {
       position: absolute;

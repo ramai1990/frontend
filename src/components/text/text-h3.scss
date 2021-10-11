@@ -1,6 +1,6 @@
-@mixin elements-title {
-  font-weight: 700;
+@mixin text-h3 {
   font-size: 12px;
   text-transform: uppercase;
   color: $dark;
+  font-weight: 700;
 }

@@ -9,16 +9,13 @@
   padding-top: 40px;
   padding-bottom: 28px;
   &__title {
-    font-family: "Montserrat";
+    @include text-h1;
     max-width: 320px;
-    font-weight: 700;
-    font-size: 24px;
     line-height: 29px;
-    color: $dark;
     margin-bottom: 23px;
   }
   &__title-bottom {
-    @include elements-title;
+    @include text-h3;
     margin-bottom: 4px;
   }
   &__date {

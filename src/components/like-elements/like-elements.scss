@@ -1,7 +1,7 @@
 .like-elements {
   margin-bottom: 41px;
   &__title {
-    @include elements-title;
+    @include text-h3;
     margin-bottom: 17px;
   }
   &__inner {

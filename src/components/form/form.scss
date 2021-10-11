@@ -7,9 +7,7 @@
   padding: 30px;
   padding-top: 40px;
   &__title {
-    font-weight: 700;
-    font-size: 24px;
-    color: $dark;
+    @include text-h1;
     margin-bottom: 22px;
   }
   &__bottom-text {
