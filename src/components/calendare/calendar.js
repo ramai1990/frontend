@@ -18,6 +18,9 @@ $(function () {
     language: {
       today: "Применить",
     },
+    navTitles: {
+      days: "<h2>MM yyyy</h2>",
+    },
   });
   $(".datepicker--cells").click(function () {
     $("[data-action=clear]").addClass("open");
@@ -46,6 +49,9 @@ $(function () {
     todayButton: true,
     language: {
       today: "Применить",
+    },
+    navTitles: {
+      days: "<h2>MM yyyy</h2>",
     },
   });
   $(".datepicker--cells").click(function () {
@@ -76,6 +82,9 @@ $(function () {
     language: {
       today: "Применить",
     },
+    navTitles: {
+      days: "<h2>MM yyyy</h2>",
+    },
   });
   $(".datepicker--cells").click(function () {
     $("[data-action=clear]").addClass("open");
@@ -94,6 +103,9 @@ $(function () {
     todayButton: true,
     language: {
       today: "Применить",
+    },
+    navTitles: {
+      days: "<h2>MM yyyy</h2>",
     },
   });
 });
