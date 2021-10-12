@@ -3,20 +3,19 @@ mixin checkboxElements
   .form-elements__checkbox
     .form-elements__checkbox-item
       +checkbox('Checkbox Buttons', checkbox)
-    .radio
-      .radio__title Radio Buttons
-      .radio__item
-        +radio([
-          {
-            id: 1,
-            checked: true,
-            gender: 'Мужчина'
-          },
-          {
-            id: 2,
-            gender: 'Женщина'
-          }
-        ])
+    .form-elements__radio
+      .form-elements__radio_title Radio Buttons
+      +radio([
+        {
+          checked: true,
+          name: 'gender',
+          gender: 'Мужчина'
+        },
+        {
+          name: 'gender',
+          gender: 'Женщина'
+        }
+      ])
     .toggle
       .toggle__title Toggle
       .form-elements__toggle
