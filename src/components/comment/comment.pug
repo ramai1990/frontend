@@ -1,14 +1,10 @@
 mixin comment(items)
   .comment
     each item in items
-      - const { avatar, author, date, text, counter } = item;
+      - const { avatar, author, date, text, count, isLike } = item;
       img.comment__img(src=require('/img/' + avatar).default, alt="")
       h3.comment__author= author
       p.comment__date= date
       p.comment__text= text
         .comment__like
-          +like([
-            {
-              counter: counter
-            }
-          ])
+          +like({counter: count, checked: isLike})

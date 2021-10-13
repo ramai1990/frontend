@@ -1,6 +1,5 @@
-mixin like(items)
-  each item in items
-    - const { counter } = item;
-    .like
-      button(type="button").like__button
-      .like__counter= counter
+mixin like({counter, checked=false})
+  .like
+    label.like__label
+      input(type="checkbox" checked=checked).like__input
+      span.like__counter= counter

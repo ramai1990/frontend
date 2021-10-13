@@ -2,12 +2,5 @@ mixin like-elements
   .like-elements
     .like-elements__title like button
     .like-elements__inner
-      +like([
-        {
-          counter: 2
-        },
-        {
-          counter: 12,
-          buttonClasses: 'like-elements__btn-like2'
-        }
-      ])
+      +like({counter: 3})
+      +like({counter: 11, checked: true})

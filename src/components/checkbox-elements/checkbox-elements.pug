@@ -33,18 +33,7 @@ mixin checkboxElements
             text: 'Получать спецпредложения'
           }
         ])
-    .like-elements
-      .like-elements__title like button
-      .like-elements__inner
-        +like([
-          {
-            counter: 2
-          },
-          {
-            counter: 12,
-            buttonClasses: 'like-elements__btn-like2'
-          }
-        ])
+    +like-elements
     .rating
       .rating__title rate button
       .rating__inner

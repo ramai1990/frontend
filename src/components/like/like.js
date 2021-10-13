@@ -1,24 +1,12 @@
 class Like {
-  constructor(btnLikes) {
-    this.btnLikes = btnLikes;
-    this.counter();
+  constructor(elem) {
+    this.init(elem);
+  }
+  render() {
+    this.value += this.input.checked ? 1 : -1;
+    this.counter.textContent = this.shortValue(this.value);
   }
 
-  counter() {
-    this.btnLikes.forEach((item) => {
-      let like = true,
-        likeCount = item.querySelector(".like__counter").textContent;
-      item.querySelector(".like__counter").textContent =
-        this.shortValue(likeCount);
-      item.addEventListener("click", () => {
-        item.classList.toggle("like__active");
-        likeCount = like ? ++likeCount : --likeCount;
-        like = !like;
-        item.querySelector(".like__counter").textContent =
-          this.shortValue(likeCount);
-      });
-    });
-  }
   shortValue(value) {
     if (value >= 1e10) return `${(value / 1e9).toFixed(0)}B`;
     if (value >= 1e9) return `${(value / 1e9).toFixed(1)}B`;
@@ -27,6 +15,14 @@ class Like {
     if (value >= 1e3) return `${(value / 1e3).toFixed(1)}K`;
     return value.toString();
   }
+
+  init(elem) {
+    this.input = elem.querySelector(".like__input");
+    this.counter = elem.querySelector(".like__counter");
+    this.value = parseInt(this.counter.textContent);
+    this.render();
+    this.input.addEventListener("change", this.render.bind(this));
+  }
 }
 
-const like = new Like(document.querySelectorAll(".like"));
+document.querySelectorAll(".like").forEach((like) => new Like(like));
