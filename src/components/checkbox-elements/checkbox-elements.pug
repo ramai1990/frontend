@@ -34,14 +34,8 @@ mixin checkboxElements
           }
         ])
     +like-elements
-    .rating
-      .rating__title rate button
-      .rating__inner
-        +rating([
-          {
-            rating: '4'
-          },
-          {
-            rating: '5'
-          }
-        ])
+    .form-elements__rating
+      .form-elements__rating_title rate button
+      .form-elements__rating_inner
+        +rating({rating: '4'})
+        +rating({rating: '5'})

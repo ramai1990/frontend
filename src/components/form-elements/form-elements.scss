@@ -161,6 +161,15 @@
   &__toggle + &__toggle {
     margin-top: 17px;
   }
+  &__rating {
+    &_title {
+      @include text-h3;
+      margin-bottom: 15px;
+    }
+    &_inner {
+      display: flex;
+    }
+  }
   &__list-checkbox {
     & + & {
       margin-top: 40px;

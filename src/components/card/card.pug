@@ -19,10 +19,6 @@ mixin card(list)
           p.luxe-title__right= price
             span в сутки
       .card-luxe__reviews
-        +rating([
-          {
-            rating: `${rating}`
-          }
-        ])
+        +rating({rating: rating})
         .card-luxe__text= counter
           span Отзывов
