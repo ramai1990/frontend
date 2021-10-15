@@ -53,7 +53,7 @@
     "wnumb": "^1.2.0"
   },
   "dependencies": {
-    "air-datepicker": "^2.2.3",
+    "air-datepicker": "^3.0.1",
     "daterangepicker": "^3.1.0",
     "focus-visible": "^5.2.0",
     "imask": "^6.2.2",

@@ -1,11 +1,10 @@
-.air-datepicker {
+.dropdown-date {
   @include elements-default;
   max-width: 266px;
   text-transform: lowercase;
   margin-bottom: 23px;
   &__input {
     width: 150px;
-    text-transform: lowercase;
     padding: 13px 15px;
     border: 1px solid $dark25;
     border-radius: 4px;
@@ -27,10 +26,16 @@
     }
   }
 }
+.js-dropdown-date-range {
+  margin-bottom: 23px;
+  &-input {
+    width: 100%;
+  }
+}
 
-.js-dropdown-date-range-from,
-.js-dropdown-date-range-to,
-.air-datepicker {
+.js-dropdown-date-from,
+.js-dropdown-date-to,
+.js-dropdown-date-range {
   position: relative;
   &::after {
     position: absolute;
@@ -47,8 +52,8 @@
   }
 }
 
-.js-dropdown-date-range-from,
-.js-dropdown-date-range-to {
+.js-dropdown-date-from,
+.js-dropdown-date-to {
   @include elements-default;
   width: 150px;
   position: relative;
@@ -66,27 +71,23 @@
   }
 }
 
-.active.air-datepicker::after {
+.active.js-dropdown-date-range::after {
   transform: rotate(180deg);
 }
-.active.js-dropdown-date-range-from::after {
+.active.js-dropdown-date-from::after {
   transform: rotate(180deg);
 }
-.active.js-dropdown-date-range-to::after {
+.active.js-dropdown-date-to::after {
   transform: rotate(180deg);
-}
-
-.filter-date {
-  width: 100%;
 }
 
 @media (max-width: 420px) {
-  .js-dropdown-date-range-from,
-  .js-dropdown-date-range-to,
+  .js-dropdown-date-from,
+  .js-dropdown-date-to,
   .air-datepicker__input {
     width: 100%;
   }
-  .js-dropdown-date-range-from {
+  .js-dropdown-date-from {
     margin-bottom: 10px;
   }
 }

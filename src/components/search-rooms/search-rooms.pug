@@ -4,12 +4,12 @@ mixin search-rooms(marginBottom)
     form(action="https://ramai1990.github.io/frontend/search-room")
       .search-rooms__title Найдём номера под ваши пожелания
       .search-rooms__date
-        +air-datepicker({
+        +dropdown-date({
           title: 'прибытие',
           type: 'from',
           placeholder: 'ДД.ММ.ГГГГ'
         })
-        +air-datepicker({
+        +dropdown-date({
           title: 'выезд',
           type: 'to',
           placeholder: 'ДД.ММ.ГГГГ'

@@ -27,7 +27,6 @@ import "../pug/pages/colors-type.pug";
 
 import "../components/like/like";
 import "../components/rating/rating";
-import "../../node_modules/air-datepicker/dist/js/datepicker";
 import "../../node_modules/jquery-bar-rating/dist/jquery.barrating.min.js";
 
 import "../components/submenu/submenu";
@@ -36,7 +35,7 @@ import "../components/guest-dropdown/drop-guest.js";
 import "../components/room/rooms.js";
 import "../components/guest-dropdown/guest-counter.js";
 import "../components/list-checkbox/list-checkbox.js";
-import "../components/calendare/calendar.js";
+import "../components/air-datepicker/air-datepicker.js";
 
 import "../../node_modules/swiper/swiper-bundle";
 import "../components/swiper/swiper.js";

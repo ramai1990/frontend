@@ -12,12 +12,12 @@ mixin roomPrice
             span в сутки
       .room-price__date
         .search-rooms__date
-          +air-datepicker({
+          +dropdown-date({
             title: 'прибытие',
             type: 'from',
             placeholder: 'ДД.ММ.ГГГГ'
           })
-          +air-datepicker({
+          +dropdown-date({
             title: 'выезд',
             type: 'to',
             placeholder: 'ДД.ММ.ГГГГ'
