@@ -7,6 +7,9 @@
   cursor: pointer;
   z-index: 110;
   display: none;
+  @include media(941px) {
+    display: block;
+  }
 }
 .burger span,
 .burger span:before,

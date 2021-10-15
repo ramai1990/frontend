@@ -40,11 +40,11 @@ if (document.querySelector(".burger")) {
 
   const burger = new Burger({
     btnMenu: document.querySelectorAll(
-      ".nav__list, .burger span, .header-btns"
+      ".nav__list, .burger span, .header__buttons"
     ),
     button: document.querySelector(".burger"),
     close: document.querySelector(".burger span"),
     navList: document.querySelector(".nav__list"),
-    headerButtons: document.querySelector(".header-btns"),
+    headerButtons: document.querySelector(".header__buttons"),
   });
 }
