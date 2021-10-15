@@ -6,29 +6,7 @@ mixin rangeElements
         title: 'Range Slider'
       }
     ])
-    .button-elements
-      h3.button-elements__title Buttons
-      .button-elements__btn
-        +btn({
-          theme: 'primary',
-          text: 'CLICK ME',
-          width: 99,
-          height: 44,
-          marginLeft: 0
-        })
-      +btn({
-        theme: 'btn-form',
-        text: 'CLICK ME'
-      })
-      .button-elements__item
-        +btn({
-          text: 'CLICK ME',
-          href: 'form-elements.html'
-        })
-      +btn({
-        theme: 'arrow',
-        text: 'перейти к оплате'
-      })
+    +button-elements
     h3.pagination__title pagination
     +pagination({
       text: '1 – 12 из 100+ вариантов аренды',

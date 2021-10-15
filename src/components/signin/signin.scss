@@ -7,12 +7,9 @@
 }
 .signin {
   @include form;
-  &__btn {
-    @include btn-reset;
-    @include btn-default;
-    background: $primary-gradient;
+  &__button {
     margin: 10px 0 30px;
-    padding: 0 35px;
+    // padding: 0 35px;
   }
   &__bottom {
     @include flex;

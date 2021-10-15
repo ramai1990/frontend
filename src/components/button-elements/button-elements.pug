@@ -1,0 +1,25 @@
+mixin button-elements
+  .button-elements
+    h3.button-elements__title Buttons
+    .button-elements__btn
+      +button({
+        theme: 'primary',
+        size: 'sm',
+        text: 'CLICK ME'
+      })
+    +button({
+      theme: 'border',
+      size: 'sm',
+      text: 'CLICK ME'
+    })
+    .button-elements__item
+      +button-link({
+        theme: 'link',
+        text: 'click me',
+        href: 'https://ramai1990.github.io/frontend/404.html'
+      })
+    +button({
+      theme: 'arrow',
+      size: 'lg',
+      text: 'перейти к оплате'
+    })

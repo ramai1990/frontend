@@ -6,10 +6,18 @@ mixin signIn(items)
         .signin__title= title
         input.signup__input(type="email" placeholder='Email')
         input.signup__input(type="password" placeholder='Пароль')
-        button(type="submit").signin__btn= buttonSignIn
+        .signin__button
+          +button({
+            theme: 'arrow',
+            size: 'lg',
+            text: 'войти',
+            type: 'submit'
+          })
         .signin__bottom
           p.signin__bottom-text= text
-          +btn({
-            theme: 'btn-form',
-            text: 'Создать'
+          +button({
+            theme: 'border',
+            size: 'sm',
+            text: 'Создать',
+            type: 'submit'
           })

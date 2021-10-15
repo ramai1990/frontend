@@ -1,6 +1,6 @@
 mixin signUp(items)
   each item in items
-    - const { title, date, data, account, textBtn = 'зарегистрироваться' } = item;
+    - const { title, date, data, account } = item;
     .signup
       form(action="https://ramai1990.github.io/frontend/sign-in")
         .signup__title= title
@@ -29,14 +29,18 @@ mixin signUp(items)
             text: 'Получать спецпредложения'
           }
         ])
-        +btn({
-          theme: 'arrow',
-          text: textBtn,
-          buttonClass: 'signup__btn'
-        })
+        .signup__btn
+          +button({
+            theme: 'arrow',
+            size: 'lg',
+            text: 'зарегистрироваться',
+            type: 'submit'
+          })
         .signup__bottom
           p.signup__bottom-text= account
-          +btn({
-            theme: 'btn-form',
-            text: 'Войти'
+          +button({
+            theme: 'border',
+            size: 'sm',
+            text: 'Войти',
+            type: 'submit'
           })
