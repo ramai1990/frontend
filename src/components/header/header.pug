@@ -1,33 +1,24 @@
-mixin header({status, navigations})
+mixin header({status})
+  - const navigations = require('../../components/nav/nav.json');
   header.header
     .header__container
       +logo
-      nav.nav
-        ul.nav__list
-          each nav in navigations
-            if nav.submenu
-              li.nav__item.submenu
-                a.nav__link.nav__link_dropdown= nav.name
-                ul.submenu__list
-                  each item in nav.items
-                    li.submenu__item
-                      a(href="https://ramai1990.github.io/frontend/404.html").submenu__link= item.name
-            else
-              li.nav__item
-                a(href="https://ramai1990.github.io/frontend/404.html").nav__link= nav.name
+      +nav(navigations)
       if status === 'non-authorized'
-        .header__btns
-          .header-btns
-            +btn({
+        .header__buttons
+          .header__button
+            +button-link({
               theme: 'border',
-              href: 'https://ramai1990.github.io/frontend/sign-in',
-              text: 'войти',
-              buttonClass: 'header-btns__signin'
+              size: 'm',
+              text: 'Войти',
+              href: 'https://ramai1990.github.io/frontend/sign-in'
             })
-            +btn({
+          .header__button
+            +button-link({
               theme: 'primary',
-              href: 'https://ramai1990.github.io/frontend/sign-up',
-              text: 'зарегистрироваться'
+              size: 'md',
+              text: 'зарегистрироваться',
+              href: 'https://ramai1990.github.io/frontend/sign-up'
             })
       else if status === 'authorized'
         .header__user

@@ -1,7 +1,6 @@
 block variables
 include ../utils/mixins
 
-- const header = require('../../components/header/header.json');
 - const footer = require('../../components/footer/footer.json');
 
 doctype html
@@ -11,7 +10,7 @@ html(lang="ru")
     .burger
       span
     .site-container
-      +header({status: 'non-authorized', navigations: header})
+      +header({status: 'non-authorized'})
       .main
         block content
       +footer(footer)
