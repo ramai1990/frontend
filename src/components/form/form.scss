@@ -13,4 +13,10 @@
   &__bottom-text {
     color: #000;
   }
+  &__input {
+    margin-bottom: 10px;
+    input {
+      width: 100%;
+    }
+  }
 }
