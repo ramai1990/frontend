@@ -4,11 +4,10 @@ include ../../pug/utils/mixins
 block variables
   - const title = 'Search Room';
   - const pageClass = '';
-  - const listCheckbox = require('../../components/list-checkbox/list-checkbox.json');
   - const pagination = require('../../components/pagination/pagination.json');
   - const guest = require('../../components/guest-dropdown/guest.json');
   - const cards = require('../../components/cards/cards.json');
-  - const checkbox = require('../../components/checkbox/checkbox.json');
+  - const checkboxList = require('../../components/checkbox-list/defaults.json');
   - const richCheckbox = require('../../components/rich-checkbox/rich-checkbox.json');
 
 block content
@@ -25,17 +24,18 @@ block content
             list: guest
           })
           .search-room__range
-            +rangeSlider([
-              {
-                title: 'диапазон цены',
-                span: 'Стоимость за сутки пребывания в номере'
-              }
-            ])
+            +range-slider({
+              title: 'диапазон цены',
+              span: 'Стоимость за сутки пребывания в номере'
+            })
           .search-room__checkbox
-            +checkbox('правила дома', checkbox)
+            h3.search-room__checkbox-title правила дома
+            +checkbox-list({
+              items: checkboxList
+            })
           +richCheckbox('доступность', richCheckbox)
           +dropdown('удобства номера')
-          +list-checkbox('дополнительные удобства', listCheckbox)
+          +dropdown-checkbox({title: 'дополнительные удобства'})
         .search-room__cards
           h1.search-room__title Номера, которые мы для вас подобрали
           +card(cards)
