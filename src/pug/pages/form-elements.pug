@@ -6,19 +6,93 @@ block variables
   - const pageClass = '';
   - const user1 = require('../../assets/user1.json');
   - const user2 = require('../../assets/user2.json');
-  - const listCheckbox = require('../../components/list-checkbox/list-checkbox.json');
-  - const ulkitListCheckbox = require('../../components/list-checkbox/ulkit-list-checkbox.json');
   - const richCheckbox = require('../../components/rich-checkbox/rich-checkbox.json');
   - const guest = require('../../components/guest-dropdown/guest.json');
   - const ulkitGuest = require('../../components/guest-dropdown/ulkit-guest.json');
+  - const checkboxList= require('../../components/checkbox-list/defaults.json');
+  - const pagination = require('../../components/pagination/pagination.json');
 
 block content
   section.form-elements
     .form-elements__container
       .form-elements__inner
-        +textField
-        +checkboxElements
-        +rangeElements
+        .form-elements__item
+          .form-elements__default
+            p.form-elements__text Text Field
+              span Default
+            +input({type: 'email', placeholder: 'Email'})
+          .form-elements__default_focus
+            p.form-elements__text Text Field
+              span Hover / Focus
+            +input({type: 'email', placeholder: 'This is pretty awesome'})
+          +guest({
+            title: 'dropdown',
+            list: guest,
+            marginBottom: 19
+          })
+          .form-elements__date
+            p.form-elements__text masked text field
+            +imaskBirthday
+          .form-elements__datedropdown
+            +dropdown-date({
+              title: 'date dropdown',
+              type: 'from',
+              placeholder: 'ДД.ММ.ГГГГ'
+            })
+            +dropdown-date({
+              title: 'date dropdown',
+              type: 'to',
+              placeholder: '19.08.2019'
+            })
+          .form-elements__filter-date
+            +dropdown-date({
+              title: 'filter date dropdown',
+              type: 'range'
+            })
+          .form-elements__email
+            p.form-elements__text subscription text field
+            +input({type: 'email', placeholder: 'Email'})
+            button(type="submit")
+              include ../../img/arrow-forward.svg
+        .form-elements__item
+          .form-elements__checkbox-item
+            h3.form-elements__checkbox-title checkbox buttons
+            +checkbox-list({
+              items: checkboxList
+            })
+          .form-elements__radio
+            .form-elements__radio_title Radio Buttons
+            +radio([
+              {
+                checked: true,
+                name: 'gender',
+                gender: 'Мужчина'
+              },
+              {
+                name: 'gender',
+                gender: 'Женщина'
+              }
+            ])
+          .form-elements__toggle
+            h3.form-elements__toggle-title Toggle
+            +toggle({checked: true, text: 'Получать спецпредложения'})
+            +toggle({text: 'Получать спецпредложения'})
+          +like-elements
+          .form-elements__rating
+            .form-elements__rating_title rate button
+            .form-elements__rating_inner
+              +rating({rating: '4'})
+              +rating({rating: '5'})
+        .form-elements__item
+          +range-slider({
+            title: 'Range Slider'
+          })
+          +button-elements
+          h3.pagination__title pagination
+          +pagination({
+            text: '1 – 12 из 100+ вариантов аренды',
+            list: pagination
+          })
       .form-elements__bottom
         .item
           .form-elements__dropdown
@@ -28,9 +102,9 @@ block content
             span expanded
             +dropdown('dropdown', 167)(class="dropdown__list_active")
           .form-elements__list-checkbox
-            +list-checkbox('expandable checkbox list', listCheckbox)
+            +dropdown-checkbox({title: 'expandable checkbox list'})
           .form-elements__list-checkbox
-            +list-checkbox('expandable checkbox list', ulkitListCheckbox, 'list-checkbox__list_active')(class="list-checkbox__title_active")
+            +dropdown-checkbox({title: 'expandable checkbox list', activeClass: 'dropdown-checkbox__list_active'})(class="dropdown-checkbox__title_active")
         .item
           .form-elements__dropdown-guest
             +guest({
