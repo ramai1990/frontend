@@ -4,8 +4,10 @@ mixin signIn(items)
     .signin
       form(action="https://ramai1990.github.io/frontend/sign-up")
         .signin__title= title
-        input.signup__input(type="email" placeholder='Email')
-        input.signup__input(type="password" placeholder='Пароль')
+        .signin__input
+          +input({type: 'email', placeholder: 'Email'})
+        .signin__input
+          +input({type: 'password', placeholder: 'Пароль'})
         .signin__button
           +button({
             theme: 'arrow',

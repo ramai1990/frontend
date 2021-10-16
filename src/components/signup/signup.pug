@@ -4,8 +4,10 @@ mixin signUp(items)
     .signup
       form(action="https://ramai1990.github.io/frontend/sign-in")
         .signup__title= title
-        input.signup__input(type="text" placeholder='Имя')
-        input.signup__input(type="text" placeholder='Фамилия')
+        .signup__input
+          +input({type: 'text', placeholder: 'Имя'})
+        .signup__input
+          +input({type: 'text', placeholder: 'Фамилия'})
         .signup__gender
           +radio([
             {
@@ -21,14 +23,11 @@ mixin signUp(items)
         p.signup__text= date
         +imaskBirthday
         p.signup__text= data
-        input.signup__input(type="email" placeholder='Email')
-        input.signup__input(type="password" placeholder='Пароль')
-        +toggle([
-          {
-            id: 1,
-            text: 'Получать спецпредложения'
-          }
-        ])
+        .signup__input
+          +input({type: 'email', placeholder: 'Email'})
+        .signup__input
+          +input({type: 'password', placeholder: 'Пароль'})
+        +toggle({text: 'Получать спецпредложения'})
         .signup__btn
           +button({
             theme: 'arrow',

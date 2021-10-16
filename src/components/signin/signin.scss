@@ -8,8 +8,7 @@
 .signin {
   @include form;
   &__button {
-    margin: 10px 0 30px;
-    // padding: 0 35px;
+    margin: 20px 0 30px;
   }
   &__bottom {
     @include flex;
