@@ -10,7 +10,8 @@
       { "image": "luxe-2.png" },
       { "image": "luxe-3.png" },
       { "image": "luxe-4.png" }
-    ]
+    ],
+    "swipperArrowHidden": "card__arrow_hidden"
   },
   {
     "number": 840,
