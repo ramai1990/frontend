@@ -1,4 +1,4 @@
-.list-checkbox {
+.dropdown-checkbox {
   max-width: 266px;
   overflow: hidden;
   white-space: nowrap;
@@ -37,19 +37,16 @@
     opacity: 0;
     z-index: -1;
     max-height: 0;
-    transition: all 0.3s ease-out;
+    transition: all 0.1s ease-out;
     &_active {
       z-index: 1;
       opacity: 1;
       max-height: 190px;
       padding-bottom: 10px;
+      transition: all 0.3s ease-out;
     }
-  }
-  &__item {
-    display: flex;
-    align-items: center;
-    & + & {
-      margin-top: 14px;
+    .checkbox-list__title {
+      margin-bottom: 0;
     }
   }
 }

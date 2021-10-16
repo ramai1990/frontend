@@ -1,20 +1,21 @@
-.checkbox {
+.checkbox-list {
   width: 89%;
   display: flex;
   flex-direction: column;
   margin-bottom: 35px;
-  &__title {
-    @include text-h3;
-    margin-bottom: 2px;
-  }
   &__input {
     -webkit-appearance: none;
     appearance: none;
-    &:checked + .checkbox__label::after {
+    &:checked + .checkbox-list__span::after {
       opacity: 1;
     }
-    &:checked + .checkbox__label::before {
+    &:checked + .checkbox-list__span::before {
       border-color: $purple;
+    }
+  }
+  &__item {
+    & + & {
+      margin-top: 15px;
     }
   }
   &__label {
@@ -24,6 +25,8 @@
     position: relative;
     padding-left: 30px;
     cursor: pointer;
+  }
+  &__span {
     &::after {
       position: absolute;
       content: "";
@@ -35,9 +38,6 @@
       background-repeat: no-repeat;
       opacity: 0;
       transition: opacity 0.2s ease-in;
-    }
-    span {
-      margin-top: 2px;
     }
     &::before {
       position: absolute;
