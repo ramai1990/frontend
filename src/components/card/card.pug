@@ -10,15 +10,14 @@ mixin card(list)
         .swiper-pagination
         .swiper-button-next(class=swipperArrowHidden)
         .swiper-button-prev(class=swipperArrowHidden)
-      .card-luxe__title
-        .luxe-title
-          a(href="https://ramai1990.github.io/frontend/room").luxe-title__left
-            span №
-            | #{number}
-            span= text
-          p.luxe-title__right= price
-            span в сутки
-      .card-luxe__reviews
+      .card__title
+        a(href="https://ramai1990.github.io/frontend/room").card__title_left
+          span №
+          | #{number}
+          span= text
+        p.card__title_right= price
+          span в сутки
+      .card__reviews
         +rating({rating: rating})
-        .card-luxe__text= counter
+        .card__text= counter
           span Отзывов
