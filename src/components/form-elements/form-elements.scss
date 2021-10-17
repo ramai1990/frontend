@@ -56,8 +56,11 @@
     &_focus {
       @include elements-default;
       margin-bottom: 22px;
-      input::placeholder {
-        color: $dark75;
+      input {
+        border: 1px solid rgba(31, 32, 65, 0.5);
+        &::placeholder {
+          color: $dark75;
+        }
       }
     }
   }
