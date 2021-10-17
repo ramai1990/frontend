@@ -1,8 +1,9 @@
 class Like {
-  constructor(elem) {
-    this.init(elem);
+  constructor(el) {
+    this.updateValue = this.updateValue.bind(this);
+    this.render(el);
   }
-  render() {
+  updateValue() {
     this.value += this.input.checked ? 1 : -1;
     this.counter.textContent = this.shortValue(this.value);
   }
@@ -16,12 +17,12 @@ class Like {
     return value.toString();
   }
 
-  init(elem) {
-    this.input = elem.querySelector(".like__input");
-    this.counter = elem.querySelector(".like__counter");
+  render(el) {
+    this.input = el.querySelector(".like__input");
+    this.counter = el.querySelector(".like__counter");
     this.value = parseInt(this.counter.textContent);
-    this.render();
-    this.input.addEventListener("change", this.render.bind(this));
+    this.updateValue();
+    this.input.addEventListener("change", this.updateValue);
   }
 }
 
