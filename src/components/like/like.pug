@@ -1,5 +1,4 @@
-mixin like({counter, checked=false})
-  .like
-    label.like__label
-      input(type="checkbox" checked=checked).like__input
-      span.like__counter= counter
+mixin like({value, checked=false})
+  label.like
+    input(type="checkbox" checked=checked name='likes').like__input
+    span.like__counter= value
