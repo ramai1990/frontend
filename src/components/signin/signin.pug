@@ -5,9 +5,9 @@ mixin signIn(items)
       form(action="https://ramai1990.github.io/frontend/sign-up")
         .signin__title= title
         .signin__input
-          +input({type: 'email', placeholder: 'Email'})
+          +input({type: 'email', placeholder: 'Email', name: 'email'})
         .signin__input
-          +input({type: 'password', placeholder: 'Пароль'})
+          +input({type: 'password', placeholder: 'Пароль', name: 'password'})
         .signin__button
           +button({
             theme: 'arrow',

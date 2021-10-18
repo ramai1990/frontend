@@ -20,11 +20,11 @@ block content
           .form-elements__default
             p.form-elements__text Text Field
               span Default
-            +input({type: 'email', placeholder: 'Email'})
+            +input({type: 'email', placeholder: 'Email', name: 'email'})
           .form-elements__default_focus
             p.form-elements__text Text Field
               span Hover / Focus
-            +input({type: 'email', placeholder: 'This is pretty awesome'})
+            +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
           +guest({
             title: 'dropdown',
             list: guest,
@@ -51,7 +51,7 @@ block content
             })
           .form-elements__email
             p.form-elements__text subscription text field
-            +input({type: 'email', placeholder: 'Email'})
+            +input({type: 'email', placeholder: 'Email', name: 'email'})
             button(type="submit")
               include ../../img/arrow-forward.svg
         .form-elements__item

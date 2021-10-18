@@ -3,7 +3,7 @@ mixin guest({title, list, marginBottom = 0, value = 'Сколько гостей
     .search-rooms__title-bottom= title
     .dropdown-guest(style={'margin-bottom': `${marginBottom}px`})
       button(type="button" value="").dropdown__button.guest__btn
-      input.dropdown__input-guest.guest__input(type='text' value=`${value}` readonly)
+      input.dropdown__input-guest.guest__input(type='text' value=`${value}` name='количество гостей' readonly)
       ul.dropdown__list.guest__list&attributes(attributes)
         each item in list
           li.dropdown__list-item(data-value="гость,гостя,гостей")= item.title

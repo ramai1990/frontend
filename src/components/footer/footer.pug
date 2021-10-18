@@ -25,6 +25,6 @@ mixin footer(navigations = [])
             p.footer-inner__text
               | Получайте специальные предложения и новости сервиса
             form.footer-inner__email(action="/")
-              input(type="email" placeholder="Email")
+              +input({type: 'email', placeholder: 'Email', name: 'email'})
               button.footer-inner__btn(type='submit')
     +copy('Copyright © 2018 Toxin отель. Все права зачищены.')

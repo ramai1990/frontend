@@ -3,12 +3,12 @@ mixin dropdown-date({title, type, placeholder})
     when "range"
       .dropdown-date.js-dropdown-date-range
         p.dropdown-date__text= title
-        input.js-dropdown-date-range-input.dropdown-date__input(type='text' placeholder='19 авг - 23 авг' readonly)
+        input.js-dropdown-date-range-input.dropdown-date__input(type='text' placeholder='19 авг - 23 авг' name='дата пребывания' readonly)
     when "from"
       .dropdown-date.js-dropdown-date-from
         p.dropdown-date__text= title
-        input.js-dropdown-date-from-input.dropdown-date__input(type='text' placeholder=`${placeholder}` readonly)
+        input.js-dropdown-date-from-input.dropdown-date__input(type='text' placeholder=`${placeholder}` name='дата прибытия' readonly)
     when "to"
       .dropdown-date.js-dropdown-date-to
         p.dropdown-date__text= title
-        input.js-dropdown-date-to-input.dropdown-date__input(type='text' placeholder=`${placeholder}` readonly)
+        input.js-dropdown-date-to-input.dropdown-date__input(type='text' placeholder=`${placeholder}` name='дата выезда' readonly)

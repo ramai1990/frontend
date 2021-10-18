@@ -70,18 +70,6 @@
   &__email {
     margin-top: 22px;
     position: relative;
-    input {
-      width: 100%;
-      border: 1px solid $dark25;
-      border-radius: 4px;
-      padding: 13px 33px 13px 15px;
-      &:focus {
-        border: 1px solid $dark50;
-      }
-      &::placeholder {
-        color: $dark25;
-      }
-    }
   }
   &__btn {
     @include btn-reset;
