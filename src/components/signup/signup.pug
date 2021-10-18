@@ -9,17 +9,20 @@ mixin signUp(items)
         .signup__input
           +input({type: 'text', placeholder: 'Фамилия'})
         .signup__gender
-          +radio([
-            {
-              checked: true,
-              name: 'gender',
-              gender: 'Мужчина'
-            },
-            {
-              name: 'gender',
-              gender: 'Женщина'
-            }
-          ])
+          +radio({
+            name: 'gender',
+            items: [
+              {
+                checked: true,
+                value: 'man',
+                text: 'Мужчина'
+              },
+              {
+                value: 'woman',
+                text: 'Женщина'
+              }
+            ]
+          })
         p.signup__text= date
         +imaskBirthday
         p.signup__text= data

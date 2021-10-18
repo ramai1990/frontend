@@ -16,14 +16,14 @@
     &:checked + .radio__span::after {
       border: 1px solid $purple;
     }
-    &:checked + .radio__span::before {
+    &:checked + .radio__label-text::before {
       opacity: 1;
     }
-    &:checked + .radio__span {
+    &:checked + .radio__label-text {
       color: $dark75;
     }
   }
-  &__span {
+  &__label-text {
     &::after {
       position: absolute;
       content: "";

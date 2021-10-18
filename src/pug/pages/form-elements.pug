@@ -62,17 +62,20 @@ block content
             })
           .form-elements__radio
             .form-elements__radio_title Radio Buttons
-            +radio([
-              {
-                checked: true,
-                name: 'gender',
-                gender: 'Мужчина'
-              },
-              {
-                name: 'gender',
-                gender: 'Женщина'
-              }
-            ])
+            +radio({
+              name: 'gender',
+              items: [
+                {
+                  checked: true,
+                  value: 'man',
+                  text: 'Мужчина'
+                },
+                {
+                  value: 'woman',
+                  text: 'Женщина'
+                }
+              ]
+            })
           .form-elements__toggle
             h3.form-elements__toggle-title Toggle
             +toggle({checked: true, text: 'Получать спецпредложения'})
