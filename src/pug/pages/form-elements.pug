@@ -57,9 +57,7 @@ block content
         .form-elements__item
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
-            +checkbox-list({
-              items: checkboxList
-            })
+            +checkbox-list(checkboxList)
           .form-elements__radio
             .form-elements__radio_title Radio Buttons
             +radio({
@@ -126,10 +124,8 @@ block content
                 value: '3 гостя'
               })(class="dropdown__list_active")
           .form-elements__bullet-list
-            +bullet-list(
-              'bullet list',
-              'bullet-list__title',
-              [
+            .form-elements__bullet-list_title bullet list
+            +bullet-list([
               'Нельзя с питомцами',
               'Без вечеринок и мероприятий',
               'Время прибытия — после 13:00, а выезд до 12:00'

@@ -1,5 +1,4 @@
-mixin bullet-list(title, classes, items)
-  h2(class= classes)= title
+mixin bullet-list(items)
   ul.bullet-list
     each text in items
       li.bullet-list__item= text

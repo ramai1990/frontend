@@ -30,9 +30,7 @@ block content
             })
           .search-room__checkbox
             h3.search-room__checkbox-title правила дома
-            +checkbox-list({
-              items: checkboxList
-            })
+            +checkbox-list(checkboxList)
           +richCheckbox('доступность', richCheckbox)
           +dropdown('удобства номера')
           +dropdown-checkbox({title: 'дополнительные удобства'})

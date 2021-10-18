@@ -3,4 +3,4 @@ mixin dropdown-checkbox({title, activeClass})
   .dropdown-checkbox
     .dropdown-checkbox__title&attributes(attributes)= title
     .dropdown-checkbox__list(class=`${activeClass}`)
-      +checkbox-list({items: checkboxList})
+      +checkbox-list(checkboxList)

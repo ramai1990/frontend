@@ -1,0 +1,7 @@
+mixin checkbox(items)
+  each item in items
+    - const { checked=false, name } = item;
+    li.checkbox
+      label.checkbox__label
+        input.checkbox__input(type="checkbox" checked=checked name=name)
+        span.checkbox__text= name
