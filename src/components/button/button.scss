@@ -1,6 +1,6 @@
 .button {
   @include btn-reset;
-  font-family: "Montserrat";
+  font-family: Montserrat, Arial, sans-serif;
   color: $white;
   font-weight: 700;
   font-size: 12px;

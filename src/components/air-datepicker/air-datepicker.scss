@@ -1,5 +1,5 @@
 .air-datepicker {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
   width: 320px;
   min-height: 368px;
 }
@@ -89,7 +89,7 @@
 }
 
 .air-datepicker-cell {
-  font-family: "Montserrat";
+  font-family: Montserrat, Arial, sans-serif;
   color: $dark50;
 }
 .air-datepicker-cell.-selected- {
@@ -135,7 +135,7 @@
 }
 
 .air-datepicker-button {
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, sans-serif;
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
