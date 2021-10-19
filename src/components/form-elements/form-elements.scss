@@ -76,7 +76,7 @@
   }
   &__date {
     @include elements-default;
-    margin-bottom: 19px;
+    margin-bottom: 22px;
     input {
       padding: 13px 15px;
       position: relative;
@@ -90,7 +90,7 @@
     max-width: 320px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 26px;
+    margin-bottom: 42px;
     @include media(420px) {
       flex-direction: column;
     }
@@ -149,6 +149,9 @@
       margin-bottom: 19px;
     }
   }
+  &__likes {
+    margin-bottom: 41px;
+  }
   &__rating {
     &_title {
       @include text-h3;
@@ -156,6 +159,11 @@
     }
     &_inner {
       display: flex;
+    }
+    &_item {
+      & + & {
+        margin-left: 19px;
+      }
     }
   }
   &__list-checkbox {
@@ -175,6 +183,7 @@
   &__bottom {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 9px;
     .item {
       width: 320px;
       @include media(355px) {

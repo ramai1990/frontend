@@ -2,7 +2,6 @@
   @include elements-default;
   max-width: 266px;
   text-transform: lowercase;
-  margin-bottom: 23px;
   &__input {
     width: 150px;
     padding: 13px 15px;
@@ -30,7 +29,6 @@
   }
 }
 .js-dropdown-date-range {
-  margin-bottom: 23px;
   &-input {
     width: 100%;
   }
@@ -60,7 +58,6 @@
   @include elements-default;
   width: 150px;
   position: relative;
-  margin-bottom: 19px;
   input {
     padding: 13px 15px;
     cursor: pointer;

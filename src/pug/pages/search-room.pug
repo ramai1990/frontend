@@ -15,10 +15,11 @@ block content
     .search-room__container
       .search-room__grid
         .search-room__filter
-          +dropdown-date({
-            title: 'даты пребывания в отеле',
-            type: 'range'
-          })
+          .search-room__date
+            +dropdown-date({
+              title: 'даты пребывания в отеле',
+              type: 'range'
+            })
           +guest({
             title: 'гости',
             list: guest
@@ -31,7 +32,8 @@ block content
           .search-room__checkbox
             h3.search-room__checkbox-title правила дома
             +checkbox-list(checkboxList)
-          +richCheckbox('доступность', richCheckbox)
+          .search-room__rich-checkbox
+            +richCheckbox('доступность', richCheckbox)
           +dropdown('удобства номера')
           +dropdown-checkbox({title: 'дополнительные удобства'})
         .search-room__cards

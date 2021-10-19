@@ -6,9 +6,6 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
-  & + & {
-    margin-left: 10px;
-  }
 
   &__input {
     -webkit-appearance: none;

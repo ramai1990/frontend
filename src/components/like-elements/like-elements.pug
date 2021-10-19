@@ -2,5 +2,7 @@ mixin like-elements
   .like-elements
     .like-elements__title like button
     .like-elements__inner
-      +like({value: 3})
-      +like({value: 11, checked: true})
+      .like-elements__item
+        +like({value: 3})
+      .like-elements__item
+        +like({value: 11, checked: true})
