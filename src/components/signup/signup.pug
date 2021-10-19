@@ -30,7 +30,8 @@ mixin signUp(items)
           +input({type: 'email', placeholder: 'Email', name: 'email'})
         .signup__input
           +input({type: 'password', placeholder: 'Пароль', name: 'password'})
-        +toggle({text: 'Получать спецпредложения'})
+        .signup__toggle
+          +toggle({text: 'Получать спецпредложения'})
         .signup__btn
           +button({
             theme: 'arrow',
