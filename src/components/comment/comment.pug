@@ -3,8 +3,9 @@ mixin comment(items)
     each item in items
       - const { avatar, author, date, text, value, isLike } = item;
       img.comment__img(src=require('/img/' + avatar).default, alt="")
-      h3.comment__author= author
-      p.comment__date= date
-      p.comment__text= text
-        .comment__like
-          +like({value: value, checked: isLike})
+      .comment__content
+        h3.comment__author= author
+        p.comment__date= date
+        p.comment__text= text
+          .comment__like
+            +like({value: value, checked: isLike})
