@@ -1,8 +1,10 @@
 mixin advantages(list)
   .advantages
     each item in list
-      - const { title, text, modifier } = item;
+      - const { title, text, img } = item;
       .advantages__item
-        div(class=`advantages__item_${modifier}`)
+        .advantages__img
+          img(src=require(`/img/${img}.svg`).default, alt="")
+        .advantages__content
           h3.advantages__title= title
           p.advantages__description= text

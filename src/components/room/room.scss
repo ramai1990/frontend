@@ -9,6 +9,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  &__advantages {
+    .room__title {
+      margin-bottom: 19px;
+    }
+  }
   &__title {
     @include text-h2;
     margin-bottom: 24px;
@@ -36,7 +41,7 @@
       max-width: 672px;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
   }
   &__price {
