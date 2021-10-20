@@ -1,50 +1,43 @@
-if (document.querySelector(".burger")) {
-  class Burger {
-    constructor({ btnMenu, button, close, navList, headerButtons }) {
-      this.btnMenu = btnMenu;
-      this.button = button;
-      this.close = close;
-      this.navList = navList;
-      this.headerButtons = headerButtons;
-      this.toggleMenu();
-      this.hideMenu();
-    }
+class Burger {
+  constructor() {
+    this.toggle = this.toggle.bind(this);
+    this.hide = this.hide.bind(this);
+    this.render();
+  }
 
-    toggleMenu() {
-      this.button.addEventListener("click", (e) => {
-        e.stopPropagation();
-        this.btnMenu.forEach((item) => {
-          item.classList.toggle("active");
-        });
-      });
-    }
+  toggle(e) {
+    e.stopPropagation();
+    this.close.classList.toggle("active");
+    this.navList.classList.toggle("active");
+    this.headerButtons.classList.toggle("active");
+  }
 
-    hideMenu() {
-      const close = this.close;
-      const btnMenu = this.button;
-      const menu = this.navList;
-      const btns = this.headerButtons;
-      document.addEventListener("click", function (e) {
-        const target = e.target;
-        const its_menu = target == menu || menu.contains(target);
-        const its_btnMenu = target == btnMenu;
-        const menu_is_active = menu.classList.contains("active");
-        if (!its_menu && !its_btnMenu && menu_is_active) {
-          close.classList.remove("active");
-          menu.classList.remove("active");
-          btns.classList.remove("active");
-        }
-      });
+  removeClass() {
+    this.close.classList.remove("active");
+    this.navList.classList.remove("active");
+    this.headerButtons.classList.remove("active");
+  }
+
+  hide(e) {
+    const target = e.target;
+    const itsMenu = target == this.navList || this.navList.contains(target);
+    const itsBtnMenu = target == this.button;
+    const menuIsActive = this.navList.classList.contains("active");
+    if (!itsMenu && !itsBtnMenu && menuIsActive) {
+      this.removeClass();
     }
   }
 
-  const burger = new Burger({
-    btnMenu: document.querySelectorAll(
-      ".nav__list, .burger span, .header__buttons"
-    ),
-    button: document.querySelector(".burger"),
-    close: document.querySelector(".burger span"),
-    navList: document.querySelector(".nav__list"),
-    headerButtons: document.querySelector(".header__buttons"),
-  });
+  render() {
+    this.button = document.querySelector(".burger");
+    this.close = document.querySelector(".burger span");
+    this.navList = document.querySelector(".nav__list");
+    this.headerButtons = document.querySelector(".header__buttons");
+    if (this.button) {
+      this.button.addEventListener("click", this.toggle);
+      document.addEventListener("click", this.hide);
+    }
+  }
 }
+
+const burger = new Burger();
