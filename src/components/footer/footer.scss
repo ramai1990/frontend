@@ -3,43 +3,42 @@
   padding-top: 104px;
   border-top: 1px solid $dark25;
   box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+  @include media(1070px) {
+    height: 367px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-top: 1px solid $dark10;
+  }
   &__container {
     @include container(1190px);
   }
   &__logo {
     position: relative;
     bottom: 5px;
-    margin-bottom: 11px;
+    margin-bottom: 13px;
   }
-}
-.footer-logo {
-  display: none;
-  margin-bottom: 21px;
-}
-.footer-inner {
-  display: flex;
-  margin-bottom: 102px;
-
-  &__items:first-child,
-  &__items:last-child {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 102px;
+    @include media(1070px) {
+      margin-bottom: 0;
+    }
+  }
+  &__items {
+    min-width: 160px;
     max-width: 260px;
+    @include media(1070px) {
+      display: none;
+      &:first-child {
+        display: block;
+      }
+    }
   }
-  &__items:first-child {
-    margin-right: auto;
-  }
-  &__items:last-child {
-    margin-left: auto;
-  }
-  &__items:nth-child(2) {
-    margin-left: -11px;
-  }
-  &__items:nth-child(3) {
-    margin-left: 57px;
-  }
-  &__items:nth-child(4) {
-    margin-left: 93px;
-  }
-
   &__item {
     color: $dark50;
     & + & {
@@ -59,12 +58,18 @@
   &__item_title-last {
     margin-bottom: 19px;
   }
+  &__list {
+    padding-top: 1px;
+  }
   &__link {
     display: inline-block;
   }
   &__text {
     color: $dark75;
     line-height: 24px;
+    @include media(1070px) {
+      display: none;
+    }
   }
 
   &__email {
@@ -83,35 +88,5 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px;
-  }
-}
-
-@media (max-width: 1155px) {
-  .footer-inner__items:nth-child(4) {
-    margin-left: 57px;
-  }
-  .footer-inner__items:first-child {
-    margin-right: 20px;
-  }
-  .footer-inner__items:last-child {
-    margin-left: 20px;
-  }
-}
-@media (max-width: 971px) {
-  .footer {
-    height: 367px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-top: 1px solid $dark10;
-  }
-  .footer-inner {
-    display: none;
-  }
-  .footer-logo {
-    display: block;
   }
 }

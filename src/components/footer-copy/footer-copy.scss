@@ -1,7 +1,7 @@
 .footer-copy {
   height: 70px;
   border-top: 1px solid #e5e5e5;
-  @include media(971px) {
+  @include media(1070px) {
     border: none;
   }
   &__container {
@@ -10,13 +10,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include media(971px) {
+    @include media(1070px) {
       display: block;
     }
   }
   &__text {
     color: $dark75;
-    @include media(971px) {
+    @include media(1070px) {
       margin-bottom: 28px;
     }
   }
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-  @include media(971px) {
+  @include media(1070px) {
     margin: 0;
     justify-content: center;
   }

@@ -2,29 +2,26 @@ mixin footer(navigations = [])
   footer
   .footer
     .footer__container
-      .footer-logo
-        +logo
       .footer__inner
-        .footer-inner
-          .footer-inner__items
-            .footer__logo
-              +logo
-            p.footer-inner__text
-              | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
-          each nav in navigations
-            .footer-inner__items
-              ul.footer-inner__list
-                li.footer-inner__item_title
-                  a(href="https://ramai1990.github.io/frontend/404.html").footer-inner__link= nav.title
-                each item in nav.items
-                  li.footer-inner__item
-                    a(href=`${item.href}`).footer-inner__link= item.title
-          .footer-inner__items
-            .footer-inner__item_title.footer-inner__item_title-last
-              a(href="https://ramai1990.github.io/frontend/404.html") Подписка
-            p.footer-inner__text
-              | Получайте специальные предложения и новости сервиса
-            form.footer-inner__email(action="/")
-              +input({type: 'email', placeholder: 'Email', name: 'email'})
-              button.footer-inner__btn(type='submit')
+        .footer__items
+          .footer__logo
+            +logo
+          p.footer__text
+            | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
+        each nav in navigations
+          .footer__items
+            ul.footer__list
+              li.footer__item_title
+                a(href="https://ramai1990.github.io/frontend/404.html").footer__link= nav.title
+              each item in nav.items
+                li.footer__item
+                  a(href=`${item.href}`).footer__link= item.title
+        .footer__items
+          .footer__item_title.footer__item_title-last
+            a(href="https://ramai1990.github.io/frontend/404.html") Подписка
+          p.footer__text
+            | Получайте специальные предложения и новости сервиса
+          form.footer__email(action="/")
+            +input({type: 'email', placeholder: 'Email', name: 'email'})
+            button.footer__btn(type='submit')
     +copy('Copyright © 2018 Toxin отель. Все права зачищены.')
