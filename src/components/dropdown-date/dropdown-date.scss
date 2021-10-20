@@ -3,7 +3,7 @@
   max-width: 266px;
   text-transform: lowercase;
   &__input {
-    width: 150px;
+    width: 100%;
     padding: 13px 15px;
     border: 1px solid $dark25;
     border-radius: 4px;
@@ -28,11 +28,11 @@
     }
   }
 }
-.js-dropdown-date-range {
-  &-input {
-    width: 100%;
-  }
-}
+// .js-dropdown-date-range {
+//   &-input {
+//     width: 100%;
+//   }
+// }
 
 .js-dropdown-date-from,
 .js-dropdown-date-to,
@@ -53,6 +53,12 @@
   }
 }
 
+.js-dropdown-date-from {
+  @include media(420px) {
+    margin-bottom: 10px;
+  }
+}
+
 .js-dropdown-date-from,
 .js-dropdown-date-to {
   @include elements-default;
@@ -69,6 +75,9 @@
     text-transform: uppercase;
     color: $dark75;
   }
+  @include media(420px) {
+    width: 100%;
+  }
 }
 
 .active.js-dropdown-date-range::after {
@@ -79,15 +88,4 @@
 }
 .active.js-dropdown-date-to::after {
   transform: rotate(180deg);
-}
-
-@media (max-width: 420px) {
-  .js-dropdown-date-from,
-  .js-dropdown-date-to,
-  .air-datepicker__input {
-    width: 100%;
-  }
-  .js-dropdown-date-from {
-    margin-bottom: 10px;
-  }
 }
