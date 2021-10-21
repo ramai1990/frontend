@@ -6,14 +6,16 @@ class SubMenu {
   }
 
   render() {
-    this.navList = document.querySelector(".nav__list");
-    this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
-    this.submenu = document.querySelectorAll(".submenu__list");
-    this.submenu.forEach((el) =>
-      el.addEventListener("click", (e) => e.stopPropagation())
-    );
-    this.navList.addEventListener("click", this.open);
-    document.addEventListener("click", this.close);
+    if (this.navList) {
+      this.navList = document.querySelector(".nav__list");
+      this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
+      this.submenu = document.querySelectorAll(".submenu__list");
+      this.submenu.forEach((el) =>
+        el.addEventListener("click", (e) => e.stopPropagation())
+      );
+      this.navList.addEventListener("click", this.open);
+      document.addEventListener("click", this.close);
+    }
   }
 
   open(e) {
