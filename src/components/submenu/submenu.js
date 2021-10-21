@@ -1,33 +1,51 @@
 class SubMenu {
-  constructor(navLink) {
-    this.navLink = navLink;
-    this.show();
+  constructor(el) {
+    this.open = this.open.bind(this);
+    this.close = this.close.bind(this);
+    this.render();
   }
 
-  show() {
-    this.navLink.forEach((item) => {
-      item.addEventListener("click", (e) => {
-        let el = e.currentTarget;
-        if (el.classList.contains("nav__link_active")) {
-          el.classList.remove("nav__link_active");
-          el.nextElementSibling.classList.remove("submenu__list_active");
-        } else {
-          this.navLink.forEach((e) => {
-            e.classList.remove("nav__link_active");
-            e.nextElementSibling.classList.remove("submenu__list_active");
-          });
-          el.classList.add("nav__link_active");
-          el.nextElementSibling.classList.add("submenu__list_active");
-        }
-        document.addEventListener("click", function (e) {
-          if (e.target !== el) {
-            el.classList.remove("nav__link_active");
-            el.nextElementSibling.classList.remove("submenu__list_active");
-          }
-        });
+  render() {
+    this.navList = document.querySelector(".nav__list");
+    this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
+    this.submenu = document.querySelectorAll(".submenu__list");
+    this.submenu.forEach((el) =>
+      el.addEventListener("click", (e) => e.stopPropagation())
+    );
+    this.navList.addEventListener("click", this.open);
+    document.addEventListener("click", this.close);
+  }
+
+  open(e) {
+    e.stopPropagation();
+    let el = e.target;
+    if (el.classList.contains("active")) {
+      el.classList.toggle("active");
+      el.nextElementSibling.classList.toggle("active");
+    } else {
+      this.navLink.forEach((link) => {
+        this.removeClass(link);
       });
-    });
+      this.addClass(el);
+    }
+  }
+
+  removeClass(el) {
+    el.classList.remove("active");
+    el.nextElementSibling.classList.remove("active");
+  }
+
+  addClass(el) {
+    el.classList.add("active");
+    el.nextElementSibling.classList.add("active");
+  }
+
+  close(e) {
+    if (this.navLink) {
+      this.navLink.forEach((el) => el.classList.remove("active"));
+      this.submenu.forEach((el) => el.classList.remove("active"));
+    }
   }
 }
 
-const subMenu = new SubMenu(document.querySelectorAll(".nav__link_dropdown"));
+const submenu = new SubMenu();
