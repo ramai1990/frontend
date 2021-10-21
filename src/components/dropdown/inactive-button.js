@@ -1,34 +1,26 @@
 class InnactiveButton {
-  constructor({ buttons }) {
-    this.buttons = buttons;
-    this.render();
+  constructor(el) {
+    this.clearBtn = this.clearBtn.bind(this);
+    this.render(el);
   }
 
-  render() {
-    const clearBtn = this.clearBtn;
-    this.buttons.forEach((btn) => {
-      const minBtn = btn.parentElement.querySelector(
-        '[data-direction="minus"]'
-      );
-
-      const input = btn.parentElement.querySelector(".counter__value");
-      clearBtn(input.value, minBtn);
-
-      btn.addEventListener("click", function () {
-        clearBtn(input.value, minBtn);
-      });
-    });
-  }
-
-  clearBtn(value, btn) {
-    if (+value === 0) {
-      btn.style.opacity = "0.3";
+  clearBtn() {
+    if (+this.input.value === 0) {
+      this.minBtn.style.opacity = "0.3";
     } else {
-      btn.style.opacity = "1";
+      this.minBtn.style.opacity = "1";
     }
+  }
+
+  render(el) {
+    this.buttons = el.querySelectorAll(".counter__btn");
+    this.minBtn = el.querySelector('[data-direction="minus"]');
+    this.input = el.querySelector(".counter__value");
+    this.clearBtn();
+    this.buttons.forEach((btn) => btn.addEventListener("click", this.clearBtn));
   }
 }
 
-const innactiveButton = new InnactiveButton({
-  buttons: document.querySelectorAll(".counter__btn"),
-});
+document
+  .querySelectorAll(".counter")
+  .forEach((btn) => new InnactiveButton(btn));
