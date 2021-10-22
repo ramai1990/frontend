@@ -6,16 +6,14 @@ class SubMenu {
   }
 
   render() {
-    if (this.navList) {
-      this.navList = document.querySelector(".nav__list");
-      this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
-      this.submenu = document.querySelectorAll(".submenu__list");
-      this.submenu.forEach((el) =>
-        el.addEventListener("click", (e) => e.stopPropagation())
-      );
-      this.navList.addEventListener("click", this.open);
-      document.addEventListener("click", this.close);
-    }
+    this.navList = document.querySelector(".nav__list");
+    this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
+    this.submenu = document.querySelectorAll(".submenu__list");
+    this.submenu.forEach((el) =>
+      el.addEventListener("click", (e) => e.stopPropagation())
+    );
+    this.navList.addEventListener("click", this.open);
+    document.addEventListener("click", this.close);
   }
 
   open(e) {
@@ -50,4 +48,6 @@ class SubMenu {
   }
 }
 
-const submenu = new SubMenu();
+if (document.querySelector(".nav__list")) {
+  const submenu = new SubMenu();
+}

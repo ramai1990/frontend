@@ -1,4 +1,4 @@
-import quantity from "../../js/quantity";
+import getCounterValue from "../../js/getCounterValue";
 
 class GuestCounter {
   constructor({
@@ -72,7 +72,7 @@ class GuestCounter {
           clear(sum, btnClear);
 
           btnApply.addEventListener("click", function (e) {
-            input.value = sum + " " + quantity(sum, list.dataset.value);
+            input.value = sum + " " + getCounterValue(sum, list.dataset.value);
 
             showValue(dropdownguest, input);
           });
@@ -85,7 +85,7 @@ class GuestCounter {
     let list = [...obj.querySelectorAll(".guest__counter_baby")];
 
     list = list.map((el) => {
-      const word = quantity(el.value, el.dataset.value);
+      const word = getCounterValue(el.value, el.dataset.value);
       return `${el.value} ${word}`;
     });
 
