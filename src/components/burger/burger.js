@@ -1,8 +1,16 @@
 class Burger {
   constructor() {
     this.toggle = this.toggle.bind(this);
-    this.hide = this.hide.bind(this);
+    this.removeClass = this.removeClass.bind(this);
     this.render();
+  }
+
+  render() {
+    this.button = document.querySelector(".burger");
+    this.close = document.querySelector(".burger span");
+    this.navList = document.querySelector(".nav__list");
+    this.headerButtons = document.querySelector(".header__buttons");
+    this.addEventListeners();
   }
 
   toggle(e) {
@@ -18,24 +26,11 @@ class Burger {
     this.headerButtons.classList.remove("active");
   }
 
-  hide(e) {
-    const target = e.target;
-    const itsMenu = target == this.navList || this.navList.contains(target);
-    const itsBtnMenu = target == this.button;
-    const menuIsActive = this.navList.classList.contains("active");
-    if (!itsMenu && !itsBtnMenu && menuIsActive) {
-      this.removeClass();
-    }
-  }
-
-  render() {
-    this.button = document.querySelector(".burger");
-    this.close = document.querySelector(".burger span");
-    this.navList = document.querySelector(".nav__list");
-    this.headerButtons = document.querySelector(".header__buttons");
+  addEventListeners() {
+    this.navList.addEventListener("click", (e) => e.stopPropagation());
     if (this.button) {
       this.button.addEventListener("click", this.toggle);
-      document.addEventListener("click", this.hide);
+      document.addEventListener("click", this.removeClass);
     }
   }
 }
