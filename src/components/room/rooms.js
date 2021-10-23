@@ -1,28 +1,30 @@
 class Rooms {
-  constructor(buttons) {
-    this.buttons = buttons
-    this.input = 0
-    this.counter()
+  constructor(selector) {
+    this.counter = this.counter.bind(this);
+    this.render(selector);
+  }
+
+  render(selector) {
+    this.buttons = document.querySelectorAll(selector);
+    this.counter();
   }
 
   counter() {
-    this.buttons.forEach(btn => {
-      btn.addEventListener('click', function () {
+    this.buttons.forEach((btn) => {
+      btn.addEventListener("click", function () {
         const direction = this.dataset.direction;
-        this.input = this.parentElement.querySelector('.counter__value')
+        this.input = this.parentElement.querySelector(".counter__value");
 
-        const currentValue = +this.input.value
+        const currentValue = +this.input.value;
 
-        if (direction === 'minus') {
+        if (direction === "minus") {
           this.input.value = currentValue - 1 > 0 ? currentValue - 1 : 0;
-        } else if (direction === 'plus') {
+        } else if (direction === "plus") {
           this.input.value = currentValue + 1 < 9 ? currentValue + 1 : 9;
         }
-
-      })
-    })
+      });
+    });
   }
-
 }
 
-const counter = new Rooms(document.querySelectorAll('.counter__btn'))
+new Rooms(".counter__btn");
