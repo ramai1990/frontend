@@ -25,19 +25,19 @@ import "../pug/pages/cards.pug";
 import "../pug/pages/search-room.pug";
 import "../pug/pages/colors-type.pug";
 
-import "../components/like/like";
+import "../components/like/Like";
 import "../components/rating/rating";
 import "../../node_modules/jquery-bar-rating/dist/jquery.barrating.min.js";
 
-import "../components/submenu/submenu";
-import "../components/dropdown/dropdown.js";
-import "../components/guest-dropdown/drop-guest.js";
-import "../components/room/rooms.js";
-import "../components/dropdown-checkbox/dropdown-checkbox.js";
-import "../components/air-datepicker/air-datepicker.js";
+import "../components/submenu/SubMenu";
+import "../components/dropdown/Dropdown";
+import "../components/guest-dropdown/DropdownGuest";
+import "../components/room/Rooms";
+import "../components/dropdown-checkbox/DropdownCheckbox";
+import "../components/air-datepicker/air-datepicker";
 
 import "../../node_modules/swiper/swiper-bundle";
-import "../components/swiper/swiper.js";
-import "../components/burger/burger.js";
+import "../components/swiper/swiper";
+import "../components/burger/Burger";
 import "../components/imask/imask";
-import "../components/dropdown/inactive-button";
+import "../components/dropdown/InnactiveButton";

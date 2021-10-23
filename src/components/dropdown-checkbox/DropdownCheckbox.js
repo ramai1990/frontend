@@ -1,4 +1,4 @@
-class ListCheckbox {
+class DropdownCheckbox {
   constructor(el) {
     this.open = this.open.bind(this);
     this.close = this.close.bind(this);
@@ -29,5 +29,5 @@ class ListCheckbox {
   }
 }
 if (document.querySelector(".dropdown-checkbox")) {
-  new ListCheckbox(document.querySelector(".dropdown-checkbox"));
+  new DropdownCheckbox(document.querySelector(".dropdown-checkbox"));
 }
