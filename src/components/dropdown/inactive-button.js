@@ -4,19 +4,23 @@ class InnactiveButton {
     this.render(el);
   }
 
-  clearBtn() {
-    if (+this.input.value === 0) {
-      this.minBtn.style.opacity = "0.3";
-    } else {
-      this.minBtn.style.opacity = "1";
-    }
-  }
-
   render(el) {
     this.buttons = el.querySelectorAll(".counter__btn");
     this.minBtn = el.querySelector('[data-direction="minus"]');
     this.input = el.querySelector(".counter__value");
     this.clearBtn();
+    this.addEventListeners();
+  }
+
+  clearBtn() {
+    if (+this.input.value === 0) {
+      this.minBtn.classList.remove("active");
+    } else {
+      this.minBtn.classList.add("active");
+    }
+  }
+
+  addEventListeners() {
     this.buttons.forEach((btn) => btn.addEventListener("click", this.clearBtn));
   }
 }

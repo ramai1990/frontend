@@ -25,6 +25,12 @@
       }
     }
   }
+  &__btn[data-direction="minus"] {
+    opacity: 0.3;
+    &.active {
+      opacity: 1;
+    }
+  }
   &__value {
     text-align: center;
     width: 34px;

@@ -12,12 +12,7 @@ class Dropdown {
     this.dropDownList = el.querySelector(".dropdown__list");
     this.dropDownBtn = el.querySelector('[data-btn="btn"]');
     this.dropDownListItems = el.querySelectorAll(".dropdown__list-item");
-    this.dropDownList.addEventListener("click", (e) => e.stopPropagation());
-    this.dropDownBtn.addEventListener("click", this.open);
-    document.addEventListener("click", this.close);
-    this.dropDownListItems.forEach((list) =>
-      list.addEventListener("click", this.printValue)
-    );
+    this.addEventListeners();
   }
 
   printValue() {
@@ -34,13 +29,22 @@ class Dropdown {
     this.dropDownBtn.classList.toggle("dropdown__button_active");
   }
 
-  close(e) {
-    if (e.target !== this.dropDownBtn && this.dropDownList) {
-      this.dropDownBtn.classList.remove("dropdown__button_active");
-      this.dropDownList.classList.remove("dropdown__list_active");
-    }
+  close() {
+    this.dropDownBtn.classList.remove("dropdown__button_active");
+    this.dropDownList.classList.remove("dropdown__list_active");
+  }
+
+  addEventListeners() {
+    this.dropDownList.addEventListener("click", (e) => e.stopPropagation());
+    this.dropDownBtn.addEventListener("click", (e) => e.stopPropagation());
+    this.dropDownBtn.addEventListener("click", this.open);
+    this.dropDownListItems.forEach((list) =>
+      list.addEventListener("click", this.printValue)
+    );
+    document.addEventListener("click", this.close);
   }
 }
+
 if (document.querySelector(".dropdown")) {
   const dropdown = new Dropdown(document.querySelector(".dropdown"));
 }
