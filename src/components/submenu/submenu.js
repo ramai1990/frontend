@@ -9,11 +9,8 @@ class SubMenu {
     this.navList = document.querySelector(".nav__list");
     this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
     this.submenu = document.querySelectorAll(".submenu__list");
-    this.submenu.forEach((el) =>
-      el.addEventListener("click", (e) => e.stopPropagation())
-    );
-    this.navList.addEventListener("click", this.open);
-    document.addEventListener("click", this.close);
+    this.menu = document.querySelector(".submenu");
+    this.addEventListeners();
   }
 
   open(e) {
@@ -41,10 +38,17 @@ class SubMenu {
   }
 
   close(e) {
-    if (this.navLink) {
-      this.navLink.forEach((el) => el.classList.remove("active"));
-      this.submenu.forEach((el) => el.classList.remove("active"));
-    }
+    this.navLink.forEach((el) =>
+      el.addEventListener("click", this.removeClass(el))
+    );
+  }
+
+  addEventListeners() {
+    this.submenu.forEach((el) =>
+      el.addEventListener("click", (e) => e.stopPropagation())
+    );
+    this.navLink.forEach((el) => el.addEventListener("click", this.open));
+    document.addEventListener("click", this.close);
   }
 }
 
