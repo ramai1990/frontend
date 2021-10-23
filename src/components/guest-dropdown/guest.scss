@@ -60,6 +60,12 @@
       }
     }
   }
+  &__counter-btn[data-direction="minus"] {
+    opacity: 0.3;
+    &.active {
+      opacity: 1;
+    }
+  }
   &__counter {
     text-align: center;
     width: 34px;
@@ -87,5 +93,15 @@
     font-size: 12px;
     text-transform: uppercase;
     color: $purple;
+    transition: color 0.2s ease-in;
+    &:hover {
+      color: $dark50;
+    }
+  }
+  &__clear {
+    opacity: 0.3;
+    &.active {
+      opacity: 1;
+    }
   }
 }
