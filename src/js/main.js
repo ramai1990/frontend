@@ -33,7 +33,6 @@ import "../components/submenu/submenu";
 import "../components/dropdown/dropdown.js";
 import "../components/guest-dropdown/drop-guest.js";
 import "../components/room/rooms.js";
-import "../components/guest-dropdown/guest-counter.js";
 import "../components/dropdown-checkbox/dropdown-checkbox.js";
 import "../components/air-datepicker/air-datepicker.js";
 
