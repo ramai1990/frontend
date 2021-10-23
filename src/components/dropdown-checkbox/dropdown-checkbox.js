@@ -1,38 +1,33 @@
 class ListCheckbox {
-  constructor({ checkList, checkTitle }) {
-    this.checkList = checkList;
-    this.checkTitle = checkTitle;
-    this.check();
+  constructor(el) {
+    this.open = this.open.bind(this);
+    this.close = this.close.bind(this);
+    this.render(el);
   }
 
-  check() {
-    if (this.checkList) {
-      this.checkTitle.addEventListener("click", () => {
-        this.checkTitle.classList.toggle("dropdown-checkbox__title_active");
-        this.checkList.classList.toggle("dropdown-checkbox__list_active");
-      });
+  render(el) {
+    this.title = el.querySelector(".dropdown-checkbox__title");
+    this.list = el.querySelector(".dropdown-checkbox__list");
+    this.addEventListeners();
+  }
 
-      const checkList = this.checkList;
-      const checkTitle = this.checkTitle;
+  open() {
+    this.title.classList.toggle("dropdown-checkbox__title_active");
+    this.list.classList.toggle("dropdown-checkbox__list_active");
+  }
 
-      document.addEventListener("click", function (e) {
-        const target = e.target;
-        const its_menu = target == checkList || checkList.contains(target);
-        const its_btnMenu = target == checkTitle;
-        const menu_is_active = checkList.classList.contains(
-          "dropdown-checkbox__list_active"
-        );
+  close() {
+    this.title.classList.remove("dropdown-checkbox__title_active");
+    this.list.classList.remove("dropdown-checkbox__list_active");
+  }
 
-        if (!its_menu && !its_btnMenu && menu_is_active) {
-          checkTitle.classList.remove("dropdown-checkbox__title_active");
-          checkList.classList.remove("dropdown-checkbox__list_active");
-        }
-      });
-    }
+  addEventListeners() {
+    this.title.addEventListener("click", (e) => e.stopPropagation());
+    this.list.addEventListener("click", (e) => e.stopPropagation());
+    this.title.addEventListener("click", this.open);
+    document.addEventListener("click", this.close);
   }
 }
-
-const listCheckbox = new ListCheckbox({
-  checkList: document.querySelector(".dropdown-checkbox__list"),
-  checkTitle: document.querySelector(".dropdown-checkbox__title"),
-});
+if (document.querySelector(".dropdown-checkbox")) {
+  new ListCheckbox(document.querySelector(".dropdown-checkbox"));
+}
