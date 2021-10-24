@@ -35,4 +35,6 @@ class Burger {
   }
 }
 
-const burger = new Burger();
+if (document.querySelector(".burger")) {
+  const burger = new Burger();
+}
