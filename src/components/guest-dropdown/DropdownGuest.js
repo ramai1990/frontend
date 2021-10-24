@@ -2,8 +2,10 @@ import getCounterValue from "../../js/getCounterValue";
 
 class DropdownGuest {
   constructor(el) {
+    this.sum = 0;
     this.open = this.open.bind(this);
     this.close = this.close.bind(this);
+    this.updateValue = this.updateValue.bind(this);
     this.render(el);
   }
 
@@ -33,11 +35,13 @@ class DropdownGuest {
     this.dropDownBtn.classList.remove("dropdown__button_active");
   }
 
-  addEventListeners() {
-    this.dropDownBtn.addEventListener("click", this.open);
-    this.btnApply.addEventListener("click", this.close);
-    this.dropDownList.addEventListener("click", (e) => e.stopPropagation());
-    document.addEventListener("click", this.close);
+  updateValue() {
+    this.input.value = `${this.sum} ${getCounterValue(
+      this.sum,
+      this.list.dataset.value
+    )}`;
+
+    this.showValue();
   }
 
   counter() {
@@ -48,57 +52,50 @@ class DropdownGuest {
             "[data-direction='minus']"
           );
           const inpGuest = btn.parentElement.querySelector(".guest__counter");
-
           btn.addEventListener(
             "click",
             function () {
               const direction = btn.dataset.direction;
-
               const currentValue = +inpGuest.value;
-              let newValue;
-
-              if (direction === "minus") {
-                newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
-              } else if (direction === "plus") {
-                newValue = currentValue + 1 < 9 ? currentValue + 1 : 9;
-              }
-
-              inpGuest.value = newValue;
-
-              let sum = 0;
-              this.inputs.forEach(function (i) {
-                sum += parseInt(i.value);
-              });
-
+              this.updateCounter(direction, inpGuest, currentValue);
+              this.sum = 0;
+              this.updateInputsValue();
               this.btnClear.addEventListener(
                 "click",
                 function () {
-                  inpGuest.value = 0;
-                  this.input.value = "Сколько гостей";
-                  sum = 0;
-                  this.btnClear.classList.remove("active");
-                  minBtn.classList.remove("active");
+                  this.clearValue(minBtn, inpGuest);
                 }.bind(this)
               );
-
               this.clear(inpGuest.value, minBtn);
-              this.clear(sum, this.btnClear);
-
-              this.btnApply.addEventListener(
-                "click",
-                function (e) {
-                  this.input.value = `${sum} ${getCounterValue(
-                    sum,
-                    this.list.dataset.value
-                  )}`;
-
-                  this.showValue();
-                }.bind(this)
-              );
+              this.clear(this.sum, this.btnClear);
             }.bind(this)
           );
         }.bind(this)
       );
+    }
+  }
+
+  clearValue(minBtn, inpGuest) {
+    inpGuest.value = 0;
+    this.input.value = "Сколько гостей";
+    this.sum = 0;
+    this.btnClear.classList.remove("active");
+    minBtn.classList.remove("active");
+  }
+
+  updateInputsValue() {
+    this.inputs.forEach(
+      function (i) {
+        this.sum += parseInt(i.value);
+      }.bind(this)
+    );
+  }
+
+  updateCounter(direction, inpGuest, currentValue) {
+    if (direction === "minus") {
+      inpGuest.value = currentValue - 1 > 0 ? currentValue - 1 : 0;
+    } else if (direction === "plus") {
+      inpGuest.value = currentValue + 1 < 9 ? currentValue + 1 : 9;
     }
   }
 
@@ -117,11 +114,20 @@ class DropdownGuest {
   }
 
   clear(sum, btn) {
-    if (sum === 0 || sum < 1) {
+    const resultSum = sum === 0 || sum < 1;
+    if (resultSum) {
       btn.classList.remove("active");
     } else {
       btn.classList.add("active");
     }
+  }
+
+  addEventListeners() {
+    this.dropDownBtn.addEventListener("click", this.open);
+    this.btnApply.addEventListener("click", this.close);
+    this.dropDownList.addEventListener("click", (e) => e.stopPropagation());
+    this.btnApply.addEventListener("click", this.updateValue);
+    document.addEventListener("click", this.close);
   }
 }
 
