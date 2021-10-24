@@ -20,7 +20,6 @@ class DropdownGuest {
     this.input = document.querySelector(".dropdown__input-guest");
     this.inputs = document.querySelectorAll(".guest__counter");
     this.list = document.querySelector(".dropdown__list-item");
-    this.counter();
     this.addEventListeners();
   }
 
@@ -44,35 +43,22 @@ class DropdownGuest {
     this.showValue();
   }
 
-  counter() {
-    if (this.dropdownguest) {
-      this.btnsGuest.forEach(
-        function (btn) {
-          const minBtn = btn.parentElement.querySelector(
-            "[data-direction='minus']"
-          );
-          const inpGuest = btn.parentElement.querySelector(".guest__counter");
-          btn.addEventListener(
-            "click",
-            function () {
-              const direction = btn.dataset.direction;
-              const currentValue = +inpGuest.value;
-              this.updateCounter(direction, inpGuest, currentValue);
-              this.sum = 0;
-              this.updateInputsValue();
-              this.btnClear.addEventListener(
-                "click",
-                function () {
-                  this.clearValue(minBtn, inpGuest);
-                }.bind(this)
-              );
-              this.clear(inpGuest.value, minBtn);
-              this.clear(this.sum, this.btnClear);
-            }.bind(this)
-          );
-        }.bind(this)
-      );
-    }
+  counter(btn) {
+    const minBtn = btn.parentElement.querySelector("[data-direction='minus']");
+    const inpGuest = btn.parentElement.querySelector(".guest__counter");
+    const direction = btn.dataset.direction;
+    const currentValue = +inpGuest.value;
+    this.updateCounter(direction, inpGuest, currentValue);
+    this.sum = 0;
+    this.updateInputsValue();
+    this.btnClear.addEventListener(
+      "click",
+      function () {
+        this.clearValue(minBtn, inpGuest);
+      }.bind(this)
+    );
+    this.clear(inpGuest.value, minBtn);
+    this.clear(this.sum, this.btnClear);
   }
 
   clearValue(minBtn, inpGuest) {
@@ -126,6 +112,16 @@ class DropdownGuest {
     this.dropDownBtn.addEventListener("click", this.open);
     this.btnApply.addEventListener("click", this.close);
     this.dropDownList.addEventListener("click", (e) => e.stopPropagation());
+    this.btnsGuest.forEach(
+      function (btn) {
+        btn.addEventListener(
+          "click",
+          function () {
+            this.counter(btn);
+          }.bind(this)
+        );
+      }.bind(this)
+    );
     this.btnApply.addEventListener("click", this.updateValue);
     document.addEventListener("click", this.close);
   }
