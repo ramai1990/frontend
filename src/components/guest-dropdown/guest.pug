@@ -1,19 +1,15 @@
-mixin guest({title, list, marginBottom = 0, value = 'Сколько гостей'})
-  .search-rooms__guest
-    .search-rooms__title-bottom= title
-    .dropdown-guest(style={'margin-bottom': `${marginBottom}px`})
-      button(type="button" value="").dropdown__button.guest__btn
-      input.dropdown__input-guest.guest__input(type='text' value=`${value}` name='количество гостей' readonly)
-      ul.dropdown__list.guest__list&attributes(attributes)
-        each item in list
-          li.dropdown__list-item(data-value="гость,гостя,гостей")= item.title
-            .guest__counters
-              button(type="button" data-direction="minus").counter__btn-guest.guest__counter-btn
-                include ../../img/remove.svg
-              input(type="number" value=`${item.value}` data-value=`${item.list}` readonly class=item.class).guest__counter
-              button(type="button" data-direction="plus").counter__btn-guest.guest__counter-btn
-                span
-                  include ../../img/plus.svg
-        li.guest__btns
-          button(type="button").clear.guest__clear очистить
-          button(type="button").apply.guest__apply применить
+mixin guest({title, list})
+  .guest&attributes(attributes)
+    input.guest__input(type='text' value='Сколько гостей' name='количество гостей' readonly)&attributes(attributes)
+    .guest__contents&attributes(attributes)
+      each item in list
+        .guest__option
+          span.guest__title= item.title
+          button(type="button" data-btn="minus").guest__btn
+            include ../../img/remove.svg
+          input(type="text" value=`${item.value}` data-value=`${item.dataset}` readonly).guest__value
+          button(type="button" data-btn="plus").guest__btn
+            include ../../img/plus.svg
+      .guest__btns
+        button(type="button").clear.guest__clear очистить
+        button(type="button").apply.guest__apply применить

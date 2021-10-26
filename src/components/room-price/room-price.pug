@@ -22,10 +22,12 @@ mixin roomPrice
             type: 'to',
             placeholder: 'ДД.ММ.ГГГГ'
           })
-      +guest({
-        title: 'гости',
-        list: guest
-      })
+      .room-price__guest
+        .room-price__guest_title гости
+        +guest({
+          title: 'гости',
+          list: guest
+        })
       .room-price__amount
         input.room-price__input(type="text" value='9 990₽ х 4 суток' disabled)
         input.room-price__input(type="text" value='39 960₽' disabled)

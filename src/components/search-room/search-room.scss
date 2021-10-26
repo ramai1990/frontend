@@ -39,6 +39,12 @@
   &__date {
     margin-bottom: 23px;
   }
+  &__guest {
+    &_title {
+      @include text-h3;
+      margin-bottom: 5px;
+    }
+  }
   &__range {
     margin-top: 32px;
     margin-bottom: 29px;

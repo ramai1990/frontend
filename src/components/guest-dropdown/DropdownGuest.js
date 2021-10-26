@@ -1,132 +1,137 @@
-import getCounterValue from "../../js/getCounterValue";
-
 class DropdownGuest {
   constructor(el) {
-    this.sum = 0;
+    this.count = 0;
     this.open = this.open.bind(this);
     this.close = this.close.bind(this);
+    this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
     this.updateValue = this.updateValue.bind(this);
+    this.findTotal = this.findTotal.bind(this);
+    this.clearValue = this.clearValue.bind(this);
     this.render(el);
   }
 
   render(el) {
-    this.dropDownBtn = el.querySelector(".dropdown__button");
-    this.dropDownList = el.querySelector(".dropdown__list");
-    this.btnApply = el.querySelector(".apply");
-    this.dropdownguest = document.querySelector(".dropdown-guest");
-    this.btnsGuest = document.querySelectorAll(".counter__btn-guest");
-    this.btnClear = document.querySelector(".clear");
+    this.dropdown = document.querySelector(".guest");
+    this.contents = document.querySelector(".guest__contents");
+    this.currentValue = el.querySelector(".guest__value");
+    this.btnIncrement = el.querySelector('.guest__btn[data-btn="plus"]');
+    this.btnDecrement = el.querySelector('.guest__btn[data-btn="minus"]');
+    this.values = document.querySelectorAll(
+      '.guest__value[data-value="guest"]'
+    );
+    this.children = document.querySelector(
+      '.guest__value[data-value="children"]'
+    );
+    this.totalValue = document.querySelector(".guest__input");
     this.btnApply = document.querySelector(".apply");
-    this.input = document.querySelector(".dropdown__input-guest");
-    this.inputs = document.querySelectorAll(".guest__counter");
-    this.list = document.querySelector(".dropdown__list-item");
+    this.btnClear = document.querySelector(".clear");
+    this.isButtonActive(this.btnDecrement);
     this.addEventListeners();
   }
 
   open(e) {
     e.stopPropagation();
-    this.dropDownList.classList.toggle("dropdown__list_active");
-    this.dropDownBtn.classList.toggle("dropdown__button_active");
+    this.contents.classList.toggle("open");
+    this.dropdown.classList.toggle("active");
+    this.totalValue.classList.toggle("active");
   }
 
   close() {
-    this.dropDownList.classList.remove("dropdown__list_active");
-    this.dropDownBtn.classList.remove("dropdown__button_active");
+    this.contents.classList.remove("open");
+    this.dropdown.classList.remove("active");
+    this.totalValue.classList.remove("active");
   }
 
-  updateValue() {
-    this.input.value = `${this.sum} ${getCounterValue(
-      this.sum,
-      this.list.dataset.value
-    )}`;
-
-    this.showValue();
+  increment() {
+    this.updateValue(++this.count);
+    this.isButtonActive(this.btnClear);
+    this.isButtonDisasbled(this.btnDecrement);
   }
 
-  counter(btn) {
-    const minBtn = btn.parentElement.querySelector("[data-direction='minus']");
-    const inpGuest = btn.parentElement.querySelector(".guest__counter");
-    const direction = btn.dataset.direction;
-    const currentValue = +inpGuest.value;
-    this.updateCounter(direction, inpGuest, currentValue);
-    this.sum = 0;
-    this.updateInputsValue();
-    this.btnClear.addEventListener(
-      "click",
-      function () {
-        this.clearValue(minBtn, inpGuest);
-      }.bind(this)
-    );
-    this.clear(inpGuest.value, minBtn);
-    this.clear(this.sum, this.btnClear);
-  }
-
-  clearValue(minBtn, inpGuest) {
-    inpGuest.value = 0;
-    this.input.value = "Сколько гостей";
-    this.sum = 0;
-    this.btnClear.classList.remove("active");
-    minBtn.classList.remove("active");
-  }
-
-  updateInputsValue() {
-    this.inputs.forEach(
-      function (i) {
-        this.sum += parseInt(i.value);
-      }.bind(this)
-    );
-  }
-
-  updateCounter(direction, inpGuest, currentValue) {
-    if (direction === "minus") {
-      inpGuest.value = currentValue - 1 > 0 ? currentValue - 1 : 0;
-    } else if (direction === "plus") {
-      inpGuest.value = currentValue + 1 < 9 ? currentValue + 1 : 9;
+  decrement() {
+    if (this.count > 0) {
+      this.updateValue(--this.count);
+    }
+    if (this.count === 0) {
+      this.isButtonActive(this.btnDecrement);
     }
   }
 
-  showValue() {
-    let list = [...this.dropdownguest.querySelectorAll(".guest__counter_baby")];
+  updateValue(val) {
+    this.currentValue.value = val;
+  }
 
-    list = list.map((el) => {
-      const word = getCounterValue(el.value, el.dataset.value);
-      return `${el.value} ${word}`;
-    });
+  clearValue() {
+    this.count = 0;
+    this.currentValue.value = 0;
+    this.totalValue.value = "Сколько гостей";
+  }
 
-    if (list > "1") {
-      this.dropdownguest.querySelector(".guest__input").value =
-        this.input.value + ", " + list.join(", ");
+  findChildren() {
+    const children = ["младенец", "младенца", "младенцев"];
+    if (this.children.value < 1) {
+      return "";
+    } else if (this.children.value < 2) {
+      return `, ${this.children.value} ${children[0]}`;
+    } else if (this.children.value > 1 && this.children.value < 5) {
+      return `, ${this.children.value} ${children[1]}`;
+    } else if (this.children.value > 4) {
+      return `, ${this.children.value} ${children[2]}`;
     }
   }
 
-  clear(sum, btn) {
-    const resultSum = sum === 0 || sum < 1;
-    if (resultSum) {
-      btn.classList.remove("active");
-    } else {
-      btn.classList.add("active");
+  findTotal() {
+    let total = 0;
+    for (let i = 0; i < this.values.length; i++) {
+      total += parseInt(this.values[i].value);
     }
+    const guest = ["гость", "гостя", "гостей"];
+    if (total === 0) {
+      this.isButtonDisasbled(this.btnClear);
+      this.totalValue.value = "Сколько гостей";
+    } else if (total === 1) {
+      this.totalValue.value = `${total} ${guest[0]} ${this.findChildren()}`;
+    } else if (total > 1 && total < 5) {
+      this.totalValue.value = `${total} ${guest[1]} ${this.findChildren()}`;
+    } else if (total > 4) {
+      this.totalValue.value = `${total} ${guest[2]} ${this.findChildren()}`;
+    }
+    if (this.children.value > 0) {
+      this.isButtonActive(this.btnClear);
+    }
+  }
+
+  isButtonDisasbled(btn) {
+    btn.classList.remove("active");
+  }
+
+  isButtonActive(btn) {
+    btn.classList.add("active");
   }
 
   addEventListeners() {
-    this.dropDownBtn.addEventListener("click", this.open);
-    this.btnApply.addEventListener("click", this.close);
-    this.dropDownList.addEventListener("click", (e) => e.stopPropagation());
-    this.btnsGuest.forEach(
-      function (btn) {
-        btn.addEventListener(
-          "click",
-          function () {
-            this.counter(btn);
-          }.bind(this)
-        );
-      }.bind(this)
-    );
-    this.btnApply.addEventListener("click", this.updateValue);
+    this.btnIncrement.addEventListener("click", () => {
+      this.increment();
+    });
+    this.btnDecrement.addEventListener("click", () => {
+      this.decrement();
+    });
+    this.btnApply.addEventListener("click", () => {
+      this.findTotal();
+      this.close();
+    });
+    this.btnClear.addEventListener("click", () => {
+      this.clearValue();
+      this.isButtonDisasbled(this.btnClear);
+      this.isButtonActive(this.btnDecrement);
+    });
+    this.contents.addEventListener("click", (e) => e.stopPropagation());
+    this.totalValue.addEventListener("click", this.open);
     document.addEventListener("click", this.close);
   }
 }
 
 document
-  .querySelectorAll(".dropdown-guest")
-  .forEach((dropdown) => new DropdownGuest(dropdown));
+  .querySelectorAll(".guest__option")
+  .forEach((option) => new DropdownGuest(option));

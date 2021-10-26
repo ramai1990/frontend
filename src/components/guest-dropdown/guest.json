@@ -1,18 +1,17 @@
 [
   {
     "title": "взрослые",
-    "list": ["взрослый", "взрослых", "взрослых"],
-    "value": "0"
+    "value": "0",
+    "dataset": "guest"
   },
   {
     "title": "дети",
-    "list": ["ребенок", "ребенка", "детей"],
-    "value": "0"
+    "value": "0",
+    "dataset": "guest"
   },
   {
     "title": "младенцы",
-    "list": ["младенец", "младенца", "младенцев"],
-    "class": "guest__counter_baby",
-    "value": "0"
+    "value": "0",
+    "dataset": "children"
   }
 ]

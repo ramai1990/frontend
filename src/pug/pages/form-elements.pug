@@ -25,11 +25,12 @@ block content
             p.form-elements__text Text Field
               span Hover / Focus
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
-          +guest({
-            title: 'dropdown',
-            list: guest,
-            marginBottom: 19
-          })
+          .form-elements__guest
+            p.form-elements__text dropdown
+            +guest({
+              title: 'dropdown',
+              list: guest
+            })
           .form-elements__date
             p.form-elements__text masked text field
             +imaskBirthday
@@ -113,22 +114,21 @@ block content
               activeClass: 'dropdown-checkbox__list_active'
             })(class="dropdown-checkbox__title_active")
         .item
-          .form-elements__dropdown-guest
+          .form-elements__guest
+            p.form-elements__text dropdown
             +guest({
               title: 'dropdown',
-              list: guest,
-              marginBottom: 19
-            })(class="dropdown__list_active")
+              list: guest
+            })(class="open active")
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
         .item
-          .form-elements__dropdown-guest
-              +guest({
-                title: 'dropdown',
-                list: ulkitGuest,
-                marginBottom: 20,
-                value: '3 гостя'
-              })(class="dropdown__list_active")
+          .form-elements__guest
+            p.form-elements__text dropdown
+            +guest({
+              title: 'dropdown',
+              list: guest
+            })(class="open active")
           .form-elements__bullet-list
             .form-elements__bullet-list_title bullet list
             +bullet-list([

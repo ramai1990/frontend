@@ -1,4 +1,4 @@
-mixin search-rooms(marginBottom)
+mixin search-rooms
   - const guest = require('../../components/guest-dropdown/guest.json');
   .search-rooms
     form(action="https://ramai1990.github.io/frontend/search-room")
@@ -14,14 +14,15 @@ mixin search-rooms(marginBottom)
           type: 'to',
           placeholder: 'ДД.ММ.ГГГГ'
         })
+    .search-rooms__guest
+      .search-rooms__title-bottom Гости
       +guest({
         title: 'гости',
-        list: guest,
-        marginBottom: marginBottom
+        list: guest
       })
-      +button({
-        theme: 'arrow',
-        size: 'lg',
-        text: 'подобрать номер',
-        type: 'submit'
-      })
+    +button({
+      theme: 'arrow',
+      size: 'lg',
+      text: 'подобрать номер',
+      type: 'submit'
+    })

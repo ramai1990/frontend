@@ -20,10 +20,12 @@ block content
               title: 'даты пребывания в отеле',
               type: 'range'
             })
-          +guest({
-            title: 'гости',
-            list: guest
-          })
+          .search-room__guest
+            .search-room__guest_title гости
+            +guest({
+              title: 'гости',
+              list: guest
+            })
           .search-room__range
             +range-slider({
               title: 'диапазон цены',

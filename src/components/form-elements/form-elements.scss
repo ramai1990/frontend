@@ -8,7 +8,7 @@
   &__inner {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 83px;
+    margin-bottom: 81px;
     padding-top: 5px;
     @include media(1070px) {
       flex-direction: column;
@@ -73,6 +73,9 @@
       color: $dark50;
       font-weight: 400;
     }
+  }
+  &__guest {
+    margin-bottom: 25px;
   }
   &__date {
     @include elements-default;
@@ -174,12 +177,6 @@
   &__advantages {
     margin-top: 78px;
   }
-  &__dropdown-guest {
-    max-width: 320px;
-    @include media(355px) {
-      max-width: 300px;
-    }
-  }
   &__bottom {
     display: flex;
     justify-content: space-between;
@@ -207,10 +204,10 @@
     }
   }
   &__rich-checkbox {
-    margin-top: 238px;
+    margin-top: 258px;
   }
   &__bullet-list {
-    margin-top: 238px;
+    margin-top: 258px;
     &_title {
       @include text-h3;
       margin-bottom: 16px;
