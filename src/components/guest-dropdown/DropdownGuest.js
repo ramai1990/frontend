@@ -91,11 +91,11 @@ class DropdownGuest {
       this.isButtonDisasbled(this.btnClear);
       this.totalValue.value = "Сколько гостей";
     } else if (total === 1) {
-      this.totalValue.value = `${total} ${guest[0]} ${this.findChildren()}`;
+      this.totalValue.value = `${total} ${guest[0]}${this.findChildren()}`;
     } else if (total > 1 && total < 5) {
-      this.totalValue.value = `${total} ${guest[1]} ${this.findChildren()}`;
+      this.totalValue.value = `${total} ${guest[1]}${this.findChildren()}`;
     } else if (total > 4) {
-      this.totalValue.value = `${total} ${guest[2]} ${this.findChildren()}`;
+      this.totalValue.value = `${total} ${guest[2]}${this.findChildren()}`;
     }
     if (this.children.value > 0) {
       this.isButtonActive(this.btnClear);
