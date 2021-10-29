@@ -117,7 +117,6 @@ module.exports = {
     filename: `./js/${filename("js")}`,
     path: path.resolve(__dirname, "app"),
     publicPath: "",
-    hashFunction: "xxhash64",
   },
   devServer: {
     historyApiFallback: true,
