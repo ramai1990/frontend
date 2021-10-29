@@ -22,27 +22,27 @@ block content
           .room__content_inner
             .room__content-item
               .room__advantages
-                .room__title Сведения о номере
+                h2.room__title Сведения о номере
                 +advantages(advantages)
             .room__content-item
-              .room__title Впечатления от номера
+              h2.room__title Впечатления от номера
               +statistics({
                 number: 260,
                 text: 'голосов'
               })
           .room__comments
-            .room__title Отзывы посетителей номера
+            h2.room__title Отзывы посетителей номера
               span 2 отзыва
             +comment([user1])
             +comment([user2])
           .room__rules
             .room__rules-item
-              .room__title Правила
+              h2.room__title Правила
               +bullet-list([
                 'Нельзя с питомцами',
                 'Без вечеринок и мероприятий',
                 'Время прибытия — после 13:00, а выезд до 12:00'
               ])
             .room__rules-item
-              .room__rules__title-right Отмена
+              h2.room__rules__title-right Отмена
               .room__text Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги.

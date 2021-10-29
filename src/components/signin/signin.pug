@@ -1,25 +1,23 @@
-mixin signIn(items)
-  each item in items
-    - const { title, buttonSignIn, text } = item;
-    .signin
-      form(action="https://ramai1990.github.io/frontend/sign-up")
-        .signin__title= title
-        .signin__input
-          +input({type: 'email', placeholder: 'Email', name: 'email'})
-        .signin__input
-          +input({type: 'password', placeholder: 'Пароль', name: 'password'})
-        .signin__button
-          +button({
-            theme: 'arrow',
-            size: 'lg',
-            text: 'войти',
-            type: 'submit'
-          })
-        .signin__bottom
-          p.signin__bottom-text= text
-          +button({
-            theme: 'border',
-            size: 'sm',
-            text: 'Создать',
-            type: 'submit'
-          })
+mixin signIn
+  .signin
+    form(action="https://ramai1990.github.io/frontend/sign-up")
+      h1.signin__title Войти
+      .signin__input
+        +input({type: 'email', placeholder: 'Email', name: 'email'})
+      .signin__input
+        +input({type: 'password', placeholder: 'Пароль', name: 'password'})
+      .signin__button
+        +button({
+          theme: 'arrow',
+          size: 'lg',
+          text: 'войти',
+          type: 'submit'
+        })
+      .signin__bottom
+        p.signin__bottom-text Нет аккаунта на Toxin?
+        +button({
+          theme: 'border',
+          size: 'sm',
+          text: 'Создать',
+          type: 'submit'
+        })

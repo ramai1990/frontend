@@ -2,7 +2,7 @@ mixin search-rooms
   - const guest = require('../../components/guest-dropdown/guest.json');
   .search-rooms
     form(action="https://ramai1990.github.io/frontend/search-room")
-      .search-rooms__title Найдём номера под ваши пожелания
+      h1.search-rooms__title Найдём номера под ваши пожелания
       .search-rooms__date
         +dropdown-date({
           title: 'прибытие',
@@ -15,7 +15,7 @@ mixin search-rooms
           placeholder: 'ДД.ММ.ГГГГ'
         })
     .search-rooms__guest
-      .search-rooms__title-bottom Гости
+      h3.search-rooms__title-bottom Гости
       +guest({
         title: 'гости',
         list: guest

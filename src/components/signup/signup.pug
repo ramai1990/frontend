@@ -1,49 +1,47 @@
-mixin signUp(items)
-  each item in items
-    - const { title, date, data, account } = item;
-    .signup
-      form(action="https://ramai1990.github.io/frontend/sign-in")
-        .signup__title= title
-        .signup__input
-          +input({type: 'text', placeholder: 'Имя', name: 'Имя'})
-        .signup__input
-          +input({type: 'text', placeholder: 'Фамилия', name: 'Фамилия'})
-        .signup__gender
-          +radio({
-            name: 'gender',
-            items: [
-              {
-                checked: true,
-                value: 'man',
-                text: 'Мужчина'
-              },
-              {
-                value: 'woman',
-                text: 'Женщина'
-              }
-            ]
-          })
-        p.signup__text= date
-        +imaskBirthday
-        p.signup__text= data
-        .signup__input
-          +input({type: 'email', placeholder: 'Email', name: 'email'})
-        .signup__input
-          +input({type: 'password', placeholder: 'Пароль', name: 'password'})
-        .signup__toggle
-          +toggle({text: 'Получать спецпредложения'})
-        .signup__btn
-          +button({
-            theme: 'arrow',
-            size: 'lg',
-            text: 'зарегистрироваться',
-            type: 'submit'
-          })
-        .signup__bottom
-          p.signup__bottom-text= account
-          +button({
-            theme: 'border',
-            size: 'sm',
-            text: 'Войти',
-            type: 'submit'
-          })
+mixin signUp
+  .signup
+    form(action="https://ramai1990.github.io/frontend/sign-in")
+      h1.signup__title Регистрация аккаунта
+      .signup__input
+        +input({type: 'text', placeholder: 'Имя', name: 'Имя'})
+      .signup__input
+        +input({type: 'text', placeholder: 'Фамилия', name: 'Фамилия'})
+      .signup__gender
+        +radio({
+          name: 'gender',
+          items: [
+            {
+              checked: true,
+              value: 'man',
+              text: 'Мужчина'
+            },
+            {
+              value: 'woman',
+              text: 'Женщина'
+            }
+          ]
+        })
+      h3.signup__text дата рождения
+      +imaskBirthday
+      h3.signup__text данные для входа в сервис
+      .signup__input
+        +input({type: 'email', placeholder: 'Email', name: 'email'})
+      .signup__input
+        +input({type: 'password', placeholder: 'Пароль', name: 'password'})
+      .signup__toggle
+        +toggle({text: 'Получать спецпредложения'})
+      .signup__btn
+        +button({
+          theme: 'arrow',
+          size: 'lg',
+          text: 'зарегистрироваться',
+          type: 'submit'
+        })
+      .signup__bottom
+        p.signup__bottom-text Уже есть аккаунт на Toxin
+        +button({
+          theme: 'border',
+          size: 'sm',
+          text: 'Войти',
+          type: 'submit'
+        })

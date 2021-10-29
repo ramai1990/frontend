@@ -17,22 +17,13 @@
     }
   }
 
-  &__text {
+  &__title {
     @include text-h3;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-    span {
-      color: $dark50;
-      font-weight: 400;
-    }
   }
 }
-// .js-dropdown-date-range {
-//   &-input {
-//     width: 100%;
-//   }
-// }
 
 .js-dropdown-date-from,
 .js-dropdown-date-to,

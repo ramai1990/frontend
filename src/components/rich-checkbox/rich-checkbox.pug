@@ -1,6 +1,6 @@
 mixin richCheckbox(title, items)
   .rich-checkbox
-    .rich-checkbox__title= title
+    h3.rich-checkbox__title= title
     each item in items
       - const { id, title, description } = item;
       .rich-checkbox__item

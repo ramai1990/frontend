@@ -7,13 +7,5 @@ block variables
 
 block content
   section.sign-up
-    <h2 hidden>sign-up</h2>
     .sign-up__container
-      +signUp([
-        {
-          title: 'Регистрация аккаунта',
-          date: 'дата рождения',
-          data: 'данные для входа в сервис',
-          account: 'Уже есть аккаунт на Toxin'
-        }
-      ])
+      +signUp

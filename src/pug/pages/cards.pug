@@ -11,24 +11,12 @@ block content
       .cards__item
         .cards__search-rooms
           +search-rooms(25)
-        +signUp([
-          {
-            title: 'Регистрация аккаунта',
-            date: 'дата рождения',
-            data: 'данные для входа в сервис',
-            account: 'Уже есть аккаунт на Toxin'
-          }
-        ])
+        +signUp
       .cards__item
         .cards__room-price
           +roomPrice
         .cards__sign-in
-          +signIn([
-            {
-              title: 'Войти',
-              text: 'Нет аккаунта на Toxin?'
-            }
-          ])
+          +signIn
       .cards__item
         .cards__datepicker
         .cards__card

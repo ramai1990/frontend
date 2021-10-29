@@ -1,6 +1,6 @@
 mixin dropdown-checkbox({title, activeClass})
   - const checkboxList = require('../../components/dropdown-checkbox/defaults.json');
   .dropdown-checkbox
-    .dropdown-checkbox__title&attributes(attributes)= title
+    h3.dropdown-checkbox__title&attributes(attributes)= title
     .dropdown-checkbox__list(class=`${activeClass}`)
       +checkbox-list(checkboxList)

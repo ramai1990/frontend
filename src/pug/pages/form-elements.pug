@@ -18,21 +18,21 @@ block content
       .form-elements__inner
         .form-elements__item
           .form-elements__default
-            p.form-elements__text Text Field
+            h3.form-elements__text Text Field
               span Default
             +input({type: 'email', placeholder: 'Email', name: 'email'})
           .form-elements__default_focus
-            p.form-elements__text Text Field
+            h3.form-elements__text Text Field
               span Hover / Focus
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
           .form-elements__guest
-            p.form-elements__text dropdown
+            h3.form-elements__text dropdown
             +guest({
               title: 'dropdown',
               list: guest
             })
           .form-elements__date
-            p.form-elements__text masked text field
+            h3.form-elements__text masked text field
             +imaskBirthday
           .form-elements__datedropdown
             +dropdown-date({
@@ -51,7 +51,7 @@ block content
               type: 'range'
             })
           .form-elements__email
-            p.form-elements__text subscription text field
+            h3.form-elements__text subscription text field
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button(type="submit")
               include ../../img/arrow-forward.svg
@@ -60,7 +60,7 @@ block content
             h3.form-elements__checkbox-title checkbox buttons
             +checkbox-list(checkboxList)
           .form-elements__radio
-            .form-elements__radio_title Radio Buttons
+            h3.form-elements__radio_title Radio Buttons
             +radio({
               name: 'gender',
               items: [
@@ -82,7 +82,7 @@ block content
           .form-elements__likes
             +like-elements
           .form-elements__rating
-            .form-elements__rating_title rate button
+            h3.form-elements__rating_title rate button
             .form-elements__rating_inner
               .form-elements__rating_item
                 +rating({rating: '4'})
@@ -115,7 +115,7 @@ block content
             })(class="dropdown-checkbox__title_active")
         .item
           .form-elements__guest
-            p.form-elements__text dropdown
+            h3.form-elements__text dropdown
             +guest({
               title: 'dropdown',
               list: guest
@@ -124,13 +124,13 @@ block content
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
         .item
           .form-elements__guest
-            p.form-elements__text dropdown
+            h3.form-elements__text dropdown
             +guest({
               title: 'dropdown',
               list: guest
             })(class="open active")
           .form-elements__bullet-list
-            .form-elements__bullet-list_title bullet list
+            h3.form-elements__bullet-list_title bullet list
             +bullet-list([
               'Нельзя с питомцами',
               'Без вечеринок и мероприятий',
