@@ -2,6 +2,9 @@
   & + & {
     margin-top: 20px;
   }
+  &__text {
+    font-weight: 400;
+  }
   &__shade100,
   &__shade75,
   &__shade50,
@@ -20,9 +23,6 @@
     padding-left: 110px;
     position: relative;
 
-    span {
-      font-weight: 400;
-    }
     &::before {
       position: absolute;
       content: "";

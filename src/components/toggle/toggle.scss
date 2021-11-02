@@ -2,10 +2,10 @@
   &__input {
     -webkit-appearance: none;
     appearance: none;
-    &:checked + .toggle__span::after {
+    &:checked + .toggle__text::after {
       border: 1px solid $purple;
     }
-    &:checked + .toggle__span::before {
+    &:checked + .toggle__text::before {
       background: $primary-gradient;
       left: 24px;
     }
@@ -17,7 +17,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in;
   }
-  &__span {
+  &__text {
     &::after {
       position: absolute;
       content: "";

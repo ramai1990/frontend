@@ -3,4 +3,4 @@ mixin text(list)
     - const { modifier, text, title } = item;
     .text
       p(class=`text__${modifier}`)= text
-        span= title
+        span.text__title= title

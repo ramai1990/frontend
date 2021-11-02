@@ -16,12 +16,11 @@
   }
   &__title {
     @include text-h2;
-    margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    span {
+    margin-bottom: 24px;
+    &_feedback {
       font-size: 14px;
       font-weight: 400;
       color: $dark50;

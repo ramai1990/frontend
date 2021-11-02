@@ -1,4 +1,11 @@
 .sign-up {
+  display: flex;
+  align-items: center;
+  min-height: 683px;
+  background-image: url("../img/sign-in.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   &__container {
     @include container(1190px);
   }

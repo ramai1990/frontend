@@ -12,6 +12,7 @@ block variables
   - const checkboxList= require('../../../components/checkbox-list/defaults.json');
   - const pagination = require('../../../components/pagination/pagination.json');
   - const dropdown = require('../../../components/dropdown/dropdown.json');
+  - const checkboxListDropdown = require('../../../components/dropdown-checkbox/defaults.json');
 
 block content
   section.form-elements
@@ -20,11 +21,11 @@ block content
         .form-elements__item
           .form-elements__default
             h3.form-elements__text Text Field
-              span Default
+              span.form-elements__text_description Default
             +input({type: 'email', placeholder: 'Email', name: 'email'})
           .form-elements__default_focus
             h3.form-elements__text Text Field
-              span Hover / Focus
+              span.form-elements__text_description Hover / Focus
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
           .form-elements__guest
             h3.form-elements__text dropdown
@@ -54,7 +55,7 @@ block content
           .form-elements__email
             h3.form-elements__text subscription text field
             +input({type: 'email', placeholder: 'Email', name: 'email'})
-            button(type="submit")
+            button.form-elements__email_btn(type="submit")
               include ../../../img/arrow-forward.svg
         .form-elements__item
           .form-elements__checkbox-item
@@ -102,16 +103,16 @@ block content
       .form-elements__bottom
         .item
           .form-elements__dropdown
-            span Default
+            span.form-elements__dropdown_description Default
             +dropdown(dropdown, 'dropdown', 24)
           .form-elements__dropdown
-            span expanded
+            span.form-elements__dropdown_description expanded
             +dropdown(dropdown, 'dropdown', 167)(class="dropdown__list_active")
           .form-elements__list-checkbox
-            +dropdown-checkbox({checkboxList: checkboxList, title: 'expandable checkbox list'})
+            +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
             +dropdown-checkbox({
-              checkboxList: checkboxList,
+              checkboxList: checkboxListDropdown,
               title: 'expandable checkbox list',
               activeClass: 'dropdown-checkbox__list_active'
             })(class="dropdown-checkbox__title_active")

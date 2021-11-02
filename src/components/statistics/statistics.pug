@@ -1,7 +1,7 @@
 mixin statistics({number, text})
   .statistics
-    p #{number} <br>
-      span= text
+    p.statistics__value #{number} <br>
+      span.statistics__text= text
     #great.statistics__item
     #well.statistics__item
     #satisfactory.statistics__item

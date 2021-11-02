@@ -6,4 +6,4 @@ mixin richCheckbox(title, items)
       .rich-checkbox__item
         input.rich-checkbox__input(type="checkbox" id=`rich-checkbox-${id}`)
         label.rich-checkbox__label(for=`rich-checkbox-${id}`)= title
-          span= description
+          span.rich-checkbox__description= description

@@ -37,7 +37,7 @@
   }
   &__dropdown {
     position: relative;
-    span {
+    &_description {
       position: absolute;
       right: 0;
       font-size: 12px;
@@ -56,12 +56,6 @@
     &_focus {
       @include elements-default;
       margin-bottom: 22px;
-      input {
-        border: 1px solid rgba(31, 32, 65, 0.5);
-        &::placeholder {
-          color: $dark75;
-        }
-      }
     }
   }
   &__text {
@@ -69,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-    span {
+    &_description {
       color: $dark50;
       font-weight: 400;
     }
@@ -80,14 +74,6 @@
   &__date {
     @include elements-default;
     margin-bottom: 22px;
-    input {
-      padding: 13px 15px;
-      position: relative;
-    }
-
-    input:valid {
-      text-transform: uppercase;
-    }
   }
   &__datedropdown {
     max-width: 320px;
@@ -98,17 +84,6 @@
       flex-direction: column;
     }
   }
-  &__filter {
-    max-width: 266px;
-    font-size: 12px;
-    font-weight: 700;
-    color: $dark;
-    text-transform: uppercase;
-    span {
-      margin-bottom: 5px;
-    }
-  }
-
   &__filter-date {
     margin-bottom: 42px;
   }
@@ -117,10 +92,8 @@
     position: relative;
     max-width: 267px;
     margin-bottom: 22px;
-    button {
+    &_btn {
       @include btn-reset;
-    }
-    button {
       padding: 5px 10px;
       position: absolute;
       right: 4px;

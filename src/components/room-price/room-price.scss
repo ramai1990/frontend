@@ -59,30 +59,7 @@
       }
     }
   }
-  &__total {
-    font-size: 19px;
-    color: $dark;
-    margin-bottom: 15px;
-    position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 53%;
-      height: 1px;
-      bottom: 10px;
-      left: 44%;
-      transform: translateX(-44%);
-      background-image: url("../img/dots.svg");
-    }
-    h3 {
-      font-size: 19px;
-    }
-    input {
-      width: 77px;
-      font-weight: 700;
-      color: $dark;
-    }
-  }
+
   &__inner {
     display: flex;
     align-items: center;
@@ -101,6 +78,30 @@
       text-align: left;
     }
   }
+  &__total {
+    font-size: 19px;
+    color: $dark;
+    margin-bottom: 15px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 53%;
+      height: 1px;
+      bottom: 10px;
+      left: 44%;
+      transform: translateX(-44%);
+      background-image: url("../img/dots.svg");
+    }
+    &_title {
+      font-size: 19px;
+    }
+    &_input {
+      width: 77px;
+      font-weight: 700;
+      color: $dark;
+    }
+  }
   &__text {
     color: $dark75;
   }
@@ -114,11 +115,11 @@
     font-size: 24px;
     font-weight: 700;
     color: $dark;
-    span:nth-child(1) {
+    &_number {
       font-size: 14px;
       padding-right: 4px;
     }
-    span:nth-child(2) {
+    &_text {
       font-size: 12px;
       font-weight: 700;
       color: $purple;
@@ -130,7 +131,7 @@
     font-weight: 700;
     color: $dark50;
     padding-top: 4px;
-    span {
+    &_text {
       font-size: 12px;
       font-weight: 400;
       padding-left: 2px;

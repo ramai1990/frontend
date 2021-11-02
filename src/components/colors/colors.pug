@@ -3,4 +3,4 @@ mixin colors(list)
     - const { modifier, title, colorsName } = item;
     .colors
       p(class=`colors__${modifier}`)= title
-        span= colorsName
+        span.colors__text= colorsName

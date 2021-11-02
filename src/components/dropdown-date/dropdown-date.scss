@@ -55,17 +55,6 @@
   @include elements-default;
   width: 150px;
   position: relative;
-  input {
-    padding: 13px 15px;
-    cursor: pointer;
-    &::placeholder {
-      color: $dark75;
-    }
-  }
-  input:valid {
-    text-transform: uppercase;
-    color: $dark75;
-  }
   @include media(420px) {
     width: 100%;
   }

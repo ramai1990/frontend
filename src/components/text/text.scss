@@ -9,42 +9,34 @@
   &:nth-child(2) {
     margin-bottom: 20px;
   }
+  &__title {
+    position: absolute;
+    padding-left: 30px;
+    color: $dark25;
+    font-weight: 400;
+    top: 0;
+  }
   &__h1 {
     @include text-h1;
     line-height: 29px;
     padding-left: 73px;
-    span {
-      position: absolute;
+    .text__title {
       left: -15px;
-      top: 0;
-      font-weight: 400;
-      color: $dark25;
-      padding-left: 30px;
     }
   }
   &__h2 {
     @include text-h2;
     line-height: 23px;
     padding-left: 73px;
-    span {
-      position: absolute;
+    .text__title {
       left: -12px;
-      top: 0;
-      font-weight: 400;
-      color: $dark25;
-      padding-left: 30px;
     }
   }
   &__h3 {
     @include text-h3;
     padding-left: 73px;
-    span {
-      position: absolute;
+    .text__title {
       left: -2px;
-      top: 0;
-      font-weight: 400;
-      color: $dark25;
-      padding-left: 30px;
     }
   }
   &__body {
@@ -52,12 +44,8 @@
     color: $dark75;
     line-height: 24px;
     padding-left: 73px;
-    span {
-      position: absolute;
+    .text__title {
       left: -23px;
-      top: 0;
-      color: $dark25;
-      padding-left: 30px;
     }
   }
 }

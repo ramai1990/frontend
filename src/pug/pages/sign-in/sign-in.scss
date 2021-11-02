@@ -1,4 +1,10 @@
 .sign-in {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/sign-in.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 171px;
   padding-bottom: 175px;
   &__container {

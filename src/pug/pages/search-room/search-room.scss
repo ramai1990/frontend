@@ -48,10 +48,6 @@
   &__range {
     margin-top: 32px;
     margin-bottom: 29px;
-    span {
-      font-size: 12px;
-      color: $dark50;
-    }
   }
   &__range-title {
     margin-bottom: 24px;
@@ -117,10 +113,5 @@
       text-align: center;
       margin-bottom: 15px;
     }
-  }
-  .card,
-  .card-luxe {
-    margin: 0 auto;
-    margin-bottom: 30px;
   }
 }

@@ -12,12 +12,12 @@ mixin card(list)
         .swiper-button-prev(class=swipperArrowHidden)
       .card__title
         a(href="https://ramai1990.github.io/frontend/room").card__title_left
-          span №
+          span.card__title_left-number №
           | #{number}
-          span= text
+          span.card__title_left-text= text
         p.card__title_right= price
-          span в сутки
+          span.card__title_right-text в сутки
       .card__reviews
         +rating({rating: rating})
         p.card__text= counter
-          span Отзывов
+          span.card__text_feedback Отзывов
