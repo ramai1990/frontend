@@ -1,0 +1,5 @@
+.sign-up {
+  &__container {
+    @include container(1190px);
+  }
+}

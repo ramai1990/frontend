@@ -1,20 +1,23 @@
-extends ../layout/main-ulkit
-include ../../pug/utils/mixins
+extends ../../layout/main-ulkit
+include ../../utils/mixins
 
 block variables
   - const title = 'Cards';
   - const pageClass = '';
+  - const guest = require('../../../components/guest-dropdown/guest.json');
 
 block content
   section.cards
     .cards__container
       .cards__item
         .cards__search-rooms
-          +search-rooms(25)
+          +search-rooms({
+            guest: guest
+          })
         +signUp
       .cards__item
         .cards__room-price
-          +roomPrice
+          +roomPrice(guest)
         .cards__sign-in
           +signIn
       .cards__item

@@ -1,0 +1,55 @@
+extends ../../layout/main
+include ../../utils/mixins
+
+block variables
+  - const title = 'Search Room';
+  - const pageClass = '';
+  - const pagination = require('../../../components/pagination/pagination.json');
+  - const guest = require('../../../components/guest-dropdown/guest.json');
+  - const cards = require('../../../components/card/cards.json');
+  - const checkboxList = require('../../../components/checkbox-list/defaults.json');
+  - const richCheckbox = require('../../../components/rich-checkbox/rich-checkbox.json');
+  - const dropdown = require('../../../components/dropdown/dropdown.json');
+  - const footer = require('../../../components/footer/footer.json');
+  - const navigations = require('../../../components/nav/nav.json');
+  - const checkboxListDropdown = require('../../../components/dropdown-checkbox/defaults.json');
+
+block content
+  +header({navigations: navigations, status: 'non-authorized'})
+  .main
+    section.search-room
+      .search-room__container
+        .search-room__grid
+          .search-room__filter
+            .search-room__date
+              +dropdown-date({
+                title: 'даты пребывания в отеле',
+                type: 'range'
+              })
+            .search-room__guest
+              h3.search-room__guest_title гости
+              +guest({
+                title: 'гости',
+                list: guest
+              })
+            .search-room__range
+              +range-slider({
+                title: 'диапазон цены',
+                span: 'Стоимость за сутки пребывания в номере'
+              })
+            .search-room__checkbox
+              h3.search-room__checkbox-title правила дома
+              +checkbox-list(checkboxList)
+            .search-room__rich-checkbox
+              +richCheckbox('доступность', richCheckbox)
+            +dropdown(dropdown, 'удобства номера')
+            +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'дополнительные удобства'})
+          .search-room__cards
+            h1.search-room__title Номера, которые мы для вас подобрали
+            +card(cards)
+            .search-room__pagination
+              +pagination({
+                text: '1 – 12 из 100+ вариантов аренды',
+                list: pagination
+              })
+  +footer(footer)

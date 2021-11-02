@@ -1,16 +1,17 @@
-extends ../layout/main-ulkit
-include ../../pug/utils/mixins
+extends ../../layout/main-ulkit
+include ../../utils/mixins
 
 block variables
   - const title = 'Form Elements';
   - const pageClass = '';
-  - const user1 = require('../../assets/user1.json');
-  - const user2 = require('../../assets/user2.json');
-  - const richCheckbox = require('../../components/rich-checkbox/rich-checkbox.json');
-  - const guest = require('../../components/guest-dropdown/guest.json');
-  - const ulkitGuest = require('../../components/guest-dropdown/ulkit-guest.json');
-  - const checkboxList= require('../../components/checkbox-list/defaults.json');
-  - const pagination = require('../../components/pagination/pagination.json');
+  - const user1 = require('../../../assets/user1.json');
+  - const user2 = require('../../../assets/user2.json');
+  - const richCheckbox = require('../../../components/rich-checkbox/rich-checkbox.json');
+  - const guest = require('../../../components/guest-dropdown/guest.json');
+  - const ulkitGuest = require('../../../components/guest-dropdown/ulkit-guest.json');
+  - const checkboxList= require('../../../components/checkbox-list/defaults.json');
+  - const pagination = require('../../../components/pagination/pagination.json');
+  - const dropdown = require('../../../components/dropdown/dropdown.json');
 
 block content
   section.form-elements
@@ -54,7 +55,7 @@ block content
             h3.form-elements__text subscription text field
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button(type="submit")
-              include ../../img/arrow-forward.svg
+              include ../../../img/arrow-forward.svg
         .form-elements__item
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
@@ -102,14 +103,15 @@ block content
         .item
           .form-elements__dropdown
             span Default
-            +dropdown('dropdown', 24)
+            +dropdown(dropdown, 'dropdown', 24)
           .form-elements__dropdown
             span expanded
-            +dropdown('dropdown', 167)(class="dropdown__list_active")
+            +dropdown(dropdown, 'dropdown', 167)(class="dropdown__list_active")
           .form-elements__list-checkbox
-            +dropdown-checkbox({title: 'expandable checkbox list'})
+            +dropdown-checkbox({checkboxList: checkboxList, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
             +dropdown-checkbox({
+              checkboxList: checkboxList,
               title: 'expandable checkbox list',
               activeClass: 'dropdown-checkbox__list_active'
             })(class="dropdown-checkbox__title_active")
@@ -138,17 +140,17 @@ block content
             ])
       .form-elements__footer
         .form-elements__advantages
-            +advantages([
-              {
-                "img": "comfort",
-                "text": "Шумопоглощающие стены",
-                "title": "Комфорт"
-              },
-              {
-                "img": "convenience",
-                "text": "Окно в каждой из спален",
-                "title": "Удобство"
-              },
-            ])
+          +advantages([
+            {
+              "img": "comfort",
+              "text": "Шумопоглощающие стены",
+              "title": "Комфорт"
+            },
+            {
+              "img": "convenience",
+              "text": "Окно в каждой из спален",
+              "title": "Удобство"
+            },
+          ])
         .form-elements__comment
           +comment([user1])

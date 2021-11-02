@@ -1,11 +1,11 @@
-extends ../layout/main-ulkit
-include ../../pug/utils/mixins
+extends ../../layout/main-ulkit
+include ../../utils/mixins
 
 block variables
   - const title = 'Colors & Type';
   - const pageClass = 'colors-type';
-  - const colors = require('../../components/colors/defaults.json');
-  - const textList = require('../../components/text/defaults.json');
+  - const colors = require('../../../components/colors/defaults.json');
+  - const textList = require('../../../components/text/defaults.json');
 
 block content
   .colors-type__section

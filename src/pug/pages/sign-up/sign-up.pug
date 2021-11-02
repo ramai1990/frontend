@@ -1,0 +1,16 @@
+extends ../../layout/main
+include ../../utils/mixins
+
+block variables
+  - const title = 'Sign up';
+  - const pageClass = '';
+  - const footer = require('../../../components/footer/footer.json');
+  - const navigations = require('../../../components/nav/nav.json');
+
+block content
+  +header({navigations: navigations, status: 'non-authorized'})
+  .main
+    section.sign-up
+      .sign-up__container
+        +signUp
+  +footer(footer)

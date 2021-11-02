@@ -16,14 +16,15 @@ import jQuery from "jquery";
 window.$ = window.jQuery = $;
 import "../scss/main.scss";
 
-import "../pug/pages/index.pug";
-import "../pug/pages/sign-in.pug";
-import "../pug/pages/sign-up.pug";
-import "../pug/pages/headers-footers.pug";
-import "../pug/pages/form-elements.pug";
-import "../pug/pages/cards.pug";
-import "../pug/pages/search-room.pug";
-import "../pug/pages/colors-type.pug";
+import "../pug/pages/landing/landing.pug";
+import "../pug/pages/sign-in/sign-in.pug";
+import "../pug/pages/sign-up/sign-up.pug";
+import "../pug/pages/headers-footers/headers-footers.pug";
+import "../pug/pages/form-elements/form-elements.pug";
+import "../pug/pages/cards/cards.pug";
+import "../pug/pages/search-room/search-room.pug";
+import "../pug/pages/room/room.pug";
+import "../pug/pages/colors-type/colors-type.pug";
 
 import "../components/like/Like";
 import "../components/rating/rating";

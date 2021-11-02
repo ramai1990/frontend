@@ -1,0 +1,54 @@
+extends ../../layout/main
+include ../../utils/mixins
+
+block variables
+  - const title = 'Room';
+  - const pageClass = '';
+  - const user1 = require('../../../assets/user1.json');
+  - const user2 = require('../../../assets/user2.json');
+  - const advantages = require('../../../components/advantages/advantages.json');
+  - const guest = require('../../../components/guest-dropdown/guest.json');
+  - const footer = require('../../../components/footer/footer.json');
+  - const navigations = require('../../../components/nav/nav.json');
+
+block content
+  +header({navigations: navigations, status: 'non-authorized'})
+  .main
+    section.room
+      .room-intro
+        .room-intro__item
+        .room-intro__item
+        .room-intro__item
+      .room__container
+        .room__grid
+          .room__price
+            +roomPrice(guest)
+          .room__content
+            .room__content_inner
+              .room__content-item
+                .room__advantages
+                  h2.room__title Сведения о номере
+                  +advantages(advantages)
+              .room__content-item
+                h2.room__title Впечатления от номера
+                +statistics({
+                  number: 260,
+                  text: 'голосов'
+                })
+            .room__comments
+              h2.room__title Отзывы посетителей номера
+                span 2 отзыва
+              +comment([user1])
+              +comment([user2])
+            .room__rules
+              .room__rules-item
+                h2.room__title Правила
+                +bullet-list([
+                  'Нельзя с питомцами',
+                  'Без вечеринок и мероприятий',
+                  'Время прибытия — после 13:00, а выезд до 12:00'
+                ])
+              .room__rules-item
+                h2.room__rules__title-right Отмена
+                .room__text Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги.
+  +footer(footer)

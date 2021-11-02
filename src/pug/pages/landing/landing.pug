@@ -1,0 +1,21 @@
+extends ../../layout/main
+include ../../utils/mixins
+
+block variables
+  - const title = 'Landing';
+  - const pageClass = '';
+  - const guest = require('../../../components/guest-dropdown/guest.json');
+  - const footer = require('../../../components/footer/footer.json');
+  - const navigations = require('../../../components/nav/nav.json');
+
+block content
+  +header({navigations: navigations, status: 'non-authorized'})
+  .main
+    section.landing
+      .landing__container
+        +search-rooms({
+          guest: guest
+        })
+        .landing__description
+          p.landing__text Лучшие номера для вашей работы, отдыха и просто вдохновения
+  +footer(footer)

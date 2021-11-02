@@ -45,16 +45,51 @@ const optimization = () => {
 
 const plugins = () => {
   const basePlugins = [
-    ...PAGES.map(
-      (page) =>
-        new HtmlWebpackPlugin({
-          template: `${PAGES_DIR}/${page}`,
-          filename: `./${page.replace(/\.pug/, ".html")}`,
-          minify: {
-            collapseWhitespace: isProd,
-          },
-        })
-    ),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/cards/cards.pug`,
+      filename: "./cards.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/colors-type/colors-type.pug`,
+      filename: "./colors-type.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/form-elements/form-elements.pug`,
+      filename: "./form-elements.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/headers-footers/headers-footers.pug`,
+      filename: "./headers-footers.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/landing/landing.pug`,
+      filename: "./landing.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/room/room.pug`,
+      filename: "./room.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/search-room/search-room.pug`,
+      filename: "./search-room.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/sign-in/sign-in.pug`,
+      filename: "./sign-in.html",
+      inject: true,
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/sign-up/sign-up.pug`,
+      filename: "./sign-up.html",
+      inject: true,
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: `./css/${filename("css")}`,
@@ -125,6 +160,7 @@ module.exports = {
     compress: true,
     hot: true,
     port: 3000,
+    openPage: "landing.html",
   },
   optimization: optimization(),
   plugins: plugins(),

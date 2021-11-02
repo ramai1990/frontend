@@ -1,0 +1,19 @@
+extends ../../layout/main-ulkit
+include ../../utils/mixins
+
+block variables
+  - const title = 'Headers & Footers';
+  - const pageClass = 'ulkit-page';
+  - const footer = require('../../../components/footer/footer.json');
+  - const navigations = require('../../../components/nav/nav.json');
+
+block content
+  .headers-footers
+    .headers-footers__non-authorized
+      +header({navigations: navigations, status:'non-authorized'})
+    .headers-footers__authorized
+      +header({navigations: navigations, status:'authorized'})
+    .headers-footers__footer
+      +footer(footer)
+    .headers-footers__small
+      +footer-small
