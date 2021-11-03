@@ -9,13 +9,11 @@ block variables
   - const navigations = require('../../../components/nav/nav.json');
 
 block content
-  +header({navigations: navigations, status: 'non-authorized'})
+  +header({navigations, status: 'non-authorized'})
   .main
     section.landing
       .landing__container
-        +search-rooms({
-          guest: guest
-        })
+        +search-rooms({ guest })
         .landing__description
           p.landing__text Лучшие номера для вашей работы, отдыха и просто вдохновения
   +footer(footer)

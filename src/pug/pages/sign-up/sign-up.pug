@@ -8,7 +8,7 @@ block variables
   - const navigations = require('../../../components/nav/nav.json');
 
 block content
-  +header({navigations: navigations, status: 'non-authorized'})
+  +header({navigations, status: 'non-authorized'})
   .main
     section.sign-up
       .sign-up__container

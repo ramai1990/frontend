@@ -13,15 +13,15 @@ mixin search-rooms({guest})
           type: 'to',
           placeholder: 'ДД.ММ.ГГГГ'
         })
-    .search-rooms__guest
-      h3.search-rooms__title-bottom Гости
-      +guest({
-        title: 'гости',
-        list: guest
+      .search-rooms__guest
+        h3.search-rooms__title-bottom Гости
+        +guest({
+          title: 'гости',
+          list: guest
+        })
+      +button({
+        theme: 'arrow',
+        size: 'lg',
+        text: 'подобрать номер',
+        type: 'submit'
       })
-    +button({
-      theme: 'arrow',
-      size: 'lg',
-      text: 'подобрать номер',
-      type: 'submit'
-    })
