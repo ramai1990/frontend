@@ -52,17 +52,15 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 74px;
-    .room__title {
-      &:nth-child(1) {
-        margin-left: 20px;
-        margin-bottom: 20px;
-      }
-    }
+    &__title-left,
     &__title-right {
       font-weight: 700;
       font-size: 19px;
       color: $dark;
       margin-bottom: 20px;
+    }
+    &__title-left {
+      margin-left: 20px;
     }
   }
   &__rules-item {
@@ -79,32 +77,29 @@
   display: grid;
   min-height: 485px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  &__item {
+  &__center,
+  &__top,
+  &__bottom {
     background-position: center;
     background-size: cover;
-  }
-  &__item:nth-child(1) {
-    background-image: url("../img/room-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
+  }
+  &__center {
+    background-image: url("../img/room-1.jpg");
     grid-column: 3 span;
     grid-row: 2 span;
   }
-  &__item:nth-child(2) {
-    background-image: url("../img/room-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+  &__top,
+  &__bottom {
     grid-column: 1 span;
     height: 100%;
-    width: 459px;
   }
-  &__item:nth-child(3) {
+  &__top {
+    background-image: url("../img/room-2.jpg");
+  }
+  &__bottom {
     background-image: url("../img/room-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    grid-column: 1 span;
-    width: 459px;
-    height: 100%;
   }
 }
 @media (max-width: 1150px) {
@@ -122,15 +117,15 @@
 }
 @media (max-width: 940px) {
   .room-intro {
-    &__item:nth-child(1) {
+    &__center {
       grid-column: 4 span;
     }
-    &__item:nth-child(2) {
+    &__top {
       grid-column: 2 span;
       grid-row: 2 span;
       width: 100%;
     }
-    &__item:nth-child(3) {
+    &__bottom {
       grid-column: 2 span;
       grid-row: 2 span;
       width: 100%;
@@ -148,18 +143,24 @@
   .room__rules {
     flex-direction: column;
     align-items: center;
+    &__title-left,
+    &__title-right {
+      text-align: left;
+    }
   }
-  .room__rules-item:nth-child(1) {
-    margin-bottom: 20px;
+  .room__rules-item {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
   }
 }
 @media (max-width: 540px) {
   .room-intro {
-    &__item:nth-child(2) {
+    &__top {
       grid-column: 4 span;
       grid-row: 2 span;
     }
-    &__item:nth-child(3) {
+    &__bottom {
       grid-column: 4 span;
       grid-row: 2 span;
     }

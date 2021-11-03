@@ -9,13 +9,11 @@
     align-items: center;
     justify-content: space-between;
   }
-  &__button {
-    &:nth-child(2) {
-      margin-left: 20px;
-      @include media(541px) {
-        margin-left: 0;
-        margin-top: 10px;
-      }
+  &__button:not(:last-child) {
+    margin-right: 20px;
+    @include media(541px) {
+      margin-right: 0;
+      margin-bottom: 10px;
     }
   }
   &__buttons {

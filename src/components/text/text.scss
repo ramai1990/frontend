@@ -3,11 +3,13 @@
   height: 70px;
   line-height: 29px;
   position: relative;
-  &:nth-child(1) {
-    margin-bottom: 41px;
-  }
-  &:nth-child(2) {
-    margin-bottom: 20px;
+  &__item {
+    &_h1 {
+      margin-bottom: 41px;
+    }
+    &_h2 {
+      margin-bottom: 20px;
+    }
   }
   &__title {
     position: absolute;

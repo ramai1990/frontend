@@ -57,7 +57,7 @@ block content
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button.form-elements__email_btn(type="submit")
               include ../../../img/arrow-forward.svg
-        .form-elements__item
+        .form-elements__item.form-elements__item_center
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
             +checkbox-list(checkboxList)
@@ -90,7 +90,7 @@ block content
                 +rating({rating: '4'})
               .form-elements__rating_item
                 +rating({rating: '5'})
-        .form-elements__item
+        .form-elements__item.form-elements__item_right
           +range-slider({
             title: 'Range Slider'
           })
@@ -105,7 +105,7 @@ block content
           .form-elements__dropdown
             span.form-elements__dropdown_description Default
             +dropdown(dropdown, 'dropdown', 24)
-          .form-elements__dropdown
+          .form-elements__dropdown.form-elements__dropdown_active
             span.form-elements__dropdown_description expanded
             +dropdown(dropdown, 'dropdown', 167)(class="dropdown__list_active")
           .form-elements__list-checkbox
@@ -116,7 +116,7 @@ block content
               title: 'expandable checkbox list',
               activeClass: 'dropdown-checkbox__list_active'
             })(class="dropdown-checkbox__title_active")
-        .item
+        .item.item_center
           .form-elements__guest
             h3.form-elements__text dropdown
             +guest({
@@ -125,7 +125,7 @@ block content
             })(class="open active")
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
-        .item
+        .item.item_right
           .form-elements__guest
             h3.form-elements__text dropdown
             +guest({
