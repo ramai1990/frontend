@@ -2,7 +2,7 @@
 
 # Демо
 
-[Landing](https://ramai1990.github.io/frontend)
+[Landing](https://ramai1990.github.io/frontend/landing)
 
 [Room](https://ramai1990.github.io/frontend/room)
 
