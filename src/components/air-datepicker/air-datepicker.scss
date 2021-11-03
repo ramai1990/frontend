@@ -24,7 +24,7 @@
 
 .air-datepicker-nav--title h2 {
   font-weight: 700;
-  font-size: 19px;
+  font-size: 1.9rem;
   color: $dark;
   &::first-letter {
     text-transform: uppercase;
@@ -32,7 +32,7 @@
 }
 .air-datepicker-nav--title {
   font-weight: 700;
-  font-size: 19px;
+  font-size: 1.9rem;
   color: $dark;
 }
 .air-datepicker-nav {
@@ -51,11 +51,11 @@
 .air-datepicker-body--day-name {
   color: $purple;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 .air-datepicker-cell {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .air-datepicker-cell.-day-.-other-month-,
 .air-datepicker-cell-year.-other-decade- {
@@ -137,7 +137,7 @@
 .air-datepicker-button {
   font-family: Montserrat, Arial, sans-serif;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: $purple;
   display: flex;

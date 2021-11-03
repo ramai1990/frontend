@@ -21,7 +21,7 @@
     align-items: center;
     margin-bottom: 22px;
     &_feedback {
-      font-size: 14px;
+      font-size: 1.4rem;
       font-weight: 400;
       color: $dark50;
       white-space: nowrap;
@@ -30,6 +30,7 @@
   }
   &__text {
     color: $dark75;
+    font-size: 1.4rem;
     line-height: 24px;
   }
   &__content {
@@ -40,7 +41,7 @@
       max-width: 672px;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 12px;
+      margin-bottom: 15px;
     }
   }
   &__price {
@@ -55,7 +56,7 @@
     &__title-left,
     &__title-right {
       font-weight: 700;
-      font-size: 19px;
+      font-size: 1.9rem;
       color: $dark;
       margin-bottom: 20px;
     }

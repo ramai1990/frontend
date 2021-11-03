@@ -32,7 +32,7 @@
     border: 1px solid $dark25;
     border-radius: 22px;
     color: $dark50;
-    font-size: 18px;
+    font-size: 1.8rem;
     cursor: pointer;
     display: inline-flex;
     justify-content: center;
@@ -48,7 +48,7 @@
   &__input {
     width: 100%;
     height: 44px;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: $dark75;
     border: 1px solid $dark25;
     border-radius: 4px;
@@ -91,7 +91,7 @@
     width: 34px;
     border: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: $dark;
     background-color: transparent;
@@ -107,7 +107,7 @@
   &__apply {
     @include btn-reset;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: $purple;
     transition: color 0.2s ease-in;

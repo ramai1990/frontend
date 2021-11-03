@@ -1,7 +1,10 @@
 html {
+  font-family: Montserrat, Arial, sans-serif;
   line-height: 1.15;
+  font-weight: 400;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 *,
@@ -12,9 +15,6 @@ html {
 
 body {
   overflow-anchor: none;
-  font-family: Montserrat, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
   background-color: $white;
   scroll-behavior: smooth;
   margin: 0;

@@ -40,7 +40,7 @@
     &_description {
       position: absolute;
       right: 0;
-      font-size: 12px;
+      font-size: 1.2rem;
       text-transform: uppercase;
       color: $dark50;
     }
@@ -153,7 +153,7 @@
   &__bottom {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
     .item {
       width: 266px;
       &_center {

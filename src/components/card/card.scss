@@ -26,8 +26,9 @@
   }
 
   &__text {
-    font-weight: 700;
     color: $dark50;
+    font-size: 1.4rem;
+    font-weight: 700;
     &_feedback {
       font-weight: 400;
       padding-left: 3px;
@@ -53,25 +54,26 @@
       background: $dark10;
     }
     &_left {
-      font-size: 20px;
+      font-size: 2rem;
       font-weight: 700;
       color: $dark;
       &-number {
-        font-size: 14px;
+        font-size: 1.4rem;
         padding-right: 4px;
       }
       &-text {
-        font-size: 12px;
+        font-size: 1.2rem;
         color: $purple;
         text-transform: uppercase;
         padding-left: 8px;
       }
     }
     &_right {
-      font-weight: 700;
       color: $dark50;
+      font-size: 1.4rem;
+      font-weight: 700;
       &-text {
-        font-size: 12px;
+        font-size: 1.2rem;
         font-weight: 400;
         padding-left: 2px;
       }

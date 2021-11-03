@@ -16,6 +16,7 @@
   }
   &__text {
     color: $dark75;
+    font-size: 1.4rem;
     @include media(1070px) {
       margin-bottom: 28px;
     }
