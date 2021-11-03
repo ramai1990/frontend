@@ -40,11 +40,11 @@
     }
   }
   &__additional {
-    margin-bottom: 35px;
+    margin-bottom: 29px;
     .room-price__text {
       max-width: 199px;
       position: relative;
-      top: 7px;
+      padding-top: 8px;
       &::after {
         position: absolute;
         content: "";
@@ -55,7 +55,7 @@
         background-position: center;
         background-size: cover;
         right: -43px;
-        top: 0;
+        top: 7px;
       }
     }
   }
@@ -73,6 +73,7 @@
     background-color: #fff;
     text-align: right;
     padding: 0;
+    padding-bottom: 4px;
     &_amount {
       width: 100%;
       text-align: left;

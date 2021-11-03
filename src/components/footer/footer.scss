@@ -17,14 +17,18 @@
     @include container(1190px);
   }
   &__logo {
-    position: relative;
-    bottom: 5px;
-    margin-bottom: 13px;
+    position: absolute;
+    top: -5px;
+    @include media(1070px) {
+      top: -61px;
+      left: 26px;
+    }
   }
   &__inner {
     display: flex;
     justify-content: space-between;
     margin-bottom: 102px;
+    position: relative;
     @include media(1070px) {
       margin-bottom: 0;
     }
@@ -67,6 +71,9 @@
   &__text {
     color: $dark75;
     line-height: 24px;
+    &_left {
+      padding-top: 52px;
+    }
     @include media(1070px) {
       display: none;
     }

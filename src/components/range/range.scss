@@ -12,17 +12,13 @@
   }
   &__dash {
     color: $dark50;
-    position: relative;
-    right: -2px;
+    position: absolute;
+    right: 54px;
   }
   &__text {
     font-size: 12px;
     color: $dark50;
   }
-}
-.input-with-keypress-0 {
-  position: relative;
-  left: 6px;
 }
 .input-with-keypress-0,
 .input-with-keypress-1 {

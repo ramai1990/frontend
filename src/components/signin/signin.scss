@@ -6,11 +6,6 @@
   &__bottom {
     @include flex;
   }
-
-  &__bottom-btn {
-    position: relative;
-    right: -2px;
-  }
 }
 @media (max-width: 426px) {
   .signin {

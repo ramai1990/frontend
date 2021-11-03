@@ -6,13 +6,17 @@
   background-size: cover;
   padding-top: 70px;
   &__container {
-    @include container(1190px);
+    @include container(1198px);
     height: 762px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 18px;
     @include media(900px) {
       height: 550px;
+    }
+    @include media(500px) {
+      padding-left: 15px;
     }
   }
   &__description {
@@ -21,8 +25,6 @@
     text-align: right;
   }
   &__text {
-    position: relative;
-    right: -6px;
     width: 300px;
     color: $dark75;
     line-height: 24px;

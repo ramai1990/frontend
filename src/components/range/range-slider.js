@@ -1,9 +1,8 @@
 import noUiSlider from "nouislider";
 import wNumb from "wnumb";
 (function () {
-  const rangeElements = document.querySelector('.range')
+  const rangeElements = document.querySelector(".range");
   if (rangeElements) {
-
     let keypressSlider = document.querySelector(".slider-keypress");
     let input0 = document.querySelector(".input-with-keypress-0");
     let input1 = document.querySelector(".input-with-keypress-1");
@@ -15,13 +14,13 @@ import wNumb from "wnumb";
       step: 1000,
       range: {
         min: [0],
-        max: [15000]
+        max: [15000],
       },
       format: wNumb({
         decimals: 0,
-        thousand: ' ',
-        suffix: '₽',
-      })
+        thousand: " ",
+        suffix: "₽",
+      }),
     });
 
     keypressSlider.noUiSlider.on("update", function (values, handle) {
@@ -81,10 +80,6 @@ import wNumb from "wnumb";
           }
         });
       });
-
     });
-
   }
-
-
-}())
+})();
