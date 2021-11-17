@@ -2,7 +2,7 @@
   {
     "href": "/form-elements.html",
     "link": 1,
-    "class": "pagination__link_active"
+    "classes": "pagination__link_active"
   },
   {
     "href": "/form-elements.html",
@@ -22,6 +22,6 @@
   },
   {
     "href": "/form-elements.html",
-    "class": "pagination__next"
+    "classes": "pagination__next"
   }
 ]

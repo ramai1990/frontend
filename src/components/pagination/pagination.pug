@@ -2,6 +2,7 @@ mixin pagination({list, text})
   .pagination
     ul.pagination__list
       each item in list
+        - const { href, classes, link } = item;
         li.pagination__item
-          a(href=`${item.href}` class=item.class).pagination__link= item.link
+          a(href=href class=classes).pagination__link= link
     p.pagination__text= text

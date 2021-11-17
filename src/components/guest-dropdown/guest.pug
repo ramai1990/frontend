@@ -3,11 +3,12 @@ mixin guest({title, list})
     input.guest__input(type='text' value='Сколько гостей' name='количество гостей' readonly)&attributes(attributes)
     .guest__contents&attributes(attributes)
       each item in list
+        - const { title, value, dataset } = item;
         .guest__option
-          span.guest__title= item.title
+          span.guest__title= title
           button(type="button" data-btn="minus").guest__btn
             include ../../img/remove.svg
-          input(type="text" value=`${item.value}` data-value=`${item.dataset}` readonly).guest__value
+          input(type="text" value=`${value}` data-value=`${dataset}` readonly).guest__value
           button(type="button" data-btn="plus").guest__btn
             include ../../img/plus.svg
       .guest__btns

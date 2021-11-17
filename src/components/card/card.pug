@@ -4,9 +4,10 @@ mixin card(list)
     .card
       .swiper-container
         .swiper-wrapper
-          each item in slides
+          each slide in slides
+            - const { image } = slide;
             .swiper-slide
-              img(src=require(`/img/${item.image}`).default, alt="")
+              img(src=require(`/img/${image}`).default, alt="")
         .swiper-pagination
         .swiper-button-next(class=swipperArrowHidden)
         .swiper-button-prev(class=swipperArrowHidden)
