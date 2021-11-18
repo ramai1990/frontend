@@ -40,3 +40,4 @@ import "../../node_modules/swiper/swiper-bundle";
 import "../components/swiper/swiper";
 import "../components/burger/Burger";
 import "../components/imask/imask";
+import "../components/statistics/statistics";

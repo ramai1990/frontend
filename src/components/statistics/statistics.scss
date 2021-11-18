@@ -1,112 +1,17 @@
 .statistics {
-  position: relative;
-  float: left;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  &__value {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 60;
-    color: $purple;
-    font-size: 2.4rem;
-    font-weight: 700;
+  width: 320px;
+}
+.apexcharts-legend {
+  &-text {
+    padding-left: 2px;
+    line-height: 20px;
+    color: rgba(31, 32, 65, 0.75);
   }
-  &__text {
-    padding-top: 4px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-  }
-  &::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 50;
-    width: 93%;
-    height: 93%;
-    color: $purple;
-    background-color: #fff;
-    border-radius: 50%;
-  }
-  &__item {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #aaaaaa;
-    border-radius: 50%;
-    clip: rect(0px, 60px, 150px, 0px);
-  }
-  &__stats {
-    float: left;
-    margin-left: 45px;
-    @include media(665px) {
-      margin-left: 30px;
-    }
-    @include media(540px) {
-      margin-left: 22px;
-    }
-  }
-  &__list {
-    margin-top: 29px;
-    &-item {
-      position: relative;
-      margin: 9px 0;
-      color: $dark75;
-      font-size: 1.4rem;
-      &::before {
-        content: "";
-        position: absolute;
-        top: 2px;
-        left: -15px;
-        width: 10px;
-        height: 10px;
-        background: linear-gradient(180deg, #919191 0%, #3d4975 100%);
-        border-radius: 100%;
-      }
-    }
+  @include media(350px) {
+    padding: 0 30px !important;
   }
 }
-
-[data-name="Great"]::before {
-  background: linear-gradient(180deg, #ffe39c 0%, #ffba9c 100%);
-}
-[data-name="Well"]::before {
-  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
-}
-[data-name="Satisfactory"]::before {
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
-}
-
-#great {
-  z-index: 10;
-  background: linear-gradient(180deg, #ffe39c 0%, #ffba9c 100%);
-  transform: rotate(0deg);
-}
-
-#well {
-  z-index: 20;
-  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
-  transform: rotate(180deg);
-  clip: rect(0px, 58px, 59px, 0px);
-}
-
-#satisfactory {
-  z-index: 30;
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
-  transform: rotate(90deg);
-  clip: rect(0px, 59px, 58px, 0px);
-}
-
-#disappointed {
-  z-index: -1;
-  background: transparent;
-  transform: rotate(0deg);
+.apexcharts-datalabel-label {
+  font-size: 3rem;
+  font-weight: 700;
 }

@@ -1,14 +1,2 @@
-mixin statistics({number, text})
+mixin statistics
   .statistics
-    p.statistics__value #{number} <br>
-      span.statistics__text= text
-    #great.statistics__item
-    #well.statistics__item
-    #satisfactory.statistics__item
-    #disappointed.statistics__item
-  .statistics__stats
-    ul.statistics__list
-      li.statistics__list-item(data-name='Great') Великолепно
-      li.statistics__list-item(data-name='Well') Хорошо
-      li.statistics__list-item(data-name='Satisfactory') Удовлетворительно
-      li.statistics__list-item(data-name='Disappointed') Разочарован
