@@ -2,4 +2,4 @@ mixin rating({rating})
   .rating
     select(class=`rating-${rating}`)
       each value in [1,2,3,4,5]
-        option(value=`${value}`)= value
+        option(value=value)= value
