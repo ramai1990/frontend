@@ -1,9 +1,10 @@
-mixin button({theme, size, type='button', text})
+mixin button-link({theme, size, href, text})
   -
     const themes = {
       primary: 'button_theme_primary',
       arrow: 'button_theme_arrow',
       border: 'button_theme_border',
+      link: 'button_theme_link',
     };
     const sizes = {
       m: 'button_size_m',
@@ -11,4 +12,4 @@ mixin button({theme, size, type='button', text})
       md: 'button_size_md',
       lg: 'button_size_lg'
     };
-  button(class=[themes[theme], sizes[size], 'button'] type=type)= text
+  a(class=[themes[theme], sizes[size], 'button'] href=href)= text
