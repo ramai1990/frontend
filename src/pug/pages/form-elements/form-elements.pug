@@ -104,25 +104,26 @@ block content
         .item
           .form-elements__dropdown
             span.form-elements__dropdown_description Default
-            +dropdown(dropdown, 'dropdown', 24)
+            +dropdown({dropdown: dropdown, title: 'dropdown', marginBottom: 24})
           .form-elements__dropdown.form-elements__dropdown_active
             span.form-elements__dropdown_description expanded
-            +dropdown(dropdown, 'dropdown', 167)(class="dropdown__list_active")
+            +dropdown({dropdown: dropdown, title: 'dropdown', marginBottom: 167, isActive: true})
           .form-elements__list-checkbox
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
             +dropdown-checkbox({
               checkboxList: checkboxListDropdown,
               title: 'expandable checkbox list',
-              activeClass: 'dropdown-checkbox__list_active'
-            })(class="dropdown-checkbox__title_active")
+              isActive: true
+            })
         .item.item_center
           .form-elements__guest
             h3.form-elements__text dropdown
             +guest({
               title: 'dropdown',
-              list: guest
-            })(class="open active")
+              list: guest,
+              isActive: true
+            })
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
         .item.item_right
@@ -130,8 +131,9 @@ block content
             h3.form-elements__text dropdown
             +guest({
               title: 'dropdown',
-              list: guest
-            })(class="open active")
+              list: guest,
+              isActive: true
+            })
           .form-elements__bullet-list
             h3.form-elements__bullet-list_title bullet list
             +bullet-list([

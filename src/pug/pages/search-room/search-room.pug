@@ -42,7 +42,7 @@ block content
               +checkbox-list(checkboxList)
             .search-room__rich-checkbox
               +richCheckbox('доступность', richCheckbox)
-            +dropdown(dropdown, 'удобства номера')
+            +dropdown({dropdown, title: 'удобства номера'})
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'дополнительные удобства'})
           .search-room__cards
             h1.search-room__title Номера, которые мы для вас подобрали

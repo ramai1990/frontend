@@ -1,5 +1,11 @@
-mixin dropdown-checkbox({checkboxList, title, activeClass})
+mixin dropdown-checkbox({checkboxList, title, isActive = false})
+  -
+    const classesTitle = ['dropdown-checkbox__title'];
+    const classesList = ['dropdown-checkbox__list'];
+    if (isActive)
+      classesTitle.push('dropdown-checkbox__title_active');
+      classesList.push('dropdown-checkbox__list_active');
   .dropdown-checkbox
-    h3.dropdown-checkbox__title&attributes(attributes)= title
-    .dropdown-checkbox__list(class=`${activeClass}`)
+    h3(class=classesTitle)= title
+    div(class=classesList)
       +checkbox-list(checkboxList)

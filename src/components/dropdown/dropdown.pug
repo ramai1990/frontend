@@ -1,7 +1,10 @@
-mixin dropdown(dropdown, title, marginBottom = 26)
+mixin dropdown({dropdown, title, marginBottom = 26, isActive = false})
+  -
+    const classes = ['dropdown__list'];
+    if (isActive) classes.push('dropdown__list_active');
   h3.dropdown__title= title
   .dropdown(style={'margin-bottom': `${marginBottom}px`})
     button(type="button" value="" data-btn="btn").dropdown__button
     input.dropdown__input(type='text' value='2 спальни, 2 кровати...' name='количество комнат' readonly)
-    ul(data-list="list").dropdown__list&attributes(attributes)
+    ul(class=classes data-list="list")
       +dropdownCounter(dropdown)
