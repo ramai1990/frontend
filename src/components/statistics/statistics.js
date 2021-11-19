@@ -80,4 +80,6 @@ let options = {
   },
 };
 
-new ApexCharts(document.querySelector(".statistics"), options).render();
+if (document.querySelector(".statistics")) {
+  new ApexCharts(document.querySelector(".statistics"), options).render();
+}
