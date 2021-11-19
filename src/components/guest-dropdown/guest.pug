@@ -3,10 +3,12 @@ mixin guest({title, list, isActive = false})
     const classesGuest = ['guest'];
     const classesInput = ['guest__input'];
     const classesContents = ['guest__contents'];
-    if (isActive)
+    const classesArray = [classesGuest, classesInput, classesContents];
+    if (isActive) {
       classesGuest.push('open active');
       classesInput.push('open active');
       classesContents.push('open active');
+    };
   div(class=classesGuest)
     input(class=classesInput type='text' value='Сколько гостей' name='количество гостей' readonly)
     div(class=classesContents)
