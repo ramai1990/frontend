@@ -31,7 +31,9 @@
   &__datepicker {
     margin-bottom: 40px;
   }
-  &__card + &__card {
-    margin-top: 40px;
+  &__card {
+    .card:not(:last-child) {
+      margin-bottom: 40px;
+    }
   }
 }

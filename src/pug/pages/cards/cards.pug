@@ -5,6 +5,7 @@ block variables
   - const title = 'Cards';
   - const pageClass = '';
   - const guest = require('../../../components/guest-dropdown/guest.json');
+  - const cards = require('./defaults.json');
 
 block content
   section.cards
@@ -21,36 +22,4 @@ block content
       .cards__item
         .cards__datepicker
         .cards__card
-          +card([
-            {
-              type: 'luxe',
-              number: 888,
-              text: 'люкс',
-              price: '9 990₽',
-              counter: 145,
-              rating: 5,
-              slides: [
-                {image: 'luxe.jpg'},
-                {image: 'luxe-2.png'},
-                {image: 'luxe-3.png'},
-                {image: 'luxe-4.png'}
-              ]
-            }
-          ])
-        .cards__card
-          +card([
-            {
-              type: 'normal',
-              number: 840,
-              price: '9 900₽',
-              counter: 65,
-              rating: 4,
-              slides: [
-                {image: 'card.jpg'},
-                {image: 'card.jpg'},
-                {image: 'card.jpg'},
-                {image: 'card.jpg'}
-              ],
-              swipperArrowHidden: 'card__arrow_hidden'
-            }
-          ])
+          +card(cards)
