@@ -1,16 +1,8 @@
-mixin card(list)
-  each item in list
-    - const { number, text, price, counter, test, slides, swipperArrowHidden, rating } = item;
+mixin card(configs)
+  each config in configs
+    - const { number, text, price, counter, slides, rating } = config;
     .card
-      .swiper-container
-        .swiper-wrapper
-          each slide in slides
-            - const { image } = slide;
-            .swiper-slide
-              img(src=require(`/img/${image}`).default, alt="")
-        .swiper-pagination
-        .swiper-button-next(class=swipperArrowHidden)
-        .swiper-button-prev(class=swipperArrowHidden)
+      +swiper({ slides })
       .card__title
         a(href="https://ramai1990.github.io/frontend/room").card__title_left
           span.card__title_left-number №

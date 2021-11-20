@@ -1,0 +1,10 @@
+mixin swiper({ slides })
+  .swiper-container
+    .swiper-wrapper
+      each slide in slides
+        - const { image } = slide;
+        .swiper-slide
+          img(src=require(`/img/${image}`).default, alt="")
+    .swiper-pagination
+    .swiper-button-next
+    .swiper-button-prev
