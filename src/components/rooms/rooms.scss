@@ -1,4 +1,4 @@
-.dropdown {
+.rooms {
   position: relative;
   &__title {
     @include text-h3;
@@ -62,7 +62,7 @@
     z-index: -1;
     transform: translateY(-10%);
     transition: transform 0.2s ease-in;
-    &_active {
+    &.active {
       z-index: 2;
       opacity: 1;
       transform: translateY(0);
@@ -82,6 +82,6 @@
   }
 }
 
-.dropdown__button_active.dropdown__button::after {
+.rooms__button.active.rooms__button::after {
   transform: rotate(180deg);
 }

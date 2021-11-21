@@ -5,11 +5,11 @@ block variables
   - const title = 'Search Room';
   - const pageClass = '';
   - const pagination = require('../../../components/pagination/pagination.json');
-  - const guest = require('../../../components/guest-dropdown/guest.json');
+  - const guest = require('../../../components/guest/guest.json');
   - const cards = require('../../../components/card/cards.json');
   - const checkboxList = require('../../../components/checkbox-list/defaults.json');
   - const richCheckbox = require('../../../components/rich-checkbox/rich-checkbox.json');
-  - const dropdown = require('../../../components/dropdown/dropdown.json');
+  - const rooms = require('../../../components/rooms/default.json');
   - const footer = require('../../../components/footer/footer.json');
   - const navigations = require('../../../components/nav/nav.json');
   - const checkboxListDropdown = require('../../../components/dropdown-checkbox/defaults.json');
@@ -42,7 +42,7 @@ block content
               +checkbox-list(checkboxList)
             .search-room__rich-checkbox
               +richCheckbox('доступность', richCheckbox)
-            +dropdown({dropdown, title: 'удобства номера'})
+            +rooms({rooms, title: 'удобства номера'})
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'дополнительные удобства'})
           .search-room__cards
             h1.search-room__title Номера, которые мы для вас подобрали

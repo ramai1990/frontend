@@ -31,9 +31,9 @@ import "../components/rating/rating";
 import "../../node_modules/jquery-bar-rating/dist/jquery.barrating.min.js";
 
 import "../components/submenu/SubMenu";
-import "../components/dropdown/Dropdown";
-import "../components/guest-dropdown/DropdownGuest";
-import "../components/dropdown-checkbox/DropdownCheckbox";
+import "../components/rooms/Rooms";
+import "../components/guest/Guest";
+import "../components/dropdown-checkbox/dropdownCheckbox";
 import "../components/air-datepicker/air-datepicker";
 
 import "../../node_modules/swiper/swiper-bundle";
@@ -41,3 +41,4 @@ import "../components/swiper/swiper";
 import "../components/burger/Burger";
 import "../components/imask/imask";
 import "../components/statistics/statistics";
+import "../components/dropdown/Dropdown";

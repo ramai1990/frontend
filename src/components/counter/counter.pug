@@ -1,7 +1,7 @@
-mixin dropdownCounter(items)
+mixin roomsCounter(items)
   each item in items
     - const {subtitle, list, value } = item;
-    li.dropdown__list-item= subtitle
+    li.rooms__list-item= subtitle
       .counter
         button(type="button" data-direction="minus").counter__btn
           include ../../img/remove.svg

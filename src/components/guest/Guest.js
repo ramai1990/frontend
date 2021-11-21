@@ -1,8 +1,8 @@
-class DropdownGuest {
+import Dropdown from "../dropdown/Dropdown";
+
+class Guest {
   constructor(el) {
     this.count = 0;
-    this.open = this.open.bind(this);
-    this.close = this.close.bind(this);
     this.increment = this.increment.bind(this);
     this.decrement = this.decrement.bind(this);
     this.updateValue = this.updateValue.bind(this);
@@ -28,19 +28,6 @@ class DropdownGuest {
     this.btnClear = document.querySelector(".clear");
     this.isButtonActive(this.btnDecrement);
     this.addEventListeners();
-  }
-
-  open(e) {
-    e.stopPropagation();
-    this.contents.classList.toggle("open");
-    this.dropdown.classList.toggle("active");
-    this.totalValue.classList.toggle("active");
-  }
-
-  close() {
-    this.contents.classList.remove("open");
-    this.dropdown.classList.remove("active");
-    this.totalValue.classList.remove("active");
   }
 
   increment() {
@@ -119,19 +106,17 @@ class DropdownGuest {
     });
     this.btnApply.addEventListener("click", () => {
       this.findTotal();
-      this.close();
     });
     this.btnClear.addEventListener("click", () => {
       this.clearValue();
       this.isButtonDisasbled(this.btnClear);
       this.isButtonActive(this.btnDecrement);
     });
-    this.contents.addEventListener("click", (e) => e.stopPropagation());
-    this.totalValue.addEventListener("click", this.open);
-    document.addEventListener("click", this.close);
   }
 }
 
 document
   .querySelectorAll(".guest__option")
-  .forEach((option) => new DropdownGuest(option));
+  .forEach((option) => new Guest(option));
+
+new Dropdown(".guest", ".guest__contents", ".apply");

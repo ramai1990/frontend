@@ -7,11 +7,11 @@ block variables
   - const user1 = require('../../../assets/user1.json');
   - const user2 = require('../../../assets/user2.json');
   - const richCheckbox = require('../../../components/rich-checkbox/rich-checkbox.json');
-  - const guest = require('../../../components/guest-dropdown/guest.json');
-  - const ulkitGuest = require('../../../components/guest-dropdown/ulkit-guest.json');
+  - const guest = require('../../../components/guest/guest.json');
+  - const ulkitGuest = require('../../../components/guest/ulkit-guest.json');
   - const checkboxList= require('../../../components/checkbox-list/defaults.json');
   - const pagination = require('../../../components/pagination/pagination.json');
-  - const dropdown = require('../../../components/dropdown/dropdown.json');
+  - const rooms = require('../../../components/rooms/default.json');
   - const checkboxListDropdown = require('../../../components/dropdown-checkbox/defaults.json');
 
 block content
@@ -104,10 +104,10 @@ block content
         .item
           .form-elements__dropdown
             span.form-elements__dropdown_description Default
-            +dropdown({dropdown: dropdown, title: 'dropdown', marginBottom: 24})
+            +rooms({rooms, title: 'dropdown', marginBottom: 24})
           .form-elements__dropdown.form-elements__dropdown_active
             span.form-elements__dropdown_description expanded
-            +dropdown({dropdown: dropdown, title: 'dropdown', marginBottom: 167, isActive: true})
+            +rooms({rooms, title: 'dropdown', marginBottom: 167, isActive: true})
           .form-elements__list-checkbox
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
