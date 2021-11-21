@@ -119,4 +119,6 @@ document
   .querySelectorAll(".guest__option")
   .forEach((option) => new Guest(option));
 
-new Dropdown(".guest", ".guest__contents", ".apply");
+if (document.querySelector(".guest", ".guest__contents", ".apply")) {
+  new Dropdown(".guest", ".guest__contents", ".apply");
+}

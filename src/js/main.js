@@ -41,4 +41,3 @@ import "../components/swiper/swiper";
 import "../components/burger/Burger";
 import "../components/imask/imask";
 import "../components/statistics/statistics";
-import "../components/dropdown/Dropdown";
