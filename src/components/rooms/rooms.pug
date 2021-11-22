@@ -2,8 +2,8 @@ mixin rooms({rooms, title, marginBottom = 26, isActive = false})
   -
     const classes = ['rooms__list'];
     if (isActive) classes.push('active');
-  h3.rooms__title= title
   .rooms(style={'margin-bottom': `${marginBottom}px`})
+    h3.rooms__title= title
     button(type="button" value="" data-btn="btn").rooms__button
     input.rooms__input(type='text' value='2 спальни, 2 кровати...' name='количество комнат' readonly)
     ul(class=classes data-list="list")

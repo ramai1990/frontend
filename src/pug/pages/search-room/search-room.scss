@@ -19,14 +19,14 @@
   }
   &__checkbox {
     width: 266px;
-    margin-bottom: 35px;
+    margin-bottom: 31px;
     &-title {
       @include text-h3;
       margin-bottom: 19px;
     }
   }
   &__rich-checkbox {
-    margin-bottom: 35px;
+    margin-bottom: 32px;
   }
   &__title {
     grid-column: 3 span;
