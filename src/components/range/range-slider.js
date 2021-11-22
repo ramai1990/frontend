@@ -3,9 +3,9 @@ import wNumb from "wnumb";
 (function () {
   const rangeElements = document.querySelector(".range");
   if (rangeElements) {
-    let keypressSlider = document.querySelector(".slider-keypress");
-    let input0 = document.querySelector(".input-with-keypress-0");
-    let input1 = document.querySelector(".input-with-keypress-1");
+    let keypressSlider = document.querySelector(".range__keypress");
+    let input0 = document.querySelector(".range__from");
+    let input1 = document.querySelector(".range__to");
     let inputs = [input0, input1];
 
     noUiSlider.create(keypressSlider, {
