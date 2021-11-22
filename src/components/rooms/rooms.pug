@@ -7,4 +7,7 @@ mixin rooms({rooms, title, marginBottom = 26, isActive = false})
     button(type="button" value="" data-btn="btn").rooms__button
     input.rooms__input(type='text' value='2 спальни, 2 кровати...' name='количество комнат' readonly)
     ul(class=classes data-list="list")
-      +roomsCounter(rooms)
+      each item in rooms
+        - const {subtitle, value, list } = item;
+        li.rooms__list-item= subtitle
+          +counter({ list, value })
