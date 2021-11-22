@@ -7,7 +7,7 @@ class Burger {
 
   render() {
     this.button = document.querySelector(".burger");
-    this.close = document.querySelector(".burger__btn");
+    this.close = document.querySelector(".burger_btn");
     this.navList = document.querySelector(".nav__list");
     this.headerButtons = document.querySelector(".header__buttons");
     this.addEventListeners();
