@@ -4,6 +4,12 @@ new AirDatepicker(".js-dropdown-date-range-input", {
   minDate: new Date(),
   range: true,
   multipleDatesSeparator: " - ",
+  dateFormat(date) {
+    return date.toLocaleString("ru", {
+      day: "2-digit",
+      month: "short",
+    });
+  },
   navTitles: {
     days: "<h2>MMMM yyyy</h2>",
   },
@@ -17,7 +23,7 @@ new AirDatepicker(".js-dropdown-date-range-input", {
       },
     },
     {
-      content(dp) {
+      content() {
         return "Применить";
       },
       onClick(dp) {
@@ -59,7 +65,7 @@ new AirDatepicker(".js-dropdown-date-from-input", {
       },
     },
     {
-      content(dp) {
+      content() {
         return "Применить";
       },
       onClick(dp) {
@@ -102,7 +108,7 @@ new AirDatepicker(".js-dropdown-date-to-input", {
       },
     },
     {
-      content(dp) {
+      content() {
         return "Применить";
       },
       onClick(dp) {
@@ -144,7 +150,7 @@ new AirDatepicker(".cards__datepicker", {
       },
     },
     {
-      content(dp) {
+      content() {
         return "Применить";
       },
       onClick(dp) {
