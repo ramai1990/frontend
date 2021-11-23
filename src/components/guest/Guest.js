@@ -29,14 +29,14 @@ class Guest {
   }
 
   increment() {
-    this.updateValue(++this.count);
+    this.updateValue((this.count += 1));
     this.isButtonActive(this.btnClear);
     this.isButtonDisasbled(this.btnDecrement);
   }
 
   decrement() {
     if (this.count > 0) {
-      this.updateValue(--this.count);
+      this.updateValue((this.count -= 1));
     }
     if (this.count === 0) {
       this.isButtonActive(this.btnDecrement);
