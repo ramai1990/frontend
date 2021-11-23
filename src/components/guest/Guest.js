@@ -1,5 +1,3 @@
-import Dropdown from "../dropdown/Dropdown";
-
 class Guest {
   constructor(el) {
     this.count = 0;
@@ -115,10 +113,4 @@ class Guest {
   }
 }
 
-document
-  .querySelectorAll(".guest__option")
-  .forEach((option) => new Guest(option));
-
-if (document.querySelector(".guest", ".guest__contents", ".apply")) {
-  new Dropdown(".guest", ".guest__contents", ".apply");
-}
+export default Guest;

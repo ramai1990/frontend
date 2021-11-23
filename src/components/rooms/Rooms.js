@@ -1,5 +1,4 @@
 import getCounterValue from "../../js/getCounterValue";
-import Dropdown from "../dropdown/Dropdown";
 
 class Rooms {
   constructor(el) {
@@ -8,10 +7,12 @@ class Rooms {
   }
 
   render(el) {
-    this.drop = el.querySelector(".rooms");
-    this.dropDownListItems = el.querySelectorAll(".rooms__list-item");
-    this.buttons = el.querySelectorAll(".counter__btn");
-    this.addEventListeners();
+    if (el) {
+      this.drop = el.querySelector(".rooms");
+      this.dropDownListItems = el.querySelectorAll(".rooms__list-item");
+      this.buttons = el.querySelectorAll(".counter__btn");
+      this.addEventListeners();
+    }
   }
 
   isButtonDisabled(element) {
@@ -64,9 +65,4 @@ class Rooms {
   }
 }
 
-if (document.querySelector(".rooms")) {
-  new Rooms(document.querySelector(".rooms"));
-}
-if (document.querySelector(".rooms__button", ".rooms__list")) {
-  new Dropdown(".rooms__button", ".rooms__list");
-}
+export default Rooms;

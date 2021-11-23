@@ -26,18 +26,30 @@ import "../pug/pages/search-room/search-room.pug";
 import "../pug/pages/room/room.pug";
 import "../pug/pages/colors-type/colors-type.pug";
 
-import "../components/like/Like";
 import "../components/rating/rating";
 import "../../node_modules/jquery-bar-rating/dist/jquery.barrating.min.js";
-
-import "../components/submenu/SubMenu";
-import "../components/rooms/Rooms";
-import "../components/guest/Guest";
-import "../components/dropdown-checkbox/dropdownCheckbox";
 import "../components/air-datepicker/air-datepicker";
-
 import "../../node_modules/swiper/swiper-bundle";
 import "../components/swiper/swiper";
-import "../components/burger/Burger";
 import "../components/imask/imask";
 import "../components/statistics/statistics";
+
+import Burger from "../components/burger/Burger";
+import SubMenu from "../components/submenu/SubMenu.js";
+import Dropdown from "../components/dropdown/Dropdown";
+import Rooms from "../components/rooms/Rooms";
+import Guest from "../components/guest/Guest";
+import Like from "../components/like/Like.js";
+
+new Burger();
+new SubMenu();
+new Dropdown(".dropdown-checkbox__title", ".dropdown-checkbox__list");
+new Dropdown(".rooms__button", ".rooms__list");
+new Dropdown(".guest", ".guest__contents", ".apply");
+new Rooms(document.querySelector(".rooms"));
+
+document
+  .querySelectorAll(".guest__option")
+  .forEach((option) => new Guest(option));
+
+document.querySelectorAll(".like").forEach((like) => new Like(like));

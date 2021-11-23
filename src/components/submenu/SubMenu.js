@@ -7,7 +7,9 @@ class SubMenu {
 
   render() {
     this.navList = document.querySelector(".nav__list");
-    this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
+    if (this.navList) {
+      this.navLink = this.navList.querySelectorAll(".nav__link_dropdown");
+    }
     this.submenu = document.querySelectorAll(".submenu__list");
     this.menu = document.querySelector(".submenu");
     this.addEventListeners();
@@ -44,14 +46,14 @@ class SubMenu {
   }
 
   addEventListeners() {
-    this.submenu.forEach((el) =>
-      el.addEventListener("click", (e) => e.stopPropagation())
-    );
-    this.navLink.forEach((el) => el.addEventListener("click", this.open));
-    document.addEventListener("click", this.close);
+    if (this.navList) {
+      this.submenu.forEach((el) =>
+        el.addEventListener("click", (e) => e.stopPropagation())
+      );
+      this.navLink.forEach((el) => el.addEventListener("click", this.open));
+      document.addEventListener("click", this.close);
+    }
   }
 }
 
-if (document.querySelector(".nav__list")) {
-  const submenu = new SubMenu();
-}
+export default SubMenu;

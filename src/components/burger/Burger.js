@@ -27,14 +27,12 @@ class Burger {
   }
 
   addEventListeners() {
-    this.navList.addEventListener("click", (e) => e.stopPropagation());
     if (this.button) {
+      this.navList.addEventListener("click", (e) => e.stopPropagation());
       this.button.addEventListener("click", this.toggle);
       document.addEventListener("click", this.removeClass);
     }
   }
 }
 
-if (document.querySelector(".burger")) {
-  const burger = new Burger();
-}
+export default Burger;

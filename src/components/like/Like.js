@@ -27,4 +27,4 @@ class Like {
   }
 }
 
-document.querySelectorAll(".like").forEach((like) => new Like(like));
+export default Like;

@@ -23,13 +23,13 @@ class Dropdown {
   }
 
   addEventListeners() {
-    this.content.addEventListener("click", (e) => e.stopPropagation());
-    this.button.addEventListener("click", (e) => e.stopPropagation());
-    if (this.buttonApply) {
+    if ((this.button, this.content, this.buttonApply)) {
+      this.content.addEventListener("click", (e) => e.stopPropagation());
+      this.button.addEventListener("click", (e) => e.stopPropagation());
       this.buttonApply.addEventListener("click", this.close);
+      this.button.addEventListener("click", this.open);
+      document.addEventListener("click", this.close);
     }
-    this.button.addEventListener("click", this.open);
-    document.addEventListener("click", this.close);
   }
 }
 
