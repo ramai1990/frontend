@@ -16,10 +16,10 @@ new AirDatepicker(".js-dropdown-date-range-input", {
   buttons: [
     {
       content: "Очистить",
-      className: "clearRange",
+      className: "js-clearRange",
       onClick(dp) {
         dp.clear();
-        document.querySelector(".clearRange").classList.remove("open");
+        document.querySelector(".js-clearRange").classList.remove("open");
       },
     },
     {
@@ -33,7 +33,7 @@ new AirDatepicker(".js-dropdown-date-range-input", {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector(".clearRange").classList.add("open");
+      document.querySelector(".js-clearRange").classList.add("open");
     }
   },
   onShow: function (dp, animationCompleted) {
@@ -58,7 +58,7 @@ new AirDatepicker(".js-dropdown-date-from-input", {
   buttons: [
     {
       content: "Очистить",
-      className: "clearForm",
+      className: "js-clearForm",
       onClick(dp) {
         dp.clear();
         document.querySelector(".clearForm").classList.remove("open");
@@ -101,10 +101,10 @@ new AirDatepicker(".js-dropdown-date-to-input", {
   buttons: [
     {
       content: "Очистить",
-      className: "clearTo",
+      className: "js-clearTo",
       onClick(dp) {
         dp.clear();
-        document.querySelector(".clearTo").classList.remove("open");
+        document.querySelector(".js-clearTo").classList.remove("open");
       },
     },
     {
@@ -143,10 +143,10 @@ new AirDatepicker(".cards__datepicker", {
   buttons: [
     {
       content: "Очистить",
-      className: "clearRange",
+      className: "js-clearRange",
       onClick(dp) {
         dp.clear();
-        document.querySelector(".clearRange").classList.remove("open");
+        document.querySelector(".js-clearRange").classList.remove("open");
       },
     },
     {
@@ -160,7 +160,7 @@ new AirDatepicker(".cards__datepicker", {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector(".clearRange").classList.add("open");
+      document.querySelector(".js-clearRange").classList.add("open");
     }
   },
 });

@@ -178,16 +178,16 @@
 .air-datepicker--time {
   border-top: none;
 }
-.clearRange,
-.clearForm,
-.clearTo,
+.js-clearRange,
+.js-clearForm,
+.js-clearTo,
 .clearInline {
   color: #ece7ff;
 }
 .open {
-  &.clearRange,
-  &.clearForm,
-  &.clearTo,
+  &.js-clearRange,
+  &.js-clearForm,
+  &.js-clearTo,
   &.clearInline {
     color: $purple;
   }
