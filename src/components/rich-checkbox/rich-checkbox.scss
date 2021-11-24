@@ -64,7 +64,6 @@
     transition: color 0.2s ease-in;
   }
   &__input {
-    -webkit-appearance: none;
     appearance: none;
     &:checked + .rich-checkbox__label::after {
       opacity: 1;

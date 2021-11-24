@@ -19,7 +19,6 @@
     }
   }
   &__input {
-    -webkit-appearance: none;
     appearance: none;
     &:checked + .checkbox__text {
       color: $dark75;

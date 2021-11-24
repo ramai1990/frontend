@@ -20,7 +20,6 @@
     }
   }
   &__input {
-    -webkit-appearance: none;
     appearance: none;
     &:checked + .radio__label-text::after {
       border: 1px solid $purple;

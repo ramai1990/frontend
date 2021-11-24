@@ -15,7 +15,6 @@
     }
   }
   &__input {
-    -webkit-appearance: none;
     appearance: none;
     &:checked + .like__counter::after {
       background-image: url("../img/like.svg");

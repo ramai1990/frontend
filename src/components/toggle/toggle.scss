@@ -1,6 +1,5 @@
 .toggle {
   &__input {
-    -webkit-appearance: none;
     appearance: none;
     &:checked + .toggle__text::after {
       border: 1px solid $purple;

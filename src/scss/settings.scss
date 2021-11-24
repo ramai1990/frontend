@@ -2,7 +2,6 @@ html {
   font-family: Montserrat, Arial, sans-serif;
   line-height: 1.15;
   font-weight: 400;
-  -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-size: 10px;
 }
@@ -89,7 +88,6 @@ textarea {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   display: none;
-  -webkit-appearance: none;
   margin: 0;
 }
 input[type="number"] {
