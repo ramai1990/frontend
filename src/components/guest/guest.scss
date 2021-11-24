@@ -74,6 +74,11 @@
     padding: 0 13px;
     cursor: pointer;
     box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    @include media(330px) {
+      padding-right: 35px;
+    }
   }
   &__contents {
     position: absolute;
