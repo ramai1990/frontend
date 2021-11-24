@@ -45,7 +45,7 @@ new Burger();
 new SubMenu();
 new Dropdown(".dropdown-checkbox__title", ".dropdown-checkbox__list");
 new Dropdown(".rooms__button", ".rooms__list");
-new Dropdown(".guest", ".guest__contents", ".apply");
+new Dropdown(".guest", ".guest__contents");
 new Rooms(document.querySelector(".rooms"));
 
 document

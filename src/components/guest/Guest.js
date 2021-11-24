@@ -6,6 +6,7 @@ class Guest {
     this.updateValue = this.updateValue.bind(this);
     this.findTotal = this.findTotal.bind(this);
     this.clearValue = this.clearValue.bind(this);
+    this.close = this.close.bind(this);
     this.render(el);
   }
 
@@ -95,6 +96,11 @@ class Guest {
     btn.classList.add("active");
   }
 
+  close() {
+    this.dropdown.classList.remove("active");
+    this.contents.classList.remove("active");
+  }
+
   addEventListeners() {
     this.btnIncrement.addEventListener("click", () => {
       this.increment();
@@ -104,6 +110,7 @@ class Guest {
     });
     this.btnApply.addEventListener("click", () => {
       this.findTotal();
+      this.close();
     });
     this.btnClear.addEventListener("click", () => {
       this.clearValue();
