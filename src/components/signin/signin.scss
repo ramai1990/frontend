@@ -6,9 +6,7 @@
   &__bottom {
     @include flex;
   }
-}
-@media (max-width: 426px) {
-  .signin {
+  @include media(426px) {
     padding: 15px;
   }
 }
