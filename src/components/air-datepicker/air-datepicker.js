@@ -61,7 +61,7 @@ new AirDatepicker(".js-dropdown-date-from-input", {
       className: "js-clearForm",
       onClick(dp) {
         dp.clear();
-        document.querySelector(".clearForm").classList.remove("open");
+        document.querySelector(".js-clearForm").classList.remove("open");
       },
     },
     {
@@ -75,7 +75,7 @@ new AirDatepicker(".js-dropdown-date-from-input", {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector(".clearForm").classList.add("open");
+      document.querySelector(".js-clearForm").classList.add("open");
     }
   },
   onShow: function (dp, animationCompleted) {
@@ -118,7 +118,7 @@ new AirDatepicker(".js-dropdown-date-to-input", {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector(".clearTo").classList.add("open");
+      document.querySelector(".js-clearTo").classList.add("open");
     }
   },
   onShow: function (dp, animationCompleted) {
