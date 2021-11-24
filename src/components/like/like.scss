@@ -6,7 +6,14 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
-
+  &:hover {
+    .like__counter {
+      color: $purple;
+      &::before {
+        box-shadow: 0px 0px 5px 0px $purple;
+      }
+    }
+  }
   &__input {
     -webkit-appearance: none;
     appearance: none;
@@ -17,7 +24,7 @@
       color: $purple;
     }
     &:checked + .like__counter::before {
-      border-color: #bc9cff;
+      border-color: $purple;
     }
   }
   &__counter {
@@ -46,6 +53,7 @@
       height: 20px;
       border: 1px solid $dark25;
       border-radius: 10px;
+      transition: box-shadow 0.2s ease-in;
     }
   }
 }

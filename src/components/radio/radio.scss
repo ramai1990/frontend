@@ -10,11 +10,19 @@
     &:not(:last-child) {
       margin-right: 17px;
     }
+    &:hover {
+      .radio__label-text {
+        color: $dark;
+      }
+      .radio__label-text::after {
+        box-shadow: 0px 0px 5px 0px $purple;
+      }
+    }
   }
   &__input {
     -webkit-appearance: none;
     appearance: none;
-    &:checked + .radio__span::after {
+    &:checked + .radio__label-text::after {
       border: 1px solid $purple;
     }
     &:checked + .radio__label-text::before {
@@ -25,6 +33,7 @@
     }
   }
   &__label-text {
+    transition: color 0.2s ease-in;
     &::after {
       position: absolute;
       content: "";
@@ -36,6 +45,7 @@
       transform: translateY(-50%);
       border: 1px solid $dark25;
       border-radius: 10px;
+      transition: box-shadow 0.2s ease-in;
     }
     &::before {
       position: absolute;

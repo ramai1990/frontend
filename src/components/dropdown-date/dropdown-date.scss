@@ -10,11 +10,15 @@
     color: $dark75;
     cursor: pointer;
     font-size: 1.4rem;
+    transition: border-color 0.2s ease-in;
     &::placeholder {
       color: $dark75;
     }
     @include media(420px) {
       width: 100%;
+    }
+    &:hover {
+      border-color: $dark50;
     }
   }
 

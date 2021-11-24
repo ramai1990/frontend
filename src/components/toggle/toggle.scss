@@ -17,6 +17,12 @@
     padding-left: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease-in;
+    &:hover {
+      color: $dark;
+      .toggle__text::after {
+        box-shadow: 0px 0px 5px 0px $purple;
+      }
+    }
   }
   &__text {
     &::after {
@@ -30,6 +36,7 @@
       transform: translateY(-50%);
       border: 1px solid $dark25;
       border-radius: 10px;
+      transition: box-shadow 0.2s ease-in;
     }
     &::before {
       position: absolute;

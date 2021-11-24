@@ -20,6 +20,16 @@
     font-weight: 700;
     padding-left: 30px;
     cursor: pointer;
+    transition: color 0.2s ease-in;
+    &:hover {
+      color: $dark;
+      &::before {
+        border-color: $dark50;
+      }
+      .rich-checkbox__description {
+        color: $dark75;
+      }
+    }
     &::after {
       position: absolute;
       content: "";
@@ -43,6 +53,7 @@
       border: 1px solid $dark25;
       border-radius: 4px;
       background-color: #fff;
+      transition: border-color 0.2s ease-in;
     }
   }
   &__description {
@@ -50,6 +61,7 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: rgba(31, 32, 65, 0.5);
+    transition: color 0.2s ease-in;
   }
   &__input {
     -webkit-appearance: none;

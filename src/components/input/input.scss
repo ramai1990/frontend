@@ -3,11 +3,12 @@
   border: 1px solid $dark25;
   border-radius: 4px;
   font-size: 1.4rem;
+  transition: border-color 0.2s ease-in;
   &:hover {
-    border: 1px solid rgba(31, 32, 65, 0.5);
+    border-color: $dark50;
   }
   &:focus {
-    border: 1px solid rgba(31, 32, 65, 0.5);
+    border-color: $dark50;
   }
   &::placeholder {
     color: $dark25;

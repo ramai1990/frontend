@@ -10,10 +10,20 @@
     position: relative;
     padding-left: 30px;
     cursor: pointer;
+    transition: color 0.2s ease-in;
+    &:hover {
+      color: $dark;
+      .checkbox__text::before {
+        border-color: $dark75;
+      }
+    }
   }
   &__input {
     -webkit-appearance: none;
     appearance: none;
+    &:checked + .checkbox__text {
+      color: $dark75;
+    }
     &:checked + .checkbox__text::after {
       opacity: 1;
     }
@@ -45,6 +55,7 @@
       border: 1px solid $dark25;
       border-radius: 4px;
       background-color: #fff;
+      transition: border-color 0.2s ease-in;
     }
   }
 }
