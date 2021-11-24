@@ -21,7 +21,10 @@
   &__date {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 24px;
+    margin-bottom: 22px;
+    @include media(420px) {
+      flex-direction: column;
+    }
   }
 
   &__input {
@@ -47,11 +50,5 @@
   &__guest {
     @include form-elements-dropdown;
     margin-bottom: 31px;
-  }
-}
-
-@media (max-width: 420px) {
-  .search-rooms__date {
-    flex-direction: column;
   }
 }
