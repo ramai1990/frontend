@@ -1,22 +1,26 @@
 .advantages {
   &__item {
-    border-bottom: 1px solid $dark10;
+    width: 280px;
     display: flex;
     align-items: center;
-    padding-bottom: 21px;
+    padding-bottom: 20px;
+    &:not(:last-child) {
+      border-bottom: 1px solid $dark10;
+    }
     & + & {
-      margin-top: 16px;
+      margin-top: 17px;
     }
   }
   &__img {
     padding-right: 10px;
   }
+  &__content {
+    color: $dark75;
+    font-size: 1.4rem;
+    line-height: 24px;
+  }
   &__title {
     font-size: 1.4rem;
     font-weight: 700;
-    margin-bottom: 10px;
-  }
-  &__description {
-    font-size: 1.4rem;
   }
 }
