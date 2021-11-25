@@ -5,14 +5,14 @@ block variables
   - const title = 'Headers & Footers';
   - const pageClass = 'ulkit-page';
   - const footer = require('../../../components/footer/footer.json');
-  - const navigations = require('../../../components/nav/nav.json');
+  - const navigation = require('../../../components/nav/nav.json');
 
 block content
   .headers-footers
     .headers-footers__non-authorized
-      +header({navigations, status:'non-authorized'})
+      +header({navigation, status:'non-authorized'})
     .headers-footers__authorized
-      +header({navigations, status:'authorized'})
+      +header({navigation, status:'authorized'})
     .headers-footers__footer
       +footer(footer)
     .headers-footers__small

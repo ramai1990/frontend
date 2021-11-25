@@ -81,12 +81,12 @@ const plugins = () => {
       inject: true,
     }),
     new HtmlWebpackPlugin({
-      template: `${PAGES_DIR}/sign-in/sign-in.pug`,
+      template: `${PAGES_DIR}/sign-in-page/sign-in-page.pug`,
       filename: "./sign-in.html",
       inject: true,
     }),
     new HtmlWebpackPlugin({
-      template: `${PAGES_DIR}/sign-up/sign-up.pug`,
+      template: `${PAGES_DIR}/sign-up-page/sign-up-page.pug`,
       filename: "./sign-up.html",
       inject: true,
     }),

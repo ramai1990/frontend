@@ -1,12 +1,12 @@
-mixin signUp
-  .signup
+mixin sign-up
+  .sign-up
     form(action="https://ramai1990.github.io/frontend/sign-in")
-      h1.signup__title Регистрация аккаунта
-      .signup__input
+      h1.sign-up__title Регистрация аккаунта
+      .sign-up__input
         +input({type: 'text', placeholder: 'Имя', name: 'Имя'})
-      .signup__input
+      .sign-up__input
         +input({type: 'text', placeholder: 'Фамилия', name: 'Фамилия'})
-      .signup__gender
+      .sign-up__gender
         +radio({
           name: 'gender',
           items: [
@@ -21,24 +21,24 @@ mixin signUp
             }
           ]
         })
-      h3.signup__text дата рождения
+      h3.sign-up__text дата рождения
       +imaskBirthday
-      h3.signup__text данные для входа в сервис
-      .signup__input
+      h3.sign-up__text данные для входа в сервис
+      .sign-up__input
         +input({type: 'email', placeholder: 'Email', name: 'email'})
-      .signup__input
+      .sign-up__input
         +input({type: 'password', placeholder: 'Пароль', name: 'password'})
-      .signup__toggle
+      .sign-up__toggle
         +toggle({text: 'Получать спецпредложения'})
-      .signup__btn
+      .sign-up__btn
         +button({
           theme: 'arrow',
           size: 'lg',
           text: 'зарегистрироваться',
           type: 'submit'
         })
-      .signup__bottom
-        p.signup__bottom-text Уже есть аккаунт на Toxin
+      .sign-up__bottom
+        p.sign-up__bottom-text Уже есть аккаунт на Toxin
         +button({
           theme: 'border',
           size: 'sm',

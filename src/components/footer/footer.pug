@@ -1,4 +1,4 @@
-mixin footer(navigations = [])
+mixin footer(navigation = [])
   footer
   .footer
     .footer__container
@@ -8,7 +8,7 @@ mixin footer(navigations = [])
             +logo
           p.footer__text.footer__text_left
             | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
-        each nav in navigations
+        each nav in navigation
           - const { title, items } = nav;
           .footer__items
             ul.footer__list

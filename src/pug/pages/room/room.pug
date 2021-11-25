@@ -9,10 +9,10 @@ block variables
   - const advantages = require('../../../components/advantages/advantages.json');
   - const guest = require('../../../components/guest/guest.json');
   - const footer = require('../../../components/footer/footer.json');
-  - const navigations = require('../../../components/nav/nav.json');
+  - const navigation = require('../../../components/nav/nav.json');
 
 block content
-  +header({navigations, status: 'non-authorized'})
+  +header({navigation, status: 'non-authorized'})
   .main
     section.room
       .room-intro

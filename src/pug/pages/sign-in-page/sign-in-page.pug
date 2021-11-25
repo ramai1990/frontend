@@ -5,12 +5,12 @@ block variables
   - const title = 'Sign in';
   - const pageClass = '';
   - const footer = require('../../../components/footer/footer.json');
-  - const navigations = require('../../../components/nav/nav.json');
+  - const navigation = require('../../../components/nav/nav.json');
 
 block content
-  +header({navigations, status: 'non-authorized'})
+  +header({navigation, status: 'non-authorized'})
   .main
-    section.sign-in
-      .sign-in__container
-        +signIn
+    section.sign-in-page
+      .sign-in-page__container
+        +sign-in
   +footer(footer)

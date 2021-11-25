@@ -5,12 +5,12 @@ block variables
   - const title = 'Sign up';
   - const pageClass = '';
   - const footer = require('../../../components/footer/footer.json');
-  - const navigations = require('../../../components/nav/nav.json');
+  - const navigation = require('../../../components/nav/nav.json');
 
 block content
-  +header({navigations, status: 'non-authorized'})
+  +header({navigation, status: 'non-authorized'})
   .main
-    section.sign-up
-      .sign-up__container
-        +signUp
+    section.sign-up-page
+      .sign-up-page__container
+        +sign-up
   +footer(footer)

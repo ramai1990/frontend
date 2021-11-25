@@ -1,20 +1,20 @@
-mixin signIn
-  .signin
+mixin sign-in
+  .sign-in
     form(action="https://ramai1990.github.io/frontend/sign-up")
-      h1.signin__title Войти
-      .signin__input
+      h1.sign-in__title Войти
+      .sign-in__input
         +input({type: 'email', placeholder: 'Email', name: 'email'})
-      .signin__input
+      .sign-in__input
         +input({type: 'password', placeholder: 'Пароль', name: 'password'})
-      .signin__button
+      .sign-in__button
         +button({
           theme: 'arrow',
           size: 'lg',
           text: 'войти',
           type: 'submit'
         })
-      .signin__bottom
-        p.signin__bottom-text Нет аккаунта на Toxin?
+      .sign-in__bottom
+        p.sign-in__bottom-text Нет аккаунта на Toxin?
         +button({
           theme: 'border',
           size: 'sm',

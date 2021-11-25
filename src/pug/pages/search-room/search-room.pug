@@ -11,11 +11,11 @@ block variables
   - const richCheckbox = require('../../../components/rich-checkbox/rich-checkbox.json');
   - const rooms = require('../../../components/rooms/default.json');
   - const footer = require('../../../components/footer/footer.json');
-  - const navigations = require('../../../components/nav/nav.json');
+  - const navigation = require('../../../components/nav/nav.json');
   - const checkboxListDropdown = require('../../../components/dropdown-checkbox/defaults.json');
 
 block content
-  +header({navigations, status: 'non-authorized'})
+  +header({navigation, status: 'non-authorized'})
   .main
     section.search-room
       .search-room__container

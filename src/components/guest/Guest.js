@@ -32,7 +32,7 @@ class Guest {
   increment() {
     this.updateValue((this.count += 1));
     this.isButtonActive(this.btnClear);
-    this.isButtonDisasbled(this.btnDecrement);
+    this.isButtonDisabled(this.btnDecrement);
   }
 
   decrement() {
@@ -74,7 +74,7 @@ class Guest {
     }
     const guest = ["гость", "гостя", "гостей"];
     if (total === 0) {
-      this.isButtonDisasbled(this.btnClear);
+      this.isButtonDisabled(this.btnClear);
       this.totalValue.value = "Сколько гостей";
     } else if (total === 1) {
       this.totalValue.value = `${total} ${guest[0]}${this.findChildren()}`;
@@ -88,7 +88,7 @@ class Guest {
     }
   }
 
-  isButtonDisasbled(btn) {
+  isButtonDisabled(btn) {
     btn.classList.remove("active");
   }
 
@@ -114,7 +114,7 @@ class Guest {
     });
     this.btnClear.addEventListener("click", () => {
       this.clearValue();
-      this.isButtonDisasbled(this.btnClear);
+      this.isButtonDisabled(this.btnClear);
       this.isButtonActive(this.btnDecrement);
     });
   }

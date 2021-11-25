@@ -17,8 +17,8 @@ window.$ = window.jQuery = $;
 import "../scss/main.scss";
 
 import "../pug/pages/landing/landing.pug";
-import "../pug/pages/sign-in/sign-in.pug";
-import "../pug/pages/sign-up/sign-up.pug";
+import "../pug/pages/sign-in-page/sign-in-page.pug";
+import "../pug/pages/sign-up-page/sign-up-page.pug";
 import "../pug/pages/headers-footers/headers-footers.pug";
 import "../pug/pages/form-elements/form-elements.pug";
 import "../pug/pages/cards/cards.pug";

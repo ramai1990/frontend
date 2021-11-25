@@ -1,7 +1,7 @@
-mixin nav(navigations)
+mixin nav(navigation)
   nav.nav
     ul.nav__list
-      each nav in navigations
+      each nav in navigation
         - const { submenu, name, items } = nav;
         if submenu
           li.nav__item.submenu

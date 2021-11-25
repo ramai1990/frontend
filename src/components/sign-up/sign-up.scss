@@ -1,4 +1,4 @@
-.signup {
+.sign-up {
   @include form;
   &__title {
     @include media(445px) {
@@ -14,7 +14,7 @@
     margin-top: 2px;
     margin-bottom: 29px;
   }
-  &__birthdate {
+  &__birthday {
     width: 100%;
     color: $dark75;
     font-size: 1.4rem;
