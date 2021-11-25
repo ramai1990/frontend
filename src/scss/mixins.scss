@@ -8,6 +8,6 @@
 @import "mixins/elements-default";
 @import "mixins/flex";
 @import "mixins/form";
-@import "../components/text/text-h1";
-@import "../components/text/text-h2";
-@import "../components/text/text-h3";
+@import "mixins/text-h1";
+@import "mixins/text-h2";
+@import "mixins/text-h3";
