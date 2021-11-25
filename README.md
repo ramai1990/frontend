@@ -44,10 +44,14 @@ Pixel Perfect верстка проекта с использованием Pug,
 
 ## Используемые библиотеки
 
-- [air-datepicker](https://github.com/t1m0n/air-datepicker)
-- [nouislider](https://refreshless.com/nouislider/)
-- [normalize.css](https://github.com/necolas/normalize.css)
-- [swiper](https://swiperjs.com/)
+- [air-datepicker v3.0.1](https://github.com/t1m0n/air-datepicker)
+- [apexcharts v3.30.0](https://apexcharts.com/)
+- [daterangepicker v3.1.0](https://www.daterangepicker.com/)
+- [imask v6.2.2](https://imask.js.org/)
+- [jquery v3.6.0](https://jquery.com/)
+- [jquery-bar-rating v1.2.2](https://antennaio.github.io/jquery-bar-rating/)
+- [nouislider v14.6.3](https://refreshless.com/nouislider/)
+- [swiper v6.8.3](https://swiperjs.com/)
 
 ### Структура проекта
 
