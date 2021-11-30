@@ -5,19 +5,19 @@ class Like {
   }
 
   render(el) {
-    this.input = el.querySelector(".like__input");
-    this.counter = el.querySelector(".like__counter");
-    this.value = parseInt(this.counter.textContent);
+    this.input = el.querySelector('.like__input');
+    this.counter = el.querySelector('.like__counter');
+    this.value = parseInt(this.counter.textContent, 10);
     this.updateValue();
-    this.input.addEventListener("change", this.updateValue);
+    this.input.addEventListener('change', this.updateValue);
   }
 
   updateValue() {
     this.value += this.input.checked ? 1 : -1;
-    this.counter.textContent = this.shortValue(this.value);
+    this.counter.textContent = Like.shortValue(this.value);
   }
 
-  shortValue(value) {
+  static shortValue(value) {
     if (value >= 1e10) return `${(value / 1e9).toFixed(0)}B`;
     if (value >= 1e9) return `${(value / 1e9).toFixed(1)}B`;
     if (value >= 1e7) return `${(value / 1e6).toFixed(0)}M`;

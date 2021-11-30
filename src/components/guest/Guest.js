@@ -11,9 +11,9 @@ class Guest {
   }
 
   render(el) {
-    this.dropdown = document.querySelector(".guest");
-    this.contents = document.querySelector(".guest__contents");
-    this.currentValue = el.querySelector(".guest__value");
+    this.dropdown = document.querySelector('.guest');
+    this.contents = document.querySelector('.guest__contents');
+    this.currentValue = el.querySelector('.guest__value');
     this.btnIncrement = el.querySelector('.guest__btn[data-btn="plus"]');
     this.btnDecrement = el.querySelector('.guest__btn[data-btn="minus"]');
     this.values = document.querySelectorAll(
@@ -22,17 +22,17 @@ class Guest {
     this.children = document.querySelector(
       '.guest__value[data-value="children"]'
     );
-    this.totalValue = document.querySelector(".guest__input");
-    this.btnApply = document.querySelector(".apply");
-    this.btnClear = document.querySelector(".clear");
-    this.isButtonActive(this.btnDecrement);
+    this.totalValue = document.querySelector('.guest__input');
+    this.btnApply = document.querySelector('.apply');
+    this.btnClear = document.querySelector('.clear');
+    Guest.isButtonActive(this.btnDecrement);
     this.addEventListeners();
   }
 
   increment() {
     this.updateValue((this.count += 1));
-    this.isButtonActive(this.btnClear);
-    this.isButtonDisabled(this.btnDecrement);
+    Guest.isButtonActive(this.btnClear);
+    Guest.isButtonDisabled(this.btnDecrement);
   }
 
   decrement() {
@@ -40,7 +40,7 @@ class Guest {
       this.updateValue((this.count -= 1));
     }
     if (this.count === 0) {
-      this.isButtonActive(this.btnDecrement);
+      Guest.isButtonActive(this.btnDecrement);
     }
   }
 
@@ -51,31 +51,35 @@ class Guest {
   clearValue() {
     this.count = 0;
     this.currentValue.value = 0;
-    this.totalValue.value = "Сколько гостей";
+    this.totalValue.value = 'Сколько гостей';
   }
 
   findChildren() {
-    const children = ["младенец", "младенца", "младенцев"];
+    const children = ['младенец', 'младенца', 'младенцев'];
     if (this.children.value < 1) {
-      return "";
-    } else if (this.children.value < 2) {
+      return '';
+    }
+    if (this.children.value < 2) {
       return `, ${this.children.value} ${children[0]}`;
-    } else if (this.children.value > 1 && this.children.value < 5) {
+    }
+    if (this.children.value > 1 && this.children.value < 5) {
       return `, ${this.children.value} ${children[1]}`;
-    } else if (this.children.value > 4) {
+    }
+    if (this.children.value > 4) {
       return `, ${this.children.value} ${children[2]}`;
     }
+    return '';
   }
 
   findTotal() {
     let total = 0;
-    for (let i = 0; i < this.values.length; i++) {
-      total += parseInt(this.values[i].value);
+    for (let i = 0; i < this.values.length; i += 1) {
+      total += parseInt(this.values[i].value, 10);
     }
-    const guest = ["гость", "гостя", "гостей"];
+    const guest = ['гость', 'гостя', 'гостей'];
     if (total === 0) {
-      this.isButtonDisabled(this.btnClear);
-      this.totalValue.value = "Сколько гостей";
+      Guest.isButtonDisabled(this.btnClear);
+      this.totalValue.value = 'Сколько гостей';
     } else if (total === 1) {
       this.totalValue.value = `${total} ${guest[0]}${this.findChildren()}`;
     } else if (total > 1 && total < 5) {
@@ -84,38 +88,38 @@ class Guest {
       this.totalValue.value = `${total} ${guest[2]}${this.findChildren()}`;
     }
     if (this.children.value > 0) {
-      this.isButtonActive(this.btnClear);
+      Guest.isButtonActive(this.btnClear);
     }
   }
 
-  isButtonDisabled(btn) {
-    btn.classList.remove("active");
+  static isButtonDisabled(btn) {
+    btn.classList.remove('active');
   }
 
-  isButtonActive(btn) {
-    btn.classList.add("active");
+  static isButtonActive(btn) {
+    btn.classList.add('active');
   }
 
   close() {
-    this.dropdown.classList.remove("active");
-    this.contents.classList.remove("active");
+    this.dropdown.classList.remove('active');
+    this.contents.classList.remove('active');
   }
 
   addEventListeners() {
-    this.btnIncrement.addEventListener("click", () => {
+    this.btnIncrement.addEventListener('click', () => {
       this.increment();
     });
-    this.btnDecrement.addEventListener("click", () => {
+    this.btnDecrement.addEventListener('click', () => {
       this.decrement();
     });
-    this.btnApply.addEventListener("click", () => {
+    this.btnApply.addEventListener('click', () => {
       this.findTotal();
       this.close();
     });
-    this.btnClear.addEventListener("click", () => {
+    this.btnClear.addEventListener('click', () => {
       this.clearValue();
-      this.isButtonDisabled(this.btnClear);
-      this.isButtonActive(this.btnDecrement);
+      Guest.isButtonDisabled(this.btnClear);
+      Guest.isButtonActive(this.btnDecrement);
     });
   }
 }

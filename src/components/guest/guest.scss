@@ -2,12 +2,12 @@
   position: relative;
   &::after {
     position: absolute;
-    content: "";
+    content: '';
     width: 20px;
     height: 20px;
     right: 11px;
     top: 13px;
-    background-image: url("../img/arrow-down.svg");
+    background-image: url('../img/arrow-down.svg');
     background-repeat: no-repeat;
     background-position: center;
     pointer-events: none;

@@ -2,9 +2,9 @@ block variables
 include ../utils/mixins
 
 doctype html
-html(lang="ru")
+html(lang='ru')
   +head
   body(class=pageClass)
     .site-container
-      img(src=require("/img/logo__ulkit.svg").default, alt="").logo__ulkit
+      img(src=require('/img/logo__ulkit.svg').default, alt='').logo__ulkit
       block content

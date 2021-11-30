@@ -1,14 +1,14 @@
 mixin dropdown-date({title, type, placeholder})
   case type
-    when "range"
+    when 'range'
       .dropdown-date.js-dropdown-date-range
         h3.dropdown-date__title= title
         input.js-dropdown-date-range-input.dropdown-date__input(type='text' placeholder='19 авг - 23 авг' name='дата пребывания' readonly)
-    when "from"
+    when 'from'
       .dropdown-date.js-dropdown-date-from
         h3.dropdown-date__title= title
         input.js-dropdown-date-from-input.dropdown-date__input(type='text' placeholder=`${placeholder}` name='дата прибытия' readonly)
-    when "to"
+    when 'to'
       .dropdown-date.js-dropdown-date-to
         h3.dropdown-date__title= title
         input.js-dropdown-date-to-input.dropdown-date__input(type='text' placeholder=`${placeholder}` name='дата выезда' readonly)

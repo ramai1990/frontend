@@ -1,6 +1,6 @@
 mixin roomPrice(guest)
   .room-price
-    form(action="https://ramai1990.github.io/frontend/sign-in")
+    form(action='https://ramai1990.github.io/frontend/sign-in')
       .room-price__title
         .price-title
           h3.price-title__left
@@ -29,16 +29,16 @@ mixin roomPrice(guest)
         })
       .room-price__amount
         p.room-price__text 9 990₽ х 4 суток
-        input.room-price__input(type="text" value='39 960₽' disabled)
+        input.room-price__input(type='text' value='39 960₽' disabled)
       .room-price__services
         p.room-price__text Сбор за услуги: скидка 2 179₽
-        input.room-price__input(type="text" value='0₽' disabled)
+        input.room-price__input(type='text' value='0₽' disabled)
       .room-price__additional
         p.room-price__text Сбор за дополнительные услуги
-        input.room-price__input(type="text" value='300₽' disabled)
+        input.room-price__input(type='text' value='300₽' disabled)
       .room-price__total
         h3.room-price__title Итого
-        input.room-price__input.room-price__total_input(type="text" value='38 081₽' disabled)
+        input.room-price__input.room-price__total_input(type='text' value='38 081₽' disabled)
       +button({
         theme: 'arrow',
         size: 'lg',

@@ -13,17 +13,17 @@ mixin footer(navigation = [])
           .footer__items
             ul.footer__list
               li.footer__item_title
-                a(href="https://ramai1990.github.io/frontend/404.html").footer__link= title
+                a(href='https://ramai1990.github.io/frontend/404.html').footer__link= title
               each item in items
                 - const { href, title } = item;
                 li.footer__item
                   a(href=`${href}`).footer__link= title
         .footer__items
           h3.footer__item_title.footer__item_title-last
-            a(href="https://ramai1990.github.io/frontend/404.html") Подписка
+            a(href='https://ramai1990.github.io/frontend/404.html') Подписка
           p.footer__text
             | Получайте специальные предложения и новости сервиса
-          form.footer__email(action="/")
+          form.footer__email(action='/')
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button.footer__btn(type='submit')
     +copy('Copyright © 2018 Toxin отель. Все права зачищены.')

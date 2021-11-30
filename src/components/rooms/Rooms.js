@@ -1,66 +1,71 @@
-import getCounterValue from "../../js/getCounterValue";
-
 class Rooms {
-  constructor(el) {
-    this.isButtonDisabled = this.isButtonDisabled.bind(this);
-    this.render(el);
-  }
-
   render(el) {
-    if (el) {
-      this.drop = el.querySelector(".rooms");
-      this.dropDownListItems = el.querySelectorAll(".rooms__list-item");
-      this.buttons = el.querySelectorAll(".counter__btn");
+    let element = document.querySelector(el);
+    if (element) {
+      this.drop = element.querySelector('.rooms');
+      this.dropDownListItems = element.querySelectorAll('.rooms__list-item');
+      this.buttons = element.querySelectorAll('.counter__btn');
       this.addEventListeners();
     }
   }
 
-  isButtonDisabled(element) {
+  static isButtonDisabled(element) {
     const minBtn = element.parentElement.querySelector(
       '[data-direction="minus"]'
     );
-    const input = element.parentElement.querySelector(".counter__value");
+    const input = element.parentElement.querySelector('.counter__value');
     if (+input.value === 0) {
-      minBtn.classList.remove("active");
+      minBtn.classList.remove('active');
     } else {
-      minBtn.classList.add("active");
+      minBtn.classList.add('active');
     }
   }
 
-  counter(btn) {
+  static counter(btn) {
     const direction = btn.dataset.direction;
-    const input = btn.parentElement.querySelector(".counter__value");
+    const input = btn.parentElement.querySelector('.counter__value');
     const currentValue = +input.value;
-    if (direction === "minus") {
+    if (direction === 'minus') {
       input.value = currentValue - 1 > 0 ? currentValue - 1 : 0;
-      this.isButtonDisabled(btn);
-    } else if (direction === "plus") {
+      Rooms.isButtonDisabled(btn);
+    } else if (direction === 'plus') {
       input.value = currentValue + 1 < 9 ? currentValue + 1 : 9;
-      this.isButtonDisabled(btn);
+      Rooms.isButtonDisabled(btn);
     }
   }
 
-  printValue() {
-    let list = [...document.querySelectorAll(".counter__value")];
+  static getCounterValue(n, textForms) {
+    let forms = textForms;
+    let number = n;
+    forms = forms.split(',');
+    number = Math.abs(number) % 100;
+    let n1 = number % 10;
+    if (number > 10 && number < 20) {
+      return forms[2];
+    }
+    if (n1 > 1 && n1 < 5) {
+      return forms[1];
+    }
+    if (n1 === 1) {
+      return forms[0];
+    }
+    return forms[2];
+  }
+
+  static printValue() {
+    let list = [...document.querySelectorAll('.counter__value')];
     list = list.map((el) => {
-      const word = getCounterValue(el.value, el.dataset.value);
+      const word = Rooms.getCounterValue(el.value, el.dataset.value);
       return `${el.value} ${word}`;
     });
-    document.querySelector(".rooms__input").value = list.join(", ");
+    document.querySelector('.rooms__input').value = list.join(', ');
   }
 
   addEventListeners() {
-    this.dropDownListItems.forEach((list) =>
-      list.addEventListener("click", this.printValue)
-    );
+    this.dropDownListItems.forEach((list) => list.addEventListener('click', Rooms.printValue));
     this.buttons.forEach((btn) => {
-      this.isButtonDisabled(btn);
-      btn.addEventListener(
-        "click",
-        function () {
-          this.counter(btn);
-        }.bind(this)
-      );
+      Rooms.isButtonDisabled(btn);
+      btn.addEventListener('click', () => Rooms.counter(btn));
     });
   }
 }
