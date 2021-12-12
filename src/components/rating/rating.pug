@@ -1,5 +1,13 @@
-mixin rating({rating})
+mixin rating(rating)
+  -
+    const ratings = {
+      one: 'rating-1',
+      two: 'rating-2',
+      three: 'rating-3',
+      four: 'rating-4',
+      five: 'rating-5'
+    };
   .rating
-    select(class=`rating-${rating}`)
+    select(class=[ratings[rating]])
       each value in [1,2,3,4,5]
         option(value=value)= value

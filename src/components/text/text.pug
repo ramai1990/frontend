@@ -1,6 +1,19 @@
 mixin text(list)
   each item in list
-    - const { modifier, text, title } = item;
-    div(class=`text text__item_${modifier}`)
-      p(class=`text__${modifier}`)= text
+    -
+      const { modifier, type, text, title } = item;
+      const modifiers = {
+        h1: 'text__item_h1',
+        h2: 'text__item_h2',
+        h3: 'text__item_h3',
+        body: 'text__item_body'
+      };
+      const types = {
+        h1: 'text__h1',
+        h2: 'text__h2',
+        h3: 'text__h3',
+        body: 'text__body'
+      };
+    div(class=[modifiers[modifier], 'text'])
+      p(class=[types[type]])= text
         span.text__title= title

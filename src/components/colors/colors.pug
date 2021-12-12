@@ -1,6 +1,16 @@
 mixin colors(list)
   each item in list
-    - const { modifier, title, colorsName } = item;
+    -
+      const { theme, title, colorsName } = item;
+      const themes = {
+        shade100: 'colors__shade100',
+        shade75: 'colors__shade75',
+        shade50: 'colors__shade50',
+        shade25: 'colors__shade25',
+        shade5: 'colors__shade5',
+        purple: 'colors__purple',
+        green: 'colors__green',
+      };
     .colors
-      p(class=`colors__${modifier}`)= title
+      p(class=[themes[theme]])= title
         span.colors__text= colorsName

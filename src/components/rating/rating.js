@@ -13,4 +13,12 @@ $(function () {
     theme: 'css-stars'
   });
   $('.rating-3').barrating('set', 3);
+  $('.rating-2').barrating({
+    theme: 'css-stars'
+  });
+  $('.rating-2').barrating('set', 2);
+  $('.rating-1').barrating({
+    theme: 'css-stars'
+  });
+  $('.rating-1').barrating('set', 1);
 });

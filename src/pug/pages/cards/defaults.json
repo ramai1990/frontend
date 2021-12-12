@@ -4,7 +4,7 @@
     "text": "люкс",
     "price": "9 990₽",
     "counter": 145,
-    "rating": "5",
+    "rating": "five",
     "slides": [
       { "image": "luxe.jpg" },
       { "image": "luxe-2.png" },
@@ -16,7 +16,7 @@
     "number": 840,
     "price": "9 900₽",
     "counter": 65,
-    "rating": "4",
+    "rating": "four",
     "slides": [
       { "image": "card.jpg" },
       { "image": "card.jpg" },
