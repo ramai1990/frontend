@@ -25,22 +25,26 @@
       color: #fff;
       font-weight: 700;
     }
-    &_active {
+    &.active {
       color: #fff;
       font-weight: 700;
       background: $primary-gradient;
       border-radius: 22px;
+      transition: opacity 0.2s ease-in;
+      &:hover {
+        opacity: 0.5;
+      }
     }
   }
   &__next {
-    background-image: url("../img/arrow_forward-white.svg"),
+    background-image: url('../img/arrow_forward-white.svg'),
       linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 22px;
     transition: opacity 0.3s ease-in;
     &:hover {
-      background-image: url("../img/arrow_forward-white.svg"),
+      background-image: url('../img/arrow_forward-white.svg'),
         linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
       background-repeat: no-repeat;
       background-position: center;
