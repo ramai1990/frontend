@@ -6,7 +6,7 @@ block variables
   - const pageClass = '';
   - const pagination = require('../../../components/pagination/pagination.json');
   - const guest = require('../../../components/guest/guest.json');
-  - const cards = require('../../../components/card/cards.json');
+  - const cards = require('./cards.json');
   - const checkboxList = require('../../../components/checkbox-list/defaults.json');
   - const richCheckbox = require('../../../components/rich-checkbox/rich-checkbox.json');
   - const rooms = require('../../../components/rooms/default.json');
@@ -46,7 +46,8 @@ block content
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'дополнительные удобства'})
           .search-room__cards
             h1.search-room__title Номера, которые мы для вас подобрали
-            +card(cards)
+            each card in cards
+              +card(card)
             .search-room__pagination
               +pagination({
                 text: '1 – 12 из 100+ вариантов аренды',

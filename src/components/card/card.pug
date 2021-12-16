@@ -1,16 +1,23 @@
-mixin card(configs)
-  each config in configs
-    - const { number, text, price, counter, slides, rating } = config;
-    .card
-      +swiper({ slides })
-      .card__title
-        a(href='https://ramai1990.github.io/frontend/room').card__title_left
-          span.card__title_left-number №
-          | #{number}
-          span.card__title_left-text= text
-        p.card__title_right= price
-          span.card__title_right-text в сутки
-      .card__reviews
-        +rating(rating)
-        p.card__text= counter
-          span.card__text_feedback Отзывов
+mixin card(config)
+  -
+    const {
+      number = 001,
+      text = '',
+      price = '9 990₽',
+      counter = 100,
+      slides = [{image: 'luxe.jpg'}],
+      rating = 'five'
+    } = config;
+  .card
+    +swiper({ slides })
+    .card__title
+      a(href='https://ramai1990.github.io/frontend/room').card__title_left
+        span.card__title_left-number №
+        | #{number}
+        span.card__title_left-text= text
+      p.card__title_right= price
+        span.card__title_right-text в сутки
+    .card__reviews
+      +rating(rating)
+      p.card__text= counter
+        span.card__text_feedback Отзывов
