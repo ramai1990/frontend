@@ -23,12 +23,12 @@
     }
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       width: 20px;
       height: 20px;
       right: 12px;
       top: 2px;
-      background-image: url("../img/arrow-down.svg");
+      background-image: url('../img/arrow-down.svg');
       background-repeat: no-repeat;
       background-position: center;
       pointer-events: none;
@@ -43,7 +43,6 @@
     opacity: 0;
     z-index: -1;
     max-height: 0;
-    transition: all 0.1s ease-out;
     &.active {
       z-index: 1;
       opacity: 1;

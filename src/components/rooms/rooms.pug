@@ -1,12 +1,10 @@
-mixin rooms({rooms, title, isActive = false})
+mixin rooms({rooms, isActive = false})
   -
-    const classes = ['rooms__list'];
+    const classes = ['rooms'];
+    const classesList = ['rooms__list'];
     if (isActive) classes.push('active');
-  .rooms
-    h3.rooms__title= title
-    button(type='button' value='' data-btn='btn').rooms__button
-    input.rooms__input(type='text' value='2 спальни, 2 кровати...' name='количество комнат' readonly)
-    ul(class=classes data-list='list')
+  div(class=classes)
+    ul(class=classesList data-list='list')
       each item in rooms
         - const {subtitle, value, list } = item;
         li.rooms__list-item= subtitle

@@ -2,6 +2,7 @@ class Rooms {
   render(el) {
     let element = document.querySelector(el);
     if (element) {
+      this.totalValue = element.previousElementSibling;
       this.drop = element.querySelector('.rooms');
       this.dropDownListItems = element.querySelectorAll('.rooms__list-item');
       this.buttons = element.querySelectorAll('.counter__btn');
@@ -52,17 +53,17 @@ class Rooms {
     return forms[2];
   }
 
-  static printValue() {
+  printValue() {
     let list = [...document.querySelectorAll('.counter__value')];
     list = list.map((el) => {
       const word = Rooms.getCounterValue(el.value, el.dataset.value);
       return `${el.value} ${word}`;
     });
-    document.querySelector('.rooms__input').value = list.join(', ');
+    this.totalValue.value = list.join(', ');
   }
 
   addEventListeners() {
-    this.dropDownListItems.forEach((list) => list.addEventListener('click', Rooms.printValue));
+    this.dropDownListItems.forEach((list) => list.addEventListener('click', () => this.printValue()));
     this.buttons.forEach((btn) => {
       Rooms.isButtonDisabled(btn);
       btn.addEventListener('click', () => Rooms.counter(btn));

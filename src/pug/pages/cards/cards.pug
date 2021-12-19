@@ -22,4 +22,5 @@ block content
       .cards__item
         .cards__datepicker
         .cards__card
-          +card(cards)
+          each card in cards
+            +card(card)

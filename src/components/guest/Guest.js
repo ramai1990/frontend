@@ -11,7 +11,8 @@ class Guest {
   }
 
   render(el) {
-    this.dropdown = document.querySelector('.guest');
+    this.guest = document.querySelector('.guest');
+    this.dropdown = this.guest.parentElement;
     this.contents = document.querySelector('.guest__contents');
     this.currentValue = el.querySelector('.guest__value');
     this.btnIncrement = el.querySelector('.guest__btn[data-btn="plus"]');
@@ -22,7 +23,7 @@ class Guest {
     this.children = document.querySelector(
       '.guest__value[data-value="children"]'
     );
-    this.totalValue = document.querySelector('.guest__input');
+    this.totalValue = this.guest.previousElementSibling;
     this.btnApply = document.querySelector('.apply');
     this.btnClear = document.querySelector('.clear');
     Guest.isButtonActive(this.btnDecrement);
@@ -102,6 +103,8 @@ class Guest {
 
   close() {
     this.dropdown.classList.remove('active');
+    this.totalValue.classList.remove('active');
+    this.guest.classList.remove('active');
     this.contents.classList.remove('active');
   }
 

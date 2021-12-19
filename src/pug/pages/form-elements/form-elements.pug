@@ -28,29 +28,24 @@ block content
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
           .form-elements__guest
             h3.form-elements__text dropdown
-            +guest({
-              title: 'dropdown',
-              list: guest
-            })
+            +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
+              +guest({title: 'dropdown', list: guest})
           .form-elements__date
             h3.form-elements__text masked text field
             +imaskBirthday
-          .form-elements__datedropdown
-            +dropdown-date({
-              title: 'date dropdown',
-              type: 'from',
-              placeholder: 'ДД.ММ.ГГГГ'
-            })
-            +dropdown-date({
-              title: 'date dropdown',
-              type: 'to',
-              placeholder: '19.08.2019'
-            })
+          .form-elements__datedropdowns
+            .form-elements__datedropdown
+              h3.form-elements__text date dropdown
+              +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
+                +air-datepicker({type: 'from'})
+            .form-elements__datedropdown
+              h3.form-elements__text date dropdown
+              +dropdown({value: '19.08.2019', name: 'дата выезда'})
+                +air-datepicker({type: 'to'})
           .form-elements__filter-date
-            +dropdown-date({
-              title: 'filter date dropdown',
-              type: 'range'
-            })
+            h3.form-elements__text filter date dropdown
+            +dropdown({value: '19 авг - 23 авг', name: 'дата пребывания'})
+              +air-datepicker({type: 'range'})
           .form-elements__email
             h3.form-elements__text subscription text field
             +input({type: 'email', placeholder: 'Email', name: 'email'})
@@ -86,7 +81,7 @@ block content
             h3.form-elements__rating_title rate button
             .form-elements__rating_inner
               .form-elements__rating_item
-                +rating('one')
+                +rating('four')
               .form-elements__rating_item
                 +rating('five')
         .form-elements__item.form-elements__item_right
@@ -102,11 +97,15 @@ block content
       .form-elements__bottom
         .item
           .form-elements__dropdown
+            h3.form-elements__text dropdown
             span.form-elements__dropdown_description Default
-            +rooms({rooms, title: 'dropdown'})
+            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+              +rooms({rooms})
           .form-elements__dropdown.form-elements__dropdown_active
+            h3.form-elements__text dropdown
             span.form-elements__dropdown_description expanded
-            +rooms({rooms, title: 'dropdown', isActive: true})
+            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+              +rooms({rooms, isActive: true})
           .form-elements__list-checkbox
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
@@ -118,21 +117,15 @@ block content
         .item.item_center
           .form-elements__guest
             h3.form-elements__text dropdown
-            +guest({
-              title: 'dropdown',
-              list: guest,
-              isActive: true
-            })
+            +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
+              +guest({list: guest,isActive: true})
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
         .item.item_right
           .form-elements__guest
             h3.form-elements__text dropdown
-            +guest({
-              title: 'dropdown',
-              list: guest,
-              isActive: true
-            })
+            +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
+              +guest({list: guest, isActive: true})
           .form-elements__bullet-list
             h3.form-elements__bullet-list_title bullet list
             +bullet-list([

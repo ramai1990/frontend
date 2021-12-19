@@ -1,6 +1,6 @@
 .checkbox {
   & + & {
-    padding-top: 15px;
+    padding-top: 13px;
   }
   &__label {
     display: flex;
@@ -33,19 +33,19 @@
   &__text {
     &::after {
       position: absolute;
-      content: "";
+      content: '';
       width: 10px;
       height: 10px;
       left: 5px;
       top: 4px;
-      background-image: url("../img/check.svg");
+      background-image: url('../img/check.svg');
       background-repeat: no-repeat;
       opacity: 0;
       transition: opacity 0.2s ease-in;
     }
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       width: 20px;
       height: 20px;
       left: 0;

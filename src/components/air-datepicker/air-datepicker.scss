@@ -18,6 +18,32 @@
   &--pointer {
     display: none;
   }
+  &__range,
+  &__from,
+  &__to {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    left: -10000px;
+    top: 50px;
+    &.active {
+      left: -1px;
+      z-index: 10;
+      opacity: 1;
+    }
+  }
+  &__to.active {
+    left: -171px;
+    @include media(420px) {
+      left: 0;
+    }
+  }
+  &__from,
+  &__to {
+    @include media(400px) {
+      left: 0;
+    }
+  }
   &-button {
     order: 1;
     left: 0;
@@ -183,14 +209,14 @@
 }
 
 .js-clearRange,
-.js-clearForm,
+.js-clearFrom,
 .js-clearTo,
 .clearInline {
   color: #ece7ff;
 }
 .open {
   &.js-clearRange,
-  &.js-clearForm,
+  &.js-clearFrom,
   &.js-clearTo,
   &.clearInline {
     color: $purple;

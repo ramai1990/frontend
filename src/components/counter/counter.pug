@@ -2,6 +2,6 @@ mixin counter({ value, list })
   .counter
     button(type='button' data-direction='minus').counter__btn
       include ../../img/remove.svg
-    input(type='number' value=`${value}` data-value=`${list}`).counter__value
+    input(type='number' value=`${value}` data-value=`${list}` readonly).counter__value
     button(type='button' data-direction='plus').counter__btn
       include ../../img/plus.svg

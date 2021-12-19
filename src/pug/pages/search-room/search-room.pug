@@ -22,16 +22,16 @@ block content
         .search-room__grid
           .search-room__filter
             .search-room__date
-              +dropdown-date({
-                title: 'даты пребывания в отеле',
-                type: 'range'
-              })
+              h3.search-room__guest_title даты пребывания в отеле
+              +dropdown({value: '19 авг - 23 авг', name: 'дата пребывания'})
+                +air-datepicker({type: 'range'})
             .search-room__guest
               h3.search-room__guest_title гости
-              +guest({
-                title: 'гости',
-                list: guest
-              })
+              +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
+                +guest({
+                  title: 'гости',
+                  list: guest
+                })
             .search-room__range
               +range-slider({
                 title: 'диапазон цены',
@@ -42,7 +42,9 @@ block content
               +checkbox-list(checkboxList)
             .search-room__rich-checkbox
               +richCheckbox('доступность', richCheckbox)
-            +rooms({rooms, title: 'удобства номера'})
+            h3.search-room__guest_title удобства номера
+            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+              +rooms({rooms})
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'дополнительные удобства'})
           .search-room__cards
             h1.search-room__title Номера, которые мы для вас подобрали

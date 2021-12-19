@@ -2,23 +2,22 @@ mixin search-rooms({guest})
   .search-rooms
     form(action='https://ramai1990.github.io/frontend/search-room')
       h1.search-rooms__title Найдём номера под ваши пожелания
-      .search-rooms__date
-        +dropdown-date({
-          title: 'прибытие',
-          type: 'from',
-          placeholder: 'ДД.ММ.ГГГГ'
-        })
-        +dropdown-date({
-          title: 'выезд',
-          type: 'to',
-          placeholder: 'ДД.ММ.ГГГГ'
-        })
+      .search-rooms__dates
+        .search-rooms__date
+          h3.search-rooms__date_title прибытие
+          +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
+            +air-datepicker({type: 'from'})
+        .search-rooms__date
+          h3.search-rooms__date_title выезд
+          +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата выезда'})
+            +air-datepicker({type: 'to'})
       .search-rooms__guest
         h3.search-rooms__title-bottom Гости
-        +guest({
-          title: 'гости',
-          list: guest
-        })
+        +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
+          +guest({
+            title: 'гости',
+            list: guest
+          })
       +button({
         theme: 'arrow',
         size: 'lg',

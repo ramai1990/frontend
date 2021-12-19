@@ -10,23 +10,22 @@ mixin roomPrice(guest)
           p.price-title__right 9 990₽
             span.price-title__right_text в сутки
       .room-price__date
-        .search-rooms__date
-          +dropdown-date({
-            title: 'прибытие',
-            type: 'from',
-            placeholder: 'ДД.ММ.ГГГГ'
-          })
-          +dropdown-date({
-            title: 'выезд',
-            type: 'to',
-            placeholder: 'ДД.ММ.ГГГГ'
-          })
+        .search-rooms__dates
+          .search-rooms__date
+            h3.search-rooms__date_title прибытие
+            +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
+              +air-datepicker({type: 'from'})
+          .search-rooms__date
+            h3.search-rooms__date_title выезд
+            +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата выезда'})
+              +air-datepicker({type: 'to'})
       .room-price__guest
         h3.room-price__title гости
-        +guest({
-          title: 'гости',
-          list: guest
-        })
+        +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
+          +guest({
+            title: 'гости',
+            list: guest
+          })
       .room-price__amount
         p.room-price__text 9 990₽ х 4 суток
         input.room-price__input(type='text' value='39 960₽' disabled)

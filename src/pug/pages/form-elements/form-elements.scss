@@ -40,9 +40,13 @@
     .rooms {
       margin-bottom: 24px;
     }
+    .dropdown__value {
+      border-color: $dark50;
+    }
     &_description {
       position: absolute;
       right: 0;
+      top: 0;
       font-size: 1.2rem;
       text-transform: uppercase;
       color: $dark50;
@@ -74,12 +78,15 @@
   }
   &__guest {
     margin-bottom: 25px;
+    .dropdown__value {
+      border-color: $dark50;
+    }
   }
   &__date {
     @include elements-default;
     margin-bottom: 20px;
   }
-  &__datedropdown {
+  &__datedropdowns {
     max-width: 320px;
     display: flex;
     justify-content: space-between;
@@ -88,7 +95,13 @@
       flex-direction: column;
     }
   }
+  &__datedropdown {
+    & + & {
+      margin-left: 20px;
+    }
+  }
   &__filter-date {
+    max-width: 267px;
     margin-bottom: 42px;
   }
   &__email {
@@ -105,7 +118,7 @@
     }
   }
   &__checkbox-item {
-    margin-bottom: 43px;
+    margin-bottom: 46px;
   }
   &__checkbox-title {
     @include text-h3;
@@ -152,12 +165,12 @@
     }
   }
   &__advantages {
-    margin-top: 78px;
+    margin-top: 74px;
   }
   &__bottom {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     .item {
       width: 266px;
       &_center {
@@ -212,7 +225,7 @@
   }
   &__comment {
     align-self: flex-end;
-    margin-bottom: 21px;
+    margin-bottom: 16px;
     @include media(1070px) {
       margin-top: 40px;
     }
