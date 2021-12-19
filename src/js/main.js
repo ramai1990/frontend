@@ -38,10 +38,6 @@ submenu.render();
 const dropdown = new Dropdown();
 dropdown.render();
 
-// document
-//   .querySelectorAll('.dropdown-checkbox')
-//   .forEach((option) => new Dropdown(option));
-
 const rooms = new Rooms();
 rooms.render('.rooms');
 
@@ -50,32 +46,3 @@ document
   .forEach((option) => new Guest(option));
 
 document.querySelectorAll('.like').forEach((like) => new Like(like));
-
-// const buttons = document.querySelectorAll('.js-dropdown-value');
-
-// buttons.forEach((elem)=>{
-//   elem.addEventListener('click', function () {
-//     if (elem.classList.contains('active')) {
-//       toggleClass(elem);
-//     } else {
-//       buttons.forEach(el => removeClass(el));
-//       addClass(elem);
-//     }
-//   });
-// });
-
-// function toggleClass(el) {
-//   el.classList.toggle('active');
-//   el.parentElement.classList.toggle('active');
-//   el.nextElementSibling.classList.toggle('active');
-// }
-// function addClass(el) {
-//   el.classList.add('active');
-//   el.parentElement.classList.add('active');
-//   el.nextElementSibling.classList.add('active');
-// }
-// function removeClass(el) {
-//   el.classList.remove('active');
-//   el.parentElement.classList.remove('active');
-//   el.nextElementSibling.classList.remove('active');
-// }
