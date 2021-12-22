@@ -8,6 +8,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    @include media(1190px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    @include media(600px) {
+      display: block;
+    }
   }
   &__cards {
     max-width: 834px;
@@ -16,6 +22,18 @@
     grid-column-gap: 12px;
     grid-row-gap: 20px;
     padding-left: 59px;
+    @include media(1190px) {
+      max-width: 100%;
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media(880px) {
+      grid-template-columns: 1fr;
+    }
+    @include media(600px) {
+      display: block;
+      padding-left: 0;
+    }
   }
   &__checkbox {
     width: 266px;
@@ -32,9 +50,27 @@
     grid-column: 3 span;
     @include text-h1;
     margin-bottom: 2px;
+    @include media(1190px) {
+      grid-column: 2 span;
+    }
+    @include media(880px) {
+      grid-column: 1 span;
+      font-size: 1.7rem;
+    }
+    @include media(600px) {
+      font-size: 1.4rem;
+      text-align: center;
+      margin-bottom: 15px;
+    }
   }
   &__filter {
     max-width: 266px;
+    @include media(1190px) {
+      grid-column-start: 2;
+    }
+    @include media(600px) {
+      margin: 0 auto 40px;
+    }
   }
   &__date {
     margin-bottom: 23px;
@@ -56,62 +92,14 @@
     grid-column: 3 span;
     margin: 23px auto 72px;
     margin-right: 303px;
-  }
-}
-@media (max-width: 1190px) {
-  .search-room {
-    &__grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-    &__cards {
-      max-width: 100%;
-      width: 100%;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    &__filter {
-      grid-column-start: 2;
-    }
-    &__title {
-      grid-column: 2 span;
-    }
-    &__pagination {
+    @include media(1190px) {
       grid-column: 2 span;
       margin-left: auto;
       margin-right: auto;
     }
-  }
-}
-@media (max-width: 880px) {
-  .search-room {
-    &__cards {
-      grid-template-columns: 1fr;
-    }
-    &__title {
-      grid-column: 1 span;
-      font-size: 1.7rem;
-    }
-    &__pagination {
+    @include media(880px) {
       grid-column: 1 span;
       max-width: 242px;
-    }
-  }
-}
-@media (max-width: 600px) {
-  .search-room {
-    &__grid {
-      display: block;
-    }
-    &__cards {
-      display: block;
-      padding-left: 0;
-    }
-    &__filter {
-      margin: 0 auto 40px;
-    }
-    &__title {
-      font-size: 1.4rem;
-      text-align: center;
-      margin-bottom: 15px;
     }
   }
 }

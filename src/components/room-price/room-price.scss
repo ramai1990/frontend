@@ -7,6 +7,11 @@
   border-radius: 4px;
   padding: 30px;
   padding-top: 40px;
+  @include media(400px) {
+    max-width: 100%;
+    width: 100%;
+    padding: 15px;
+  }
   &__title {
     @include text-h3;
     margin-bottom: 5px;
@@ -26,10 +31,10 @@
       position: relative;
       &::after {
         position: absolute;
-        content: "";
+        content: '';
         width: 20px;
         height: 20px;
-        background-image: url("../img/ellipse.svg");
+        background-image: url('../img/ellipse.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -46,10 +51,10 @@
       padding-top: 8px;
       &::after {
         position: absolute;
-        content: "";
+        content: '';
         width: 20px;
         height: 20px;
-        background-image: url("../img/ellipse.svg");
+        background-image: url('../img/ellipse.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -90,13 +95,13 @@
     }
     &::after {
       position: absolute;
-      content: "";
+      content: '';
       width: 53%;
       height: 1px;
       bottom: 10px;
       left: 44%;
       transform: translateX(-44%);
-      background-image: url("../img/dots.svg");
+      background-image: url('../img/dots.svg');
     }
     &_input {
       width: 77px;
@@ -108,6 +113,9 @@
   &__text {
     color: $dark75;
     font-size: 1.4rem;
+    @include media(400px) {
+      width: 58%;
+    }
   }
 }
 .price-title {
@@ -142,16 +150,5 @@
       padding-left: 2px;
       text-transform: lowercase;
     }
-  }
-}
-
-@media (max-width: 400px) {
-  .room-price {
-    max-width: 100%;
-    width: 100%;
-    padding: 15px;
-  }
-  .room-price__text {
-    width: 58%;
   }
 }
