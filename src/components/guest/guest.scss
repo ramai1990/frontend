@@ -1,5 +1,5 @@
 .guest {
-  &.active {
+  &.visible {
     .guest__contents {
       opacity: 1;
       z-index: 2;
@@ -92,7 +92,9 @@
 
 .clear {
   opacity: 0.3;
+  pointer-events: none;
   &.active {
     opacity: 1;
+    pointer-events: auto;
   }
 }

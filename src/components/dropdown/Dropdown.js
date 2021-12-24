@@ -9,21 +9,21 @@ class Dropdown {
   }
 
   static toggleClass(el) {
-    el.classList.toggle('active');
-    el.parentElement.classList.toggle('active');
-    el.nextElementSibling.classList.toggle('active');
+    el.classList.toggle('visible');
+    el.parentElement.classList.toggle('visible');
+    el.nextElementSibling.classList.toggle('visible');
   }
 
   static addClass(el) {
-    el.classList.add('active');
-    el.parentElement.classList.add('active');
-    el.nextElementSibling.classList.add('active');
+    el.classList.add('visible');
+    el.parentElement.classList.add('visible');
+    el.nextElementSibling.classList.add('visible');
   }
 
   static removeClass(el) {
-    el.classList.remove('active');
-    el.parentElement.classList.remove('active');
-    el.nextElementSibling.classList.remove('active');
+    el.classList.remove('visible');
+    el.parentElement.classList.remove('visible');
+    el.nextElementSibling.classList.remove('visible');
   }
 
   close(e) {
@@ -37,7 +37,7 @@ class Dropdown {
       button.nextElementSibling.addEventListener('click', e => e.stopPropagation());
       button.addEventListener('click', (e) => {
         e.stopPropagation();
-        if (button.classList.contains('active')) {
+        if (button.classList.contains('visible')) {
           Dropdown.toggleClass(button);
         } else {
           this.buttons.forEach(el => Dropdown.removeClass(el));

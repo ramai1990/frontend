@@ -14,7 +14,7 @@
     transform: perspective(600px) rotateX(-90deg) translateY(30px);
     transition: transform 0.3s ease-in;
     border-radius: 4px;
-    &.active {
+    &.visible {
       transform: perspective(600px) rotateX(0deg) translateY(30px);
     }
   }

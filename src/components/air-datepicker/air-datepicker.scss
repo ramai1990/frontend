@@ -26,13 +26,13 @@
     opacity: 0;
     left: -10000px;
     top: 50px;
-    &.active {
+    &.visible {
       left: -1px;
       z-index: 10;
       opacity: 1;
     }
   }
-  &__to.active {
+  &__to.visible {
     left: -171px;
     @include media(420px) {
       left: 0;
@@ -213,12 +213,14 @@
 .js-clearTo,
 .clearInline {
   color: #ece7ff;
+  pointer-events: none;
 }
-.open {
+.active {
   &.js-clearRange,
   &.js-clearFrom,
   &.js-clearTo,
   &.clearInline {
     color: $purple;
+    pointer-events: auto;
   }
 }

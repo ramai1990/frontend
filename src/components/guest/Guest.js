@@ -13,7 +13,6 @@ class Guest {
   render(el) {
     this.guest = document.querySelector('.guest');
     this.dropdown = this.guest.parentElement;
-    this.contents = document.querySelector('.guest__contents');
     this.currentValue = el.querySelector('.guest__value');
     this.btnIncrement = el.querySelector('.guest__btn[data-btn="plus"]');
     this.btnDecrement = el.querySelector('.guest__btn[data-btn="minus"]');
@@ -102,10 +101,9 @@ class Guest {
   }
 
   close() {
-    this.dropdown.classList.remove('active');
-    this.totalValue.classList.remove('active');
-    this.guest.classList.remove('active');
-    this.contents.classList.remove('active');
+    this.dropdown.classList.remove('visible');
+    this.totalValue.classList.remove('visible');
+    this.guest.classList.remove('visible');
   }
 
   addEventListeners() {

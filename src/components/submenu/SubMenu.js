@@ -17,9 +17,9 @@ class SubMenu {
   open(e) {
     e.stopPropagation();
     let el = e.target;
-    if (el.classList.contains('active')) {
-      el.classList.toggle('active');
-      el.nextElementSibling.classList.toggle('active');
+    if (el.classList.contains('visible')) {
+      el.classList.toggle('visible');
+      el.nextElementSibling.classList.toggle('visible');
     } else {
       this.navLink.forEach((link) => {
         SubMenu.removeClass(link);
@@ -29,13 +29,13 @@ class SubMenu {
   }
 
   static removeClass(el) {
-    el.classList.remove('active');
-    el.nextElementSibling.classList.remove('active');
+    el.classList.remove('visible');
+    el.nextElementSibling.classList.remove('visible');
   }
 
   static addClass(el) {
-    el.classList.add('active');
-    el.nextElementSibling.classList.add('active');
+    el.classList.add('visible');
+    el.nextElementSibling.classList.add('visible');
   }
 
   close() {

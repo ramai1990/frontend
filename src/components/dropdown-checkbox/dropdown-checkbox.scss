@@ -15,7 +15,7 @@
     width: 266px;
     position: relative;
     padding: 5px 0;
-    &.active {
+    &.visible {
       &::before {
         transform: rotate(180deg);
       }
@@ -43,7 +43,7 @@
     opacity: 0;
     z-index: -1;
     max-height: 0;
-    &.active {
+    &.visible {
       z-index: 1;
       opacity: 1;
       max-height: 190px;
