@@ -1,3 +1,4 @@
 mixin checkbox-list(items)
   ul.checkbox-list
-    +checkbox(items)
+    each item in items
+      +checkbox(item)

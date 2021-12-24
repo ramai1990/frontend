@@ -1,15 +1,15 @@
 .advantages {
+  &:not(:last-child) {
+    border-bottom: 1px solid $dark10;
+  }
+  & + & {
+    margin-top: 17px;
+  }
   &__item {
     width: 280px;
     display: flex;
     align-items: center;
     padding-bottom: 20px;
-    &:not(:last-child) {
-      border-bottom: 1px solid $dark10;
-    }
-    & + & {
-      margin-top: 17px;
-    }
   }
   &__img {
     padding-right: 10px;

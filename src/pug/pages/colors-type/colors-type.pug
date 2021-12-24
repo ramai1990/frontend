@@ -12,6 +12,8 @@ block content
     .colors-type__container
       .colors-type__inner
         .colors-type__item
-          +colors(colors)
+          each color in colors
+            +colors(color)
         .colors-type__item
-          +text(textList)
+          each text in textList
+            +text(text)

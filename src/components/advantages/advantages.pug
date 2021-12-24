@@ -1,10 +1,9 @@
-mixin advantages(list)
+mixin advantages(config)
+  - const { title, text, img } = config;
   .advantages
-    each item in list
-      - const { title, text, img } = item;
-      .advantages__item
-        .advantages__img
-          img(src=require(`/img/${img}.svg`).default, alt="")
-        .advantages__content
-          h3.advantages__title= title
-          p.advantages__description= text
+    .advantages__item
+      .advantages__img
+        img(src=require(`/img/${img}.svg`).default, alt="")
+      .advantages__content
+        h3.advantages__title= title
+        p.advantages__description= text

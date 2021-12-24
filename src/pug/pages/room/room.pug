@@ -28,7 +28,8 @@ block content
               .room__content-item
                 .room__advantages
                   h2.room__title Сведения о номере
-                  +advantages(advantages)
+                  each advantage in advantages
+                    +advantages(advantage)
               .room__content-item
                 h2.room__title.room__title_statistics Впечатления от номера
                 +statistics

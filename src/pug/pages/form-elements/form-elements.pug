@@ -12,6 +12,7 @@ block variables
   - const pagination = require('../../../components/pagination/pagination.json');
   - const rooms = require('../../../components/rooms/default.json');
   - const checkboxListDropdown = require('../../../components/dropdown-checkbox/defaults.json');
+  - const advantages = require('./advantages.json');
 
 block content
   section.form-elements
@@ -135,17 +136,7 @@ block content
             ])
       .form-elements__footer
         .form-elements__advantages
-          +advantages([
-            {
-              'img': 'comfort',
-              'text': 'Шумопоглощающие стены',
-              'title': 'Комфорт'
-            },
-            {
-              'img': 'convenience',
-              'text': 'Окно в каждой из спален',
-              'title': 'Удобство'
-            },
-          ])
+          each advantage in advantages
+            +advantages(advantage)
         .form-elements__comment
           +comment([user1])
