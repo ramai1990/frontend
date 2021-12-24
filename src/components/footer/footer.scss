@@ -56,11 +56,11 @@
       color: $dark;
     }
   }
-  &__item_title {
+  &__item-title {
     @include text-h3;
     margin-bottom: 23px;
   }
-  &__item_title-last {
+  &__item-title-last {
     margin-bottom: 19px;
   }
   &__list {
@@ -73,7 +73,7 @@
     color: $dark75;
     line-height: 24px;
     font-size: 1.4rem;
-    &_left {
+    &-left {
       padding-top: 52px;
     }
     @include media(1070px) {
@@ -93,7 +93,7 @@
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    background-image: url("../img/arrow-forward.svg");
+    background-image: url('../img/arrow-forward.svg');
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px;

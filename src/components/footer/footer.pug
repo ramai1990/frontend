@@ -6,24 +6,24 @@ mixin footer(navigation = [])
         .footer__items
           .footer__logo
             +logo
-          p.footer__text.footer__text_left
+          p.footer__text.footer__text-left
             | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
         each nav in navigation
           - const { title, items } = nav;
           .footer__items
             ul.footer__list
-              li.footer__item_title
+              li.footer__item-title
                 a(href='https://ramai1990.github.io/frontend/404.html').footer__link= title
               each item in items
                 - const { href, title } = item;
                 li.footer__item
                   a(href=`${href}`).footer__link= title
         .footer__items
-          h3.footer__item_title.footer__item_title-last
+          h3.footer__item-title.footer__item-title-last
             a(href='https://ramai1990.github.io/frontend/404.html') Подписка
           p.footer__text
             | Получайте специальные предложения и новости сервиса
-          form.footer__email(action='/')
+          form.footer__email(action='https://ramai1990.github.io/frontend/sign-up')
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button.footer__btn(type='submit')
     +copy('Copyright © 2018 Toxin отель. Все права зачищены.')

@@ -22,15 +22,14 @@
     padding-right: 20px;
     margin-bottom: 15px;
   }
-
   &__text {
     color: $dark50;
     font-size: 1.4rem;
     font-weight: 700;
-    &_feedback {
-      font-weight: 400;
-      padding-left: 3px;
-    }
+  }
+  &__text-feedback {
+    font-weight: 400;
+    padding-left: 3px;
   }
   &__title {
     display: flex;
@@ -43,7 +42,7 @@
     margin-bottom: 19px;
     &::after {
       position: absolute;
-      content: "";
+      content: '';
       width: 230px;
       height: 1px;
       bottom: -12px;
@@ -51,31 +50,31 @@
       transform: translateX(-50%);
       background: $dark10;
     }
-    &_left {
-      font-size: 2rem;
-      font-weight: 700;
-      color: $dark;
-      &-number {
-        font-size: 1.4rem;
-        padding-right: 4px;
-      }
-      &-text {
-        font-size: 1.2rem;
-        color: $purple;
-        text-transform: uppercase;
-        padding-left: 8px;
-      }
-    }
-    &_right {
-      color: $dark50;
-      font-size: 1.4rem;
-      font-weight: 700;
-      &-text {
-        font-size: 1.2rem;
-        font-weight: 400;
-        padding-left: 2px;
-      }
-    }
+  }
+  &__title-left {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $dark;
+  }
+  &__title-left-number {
+    font-size: 1.4rem;
+    padding-right: 4px;
+  }
+  &__title-left-text {
+    font-size: 1.2rem;
+    color: $purple;
+    text-transform: uppercase;
+    padding-left: 8px;
+  }
+  &__title-right {
+    color: $dark50;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  &__title-right-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 2px;
   }
   @include media(600px) {
     margin: 0 auto;

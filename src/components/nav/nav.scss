@@ -30,7 +30,7 @@
     line-height: 17px;
     font-size: 1.4rem;
     &:hover {
-      .nav__link_dropdown {
+      .nav__link-dropdown {
         path {
           fill-opacity: 1;
         }
@@ -52,37 +52,38 @@
       text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
       color: $dark;
     }
-    &_dropdown {
-      position: relative;
-      padding-right: 20px;
-
-      &:after {
-        position: absolute;
-        display: block;
-        width: 8px;
-        height: 8px;
-        content: "";
-        top: 4px;
-        right: 3px;
-        border-right: 2px solid rgba(31, 32, 65, 0.3);
-        border-top: 2px solid rgba(31, 32, 65, 0.3);
-        transform: rotate(-226deg);
-        transition: border-color 0.15s ease-in, transform 0.25s ease-in;
-      }
-      &:hover::after {
-        text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
-        border-color: $dark;
-      }
-    }
     &.active {
       text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
       color: $dark;
-      &.nav__link_dropdown:after {
+      &.nav__link-dropdown:after {
         text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
         border-color: $dark;
         transform: rotate(-45deg);
         top: 7px;
       }
+    }
+  }
+
+  &__link-dropdown {
+    position: relative;
+    padding-right: 20px;
+
+    &:after {
+      position: absolute;
+      display: block;
+      width: 8px;
+      height: 8px;
+      content: '';
+      top: 4px;
+      right: 3px;
+      border-right: 2px solid rgba(31, 32, 65, 0.3);
+      border-top: 2px solid rgba(31, 32, 65, 0.3);
+      transform: rotate(-226deg);
+      transition: border-color 0.15s ease-in, transform 0.25s ease-in;
+    }
+    &:hover::after {
+      text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+      border-color: $dark;
     }
   }
 }

@@ -1,16 +1,15 @@
-mixin colors(list)
-  each item in list
-    -
-      const { theme, title, colorsName } = item;
-      const themes = {
-        shade100: 'colors__shade100',
-        shade75: 'colors__shade75',
-        shade50: 'colors__shade50',
-        shade25: 'colors__shade25',
-        shade5: 'colors__shade5',
-        purple: 'colors__purple',
-        green: 'colors__green',
-      };
-    .colors
-      p(class=[themes[theme]])= title
-        span.colors__text= colorsName
+mixin colors(config)
+  -
+    const { theme, title, colorsName } = config;
+    const themes = {
+      shade100: 'colors__title_shade100',
+      shade75: 'colors__title_shade75',
+      shade50: 'colors__title_shade50',
+      shade25: 'colors__title_shade25',
+      shade5: 'colors__title_shade5',
+      purple: 'colors__title_purple',
+      green: 'colors__title_green',
+    };
+  .colors
+    h3(class=['colors__title', themes[theme]])= title
+      span.colors__text= colorsName

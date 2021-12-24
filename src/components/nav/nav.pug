@@ -5,7 +5,7 @@ mixin nav(navigation)
         - const { submenu, name, items } = nav;
         if submenu
           li.nav__item.submenu
-            a.nav__link.nav__link_dropdown= name
+            a.nav__link.nav__link-dropdown= name
             ul.submenu__list
               each item in items
                 - const { name } = item;

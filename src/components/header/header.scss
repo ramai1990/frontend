@@ -45,10 +45,10 @@
     &:hover {
       text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
     }
-    &-link {
-      border-left: 1px solid $dark10;
-      padding: 7px 0 7px 20px;
-      margin-left: 27px;
-    }
+  }
+  &__user-link {
+    border-left: 1px solid $dark10;
+    padding: 7px 0 7px 20px;
+    margin-left: 27px;
   }
 }

@@ -2,16 +2,7 @@
   & + & {
     margin-top: 20px;
   }
-  &__text {
-    font-weight: 400;
-  }
-  &__shade100,
-  &__shade75,
-  &__shade50,
-  &__shade25,
-  &__shade5,
-  &__purple,
-  &__green {
+  &__title {
     height: 70px;
     display: flex;
     justify-content: center;
@@ -25,7 +16,7 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       left: 0;
       top: 50%;
       transform: translateY(-50%);
@@ -33,42 +24,47 @@
       height: 70px;
       border-radius: 6px;
     }
-  }
-  &__shade100 {
-    &::before {
-      background-color: $dark;
+
+    &_shade100 {
+      &::before {
+        background-color: $dark;
+      }
+    }
+    &_shade75 {
+      &::before {
+        background-color: $dark75;
+      }
+    }
+    &_shade50 {
+      &::before {
+        background-color: $dark50;
+      }
+    }
+    &_shade25 {
+      &::before {
+        background-color: $dark25;
+      }
+    }
+    &_shade5 {
+      &::before {
+        background-color: $dark5;
+      }
+    }
+    &_purple {
+      &::before {
+        background-color: $purple;
+      }
+    }
+    &_green {
+      &::before {
+        background-color: $green;
+      }
     }
   }
-  &__shade75 {
-    &::before {
-      background-color: $dark75;
-    }
+  &__text {
+    font-weight: 400;
   }
-  &__shade50 {
-    &::before {
-      background-color: $dark50;
-    }
-  }
-  &__shade25 {
-    &::before {
-      background-color: $dark25;
-    }
-  }
-  &__shade5 {
-    &::before {
-      background-color: $dark5;
-    }
-  }
-  &__purple {
-    &::before {
-      background-color: $purple;
-    }
-  }
-  &__green {
-    &::before {
-      background-color: $green;
-    }
-  }
+
   @include media(840px) {
     margin-bottom: 60px;
   }

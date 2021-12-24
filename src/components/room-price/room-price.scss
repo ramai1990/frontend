@@ -79,10 +79,6 @@
     text-align: right;
     padding: 0;
     padding-bottom: 4px;
-    &_amount {
-      width: 100%;
-      text-align: left;
-    }
   }
   &__total {
     font-size: 1.9rem;
@@ -103,12 +99,13 @@
       transform: translateX(-44%);
       background-image: url('../img/dots.svg');
     }
-    &_input {
-      width: 77px;
-      color: $dark;
-      font-size: 1.9rem;
-      font-weight: 700;
-    }
+  }
+
+  &__total-input {
+    width: 77px;
+    color: $dark;
+    font-size: 1.9rem;
+    font-weight: 700;
   }
   &__text {
     color: $dark75;
@@ -127,28 +124,28 @@
     font-size: 2.4rem;
     font-weight: 700;
     color: $dark;
-    &_number {
-      font-size: 1.4rem;
-      padding-right: 4px;
-    }
-    &_text {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: $purple;
-      text-transform: uppercase;
-      padding-left: 7px;
-    }
+  }
+  &__left-number {
+    font-size: 1.4rem;
+    padding-right: 4px;
+  }
+  &__left-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $purple;
+    text-transform: uppercase;
+    padding-left: 7px;
   }
   &__right {
     font-size: 1.4rem;
     font-weight: 700;
     color: $dark50;
     padding-top: 4px;
-    &_text {
-      font-size: 1.2rem;
-      font-weight: 400;
-      padding-left: 2px;
-      text-transform: lowercase;
-    }
+  }
+  &__right-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 2px;
+    text-transform: lowercase;
   }
 }

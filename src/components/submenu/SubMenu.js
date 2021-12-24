@@ -7,7 +7,7 @@ class SubMenu {
   render() {
     this.navList = document.querySelector('.nav__list');
     if (this.navList) {
-      this.navLink = this.navList.querySelectorAll('.nav__link_dropdown');
+      this.navLink = this.navList.querySelectorAll('.nav__link-dropdown');
     }
     this.submenu = document.querySelectorAll('.submenu__list');
     this.menu = document.querySelector('.submenu');

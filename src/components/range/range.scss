@@ -19,13 +19,13 @@
     font-size: 1.2rem;
     color: $dark50;
   }
-}
-.range__from,
-.range__to {
-  font-size: 1.2rem;
-  color: $dark50;
-  width: 52px;
-  border: none;
+  &__from,
+  &__to {
+    font-size: 1.2rem;
+    color: $dark50;
+    width: 52px;
+    border: none;
+  }
 }
 
 .noUi-connect {

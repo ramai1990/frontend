@@ -1,25 +1,21 @@
 [
   {
     "title": "H1",
-    "modifier": "h1",
     "type": "h1",
     "text": "This one is the sub-section or widget title"
   },
   {
     "title": "H2",
-    "modifier": "h2",
     "type": "h2",
     "text": "Next one is the item title inside widgets"
   },
   {
     "title": "H3",
-    "modifier": "h3",
     "type": "h3",
     "text": "This is a label or CTA text"
   },
   {
     "title": "Body",
-    "modifier": "body",
     "type": "body",
     "text": "This is the body text which is used for most of the design, like paragraphs, lists, etc."
   }

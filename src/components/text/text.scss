@@ -3,13 +3,11 @@
   height: 70px;
   line-height: 29px;
   position: relative;
-  &__item {
-    &_h1 {
-      margin-bottom: 41px;
-    }
-    &_h2 {
-      margin-bottom: 20px;
-    }
+  &__item-h1 {
+    margin-bottom: 41px;
+  }
+  &__item-h2 {
+    margin-bottom: 20px;
   }
   &__title {
     position: absolute;

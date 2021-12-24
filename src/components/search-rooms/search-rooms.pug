@@ -4,11 +4,11 @@ mixin search-rooms({guest})
       h1.search-rooms__title Найдём номера под ваши пожелания
       .search-rooms__dates
         .search-rooms__date
-          h3.search-rooms__date_title прибытие
+          h3.search-rooms__date-title прибытие
           +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
             +air-datepicker({type: 'from'})
         .search-rooms__date
-          h3.search-rooms__date_title выезд
+          h3.search-rooms__date-title выезд
           +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата выезда'})
             +air-datepicker({type: 'to'})
       .search-rooms__guest
