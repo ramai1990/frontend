@@ -1,5 +1,9 @@
 .submenu {
-  position: relative;
+  &.visible {
+    .submenu__list {
+      transform: perspective(600px) rotateX(0deg) translateY(30px);
+    }
+  }
   &__list {
     width: 100%;
     display: flex;
@@ -14,9 +18,6 @@
     transform: perspective(600px) rotateX(-90deg) translateY(30px);
     transition: transform 0.3s ease-in;
     border-radius: 4px;
-    &.visible {
-      transform: perspective(600px) rotateX(0deg) translateY(30px);
-    }
   }
   &__item {
     & + & {

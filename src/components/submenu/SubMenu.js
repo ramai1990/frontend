@@ -10,7 +10,7 @@ class SubMenu {
       this.navLink = this.navList.querySelectorAll('.nav__link-dropdown');
     }
     this.submenu = document.querySelectorAll('.submenu__list');
-    this.menu = document.querySelector('.submenu');
+    this.menu = document.querySelector('.js-submenu');
     this.addEventListeners();
   }
 

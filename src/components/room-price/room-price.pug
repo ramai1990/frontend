@@ -1,24 +1,22 @@
 mixin roomPrice(guest)
   .room-price
     form(action='https://ramai1990.github.io/frontend/sign-in')
-      .room-price__title
-        .price-title
-          h3.price-title__left
-            span.price-title__left-number №
-            | 888
-            span.price-title__left-text люкс
-          p.price-title__right 9 990₽
-            span.price-title__right-text в сутки
-      .room-price__date
-        .search-rooms__dates
-          .search-rooms__date
-            h3.search-rooms__date-title прибытие
-            +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
-              +air-datepicker({type: 'from'})
-          .search-rooms__date
-            h3.search-rooms__date-title выезд
-            +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата выезда'})
-              +air-datepicker({type: 'to'})
+      .room-price__header
+        h3.room-price__header-left
+          span.room-price__header-left-number №
+          | 888
+          span.room-price__header-left-text люкс
+        p.room-price__header-right 9 990₽
+          span.room-price__header-right-text в сутки
+      .room-price__dates
+        .room-price__date
+          h3.room-price__title прибытие
+          +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
+            +air-datepicker({type: 'from'})
+        .room-price__date
+          h3.room-price__title выезд
+          +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата выезда'})
+            +air-datepicker({type: 'to'})
       .room-price__guest
         h3.room-price__title гости
         +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})

@@ -35,7 +35,7 @@ new AirDatepicker('.air-datepicker__range', {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector('.js-applyRange').classList.add('active');
+      document.querySelector('.js-clearRange').classList.add('active');
     }
     document.querySelector('.air-datepicker__range').previousElementSibling.value = document.querySelector('.air-datepicker__range').value;
   }
@@ -121,10 +121,10 @@ new AirDatepicker('.cards__datepicker', {
   buttons: [
     {
       content: 'Очистить',
-      className: 'js-clearRange',
+      className: 'js-clearInline',
       onClick(dp) {
         dp.clear();
-        document.querySelector('.js-clearRange').classList.remove('active');
+        document.querySelector('.js-clearInline').classList.remove('active');
       }
     },
     {
@@ -138,7 +138,7 @@ new AirDatepicker('.cards__datepicker', {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector('.js-clearRange').classList.add('active');
+      document.querySelector('.js-clearInline').classList.add('active');
     }
   }
 });

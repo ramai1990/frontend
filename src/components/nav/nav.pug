@@ -4,13 +4,9 @@ mixin nav(navigation)
       each nav in navigation
         - const { submenu, name, items } = nav;
         if submenu
-          li.nav__item.submenu
+          li.nav__item.js-submenu
             a.nav__link.nav__link-dropdown= name
-            ul.submenu__list
-              each item in items
-                - const { name } = item;
-                li.submenu__item
-                  a(href='https://ramai1990.github.io/frontend/404.html').submenu__link= name
+            +submenu({ items })
         else
           li.nav__item
             a(href='https://ramai1990.github.io/frontend/404.html').nav__link= name

@@ -12,11 +12,63 @@
     width: 100%;
     padding: 15px;
   }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 21px;
+  }
+  &__header-left {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $dark;
+  }
+  &__header-left-number {
+    font-size: 1.4rem;
+    padding-right: 4px;
+  }
+  &__header-left-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $purple;
+    text-transform: uppercase;
+    padding-left: 7px;
+  }
+  &__header-right {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $dark50;
+    padding-top: 4px;
+  }
+  &__header-right-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 2px;
+    text-transform: lowercase;
+  }
   &__title {
     @include text-h3;
     margin-bottom: 5px;
   }
-
+  &__dates {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    @include media(420px) {
+      flex-direction: column;
+    }
+  }
+  &__date {
+    & + & {
+      margin-left: 20px;
+    }
+    @include media(420px) {
+      & + & {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  }
   &__amount,
   &__services,
   &__additional,
@@ -113,39 +165,5 @@
     @include media(400px) {
       width: 58%;
     }
-  }
-}
-.price-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 21px;
-  &__left {
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: $dark;
-  }
-  &__left-number {
-    font-size: 1.4rem;
-    padding-right: 4px;
-  }
-  &__left-text {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: $purple;
-    text-transform: uppercase;
-    padding-left: 7px;
-  }
-  &__right {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: $dark50;
-    padding-top: 4px;
-  }
-  &__right-text {
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding-left: 2px;
-    text-transform: lowercase;
   }
 }

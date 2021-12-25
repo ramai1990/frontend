@@ -29,6 +29,9 @@
     color: $dark50;
     line-height: 17px;
     font-size: 1.4rem;
+    &.js-submenu {
+      position: relative;
+    }
     &:hover {
       .nav__link-dropdown {
         path {

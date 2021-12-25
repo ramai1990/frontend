@@ -1,0 +1,7 @@
+mixin submenu({ items })
+  .submenu
+    ul.submenu__list
+      each item in items
+        - const { name } = item;
+        li.submenu__item
+          a(href='https://ramai1990.github.io/frontend/404.html').submenu__link= name

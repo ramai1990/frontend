@@ -1,0 +1,41 @@
+.room-intro {
+  display: grid;
+  min-height: 485px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  &__center,
+  &__top,
+  &__bottom {
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__center {
+    background-image: url('../img/room-1.jpg');
+    grid-column: 3 span;
+    grid-row: 2 span;
+    @include media(940px) {
+      grid-column: 4 span;
+    }
+  }
+  &__top,
+  &__bottom {
+    grid-column: 1 span;
+    height: 100%;
+    @include media(940px) {
+      grid-column: 2 span;
+      grid-row: 2 span;
+      width: 100%;
+    }
+    @include media(540px) {
+      grid-column: 4 span;
+      grid-row: 2 span;
+    }
+  }
+  &__top {
+    background-image: url('../img/room-2.jpg');
+  }
+  &__bottom {
+    background-image: url('../img/room-3.jpg');
+  }
+}

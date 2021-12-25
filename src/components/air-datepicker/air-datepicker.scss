@@ -211,7 +211,7 @@
 .js-clearRange,
 .js-clearFrom,
 .js-clearTo,
-.clearInline {
+.js-clearInline {
   color: #ece7ff;
   pointer-events: none;
 }
@@ -219,7 +219,7 @@
   &.js-clearRange,
   &.js-clearFrom,
   &.js-clearTo,
-  &.clearInline {
+  &.js-clearInline {
     color: $purple;
     pointer-events: auto;
   }

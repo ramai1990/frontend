@@ -1,0 +1,26 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  @include media(1070px) {
+    margin: 0;
+    justify-content: center;
+  }
+  &__item {
+    & + & {
+      margin-left: 22px;
+    }
+  }
+  &__link {
+    display: block;
+    path {
+      transition: opacity 0.2s ease-in;
+    }
+    &:hover {
+      path {
+        opacity: 0.5;
+      }
+    }
+  }
+}

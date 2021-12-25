@@ -84,19 +84,19 @@
       flex-direction: column;
       align-items: center;
     }
-    &__title-left,
-    &__title-right {
-      font-weight: 700;
-      font-size: 1.9rem;
-      color: $dark;
-      margin-bottom: 20px;
-      @include media(665px) {
-        text-align: left;
-      }
+  }
+  &__rules-title-left,
+  &__rules-title-right {
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: $dark;
+    margin-bottom: 20px;
+    @include media(665px) {
+      text-align: left;
     }
-    &__title-left {
-      margin-left: 20px;
-    }
+  }
+  &__rules-title-left {
+    margin-left: 20px;
   }
   &__rules-item {
     max-width: 340px;
@@ -114,46 +114,5 @@
     .room__title {
       margin-bottom: 0;
     }
-  }
-}
-.room-intro {
-  display: grid;
-  min-height: 485px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  &__center,
-  &__top,
-  &__bottom {
-    background-position: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  &__center {
-    background-image: url('../img/room-1.jpg');
-    grid-column: 3 span;
-    grid-row: 2 span;
-    @include media(940px) {
-      grid-column: 4 span;
-    }
-  }
-  &__top,
-  &__bottom {
-    grid-column: 1 span;
-    height: 100%;
-    @include media(940px) {
-      grid-column: 2 span;
-      grid-row: 2 span;
-      width: 100%;
-    }
-    @include media(540px) {
-      grid-column: 4 span;
-      grid-row: 2 span;
-    }
-  }
-  &__top {
-    background-image: url('../img/room-2.jpg');
-  }
-  &__bottom {
-    background-image: url('../img/room-3.jpg');
   }
 }
