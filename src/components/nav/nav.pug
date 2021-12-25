@@ -1,11 +1,11 @@
 mixin nav(navigation)
   nav.nav
-    ul.nav__list
+    ul.nav__list.js-nav-list
       each nav in navigation
         - const { submenu, name, items } = nav;
         if submenu
           li.nav__item.js-submenu
-            a.nav__link.nav__link-dropdown= name
+            a.nav__link.nav__link-dropdown.js-nav-link-dropdown= name
             +submenu({ items })
         else
           li.nav__item

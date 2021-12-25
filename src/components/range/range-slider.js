@@ -3,11 +3,11 @@
 import noUiSlider from 'nouislider';
 import wNumb from 'wnumb';
 (function () {
-  const rangeElements = document.querySelector('.range');
+  const rangeElements = document.querySelector('.js-range');
   if (rangeElements) {
-    let keypressSlider = document.querySelector('.range__keypress');
-    let input0 = document.querySelector('.range__from');
-    let input1 = document.querySelector('.range__to');
+    let keypressSlider = document.querySelector('.js-range-keypress');
+    let input0 = document.querySelector('.js-range-from');
+    let input1 = document.querySelector('.js-range-to');
     let inputs = [input0, input1];
 
     noUiSlider.create(keypressSlider, {

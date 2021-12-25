@@ -3,9 +3,9 @@ class Rooms {
     let element = document.querySelector(el);
     if (element) {
       this.totalValue = element.previousElementSibling;
-      this.drop = element.querySelector('.rooms');
-      this.dropDownListItems = element.querySelectorAll('.rooms__list-item');
-      this.buttons = element.querySelectorAll('.counter__btn');
+      this.drop = element.querySelector('.js-rooms');
+      this.dropDownListItems = element.querySelectorAll('.js-rooms-list-item');
+      this.buttons = element.querySelectorAll('.js-counter-btn');
       this.addEventListeners();
     }
   }
@@ -14,7 +14,7 @@ class Rooms {
     const minBtn = element.parentElement.querySelector(
       '[data-direction="minus"]'
     );
-    const input = element.parentElement.querySelector('.counter__value');
+    const input = element.parentElement.querySelector('.js-counter-value');
     if (+input.value === 0) {
       minBtn.classList.remove('active');
     } else {
@@ -24,7 +24,7 @@ class Rooms {
 
   static counter(btn) {
     const direction = btn.dataset.direction;
-    const input = btn.parentElement.querySelector('.counter__value');
+    const input = btn.parentElement.querySelector('.js-counter-value');
     const currentValue = +input.value;
     if (direction === 'minus') {
       input.value = currentValue - 1 > 0 ? currentValue - 1 : 0;
@@ -54,7 +54,7 @@ class Rooms {
   }
 
   printValue() {
-    let list = [...document.querySelectorAll('.counter__value')];
+    let list = [...document.querySelectorAll('.js-counter-value')];
     list = list.map((el) => {
       const word = Rooms.getCounterValue(el.value, el.dataset.value);
       return `${el.value} ${word}`;

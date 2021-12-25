@@ -39,10 +39,10 @@ const dropdown = new Dropdown();
 dropdown.render();
 
 const rooms = new Rooms();
-rooms.render('.rooms');
+rooms.render('.js-rooms');
 
 document
-  .querySelectorAll('.guest__option')
+  .querySelectorAll('.js-guest-option')
   .forEach((option) => new Guest(option));
 
-document.querySelectorAll('.like').forEach((like) => new Like(like));
+document.querySelectorAll('.js-like').forEach((like) => new Like(like));

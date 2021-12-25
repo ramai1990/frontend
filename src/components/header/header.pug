@@ -5,7 +5,7 @@ mixin header({navigation, status})
         +logo
       +nav(navigation)
       if status === 'non-authorized'
-        .header__buttons
+        .header__buttons.js-header-buttons
           .header__button
             +button-link({
               theme: 'border',

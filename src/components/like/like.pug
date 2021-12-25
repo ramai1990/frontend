@@ -1,4 +1,4 @@
 mixin like({value, checked=false})
-  label.like
-    input(type='checkbox' checked=checked name='likes').like__input
-    span.like__counter= value
+  label.like.js-like
+    input(type='checkbox' checked=checked name='likes').like__input.js-like-input
+    span.like__counter.js-like-counter= value

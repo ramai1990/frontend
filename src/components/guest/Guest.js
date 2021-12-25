@@ -11,20 +11,20 @@ class Guest {
   }
 
   render(el) {
-    this.guest = document.querySelector('.guest');
+    this.guest = document.querySelector('.js-guest');
     this.dropdown = this.guest.parentElement;
-    this.currentValue = el.querySelector('.guest__value');
-    this.btnIncrement = el.querySelector('.guest__btn[data-btn="plus"]');
-    this.btnDecrement = el.querySelector('.guest__btn[data-btn="minus"]');
+    this.currentValue = el.querySelector('.js-guest-value');
+    this.btnIncrement = el.querySelector('.js-guest-btn[data-btn="plus"]');
+    this.btnDecrement = el.querySelector('.js-guest-btn[data-btn="minus"]');
     this.values = document.querySelectorAll(
-      '.guest__value[data-value="guest"]'
+      '.js-guest-value[data-value="guest"]'
     );
     this.children = document.querySelector(
-      '.guest__value[data-value="children"]'
+      '.js-guest-value[data-value="children"]'
     );
     this.totalValue = this.guest.previousElementSibling;
-    this.btnApply = document.querySelector('.apply');
-    this.btnClear = document.querySelector('.clear');
+    this.btnApply = document.querySelector('.js-apply');
+    this.btnClear = document.querySelector('.js-clear');
     Guest.isButtonActive(this.btnDecrement);
     this.addEventListeners();
   }

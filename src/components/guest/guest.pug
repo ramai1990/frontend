@@ -1,6 +1,6 @@
 mixin guest({title, list, isActive = false})
   -
-    const classesGuest = ['guest'];
+    const classesGuest = ['guest', 'js-guest'];
     const classesContents = ['guest__contents'];
     const classesArray = [classesGuest, classesContents];
     if (isActive) classesGuest.push('visible');
@@ -8,13 +8,13 @@ mixin guest({title, list, isActive = false})
     div(class=classesContents)
       each item in list
         - const { title, value, dataset } = item;
-        .guest__option
+        .guest__option.js-guest-option
           span.guest__title= title
-          button(type='button' data-btn='minus').guest__btn
+          button(type='button' data-btn='minus').guest__btn.js-guest-btn
             include ../../img/remove.svg
-          input(type='text' value=`${value}` data-value=`${dataset}` readonly).guest__value
-          button(type='button' data-btn='plus').guest__btn
+          input(type='text' value=`${value}` data-value=`${dataset}` readonly).guest__value.js-guest-value
+          button(type='button' data-btn='plus').guest__btn.js-guest-btn
             include ../../img/plus.svg
       .guest__buttons
-        button(type='button').clear.guest__clear очистить
-        button(type='button').apply.guest__apply применить
+        button(type='button').clear.guest__clear.js-clear очистить
+        button(type='button').apply.guest__apply.js-apply применить

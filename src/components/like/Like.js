@@ -5,8 +5,8 @@ class Like {
   }
 
   render(el) {
-    this.input = el.querySelector('.like__input');
-    this.counter = el.querySelector('.like__counter');
+    this.input = el.querySelector('.js-like-input');
+    this.counter = el.querySelector('.js-like-counter');
     this.value = parseInt(this.counter.textContent, 10);
     this.updateValue();
     this.input.addEventListener('change', this.updateValue);

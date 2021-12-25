@@ -1,7 +1,7 @@
 import AirDatepicker from 'air-datepicker';
 
 // eslint-disable-next-line no-new
-new AirDatepicker('.air-datepicker__range', {
+new AirDatepicker('.js-air-datepicker-range', {
   minDate: new Date(),
   range: true,
   multipleDatesSeparator: ' - ',
@@ -27,9 +27,9 @@ new AirDatepicker('.air-datepicker__range', {
       content: 'Применить',
       className: 'js-applyRange',
       onClick() {
-        document.querySelector('.air-datepicker__range').classList.remove('visible');
-        document.querySelector('.air-datepicker__range').previousElementSibling.classList.remove('visible');
-        document.querySelector('.air-datepicker__range').parentElement.classList.remove('visible');
+        document.querySelector('.js-air-datepicker-range').classList.remove('visible');
+        document.querySelector('.js-air-datepicker-range').previousElementSibling.classList.remove('visible');
+        document.querySelector('.js-air-datepicker-range').parentElement.classList.remove('visible');
       }
     }
   ],
@@ -37,12 +37,12 @@ new AirDatepicker('.air-datepicker__range', {
     if (date) {
       document.querySelector('.js-clearRange').classList.add('active');
     }
-    document.querySelector('.air-datepicker__range').previousElementSibling.value = document.querySelector('.air-datepicker__range').value;
+    document.querySelector('.js-air-datepicker-range').previousElementSibling.value = document.querySelector('.js-air-datepicker-range').value;
   }
 });
 
 // eslint-disable-next-line no-new
-new AirDatepicker('.air-datepicker__from', {
+new AirDatepicker('.js-air-datepicker-from', {
   minDate: new Date(),
   navTitles: {
     days: '<h2>MMMM yyyy</h2>'
@@ -60,9 +60,9 @@ new AirDatepicker('.air-datepicker__from', {
       content: 'Применить',
       className: 'js-applyForm',
       onClick() {
-        document.querySelector('.air-datepicker__from').classList.remove('visible');
-        document.querySelector('.air-datepicker__from').previousElementSibling.classList.remove('visible');
-        document.querySelector('.air-datepicker__from').parentElement.classList.remove('visible');
+        document.querySelector('.js-air-datepicker-from').classList.remove('visible');
+        document.querySelector('.js-air-datepicker-from').previousElementSibling.classList.remove('visible');
+        document.querySelector('.js-air-datepicker-from').parentElement.classList.remove('visible');
       }
     }
   ],
@@ -70,12 +70,12 @@ new AirDatepicker('.air-datepicker__from', {
     if (date) {
       document.querySelector('.js-clearFrom').classList.add('active');
     }
-    document.querySelector('.air-datepicker__from').previousElementSibling.value = document.querySelector('.air-datepicker__from').value;
+    document.querySelector('.js-air-datepicker-from').previousElementSibling.value = document.querySelector('.js-air-datepicker-from').value;
   }
 });
 
 // eslint-disable-next-line no-new
-new AirDatepicker('.air-datepicker__to', {
+new AirDatepicker('.js-air-datepicker-to', {
   minDate: new Date(),
   position: 'bottom left',
   navTitles: {
@@ -96,9 +96,9 @@ new AirDatepicker('.air-datepicker__to', {
       },
       onClick(dp) {
         dp.hide();
-        document.querySelector('.air-datepicker__to').classList.remove('visible');
-        document.querySelector('.air-datepicker__to').previousElementSibling.classList.remove('visible');
-        document.querySelector('.air-datepicker__to').parentElement.classList.remove('visible');
+        document.querySelector('.js-air-datepicker-to').classList.remove('visible');
+        document.querySelector('.js-air-datepicker-to').previousElementSibling.classList.remove('visible');
+        document.querySelector('.js-air-datepicker-to').parentElement.classList.remove('visible');
       }
     }
   ],
@@ -106,12 +106,12 @@ new AirDatepicker('.air-datepicker__to', {
     if (date) {
       document.querySelector('.js-clearTo').classList.add('active');
     }
-    document.querySelector('.air-datepicker__to').previousElementSibling.value = document.querySelector('.air-datepicker__to').value;
+    document.querySelector('.js-air-datepicker-to').previousElementSibling.value = document.querySelector('.js-air-datepicker-to').value;
   }
 });
 
 // eslint-disable-next-line no-new
-new AirDatepicker('.cards__datepicker', {
+new AirDatepicker('.js-air-datepicker-inline', {
   minDate: new Date(),
   range: true,
   multipleDatesSeparator: ' - ',

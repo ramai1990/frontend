@@ -5,11 +5,11 @@ class SubMenu {
   }
 
   render() {
-    this.navList = document.querySelector('.nav__list');
+    this.navList = document.querySelector('.js-nav-list');
     if (this.navList) {
-      this.navLink = this.navList.querySelectorAll('.nav__link-dropdown');
+      this.navLink = this.navList.querySelectorAll('.js-nav-link-dropdown');
     }
-    this.submenu = document.querySelectorAll('.submenu__list');
+    this.submenu = document.querySelectorAll('.js-submenu-list');
     this.menu = document.querySelector('.js-submenu');
     this.addEventListeners();
   }

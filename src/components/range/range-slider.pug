@@ -1,9 +1,9 @@
 mixin range-slider({ title, span })
-  .range
+  .range.js-range
     h3.range__title= title
     .range__wrapper
-      input.range__from(type='text')
+      input.range__from.js-range-from(type='text')
       span.range__dash -
-      input.range__to(type='text')
-    .range__keypress
+      input.range__to.js-range-to(type='text')
+    .range__keypress.js-range-keypress
     span.range__text= span
