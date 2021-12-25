@@ -3,7 +3,7 @@ mixin guest({title, list, isActive = false})
     const classesGuest = ['guest'];
     const classesContents = ['guest__contents'];
     const classesArray = [classesGuest, classesContents];
-    if (isActive) classesGuest.push('active');
+    if (isActive) classesGuest.push('visible');
   div(class=classesGuest)
     div(class=classesContents)
       each item in list

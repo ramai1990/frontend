@@ -1,7 +1,8 @@
 mixin header({navigation, status})
   header.header
     .header__container
-      +logo
+      .header__logo
+        +logo
       +nav(navigation)
       if status === 'non-authorized'
         .header__buttons

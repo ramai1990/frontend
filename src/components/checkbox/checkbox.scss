@@ -1,7 +1,4 @@
 .checkbox {
-  & + & {
-    padding-top: 13px;
-  }
   &__label {
     display: flex;
     flex-direction: column;

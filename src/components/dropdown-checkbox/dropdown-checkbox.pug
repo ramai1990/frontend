@@ -3,8 +3,8 @@ mixin dropdown-checkbox({checkboxList, title, isActive = false})
     const classesTitle = ['dropdown-checkbox__title', 'js-dropdown-value'];
     const classesList = ['dropdown-checkbox__list'];
     if (isActive) {
-      classesTitle.push('active');
-      classesList.push('active');
+      classesTitle.push('visible');
+      classesList.push('visible');
     }
   .dropdown-checkbox
     h3(class=classesTitle)= title

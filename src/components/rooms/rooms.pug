@@ -2,7 +2,7 @@ mixin rooms({rooms, isActive = false})
   -
     const classes = ['rooms'];
     const classesList = ['rooms__list'];
-    if (isActive) classes.push('active');
+    if (isActive) classes.push('visible');
   div(class=classes)
     ul(class=classesList data-list='list')
       each item in rooms

@@ -3,9 +3,6 @@
   display: flex;
   color: $dark75;
   position: relative;
-  & + & {
-    margin-top: 21px;
-  }
   &__content {
     padding-left: 9px;
     padding-top: 5px;

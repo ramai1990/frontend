@@ -3,11 +3,13 @@
   height: 70px;
   line-height: 29px;
   position: relative;
-  &__item-h1 {
-    margin-bottom: 41px;
-  }
   &__item-h2 {
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  &__item-h3 {
+    display: flex;
+    align-items: center;
   }
   &__title {
     position: absolute;
@@ -27,9 +29,11 @@
   &__h2 {
     @include text-h2;
     line-height: 23px;
-    padding-left: 73px;
+    padding-left: 74px;
+    padding-top: 18px;
     .text__title {
       left: -12px;
+      top: 20px;
     }
   }
   &__h3 {
@@ -37,6 +41,7 @@
     padding-left: 73px;
     .text__title {
       left: -2px;
+      top: 20px;
     }
   }
   &__body {

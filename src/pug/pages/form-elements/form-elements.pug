@@ -86,11 +86,13 @@ block content
               .form-elements__rating_item
                 +rating('five')
         .form-elements__item.form-elements__item_right
-          +range-slider({
-            title: 'Range Slider'
-          })
-          +button-elements
-          h3.pagination__title pagination
+          .form-elements__range
+            +range-slider({
+              title: 'Range Slider'
+            })
+          .form-elements__button-elements
+            +button-elements
+          h3.form-elements__pagination-title pagination
           +pagination({
             text: '1 – 12 из 100+ вариантов аренды',
             list: pagination

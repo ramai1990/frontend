@@ -12,6 +12,11 @@
       align-items: center;
     }
   }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   &__logo {
     position: absolute;
     left: 30px;

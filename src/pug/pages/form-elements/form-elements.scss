@@ -38,7 +38,7 @@
   &__dropdown {
     position: relative;
     .rooms {
-      margin-bottom: 24px;
+      margin-bottom: 22px;
     }
     .dropdown__value {
       border-color: $dark50;
@@ -159,9 +159,19 @@
       }
     }
   }
+  &__range {
+    margin-bottom: 44px;
+  }
+  &__button-elements {
+    margin-bottom: 40px;
+  }
+  &__pagination-title {
+    @include text-h3;
+    margin-bottom: 17px;
+  }
   &__list-checkbox {
     & + & {
-      margin-top: 40px;
+      margin-top: 41px;
     }
   }
   &__advantages {
