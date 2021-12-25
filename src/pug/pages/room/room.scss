@@ -20,17 +20,17 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 22px;
-    &_feedback {
-      font-size: 1.4rem;
-      font-weight: 400;
-      color: $dark50;
-      white-space: nowrap;
-      padding-left: 10px;
-    }
-    &_statistics {
-      padding-left: 10px;
-      margin-bottom: 18px;
-    }
+  }
+  &__statistics-title {
+    padding-left: 10px;
+    margin-bottom: 18px;
+  }
+  &__feedback-title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $dark50;
+    white-space: nowrap;
+    padding-left: 10px;
   }
   &__text {
     color: $dark75;
@@ -49,20 +49,20 @@
     @include media(540px) {
       margin: 0;
     }
-    &_inner {
-      max-width: 672px;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 15px;
-      @include media(665px) {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
     &-item {
       @include media(665px) {
         margin-bottom: 20px;
       }
+    }
+  }
+  &__content-inner {
+    max-width: 672px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    @include media(665px) {
+      flex-direction: column;
+      align-items: center;
     }
   }
   &__price {

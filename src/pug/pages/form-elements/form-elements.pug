@@ -21,11 +21,11 @@ block content
         .form-elements__item
           .form-elements__default
             h3.form-elements__text Text Field
-              span.form-elements__text_description Default
+              span.form-elements__text-description Default
             +input({type: 'email', placeholder: 'Email', name: 'email'})
-          .form-elements__default_focus
+          .form-elements__default-focus
             h3.form-elements__text Text Field
-              span.form-elements__text_description Hover / Focus
+              span.form-elements__text-description Hover / Focus
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
           .form-elements__guest
             h3.form-elements__text dropdown
@@ -34,12 +34,12 @@ block content
           .form-elements__date
             h3.form-elements__text masked text field
             +imaskBirthday
-          .form-elements__datedropdowns
-            .form-elements__datedropdown
+          .form-elements__date-dropdowns
+            .form-elements__date-dropdown
               h3.form-elements__text date dropdown
               +dropdown({value: 'ДД.ММ.ГГГГ', name: 'дата пребывания'})
                 +air-datepicker({type: 'from'})
-            .form-elements__datedropdown
+            .form-elements__date-dropdown
               h3.form-elements__text date dropdown
               +dropdown({value: '19.08.2019', name: 'дата выезда'})
                 +air-datepicker({type: 'to'})
@@ -50,14 +50,14 @@ block content
           .form-elements__email
             h3.form-elements__text subscription text field
             +input({type: 'email', placeholder: 'Email', name: 'email'})
-            button.form-elements__email_btn(type='submit')
+            button.form-elements__email-btn(type='submit')
               include ../../../img/arrow-forward.svg
-        .form-elements__item.form-elements__item_center
+        .form-elements__item.form-elements__item-center
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
             +checkbox-list(checkboxList)
           .form-elements__radio
-            h3.form-elements__radio_title Radio Buttons
+            h3.form-elements__radio-title Radio Buttons
             +radio({
               name: 'gender',
               items: [
@@ -79,13 +79,13 @@ block content
           .form-elements__likes
             +like-elements
           .form-elements__rating
-            h3.form-elements__rating_title rate button
-            .form-elements__rating_inner
-              .form-elements__rating_item
+            h3.form-elements__rating-title rate button
+            .form-elements__rating-inner
+              .form-elements__rating-item
                 +rating('four')
-              .form-elements__rating_item
+              .form-elements__rating-item
                 +rating('five')
-        .form-elements__item.form-elements__item_right
+        .form-elements__item.form-elements__item-right
           .form-elements__range
             +range-slider({
               title: 'Range Slider'
@@ -99,16 +99,17 @@ block content
           })
       .form-elements__bottom
         .item
-          .form-elements__dropdown
-            h3.form-elements__text dropdown
-            span.form-elements__dropdown_description Default
-            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
-              +rooms({rooms})
-          .form-elements__dropdown.form-elements__dropdown_active
-            h3.form-elements__text dropdown
-            span.form-elements__dropdown_description expanded
-            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
-              +rooms({rooms, isActive: true})
+          .form-elements__dropdowns
+            .form-elements__dropdown
+              h3.form-elements__text dropdown
+              span.form-elements__dropdown-description Default
+              +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+                +rooms({rooms})
+            .form-elements__dropdown
+              h3.form-elements__text dropdown
+              span.form-elements__dropdown-description expanded
+              +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+                +rooms({rooms, isActive: true})
           .form-elements__list-checkbox
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
@@ -117,20 +118,20 @@ block content
               title: 'expandable checkbox list',
               isActive: true
             })
-        .item.item_center
+        .item.item-center
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
               +guest({list: guest,isActive: true})
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
-        .item.item_right
+        .item.item-right
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
               +guest({list: guest, isActive: true})
           .form-elements__bullet-list
-            h3.form-elements__bullet-list_title bullet list
+            h3.form-elements__bullet-list-title bullet list
             +bullet-list([
               'Нельзя с питомцами',
               'Без вечеринок и мероприятий',

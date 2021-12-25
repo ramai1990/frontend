@@ -35,46 +35,43 @@
       }
     }
   }
+  &__dropdowns {
+    margin-bottom: 167px;
+  }
   &__dropdown {
     position: relative;
-    .rooms {
-      margin-bottom: 22px;
+    & + & {
+      margin-top: 22px;
     }
     .dropdown__value {
       border-color: $dark50;
     }
-    &_description {
-      position: absolute;
-      right: 0;
-      top: 0;
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      color: $dark50;
-    }
-    &_active {
-      margin-bottom: 167px;
-      z-index: 1;
-    }
   }
-
+  &__dropdown-description {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $dark50;
+  }
   &__default {
     @include elements-default;
     margin-bottom: 22px;
-
-    &_focus {
-      @include elements-default;
-      margin-bottom: 19px;
-    }
+  }
+  &__default-focus {
+    @include elements-default;
+    margin-bottom: 19px;
   }
   &__text {
     @include text-h3;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-    &_description {
-      color: $dark50;
-      font-weight: 400;
-    }
+  }
+  &__text-description {
+    color: $dark50;
+    font-weight: 400;
   }
   &__guest {
     margin-bottom: 25px;
@@ -86,7 +83,7 @@
     @include elements-default;
     margin-bottom: 20px;
   }
-  &__datedropdowns {
+  &__date-dropdowns {
     max-width: 320px;
     display: flex;
     justify-content: space-between;
@@ -95,7 +92,7 @@
       flex-direction: column;
     }
   }
-  &__datedropdown {
+  &__date-dropdown {
     & + & {
       margin-left: 20px;
     }
@@ -109,13 +106,13 @@
     position: relative;
     max-width: 267px;
     margin-bottom: 22px;
-    &_btn {
-      @include btn-reset;
-      padding: 5px 10px;
-      position: absolute;
-      right: 4px;
-      bottom: 5px;
-    }
+  }
+  &__email-btn {
+    @include btn-reset;
+    padding: 5px 10px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
   }
   &__checkbox-item {
     margin-bottom: 46px;
@@ -127,37 +124,35 @@
 
   &__radio {
     margin-bottom: 45px;
-    &_title {
-      @include text-h3;
-      margin-bottom: 15px;
-    }
+  }
+  &__radio-title {
+    @include text-h3;
+    margin-bottom: 15px;
   }
   &__toggle {
     margin-bottom: 47px;
     .toggle {
       margin-bottom: 19px;
     }
-    &-title {
-      @include text-h3;
-      margin-bottom: 19px;
-    }
+  }
+  &__toggle-title {
+    @include text-h3;
+    margin-bottom: 19px;
   }
   &__likes {
     margin-bottom: 41px;
   }
-  &__rating {
-    &_title {
-      @include text-h3;
-      margin-bottom: 15px;
+  &__rating-item {
+    & + & {
+      margin-left: 19px;
     }
-    &_inner {
-      display: flex;
-    }
-    &_item {
-      & + & {
-        margin-left: 19px;
-      }
-    }
+  }
+  &__rating-inner {
+    display: flex;
+  }
+  &__rating-title {
+    @include text-h3;
+    margin-bottom: 15px;
   }
   &__range {
     margin-bottom: 44px;
@@ -183,25 +178,25 @@
     margin-bottom: 20px;
     .item {
       width: 266px;
-      &_center {
-        width: 320px;
-        margin-left: 109px;
-        @include media(1070px) {
-          margin: 0;
-          margin-top: 40px;
-        }
-        @include media(355px) {
-          max-width: 300px;
-        }
+    }
+    .item-center {
+      width: 320px;
+      margin-left: 109px;
+      @include media(1070px) {
+        margin: 0;
+        margin-top: 40px;
       }
-      &_right {
-        width: 320px;
-        @include media(1070px) {
-          margin-top: 40px;
-        }
-        @include media(355px) {
-          max-width: 300px;
-        }
+      @include media(355px) {
+        max-width: 300px;
+      }
+    }
+    .item-right {
+      width: 320px;
+      @include media(1070px) {
+        margin-top: 40px;
+      }
+      @include media(355px) {
+        max-width: 300px;
       }
     }
     @include media(1070px) {
@@ -217,13 +212,13 @@
   }
   &__bullet-list {
     margin-top: 258px;
-    &_title {
-      @include text-h3;
-      margin-bottom: 16px;
-    }
     @include media(1070px) {
       margin-top: 200px;
     }
+  }
+  &__bullet-list-title {
+    @include text-h3;
+    margin-bottom: 16px;
   }
   &__footer {
     display: flex;

@@ -24,18 +24,18 @@ block content
           .room__price
             +roomPrice(guest)
           .room__content
-            .room__content_inner
+            .room__content-inner
               .room__content-item
                 .room__advantages
                   h2.room__title Сведения о номере
                   each advantage in advantages
                     +advantages(advantage)
               .room__content-item
-                h2.room__title.room__title_statistics Впечатления от номера
+                h2.room__title.room__statistics-title Впечатления от номера
                 +statistics
             .room__comments
               h2.room__title Отзывы посетителей номера
-                span.room__title_feedback 2 отзыва
+                span.room__feedback-title 2 отзыва
               +comment([user1])
               +comment([user2])
             .room__rules
