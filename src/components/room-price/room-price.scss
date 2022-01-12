@@ -18,29 +18,29 @@
     justify-content: space-between;
     margin-bottom: 21px;
   }
-  &__header-left {
+  &__header_left {
     font-size: 2.4rem;
     font-weight: 700;
     color: $dark;
   }
-  &__header-left-number {
+  &__number {
     font-size: 1.4rem;
     padding-right: 4px;
   }
-  &__header-left-text {
+  &__number-text {
     font-size: 1.2rem;
     font-weight: 700;
     color: $purple;
     text-transform: uppercase;
     padding-left: 7px;
   }
-  &__header-right {
+  &__price {
     font-size: 1.4rem;
     font-weight: 700;
     color: $dark50;
     padding-top: 4px;
   }
-  &__header-right-text {
+  &__price-text {
     font-size: 1.2rem;
     font-weight: 400;
     padding-left: 2px;

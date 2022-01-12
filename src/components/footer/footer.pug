@@ -6,20 +6,20 @@ mixin footer(navigation = [])
         .footer__items
           .footer__logo
             +logo
-          p.footer__text.footer__text-left
+          p.footer__text.footer__text_left
             | Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
         each nav in navigation
           - const { title, items } = nav;
           .footer__items
             ul.footer__list
-              li.footer__item-title
+              li.footer__title
                 a(href='https://ramai1990.github.io/frontend/404.html').footer__link= title
               each item in items
                 - const { href, title } = item;
                 li.footer__item
                   a(href=`${href}`).footer__link= title
         .footer__items
-          h3.footer__item-title.footer__item-title-last
+          h3.footer__title.footer__title_right
             a(href='https://ramai1990.github.io/frontend/404.html') Подписка
           p.footer__text
             | Получайте специальные предложения и новости сервиса

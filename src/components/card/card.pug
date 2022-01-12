@@ -10,14 +10,14 @@ mixin card(config)
     } = config;
   .card
     +swiper({ slides })
-    .card__title
-      a(href='https://ramai1990.github.io/frontend/room').card__title-left
-        span.card__title-left-number №
+    .card__header
+      a(href='https://ramai1990.github.io/frontend/room').card__title
+        span.card__number №
         | #{number}
-        span.card__title-left-text= text
-      p.card__title-right= price
-        span.card__title-right-text в сутки
+        span.card__number-text= text
+      p.card__price= price
+        span.card__price-text в сутки
     .card__reviews
       +rating(rating)
-      p.card__text= counter
-        span.card__text-feedback Отзывов
+      p.card__counter= counter
+        span.card__feedback Отзывов

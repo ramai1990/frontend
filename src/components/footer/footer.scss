@@ -56,11 +56,11 @@
       color: $dark;
     }
   }
-  &__item-title {
+  &__title {
     @include text-h3;
     margin-bottom: 23px;
   }
-  &__item-title-last {
+  &__title_right {
     margin-bottom: 19px;
   }
   &__list {
@@ -73,7 +73,7 @@
     color: $dark75;
     line-height: 24px;
     font-size: 1.4rem;
-    &-left {
+    &_left {
       padding-top: 52px;
     }
     @include media(1070px) {

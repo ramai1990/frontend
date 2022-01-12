@@ -23,7 +23,7 @@ block content
             h3.form-elements__text Text Field
               span.form-elements__text-description Default
             +input({type: 'email', placeholder: 'Email', name: 'email'})
-          .form-elements__default-focus
+          .form-elements__default_focus
             h3.form-elements__text Text Field
               span.form-elements__text-description Hover / Focus
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
@@ -52,7 +52,7 @@ block content
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button.form-elements__email-btn(type='submit')
               include ../../../img/arrow-forward.svg
-        .form-elements__item.form-elements__item-center
+        .form-elements__item.form-elements_center
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
             +checkbox-list(checkboxList)
@@ -85,7 +85,7 @@ block content
                 +rating('four')
               .form-elements__rating-item
                 +rating('five')
-        .form-elements__item.form-elements__item-right
+        .form-elements__item.form-elements_right
           .form-elements__range
             +range-slider({
               title: 'Range Slider'
@@ -118,14 +118,14 @@ block content
               title: 'expandable checkbox list',
               isActive: true
             })
-        .form-elements__item.form-elements__item-center
+        .form-elements__item.form-elements_center
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
               +guest({list: guest,isActive: true})
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
-        .form-elements__item.form-elements__item-right
+        .form-elements__item.form-elements_right
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})

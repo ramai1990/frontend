@@ -22,16 +22,16 @@
     padding-right: 20px;
     margin-bottom: 15px;
   }
-  &__text {
+  &__counter {
     color: $dark50;
     font-size: 1.4rem;
     font-weight: 700;
   }
-  &__text-feedback {
+  &__feedback {
     font-weight: 400;
     padding-left: 3px;
   }
-  &__title {
+  &__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,27 +51,27 @@
       background: $dark10;
     }
   }
-  &__title-left {
+  &__title {
     font-size: 2rem;
     font-weight: 700;
     color: $dark;
   }
-  &__title-left-number {
+  &__number {
     font-size: 1.4rem;
     padding-right: 4px;
   }
-  &__title-left-text {
+  &__number-text {
     font-size: 1.2rem;
     color: $purple;
     text-transform: uppercase;
     padding-left: 8px;
   }
-  &__title-right {
+  &__price {
     color: $dark50;
     font-size: 1.4rem;
     font-weight: 700;
   }
-  &__title-right-text {
+  &__price-text {
     font-size: 1.2rem;
     font-weight: 400;
     padding-left: 2px;
