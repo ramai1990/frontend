@@ -20,7 +20,7 @@ new AirDatepicker('.js-air-datepicker-range', {
       className: 'js-clearRange',
       onClick(dp) {
         dp.clear();
-        document.querySelector('.js-clearRange').classList.remove('active');
+        document.querySelector('.js-clearRange').classList.remove('js-clearRange_active');
       }
     },
     {
@@ -35,7 +35,7 @@ new AirDatepicker('.js-air-datepicker-range', {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector('.js-clearRange').classList.add('active');
+      document.querySelector('.js-clearRange').classList.add('js-clearRange_active');
     }
     document.querySelector('.js-air-datepicker-range').previousElementSibling.value = document.querySelector('.js-air-datepicker-range').value;
   }
@@ -53,7 +53,7 @@ new AirDatepicker('.js-air-datepicker-from', {
       className: 'js-clearFrom',
       onClick(dp) {
         dp.clear();
-        document.querySelector('.js-clearFrom').classList.remove('active');
+        document.querySelector('.js-clearFrom').classList.remove('js-clearFrom_active');
       }
     },
     {
@@ -68,7 +68,7 @@ new AirDatepicker('.js-air-datepicker-from', {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector('.js-clearFrom').classList.add('active');
+      document.querySelector('.js-clearFrom').classList.add('js-clearFrom_active');
     }
     document.querySelector('.js-air-datepicker-from').previousElementSibling.value = document.querySelector('.js-air-datepicker-from').value;
   }
@@ -87,7 +87,7 @@ new AirDatepicker('.js-air-datepicker-to', {
       className: 'js-clearTo',
       onClick(dp) {
         dp.clear();
-        document.querySelector('.js-clearTo').classList.remove('active');
+        document.querySelector('.js-clearTo').classList.remove('js-clearTo_active');
       }
     },
     {
@@ -104,7 +104,7 @@ new AirDatepicker('.js-air-datepicker-to', {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector('.js-clearTo').classList.add('active');
+      document.querySelector('.js-clearTo').classList.add('js-clearTo_active');
     }
     document.querySelector('.js-air-datepicker-to').previousElementSibling.value = document.querySelector('.js-air-datepicker-to').value;
   }
@@ -124,7 +124,7 @@ new AirDatepicker('.js-air-datepicker-inline', {
       className: 'js-clearInline',
       onClick(dp) {
         dp.clear();
-        document.querySelector('.js-clearInline').classList.remove('active');
+        document.querySelector('.js-clearInline').classList.remove('js-clearInline_active');
       }
     },
     {
@@ -138,7 +138,7 @@ new AirDatepicker('.js-air-datepicker-inline', {
   ],
   onSelect({ date }) {
     if (date) {
-      document.querySelector('.js-clearInline').classList.add('active');
+      document.querySelector('.js-clearInline').classList.add('js-clearInline_active');
     }
   }
 });

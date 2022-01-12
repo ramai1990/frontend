@@ -36,7 +36,7 @@
       flex-direction: column;
       transform: translateX(130%);
     }
-    &.visible {
+    &_active {
       transition: transform 0.3s ease-in;
       transform: translateX(0);
     }

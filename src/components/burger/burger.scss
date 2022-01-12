@@ -10,6 +10,25 @@
   @include media(941px) {
     display: block;
   }
+  &_active {
+    .burger__btn {
+      background: rgba(255, 255, 255, 0);
+      &:before {
+        content: '';
+        top: 0px;
+        transform: rotate(45deg);
+        transition: top 300ms,
+          transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      &:after {
+        content: '';
+        bottom: 0;
+        transform: rotate(-45deg);
+        transition: bottom 300ms,
+          transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    }
+  }
   &__btn,
   &__btn:before,
   &__btn:after {
@@ -35,22 +54,22 @@
   }
   &__btn {
     top: 20px;
-    &.visible {
-      background: rgba(255, 255, 255, 0);
-      &:before {
-        content: '';
-        top: 0px;
-        transform: rotate(45deg);
-        transition: top 300ms,
-          transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      }
-      &:after {
-        content: '';
-        bottom: 0;
-        transform: rotate(-45deg);
-        transition: bottom 300ms,
-          transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      }
+    &_active {
+      // background: rgba(255, 255, 255, 0);
+      // &:before {
+      //   content: '';
+      //   top: 0px;
+      //   transform: rotate(45deg);
+      //   transition: top 300ms,
+      //     transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      // }
+      // &:after {
+      //   content: '';
+      //   bottom: 0;
+      //   transform: rotate(-45deg);
+      //   transition: bottom 300ms,
+      //     transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      // }
     }
   }
 }

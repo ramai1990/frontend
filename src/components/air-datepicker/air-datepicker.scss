@@ -215,11 +215,11 @@
   color: #ece7ff;
   pointer-events: none;
 }
-.active {
-  &.js-clearRange,
-  &.js-clearFrom,
-  &.js-clearTo,
-  &.js-clearInline {
+.js-clearRange,
+.js-clearFrom,
+.js-clearTo,
+.js-clearInline {
+  &_active {
     color: $purple;
     pointer-events: auto;
   }

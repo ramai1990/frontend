@@ -6,23 +6,22 @@ class Burger {
 
   render() {
     this.button = document.querySelector('.js-burger');
-    this.close = document.querySelector('.js-burger-btn');
-    this.navList = document.querySelector('.js-nav-list');
+    this.navList = document.querySelector('.js-nav');
     this.headerButtons = document.querySelector('.js-header-buttons');
     this.addEventListeners();
   }
 
   toggle(e) {
     e.stopPropagation();
-    this.close.classList.toggle('visible');
-    this.navList.classList.toggle('visible');
-    this.headerButtons.classList.toggle('visible');
+    this.button.classList.toggle('burger_active');
+    this.navList.classList.toggle('nav_active');
+    this.headerButtons.classList.toggle('header__buttons_active');
   }
 
   removeClass() {
-    this.close.classList.remove('visible');
-    this.navList.classList.remove('visible');
-    this.headerButtons.classList.remove('visible');
+    this.button.classList.remove('burger_active');
+    this.navList.classList.remove('nav_active');
+    this.headerButtons.classList.remove('header__buttons_active');
   }
 
   addEventListeners() {
