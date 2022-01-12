@@ -21,13 +21,13 @@
       width: 310px;
     }
   }
-  &_center {
+  &_width-sm {
     width: 266px;
     @include media(1070px) {
       margin-top: 40px;
     }
   }
-  &_right {
+  &_width-lg {
     @include media(1070px) {
       margin-top: 40px;
     }
@@ -35,17 +35,8 @@
       width: 310px;
     }
   }
-  &__dropdowns {
-    margin-bottom: 167px;
-  }
   &__dropdown {
     position: relative;
-    & + & {
-      margin-top: 22px;
-    }
-    .dropdown__value {
-      border-color: $dark50;
-    }
   }
   &__dropdown-description {
     position: absolute;
@@ -75,9 +66,6 @@
   }
   &__guest {
     margin-bottom: 25px;
-    .dropdown__value {
-      border-color: $dark50;
-    }
   }
   &__date {
     @include elements-default;
@@ -95,6 +83,10 @@
   &__date-dropdown {
     & + & {
       margin-left: 20px;
+      @include media(420px) {
+        margin-left: 0;
+        margin-top: 20px;
+      }
     }
   }
   &__filter-date {
@@ -131,9 +123,6 @@
   }
   &__toggle {
     margin-bottom: 47px;
-    .toggle {
-      margin-bottom: 19px;
-    }
   }
   &__toggle-title {
     @include text-h3;
@@ -176,32 +165,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    .form-elements__item {
-      width: 266px;
-    }
-    .form-elements_center {
-      width: 320px;
-      margin-left: 109px;
-      @include media(1070px) {
-        margin: 0;
-        margin-top: 40px;
-      }
-      @include media(355px) {
-        max-width: 300px;
-      }
-    }
-    .form-elements_right {
-      width: 320px;
-      @include media(1070px) {
-        margin-top: 40px;
-      }
-      @include media(355px) {
-        max-width: 300px;
-      }
-    }
     @include media(1070px) {
       flex-direction: column;
       align-items: center;
+    }
+  }
+  &_ml-lg {
+    margin-left: 109px;
+    @include media(1070px) {
+      margin: 0;
+      margin-top: 40px;
     }
   }
   &__rich-checkbox {

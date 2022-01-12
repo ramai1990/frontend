@@ -28,13 +28,13 @@ mixin roomPrice(guest)
         p.room-price__text 9 990₽ х 4 суток
         input.room-price__input(type='text' value='39 960₽' disabled)
       .room-price__services
-        p.room-price__text Сбор за услуги: скидка 2 179₽
+        p.room-price__text.room-price__services-text Сбор за услуги: скидка 2 179₽
         input.room-price__input(type='text' value='0₽' disabled)
       .room-price__additional
-        p.room-price__text Сбор за дополнительные услуги
+        p.room-price__text.room-price__additional-text Сбор за дополнительные услуги
         input.room-price__input(type='text' value='300₽' disabled)
       .room-price__total
-        h3.room-price__title Итого
+        h3.room-price__title.room-price__title_lg Итого
         input.room-price__input.room-price__total-input(type='text' value='38 081₽' disabled)
       +button({
         theme: 'arrow',

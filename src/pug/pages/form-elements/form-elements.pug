@@ -52,7 +52,7 @@ block content
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button.form-elements__email-btn(type='submit')
               include ../../../img/arrow-forward.svg
-        .form-elements__item.form-elements_center
+        .form-elements__item.form-elements_width-sm
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
             +checkbox-list(checkboxList)
@@ -74,7 +74,7 @@ block content
             })
           .form-elements__toggle
             h3.form-elements__toggle-title Toggle
-            +toggle({checked: true, text: 'Получать спецпредложения'})
+            +toggle({checked: true, mb: 'sm', text: 'Получать спецпредложения'})
             +toggle({text: 'Получать спецпредложения'})
           .form-elements__likes
             +like-elements
@@ -85,7 +85,7 @@ block content
                 +rating('four')
               .form-elements__rating-item
                 +rating('five')
-        .form-elements__item.form-elements_right
+        .form-elements__item.form-elements_width-lg
           .form-elements__range
             +range-slider({
               title: 'Range Slider'
@@ -98,18 +98,17 @@ block content
             list: pagination
           })
       .form-elements__bottom
-        .form-elements__item
-          .form-elements__dropdowns
-            .form-elements__dropdown
-              h3.form-elements__text dropdown
-              span.form-elements__dropdown-description Default
-              +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
-                +rooms({rooms})
-            .form-elements__dropdown
-              h3.form-elements__text dropdown
-              span.form-elements__dropdown-description expanded
-              +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
-                +rooms({rooms, isActive: true})
+        .form-elements__item.form-elements_width-sm
+          .form-elements__dropdown
+            h3.form-elements__text dropdown
+            span.form-elements__dropdown-description Default
+            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+              +rooms({rooms, mb: 'sm'})
+          .form-elements__dropdown
+            h3.form-elements__text dropdown
+            span.form-elements__dropdown-description expanded
+            +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
+              +rooms({rooms, mb: 'lg', isActive: true})
           .form-elements__list-checkbox
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'expandable checkbox list'})
           .form-elements__list-checkbox
@@ -118,14 +117,14 @@ block content
               title: 'expandable checkbox list',
               isActive: true
             })
-        .form-elements__item.form-elements_center
+        .form-elements__item.form-elements_width-lg.form-elements_ml-lg
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
               +guest({list: guest,isActive: true})
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
-        .form-elements__item.form-elements_right
+        .form-elements__item.form-elements_width-lg
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})

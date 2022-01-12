@@ -5,7 +5,7 @@ mixin pagination({list, text})
         -
           const { href, link, isActive = false, isNext = false } = item;
           const classes = ['pagination__link'];
-          if (isActive) classes.push('active');
+          if (isActive) classes.push('pagination__link_active');
           if (isNext) classes.push('pagination__next');
         li.pagination__item
           a(href=href class=classes)= link

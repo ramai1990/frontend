@@ -49,6 +49,10 @@
   &__title {
     @include text-h3;
     margin-bottom: 5px;
+    &_lg {
+      text-transform: initial;
+      font-size: 1.9rem;
+    }
   }
   &__dates {
     display: flex;
@@ -78,44 +82,41 @@
   &__amount {
     margin-top: 13px;
   }
-  &__services {
-    .room-price__text {
-      position: relative;
-      &::after {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 20px;
-        background-image: url('../img/ellipse.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        right: -29px;
-        top: -3px;
-      }
+  &__services-text {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 20px;
+      background-image: url('../img/ellipse.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      right: -29px;
+      top: -3px;
     }
   }
   &__additional {
     margin-bottom: 29px;
-    .room-price__text {
-      max-width: 199px;
-      position: relative;
-      padding-top: 8px;
-      &::after {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 20px;
-        background-image: url('../img/ellipse.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        right: -43px;
-        top: 7px;
-      }
+  }
+  &__additional-text {
+    max-width: 199px;
+    position: relative;
+    padding-top: 8px;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 20px;
+      background-image: url('../img/ellipse.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      right: -43px;
+      top: 7px;
     }
   }
-
   &__inner {
     display: flex;
     align-items: center;
@@ -137,10 +138,6 @@
     color: $dark;
     margin-bottom: 15px;
     position: relative;
-    .room-price__title {
-      text-transform: initial;
-      font-size: 1.9rem;
-    }
     &::after {
       position: absolute;
       content: '';

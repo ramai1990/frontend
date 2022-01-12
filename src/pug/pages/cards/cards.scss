@@ -32,8 +32,8 @@
     margin-bottom: 40px;
   }
   &__card {
-    .card:not(:last-child) {
-      margin-bottom: 40px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 }

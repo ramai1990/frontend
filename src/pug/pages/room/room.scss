@@ -9,23 +9,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  &__advantages {
-    .room__title {
-      margin-bottom: 19px;
-    }
-  }
   &__title {
     @include text-h2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
   }
-  &__statistics-title {
-    padding-left: 10px;
+  &__title_mb-18 {
     margin-bottom: 18px;
   }
-  &__feedback-title {
+  &__title_mb-19 {
+    margin-bottom: 19px;
+  }
+  &__title_ml-10 {
+    margin-left: 10px;
+  }
+  &__title_ml-20 {
+    margin-left: 20px;
+  }
+  &__feedback {
     font-size: 1.4rem;
     font-weight: 400;
     color: $dark50;
@@ -85,19 +88,6 @@
       align-items: center;
     }
   }
-  &__rules-title-left,
-  &__rules-title-right {
-    font-weight: 700;
-    font-size: 1.9rem;
-    color: $dark;
-    margin-bottom: 20px;
-    @include media(665px) {
-      text-align: left;
-    }
-  }
-  &__rules-title-left {
-    margin-left: 20px;
-  }
   &__rules-item {
     max-width: 340px;
     @include media(665px) {
@@ -111,8 +101,5 @@
     flex-direction: column;
     gap: 20px;
     margin-bottom: 33px;
-    .room__title {
-      margin-bottom: 0;
-    }
   }
 }

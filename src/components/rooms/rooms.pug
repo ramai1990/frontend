@@ -1,9 +1,13 @@
-mixin rooms({rooms, isActive = false})
+mixin rooms({rooms, mb, isActive = false})
   -
     const classes = ['rooms', 'js-rooms'];
     const classesList = ['rooms__list'];
+    const marginBottom = {
+      'sm': 'rooms_mb-sm',
+      'lg': 'rooms_mb-lg'
+    };
     if (isActive) classes.push('visible');
-  div(class=classes)
+  div(class=[classes, marginBottom[mb]])
     ul(class=classesList data-list='list')
       each item in rooms
         - const {subtitle, value, list } = item;

@@ -1,5 +1,9 @@
-mixin toggle({text, checked=false})
-  .toggle
+mixin toggle({text, mb, checked=false})
+  -
+    const marginBottom = {
+      sm: 'toggle_mb-sm'
+    };
+  div(class=['toggle', marginBottom[mb]])
     label.toggle__label
       input.toggle__input(type='checkbox' checked=checked name=text)
       span.toggle__text= text

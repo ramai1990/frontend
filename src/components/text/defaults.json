@@ -2,21 +2,26 @@
   {
     "title": "H1",
     "type": "h1",
-    "text": "This one is the sub-section or widget title"
+    "text": "This one is the sub-section or widget title",
+    "left": "left-15"
   },
   {
     "title": "H2",
     "type": "h2",
-    "text": "Next one is the item title inside widgets"
+    "text": "Next one is the item title inside widgets",
+    "left": "left-12",
+    "top": "top-20"
   },
   {
     "title": "H3",
     "type": "h3",
-    "text": "This is a label or CTA text"
+    "text": "This is a label or CTA text",
+    "top": "top-20"
   },
   {
     "title": "Body",
     "type": "body",
-    "text": "This is the body text which is used for most of the design, like paragraphs, lists, etc."
+    "text": "This is the body text which is used for most of the design, like paragraphs, lists, etc.",
+    "left": "left-23"
   }
 ]

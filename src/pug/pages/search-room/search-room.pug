@@ -45,7 +45,7 @@ block content
             .search-room__rooms
               h3.search-room__rooms-title удобства номера
               +dropdown({value: '2 спальни, 2 кровати...', name: 'количество комнат'})
-                +rooms({rooms})
+                +rooms({rooms, mb: 'sm'})
             +dropdown-checkbox({checkboxList: checkboxListDropdown, title: 'дополнительные удобства'})
           .search-room__cards
             h1.search-room__title Номера, которые мы для вас подобрали

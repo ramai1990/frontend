@@ -1,6 +1,6 @@
 mixin text(config)
   -
-    const { type, text, title } = config;
+    const { type, text, left, top, title } = config;
     const classes = {
       h1: 'text__item-h1',
       h2: 'text__item-h2',
@@ -13,6 +13,15 @@ mixin text(config)
       h3: 'text__h3',
       body: 'text__body'
     };
+    const directionsLeft = {
+      'left-12': 'text_left-12',
+      'left-15': 'text_left-15',
+      'left-23': 'text_left-23',
+      'top-20': 'text_top-20'
+    };
+    const directionsTop = {
+      'top-20': 'text_top-20'
+    };
   div(class=['text', classes[type]])
     p(class=[types[type]])= text
-      span.text__title= title
+      span(class=['text__title', directionsLeft[left], directionsTop[top]])= title

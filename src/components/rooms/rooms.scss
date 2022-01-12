@@ -1,5 +1,11 @@
 .rooms {
   position: relative;
+  &_mb-sm {
+    margin-bottom: 24px;
+  }
+  &_mb-lg {
+    margin-bottom: 167px;
+  }
   &.visible {
     .rooms__list {
       z-index: 2;
