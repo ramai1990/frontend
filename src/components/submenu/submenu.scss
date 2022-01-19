@@ -1,5 +1,5 @@
 .submenu {
-  &.visible {
+  &_active {
     .submenu__list {
       transform: perspective(600px) rotateX(0deg) translateY(30px);
     }
