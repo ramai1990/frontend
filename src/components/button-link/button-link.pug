@@ -1,15 +1,15 @@
 mixin button-link({theme, size, href, text})
   -
     const themes = {
-      primary: 'button_theme_primary',
-      arrow: 'button_theme_arrow',
-      border: 'button_theme_border',
-      link: 'button_theme_link',
+      primary: 'button_theme-primary',
+      arrow: 'button_theme-arrow',
+      border: 'button_theme-border',
+      link: 'button_theme-link',
     };
     const sizes = {
-      m: 'button_size_m',
-      sm: 'button_size_sm',
-      md: 'button_size_md',
-      lg: 'button_size_lg'
+      m: 'button_size-m',
+      sm: 'button_size-sm',
+      md: 'button_size-md',
+      lg: 'button_size-lg'
     };
   a(class=[themes[theme], sizes[size], 'button'] href=href)= text

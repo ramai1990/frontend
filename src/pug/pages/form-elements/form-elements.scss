@@ -20,19 +20,26 @@
     @include media(355px) {
       width: 310px;
     }
-  }
-  &_width-sm {
-    width: 266px;
-    @include media(1070px) {
-      margin-top: 40px;
+    &_width-sm {
+      width: 266px;
+      @include media(1070px) {
+        margin-top: 40px;
+      }
     }
-  }
-  &_width-lg {
-    @include media(1070px) {
-      margin-top: 40px;
+    &_width-lg {
+      @include media(1070px) {
+        margin-top: 40px;
+      }
+      @include media(355px) {
+        width: 310px;
+      }
     }
-    @include media(355px) {
-      width: 310px;
+    &_ml-lg {
+      margin-left: 109px;
+      @include media(1070px) {
+        margin: 0;
+        margin-top: 40px;
+      }
     }
   }
   &__dropdown {
@@ -48,11 +55,7 @@
   }
   &__default {
     @include elements-default;
-    margin-bottom: 22px;
-  }
-  &__default_focus {
-    @include elements-default;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
   }
   &__text {
     @include text-h3;
@@ -168,13 +171,6 @@
     @include media(1070px) {
       flex-direction: column;
       align-items: center;
-    }
-  }
-  &_ml-lg {
-    margin-left: 109px;
-    @include media(1070px) {
-      margin: 0;
-      margin-top: 40px;
     }
   }
   &__rich-checkbox {

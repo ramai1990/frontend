@@ -23,7 +23,7 @@ block content
             h3.form-elements__text Text Field
               span.form-elements__text-description Default
             +input({type: 'email', placeholder: 'Email', name: 'email'})
-          .form-elements__default_focus
+          .form-elements__default
             h3.form-elements__text Text Field
               span.form-elements__text-description Hover / Focus
             +input({type: 'email', placeholder: 'This is pretty awesome', name: 'email'})
@@ -52,7 +52,7 @@ block content
             +input({type: 'email', placeholder: 'Email', name: 'email'})
             button.form-elements__email-btn(type='submit')
               include ../../../img/arrow-forward.svg
-        .form-elements__item.form-elements_width-sm
+        .form-elements__item.form-elements__item_width-sm
           .form-elements__checkbox-item
             h3.form-elements__checkbox-title checkbox buttons
             +checkbox-list(checkboxList)
@@ -85,7 +85,7 @@ block content
                 +rating('four')
               .form-elements__rating-item
                 +rating('five')
-        .form-elements__item.form-elements_width-lg
+        .form-elements__item.form-elements__item_width-lg
           .form-elements__range
             +range-slider({
               title: 'Range Slider'
@@ -98,7 +98,7 @@ block content
             list: pagination
           })
       .form-elements__bottom
-        .form-elements__item.form-elements_width-sm
+        .form-elements__item.form-elements__item_width-sm
           .form-elements__dropdown
             h3.form-elements__text dropdown
             span.form-elements__dropdown-description Default
@@ -117,14 +117,14 @@ block content
               title: 'expandable checkbox list',
               isActive: true
             })
-        .form-elements__item.form-elements_width-lg.form-elements_ml-lg
+        .form-elements__item.form-elements__item_width-lg.form-elements__item_ml-lg
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})
               +guest({list: guest,isActive: true})
           .form-elements__rich-checkbox
             +richCheckbox('rich Checkbox Buttons', richCheckbox)
-        .form-elements__item.form-elements_width-lg
+        .form-elements__item.form-elements__item_width-lg
           .form-elements__guest
             h3.form-elements__text dropdown
             +dropdown({value: 'Сколько гостей', name: 'Количество гостей'})

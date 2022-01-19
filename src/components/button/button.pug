@@ -1,14 +1,14 @@
 mixin button({theme, size, type='button', text})
   -
     const themes = {
-      primary: 'button_theme_primary',
-      arrow: 'button_theme_arrow',
-      border: 'button_theme_border',
+      primary: 'button_theme-primary',
+      arrow: 'button_theme-arrow',
+      border: 'button_theme-border',
     };
     const sizes = {
-      m: 'button_size_m',
-      sm: 'button_size_sm',
-      md: 'button_size_md',
-      lg: 'button_size_lg'
+      m: 'button_size-m',
+      sm: 'button_size-sm',
+      md: 'button_size-md',
+      lg: 'button_size-lg'
     };
   button(class=[themes[theme], sizes[size], 'button'] type=type)= text

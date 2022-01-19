@@ -7,91 +7,87 @@
   text-transform: uppercase;
   border-radius: 22px;
   box-sizing: border-box;
-  &_theme {
-    &_primary {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: $primary-gradient;
-      padding: 0 19px;
-      transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
-      &:hover {
-        opacity: 0.6;
-        box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
-      }
-    }
-    &_arrow {
-      width: 100%;
-      background: $primary-gradient;
-      position: relative;
-      transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
-      padding: 0 34px;
-
-      &:hover {
-        opacity: 0.7;
-        box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
-      }
-      &::after {
-        position: absolute;
-        content: "";
-        width: 20px;
-        height: 20px;
-        right: 12px;
-        top: 50%;
-        transform: translateY(-50%);
-        background-image: url("../img/arrow_forward-white.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-      }
-    }
-    &_border {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: $purple;
-      border: 2px solid transparent;
-      background-image: linear-gradient(180deg, $white, $white),
-        radial-gradient(circle at top left, #bc9cff, #8ba4f9);
-      background-origin: border-box;
-      background-clip: content-box, border-box;
-      transition: opacity 0.3s ease-in, color 0.3s ease-in,
-        box-shadow 0.3s ease-in;
-      &:hover {
-        box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
-        color: darken($purple, 15%);
-        opacity: 0.5;
-      }
-    }
-    &_link {
-      color: $purple;
-      transition: color 0.3s ease-in;
-      &:hover {
-        color: $dark50;
-      }
+  &_theme-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary-gradient;
+    padding: 0 19px;
+    transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
+    &:hover {
+      opacity: 0.6;
+      box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
     }
   }
-  &_size {
-    &_m {
-      width: 87px;
-      height: 34px;
+  &_theme-arrow {
+    width: 100%;
+    background: $primary-gradient;
+    position: relative;
+    transition: box-shadow 0.3s ease-in, opacity 0.3s ease-in;
+    padding: 0 34px;
+
+    &:hover {
+      opacity: 0.7;
+      box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
     }
-    &_sm {
-      width: 99px;
-      height: 44px;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 20px;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url('../img/arrow_forward-white.svg');
+      background-repeat: no-repeat;
+      background-position: center;
     }
-    &_md {
-      width: 196px;
-      height: 34px;
-      @include media(541px) {
-        max-width: 175px;
-      }
+  }
+  &_theme-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $purple;
+    border: 2px solid transparent;
+    background-image: linear-gradient(180deg, $white, $white),
+      radial-gradient(circle at top left, #bc9cff, #8ba4f9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: opacity 0.3s ease-in, color 0.3s ease-in,
+      box-shadow 0.3s ease-in;
+    &:hover {
+      box-shadow: 0px 0px 10px 0px rgb(116, 116, 116);
+      color: darken($purple, 15%);
+      opacity: 0.5;
     }
-    &_lg {
-      width: 320px;
-      height: 44px;
-      @include media(447px) {
-        width: 100%;
-      }
+  }
+  &_theme-link {
+    color: $purple;
+    transition: color 0.3s ease-in;
+    &:hover {
+      color: $dark50;
+    }
+  }
+  &_size-m {
+    width: 87px;
+    height: 34px;
+  }
+  &_size-sm {
+    width: 99px;
+    height: 44px;
+  }
+  &_size-md {
+    width: 196px;
+    height: 34px;
+    @include media(541px) {
+      max-width: 175px;
+    }
+  }
+  &_size-lg {
+    width: 320px;
+    height: 44px;
+    @include media(447px) {
+      width: 100%;
     }
   }
 }

@@ -2,13 +2,13 @@ mixin colors(config)
   -
     const { theme, title, colorsName } = config;
     const themes = {
-      shade100: 'colors__title_shade100',
-      shade75: 'colors__title_shade75',
-      shade50: 'colors__title_shade50',
-      shade25: 'colors__title_shade25',
-      shade5: 'colors__title_shade5',
-      purple: 'colors__title_purple',
-      green: 'colors__title_green',
+      shade100: 'colors__title_theme-shade100',
+      shade75: 'colors__title_theme-shade75',
+      shade50: 'colors__title_theme-shade50',
+      shade25: 'colors__title_theme-shade25',
+      shade5: 'colors__title_theme-shade5',
+      purple: 'colors__title_theme-purple',
+      green: 'colors__title_theme-green',
     };
   .colors
     h3(class=['colors__title', themes[theme]])= title

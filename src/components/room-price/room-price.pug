@@ -2,7 +2,7 @@ mixin roomPrice(guest)
   .room-price
     form(action='https://ramai1990.github.io/frontend/sign-in')
       .room-price__header
-        h3.room-price__title.room-price__title_xl
+        h3.room-price__title.room-price__title_size-xl
           span.room-price__number №
           | 888
           span.room-price__lux люкс
@@ -34,7 +34,7 @@ mixin roomPrice(guest)
         p.room-price__text.room-price__additional-text Сбор за дополнительные услуги
         input.room-price__input(type='text' value='300₽' disabled)
       .room-price__total
-        h3.room-price__title.room-price__title_lg Итого
+        h3.room-price__title.room-price__title_size-lg Итого
         input.room-price__total-sum(type='text' value='38 081₽' disabled)
       +button({
         theme: 'arrow',

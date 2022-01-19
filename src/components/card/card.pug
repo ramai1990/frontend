@@ -14,9 +14,9 @@ mixin card(config)
       a(href='https://ramai1990.github.io/frontend/room').card__title
         span.card__number №
         | #{number}
-        span.card__number-text= text
+        span.card__lux= text
       p.card__price= price
-        span.card__price-text в сутки
+        span.card__period в сутки
     .card__reviews
       +rating(rating)
       p.card__counter= counter
